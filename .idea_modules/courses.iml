@@ -1,0 +1,96 @@
+<module type="JAVA_MODULE" version="4">
+    <component name="NewModuleRootManager">
+        <output url="file://$MODULE_DIR$/../out/courses/compile/dest/classes"/>
+        <exclude-output/>
+        <content url="file://$MODULE_DIR$/../out/courses/generatedSources/dest"/>
+        <content url="file://$MODULE_DIR$/../courses">
+            <sourceFolder url="file://$MODULE_DIR$/../courses/src" isTestSource="false"/>
+            <sourceFolder url="file://$MODULE_DIR$/../courses/resources" type="java-resource"/>
+            <sourceFolder url="file://$MODULE_DIR$/../out/client/fastOpt/dest" type="java-resource"/>
+            <excludeFolder url="file://$MODULE_DIR$/../courses/target"/>
+        </content>
+        <orderEntry type="inheritedJdk"/>
+        <orderEntry type="sourceFolder" forTests="false"/>
+        <orderEntry type="library" name="scala-sdk-2.12.6" level="application"/>
+        <orderEntry type="library" name="ammonite-interp_2.12.6-1.2.1-sources.jar" level="project"/>
+        <orderEntry type="library" name="ammonite-interp_2.12.6-1.2.1.jar" level="project"/>
+        <orderEntry type="library" name="ammonite-ops_2.12-1.2.1-sources.jar" level="project"/>
+        <orderEntry type="library" name="ammonite-ops_2.12-1.2.1.jar" level="project"/>
+        <orderEntry type="library" name="ammonite-repl_2.12.6-1.2.1-sources.jar" level="project"/>
+        <orderEntry type="library" name="ammonite-repl_2.12.6-1.2.1.jar" level="project"/>
+        <orderEntry type="library" name="ammonite-runtime_2.12-1.2.1-sources.jar" level="project"/>
+        <orderEntry type="library" name="ammonite-runtime_2.12-1.2.1.jar" level="project"/>
+        <orderEntry type="library" name="ammonite-terminal_2.12-1.2.1-sources.jar" level="project"/>
+        <orderEntry type="library" name="ammonite-terminal_2.12-1.2.1.jar" level="project"/>
+        <orderEntry type="library" name="ammonite-util_2.12-1.2.1-sources.jar" level="project"/>
+        <orderEntry type="library" name="ammonite-util_2.12-1.2.1.jar" level="project"/>
+        <orderEntry type="library" name="ammonite_2.12.6-1.2.1-sources.jar" level="project"/>
+        <orderEntry type="library" name="ammonite_2.12.6-1.2.1.jar" level="project"/>
+        <orderEntry type="library" name="cask_2.12-0.1.6-sources.jar" level="project"/>
+        <orderEntry type="library" name="cask_2.12-0.1.6.jar" level="project"/>
+        <orderEntry type="library" name="coursier-cache_2.12-1.1.0-M7-sources.jar" level="project"/>
+        <orderEntry type="library" name="coursier-cache_2.12-1.1.0-M7.jar" level="project"/>
+        <orderEntry type="library" name="coursier_2.12-1.1.0-M7-sources.jar" level="project"/>
+        <orderEntry type="library" name="coursier_2.12-1.1.0-M7.jar" level="project"/>
+        <orderEntry type="library" name="fansi_2.12-0.2.4-sources.jar" level="project"/>
+        <orderEntry type="library" name="fansi_2.12-0.2.4.jar" level="project"/>
+        <orderEntry type="library" name="fastparse-utils_2.12-1.0.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="fastparse-utils_2.12-1.0.0.jar" level="project"/>
+        <orderEntry type="library" name="fastparse_2.12-1.0.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="fastparse_2.12-1.0.0.jar" level="project"/>
+        <orderEntry type="library" name="geny_2.12-0.1.2-sources.jar" level="project"/>
+        <orderEntry type="library" name="geny_2.12-0.1.2.jar" level="project"/>
+        <orderEntry type="library" name="javaparser-core-3.2.5-sources.jar" level="project"/>
+        <orderEntry type="library" name="javaparser-core-3.2.5.jar" level="project"/>
+        <orderEntry type="library" name="javassist-3.21.0-GA-sources.jar" level="project"/>
+        <orderEntry type="library" name="javassist-3.21.0-GA.jar" level="project"/>
+        <orderEntry type="library" name="jboss-logging-3.3.2.Final-sources.jar" level="project"/>
+        <orderEntry type="library" name="jboss-logging-3.3.2.Final.jar" level="project"/>
+        <orderEntry type="library" name="jline-reader-3.6.2-sources.jar" level="project"/>
+        <orderEntry type="library" name="jline-reader-3.6.2.jar" level="project"/>
+        <orderEntry type="library" name="jline-terminal-3.6.2-sources.jar" level="project"/>
+        <orderEntry type="library" name="jline-terminal-3.6.2.jar" level="project"/>
+        <orderEntry type="library" name="jline-terminal-jna-3.6.2-sources.jar" level="project"/>
+        <orderEntry type="library" name="jline-terminal-jna-3.6.2.jar" level="project"/>
+        <orderEntry type="library" name="jna-4.2.2-sources.jar" level="project"/>
+        <orderEntry type="library" name="jna-4.2.2.jar" level="project"/>
+        <orderEntry type="library" name="joda-convert-1.2-sources.jar" level="project"/>
+        <orderEntry type="library" name="joda-convert-1.2.jar" level="project"/>
+        <orderEntry type="library" name="joda-time-2.9.4-sources.jar" level="project"/>
+        <orderEntry type="library" name="joda-time-2.9.4.jar" level="project"/>
+        <orderEntry type="library" name="moultingyaml_2.12-0.4.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="moultingyaml_2.12-0.4.0.jar" level="project"/>
+        <orderEntry type="library" name="nscala-time_2.12-2.14.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="nscala-time_2.12-2.14.0.jar" level="project"/>
+        <orderEntry type="library" name="pprint_2.12-0.5.2-sources.jar" level="project"/>
+        <orderEntry type="library" name="pprint_2.12-0.5.2.jar" level="project"/>
+        <orderEntry type="library" name="scala-compiler-2.12.6-sources.jar" level="project"/>
+        <orderEntry type="library" name="scala-compiler-2.12.6.jar" level="project"/>
+        <orderEntry type="library" name="scala-library-2.12.6-sources.jar" level="project"/>
+        <orderEntry type="library" name="scala-library-2.12.6.jar" level="project"/>
+        <orderEntry type="library" name="scala-reflect-2.12.6-sources.jar" level="project"/>
+        <orderEntry type="library" name="scala-reflect-2.12.6.jar" level="project"/>
+        <orderEntry type="library" name="scala-xml_2.12-1.1.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="scala-xml_2.12-1.1.0.jar" level="project"/>
+        <orderEntry type="library" name="scalaj-http_2.12-2.4.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="scalaj-http_2.12-2.4.0.jar" level="project"/>
+        <orderEntry type="library" name="scalaparse_2.12-1.0.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="scalaparse_2.12-1.0.0.jar" level="project"/>
+        <orderEntry type="library" name="scopt_2.12-3.5.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="scopt_2.12-3.5.0.jar" level="project"/>
+        <orderEntry type="library" name="snakeyaml-1.17-sources.jar" level="project"/>
+        <orderEntry type="library" name="snakeyaml-1.17.jar" level="project"/>
+        <orderEntry type="library" name="sourcecode_2.12-0.1.4-sources.jar" level="project"/>
+        <orderEntry type="library" name="sourcecode_2.12-0.1.4.jar" level="project"/>
+        <orderEntry type="library" name="ujson_2.12-0.6.6-sources.jar" level="project"/>
+        <orderEntry type="library" name="ujson_2.12-0.6.6.jar" level="project"/>
+        <orderEntry type="library" name="undertow-core-2.0.13.Final-sources.jar" level="project"/>
+        <orderEntry type="library" name="undertow-core-2.0.13.Final.jar" level="project"/>
+        <orderEntry type="library" name="upickle_2.12-0.6.6-sources.jar" level="project"/>
+        <orderEntry type="library" name="upickle_2.12-0.6.6.jar" level="project"/>
+        <orderEntry type="library" name="xnio-api-3.3.8.Final-sources.jar" level="project"/>
+        <orderEntry type="library" name="xnio-api-3.3.8.Final.jar" level="project"/>
+        <orderEntry type="library" name="xnio-nio-3.3.8.Final-sources.jar" level="project"/>
+        <orderEntry type="library" name="xnio-nio-3.3.8.Final.jar" level="project"/>
+    </component>
+</module>
