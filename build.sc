@@ -7,6 +7,8 @@ object courses extends Module{
   object jvm extends ScalaModule{
     def scalaVersion = "2.12.6"
     def millSourcePath = super.millSourcePath / up
+
+    def ivyDeps = Agg(ivy"com.lihaoyi::upickle::0.6.6")
   }
 
   object js extends ScalaJSModule {
@@ -15,6 +17,8 @@ object courses extends Module{
     def millSourcePath = super.millSourcePath / up
 
     def platformSegment = "js"
+
+    def ivyDeps = Agg(ivy"com.lihaoyi::upickle::0.6.6")
   }
 }
 
@@ -27,7 +31,8 @@ object server extends ScalaModule{
   def ivyDeps = Agg(
     ivy"com.lihaoyi::cask:0.1.6",
     ivy"com.lihaoyi:::ammonite:1.2.1",
-    ivy"net.jcazevedo::moultingyaml:0.4.0"
+    ivy"net.jcazevedo::moultingyaml:0.4.0",
+    ivy"com.lihaoyi::upickle::0.6.6"
   )
 
   def resources = T.sources {
@@ -53,7 +58,8 @@ object client extends ScalaJSModule {
 
   def ivyDeps = Agg(
     ivy"org.scala-js::scalajs-dom::0.9.4",
-    ivy"com.lihaoyi::scalatags::0.6.7"
+    ivy"com.lihaoyi::scalatags::0.6.7",
+    ivy"com.lihaoyi::upickle::0.6.6"
   )
 
   def moduleDeps = Seq(courses.js)

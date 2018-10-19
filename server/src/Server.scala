@@ -9,6 +9,9 @@ object Server extends cask.MainRoutes{
   @cask.staticResources("/public")
   def staticResourceRoutes() = "."
 
+  @cask.get("/course-list"  )
+  def courseList() : String =
+    ujson.write(CourseData.json)
 
   initialize()
 
