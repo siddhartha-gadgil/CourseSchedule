@@ -17,7 +17,7 @@ object CourseData{
 
   val courseMap: Vector[Map[String, String]] = sem.values.flatMap(_.convertTo[Vector[Map[String, String]]]).toVector
 
-  val courses: Vector[Course] = courseMap.map(Course.fromMap)
+  val courses: Vector[Course] = courseMap.map(Course.fromMap).filter(_.code.startsWith("MA")).sortBy(_.code)
 
   lazy val json = Js.Arr(courses.map(_.json)  : _*)
 }

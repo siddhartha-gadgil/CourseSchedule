@@ -2,8 +2,10 @@
     <component name="ProjectModuleManager">
         <modules>
             <module fileurl="file://$PROJECT_DIR$/.idea_modules/mill-build.iml" filepath="$PROJECT_DIR$/.idea_modules/mill-build.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/.idea_modules/server.iml" filepath="$PROJECT_DIR$/.idea_modules/server.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/.idea_modules/courses.jvm.iml" filepath="$PROJECT_DIR$/.idea_modules/courses.jvm.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/.idea_modules/courses.js.iml" filepath="$PROJECT_DIR$/.idea_modules/courses.js.iml"/>
             <module fileurl="file://$PROJECT_DIR$/.idea_modules/client.iml" filepath="$PROJECT_DIR$/.idea_modules/client.iml"/>
-            <module fileurl="file://$PROJECT_DIR$/.idea_modules/courses.iml" filepath="$PROJECT_DIR$/.idea_modules/courses.iml"/>
         </modules>
     </component>
 </project>

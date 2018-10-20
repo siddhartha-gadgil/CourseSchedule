@@ -1,13 +1,13 @@
 <module type="JAVA_MODULE" version="4">
     <component name="NewModuleRootManager">
-        <output url="file://$MODULE_DIR$/../out/courses/compile/dest/classes"/>
+        <output url="file://$MODULE_DIR$/../out/server/compile/dest/classes"/>
         <exclude-output/>
-        <content url="file://$MODULE_DIR$/../out/courses/generatedSources/dest"/>
-        <content url="file://$MODULE_DIR$/../courses">
-            <sourceFolder url="file://$MODULE_DIR$/../courses/src" isTestSource="false"/>
-            <sourceFolder url="file://$MODULE_DIR$/../courses/resources" type="java-resource"/>
+        <content url="file://$MODULE_DIR$/../out/server/generatedSources/dest"/>
+        <content url="file://$MODULE_DIR$/../server">
+            <sourceFolder url="file://$MODULE_DIR$/../server/src" isTestSource="false"/>
+            <sourceFolder url="file://$MODULE_DIR$/../server/resources" type="java-resource"/>
             <sourceFolder url="file://$MODULE_DIR$/../out/client/fastOpt/dest" type="java-resource"/>
-            <excludeFolder url="file://$MODULE_DIR$/../courses/target"/>
+            <excludeFolder url="file://$MODULE_DIR$/../server/target"/>
         </content>
         <orderEntry type="inheritedJdk"/>
         <orderEntry type="sourceFolder" forTests="false"/>
@@ -92,5 +92,6 @@
         <orderEntry type="library" name="xnio-api-3.3.8.Final.jar" level="project"/>
         <orderEntry type="library" name="xnio-nio-3.3.8.Final-sources.jar" level="project"/>
         <orderEntry type="library" name="xnio-nio-3.3.8.Final.jar" level="project"/>
+        <orderEntry type="module" module-name="courses.jvm" exported=""/>
     </component>
 </module>
