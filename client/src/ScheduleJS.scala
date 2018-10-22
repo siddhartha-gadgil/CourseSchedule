@@ -25,6 +25,32 @@ object ChooserJS {
 
   var courseOpt: Option[Course] = None
 
+  val timingDiv: Div = div(`class` := "col-md-7")().render
+
+  val chosenDiv: Div = div(`class` := "col-md-5")().render
+
+  val submitButton: Button =
+    button(`type` := "button", `class` := "btn btn-primary")("Submit").render
+
+  val nosubmitButton: Button =
+    button(`type` := "button", `class` := "btn btn-default disabled")("Submit").render
+
+  val timings: mSet[(Int, Timing)] = mSet()
+
+  def timingsJson =
+    Js.Arr(
+      timings.toVector.sortBy(_._1).map {
+        case (i, t) =>
+          Js.Obj(
+            "choice" -> Js.Num(i),
+            "timing" -> t.json
+          )
+      }: _*
+    )
+
+  submitButton.onclick = (_) =>
+    Ajax.post("/save-preferences", ujson.write(timingsJson))
+
   def courseChoose: Div = {
     val opts =
       for {
@@ -46,27 +72,17 @@ object ChooserJS {
           c <- l.find(_.code == code)
         } yield c
       courseOpt = c
+      update()
     }
     div(`class` := "form-group")(label(`for` := "courseSelect")("Course:"), sl).render
 
   }
 
-  val timingDiv: Div = div(`class` := "col-md-7")().render
-
-  val chosenDiv = div(`class` := "col-md-5")().render
-
-  val submitButton =
-    button(`type` := "button", `class` := "btn btn-primary")("Submit").render
-
-  val nosubmitButton =
-    button(`type` := "button", `class` := "btn btn-default disabled")("Submit").render
-
   nosubmitButton.onclick = (_) =>
     dom.window.alert(
-      if (courseOpt.isEmpty) "Please choose course" else
-      "Please give at least three choices, at least one of which is 3 one hour slots")
-
-  val timings: mSet[(Int, Timing)] = mSet()
+      if (courseOpt.isEmpty) "Please choose course"
+      else
+        "Please give at least three choices; at least one of the first three choices should be for 3 one hour lectures")
 
   def focusChoice: Int =
     (1 to 7).filter(n => !timings.map(_._1).contains(n)).min
@@ -128,7 +144,7 @@ object ChooserJS {
     )
   }
 
-  def enoughChoices = {
+  def enoughChoices: Boolean = {
     (1 to 3)
       .map { (j) =>
         timings.count(_._1 <= j) >= j
@@ -137,8 +153,8 @@ object ChooserJS {
     timings.exists { case (n, t) => n <= 3 && t.days == "Mon, Wed, Fri" }
   }
 
-  def chosenList = {
-    val maxChoice = if (timings.nonEmpty) timings.map(_._1).max else 1
+  def chosenList: Div = {
+    val maxChoice = if (timings.nonEmpty) timings.map(_._1).max else 0
     val rows =
       (1 to maxChoice).map { (n) =>
         val cols = timings
@@ -149,24 +165,39 @@ object ChooserJS {
         li(ul(cols: _*))
       }
 
+    val code: String = courseOpt.map(_.code).getOrElse("")
+
+    val instructor = courseOpt.map(_.instructor).getOrElse("")
+
+    val name = courseOpt.map(_.name).getOrElse("")
+
     div(
       h4(`class` := "text-center")("Your choices"),
       ol(rows: _*),
       p(
-        if (enoughChoices) "More choices are welcome!"
+        if (enoughChoices)
+          "Please check selected course below befor submitting. More choices are always welcome!"
         else
-          "Please give at least three choices, at least one of which is 3 one hour slots"),
-      if (enoughChoices && courseOpt.nonEmpty) div(submitButton) else div(nosubmitButton)
+          "Please give at least three choices; at least one of the first three choices should be for 3 one hour lectures"),
+      ul(`class` := "list-unstyled")(
+        li(`class` := "text-center")(strong("Course")),
+        li(strong("Code: "), code),
+        li(strong("Title: "), name),
+        li(strong("Instructor: "), instructor)
+      ),
+      if (enoughChoices && courseOpt.nonEmpty) div(submitButton)
+      else div(nosubmitButton)
     ).render
   }
 
-  def update() = {
+  def update(): Unit = {
     timingDiv.innerHTML = ""
     timingDiv.appendChild(timingTable.render)
 
     chosenDiv.innerHTML = ""
     chosenDiv.appendChild(chosenList)
   }
+
   @JSExport
   def load(): Unit = {
 

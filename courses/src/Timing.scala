@@ -1,11 +1,18 @@
 package courses
 
+import ujson.Js
+
 sealed trait Timing{
   val days : String
 
   val times: String
 
   lazy val show: String = s"$days $times"
+
+  def json = Js.Obj(
+    "days" -> days,
+    "times" -> times
+  )
 }
 
 object Timing{
@@ -16,6 +23,12 @@ object Timing{
   case class TuTh(times: String) extends Timing{
     val days = "Tue, Thu"
   }
+
+  def fromJson(js: Js.Value) =
+    js.obj("days").str match {
+      case "Mon, Wed, Fri" => MWF(js.obj("times").str)
+      case "Tue, Thu" => TuTh(js.obj("times").str)
+    }
 
   val all: Vector[Timing] =Vector(
     MWF("8:00 - 9:00"),

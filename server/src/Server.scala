@@ -3,7 +3,7 @@ package courses
 
 object Server extends cask.MainRoutes{
 
-  @cask.get("/preference.html")
+  @cask.get("/preferences.html")
   def hello(): String = Home.indexHTML
 
   @cask.staticResources("/public")
@@ -12,6 +12,15 @@ object Server extends cask.MainRoutes{
   @cask.get("/course-list"  )
   def courseList() : String =
     ujson.write(CourseData.json)
+
+  @cask.post("/save-preferences")
+  def prefSave(request: cask.Request)  =        {
+    val d = new String(request.readAllBytes())
+    val js = ujson.read(d)
+    pprint.log(js)
+    ujson.write(js)
+  }
+
 
   initialize()
 
@@ -30,6 +39,7 @@ object Home{
        |
        |     <link rel="stylesheet" href="public/css/bootstrap.min.css">
        |     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       |     <link rel="stylesheet" href="public/css/extras.css">
        |
        |      <!--Let browser know website is optimized for mobile-->
        |      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
