@@ -68,6 +68,7 @@ object ChooserJS {
 
   def submitJson =
     Js.Obj(
+      "course" -> courseOpt.get.json,
       "timings" -> timingsJson,
       "forbidden" -> forbidJs
     )

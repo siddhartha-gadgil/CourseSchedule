@@ -2,9 +2,23 @@ package courses
 
 import ujson.Js
 
+import scala.util.Try
+
+import scala.collection.mutable.{Map => mMap}
+
 
 object Server extends cask.MainRoutes{
-  val forbiddenClashes: Vector[(Course, Course)] = CourseData.corePairs
+  var forbiddenClashes: Vector[(Course, Course)] = CourseData.corePairs
+
+  var preferences : mMap[Course, Vector[(Int, Timing)]] = mMap()
+
+  def forbid(s: Iterable[(Course, Course)]) = {
+    forbiddenClashes = (forbiddenClashes ++ s).distinct
+    pprint.log(forbiddenClashes)
+  }
+
+  override def port = Try(sys.env("COURSES_PORT").toInt).getOrElse(8080)
+  override def host = Try(sys.env("COURSES_HOST")).getOrElse("localhost")
 
   def forbidJs =    {
     val pairs: Seq[Js.Obj] =
@@ -36,6 +50,19 @@ object Server extends cask.MainRoutes{
     val d = new String(request.readAllBytes())
     val js = ujson.read(d)
     pprint.log(js)
+    val pairs: Vector[(Course, Course)] = js.obj("forbidden").arr.toVector.map { (js) =>
+      (Course.fromJson(js.obj("first")), Course.fromJson(js.obj("second")))
+    }
+    forbid(pairs)
+    val course = Course.fromJson(js.obj("course"))
+    val timings: Vector[(Int, Timing)] = js.obj("timings").arr.toVector.map {
+      js => js.obj("choice").num.toInt -> Timing.fromJson(js.obj("timing"))
+    }
+
+    preferences += course -> timings
+
+    pprint.log(preferences)
+
     ujson.write(js)
   }
 
