@@ -20,5 +20,22 @@ object Course{
       js.obj("code").str,
       js.obj("instructor").str
     )
+
+  def pairsToJson(p: Iterable[(Course, Course)]): Js.Arr = {
+    val pairs: Seq[Js.Obj] =
+      for {
+        (i, j) <- p.toVector
+      }  yield Js.Obj(
+        "first" -> i.json,
+        "second" -> j.json
+      )
+    Js.Arr(pairs : _*)
+  }
+
+  def pairsFromJson(js: Js.Value): Vector[(Course, Course)] = {
+    js.arr.toVector.map { (js) =>
+      (Course.fromJson(js.obj("first")), Course.fromJson(js.obj("second")))
+    }
+  }
   
 }

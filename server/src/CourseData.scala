@@ -29,4 +29,5 @@ object CourseData{
     } yield (i, j)).toVector
 
   val corePairs: Vector[(Course, Course)] = pairs(core1.toSet)
+
 }

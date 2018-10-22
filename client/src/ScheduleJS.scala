@@ -29,16 +29,8 @@ object ChooserJS {
 
   val forbiddenClashes: mSet[(Course, Course)] = mSet()
 
-  def forbidJs: Js.Arr =    {
-    val pairs: Seq[Js.Obj] =
-      for {
-        (i, j) <- forbiddenClashes.toVector
-      }  yield Js.Obj(
-        "first" -> i.json,
-        "second" -> j.json
-      )
-    Js.Arr(pairs : _*)
-  }
+  def forbidJs: Js.Arr =
+    Course.pairsToJson(forbiddenClashes)
 
   val timingDiv: Div = div(`class` := "col-md-7")().render
 
@@ -109,8 +101,9 @@ object ChooserJS {
       else
         "Please give at least three choices; at least one of the first three choices should be for 3 one hour lectures")
 
-  def forbidInput(c1: Course) = {
-    val btn = button(`class` := "btn btn-warning pull-right")("avoid clash").render
+  def forbidInput(c1: Course): JsDom.TypedTag[Div] = {
+    val btn =
+      button(`class` := "btn btn-warning pull-right")("avoid clash").render
     val opts =
       for {
         l <- coursesOpt.toVector
@@ -250,8 +243,9 @@ object ChooserJS {
           .getOrElse(Vector())
           .map((c) => li(s"${c.code} ${c.name}")): _*
       ),
-      div(`class` := "row")(p("Also avoid"),
-      courseOpt.map(c1 => forbidInput(c1)).getOrElse(div())),
+      div(`class` := "row")(
+        p("Also avoid"),
+        courseOpt.map(c1 => forbidInput(c1)).getOrElse(div())),
       if (enoughChoices && courseOpt.nonEmpty) div(submitButton)
       else div(nosubmitButton)
     ).render
@@ -268,34 +262,33 @@ object ChooserJS {
   @JSExport
   def load(): Unit = {
 
-    def chooser: Element = dom.document.querySelector("#chooser")
+    Option(dom.document.querySelector("#chooser")).foreach { (chooser) =>
+      val selectCourseDiv = div().render
 
-    val selectCourseDiv = div().render
+      val mainDiv =
+        div(
+          selectCourseDiv,
+          h4("Preferred timings:"),
+          div(`class` := "row")(timingDiv, chosenDiv)
+        ).render
 
-    val mainDiv =
-      div(
-        selectCourseDiv,
-        h4("Preferred timings:"),
-        div(`class` := "row")(timingDiv, chosenDiv)
-      ).render
+      chooser.appendChild(mainDiv)
 
-    chooser.appendChild(mainDiv)
+      update()
 
-    update()
-
-    Ajax.get("course-list").foreach { xhr =>
-      val courses = getCourses(ujson.read(xhr.responseText))
-      coursesOpt = Some(courses)
-      selectCourseDiv.appendChild(courseChoose)
-    }
-
-    Ajax.get("forbidden-clashes").foreach { xhr =>
-      val coursePairsJs = ujson.read(xhr.responseText).arr.toVector
-      val pairs: Vector[(Course, Course)] = coursePairsJs.map { (js) =>
-        (Course.fromJson(js.obj("first")), Course.fromJson(js.obj("second")))
+      Ajax.get("course-list").foreach { xhr =>
+        val courses = getCourses(ujson.read(xhr.responseText))
+        coursesOpt = Some(courses)
+        selectCourseDiv.appendChild(courseChoose)
       }
-      forbiddenClashes ++= pairs
 
+      Ajax.get("forbidden-clashes").foreach { xhr =>
+        val coursePairsJs = ujson.read(xhr.responseText).arr.toVector
+        val pairs: Vector[(Course, Course)] =
+          Course.pairsFromJson(coursePairsJs)
+        forbiddenClashes ++= pairs
+
+      }
     }
   }
 

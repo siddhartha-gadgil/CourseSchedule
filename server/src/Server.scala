@@ -12,6 +12,13 @@ object Server extends cask.MainRoutes{
 
   var preferences : mMap[Course, Vector[(Int, Timing)]] = mMap()
 
+  def prefSet: Set[Preference] =
+    (for {
+      (course, vec) <- preferences
+    } yield Preference(course, vec.toSet)).toSet
+
+  def avoid(c1: Course, c2: Course): Boolean = forbiddenClashes.contains(c1 -> c2)
+
   def forbid(s: Iterable[(Course, Course)]) = {
     forbiddenClashes = (forbiddenClashes ++ s).distinct
     pprint.log(forbiddenClashes)
@@ -20,20 +27,9 @@ object Server extends cask.MainRoutes{
   override def port = Try(sys.env("COURSES_PORT").toInt).getOrElse(8080)
   override def host = Try(sys.env("COURSES_HOST")).getOrElse("localhost")
 
-  def forbidJs =    {
-    val pairs: Seq[Js.Obj] =
-      for {
-        (i, j) <- forbiddenClashes
-      }  yield Js.Obj(
-        "first" -> i.json,
-        "second" -> j.json
-      )
-    Js.Arr(pairs : _*)
-  }
+  def forbidJs =
+    Course.pairsToJson(forbiddenClashes)
 
-//  pprint.log(forbidJs)
-
-//  pprint.log(forbiddenClashes)
 
   @cask.get("/preferences.html")
   def hello(): String = Home.indexHTML
@@ -50,13 +46,13 @@ object Server extends cask.MainRoutes{
     val d = new String(request.readAllBytes())
     val js = ujson.read(d)
     pprint.log(js)
-    val pairs: Vector[(Course, Course)] = js.obj("forbidden").arr.toVector.map { (js) =>
-      (Course.fromJson(js.obj("first")), Course.fromJson(js.obj("second")))
-    }
+    val pairs: Vector[(Course, Course)] =
+      Course.pairsFromJson(js.obj("forbidden"))
     forbid(pairs)
     val course = Course.fromJson(js.obj("course"))
     val timings: Vector[(Int, Timing)] = js.obj("timings").arr.toVector.map {
-      js => js.obj("choice").num.toInt -> Timing.fromJson(js.obj("timing"))
+      js =>
+        js.obj("choice").num.toInt -> Timing.fromJson(js.obj("timing"))
     }
 
     preferences += course -> timings
@@ -68,14 +64,8 @@ object Server extends cask.MainRoutes{
 
   @cask.get("/forbidden-clashes")
   def forbidden() : String  = {
-    val pairs: Seq[Js.Obj] =
-      for {
-        (i, j) <- forbiddenClashes
-      }  yield Js.Obj(
-        "first" -> i.json,
-        "second" -> j.json
-      )
-    ujson.write(Js.Arr(pairs : _*))
+
+    ujson.write(Course.pairsToJson(forbiddenClashes))
   }
 
   initialize()
