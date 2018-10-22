@@ -14,10 +14,19 @@ object CourseData{
 
   val sem: Map[String, YamlValue] = m("jan2019").convertTo[Map[String, YamlValue]]
 
+  val core1 = sem("core1").convertTo[Vector[Map[String, String]]].map(Course.fromMap)
 
   val courseMap: Vector[Map[String, String]] = sem.values.flatMap(_.convertTo[Vector[Map[String, String]]]).toVector
 
   val courses: Vector[Course] = courseMap.map(Course.fromMap).filter(_.code.startsWith("MA")).sortBy(_.code)
 
   lazy val json = Js.Arr(courses.map(_.json)  : _*)
+
+  def pairs[A](s: Set[A]) : Vector[(A, A)] =
+    (for {
+      i <- s
+      j <- s
+    } yield (i, j)).toVector
+
+  val corePairs: Vector[(Course, Course)] = pairs(core1.toSet)
 }

@@ -10,7 +10,7 @@ import scala.scalajs.js
 import ujson.Js
 import scalatags.JsDom.all._
 import org.scalajs.dom.ext._
-import org.scalajs.dom.html.{Button, Div, OList, Select, UList}
+import org.scalajs.dom.html.{Button, Div, OList, Select, Span, UList}
 import scalatags.JsDom
 
 import scala.collection.immutable
@@ -23,7 +23,22 @@ object ChooserJS {
 
   var coursesOpt: Option[Vector[Course]] = None
 
+  def courses: Vector[Course] = coursesOpt.getOrElse(Vector.empty[Course])
+
   var courseOpt: Option[Course] = None
+
+  val forbiddenClashes: mSet[(Course, Course)] = mSet()
+
+  def forbidJs: Js.Arr =    {
+    val pairs: Seq[Js.Obj] =
+      for {
+        (i, j) <- forbiddenClashes.toVector
+      }  yield Js.Obj(
+        "first" -> i.json,
+        "second" -> j.json
+      )
+    Js.Arr(pairs : _*)
+  }
 
   val timingDiv: Div = div(`class` := "col-md-7")().render
 
@@ -37,6 +52,9 @@ object ChooserJS {
 
   val timings: mSet[(Int, Timing)] = mSet()
 
+  def avoid(c: Course): Vector[Course] =
+    forbiddenClashes.filter(_._1 == c).map(_._2).toVector.sortBy(_.code)
+
   def timingsJson =
     Js.Arr(
       timings.toVector.sortBy(_._1).map {
@@ -48,8 +66,14 @@ object ChooserJS {
       }: _*
     )
 
+  def submitJson =
+    Js.Obj(
+      "timings" -> timingsJson,
+      "forbidden" -> forbidJs
+    )
+
   submitButton.onclick = (_) =>
-    Ajax.post("/save-preferences", ujson.write(timingsJson))
+    Ajax.post("/save-preferences", ujson.write(submitJson))
 
   def courseChoose: Div = {
     val opts =
@@ -83,6 +107,39 @@ object ChooserJS {
       if (courseOpt.isEmpty) "Please choose course"
       else
         "Please give at least three choices; at least one of the first three choices should be for 3 one hour lectures")
+
+  def forbidInput(c1: Course) = {
+    val btn = button(`class` := "btn btn-warning pull-right")("avoid clash").render
+    val opts =
+      for {
+        l <- coursesOpt.toVector
+        c <- l
+        if !avoid(c1).contains(c)
+      } yield option(value := c.code)(s"${c.code} ${c.name} (${c.instructor})")
+
+    val sl =
+      select(id := "courseSelect", `class` := "form-control")(
+        option(value := "", selected, disabled)("Choose course") +:
+          opts: _*
+      ).render
+
+    def code: String = sl.value
+
+    def cOpt: Option[Course] =
+      for {
+        l <- coursesOpt
+        c <- l.find(_.code == code)
+      } yield c
+
+    btn.onclick = (_) => {
+      cOpt.map { c2 =>
+        forbiddenClashes ++= Seq(c1 -> c2, c2 -> c1)
+        update()
+      }
+    }
+
+    div(sl, btn)
+  }
 
   def focusChoice: Int =
     (1 to 7).filter(n => !timings.map(_._1).contains(n)).min
@@ -179,12 +236,21 @@ object ChooserJS {
           "Please check selected course below befor submitting. More choices are always welcome!"
         else
           "Please give at least three choices; at least one of the first three choices should be for 3 one hour lectures"),
+      h3(`class` := "text-center")(strong("Course")),
       ul(`class` := "list-unstyled")(
-        li(`class` := "text-center")(strong("Course")),
         li(strong("Code: "), code),
         li(strong("Title: "), name),
         li(strong("Instructor: "), instructor)
       ),
+      h4(`class` := "text-center")("Avoiding courses"),
+      ul(
+        courseOpt
+          .map((c) => avoid(c))
+          .getOrElse(Vector())
+          .map((c) => li(s"${c.code} ${c.name}")): _*
+      ),
+      div(`class` := "row")(p("Also avoid"),
+      courseOpt.map(c1 => forbidInput(c1)).getOrElse(div())),
       if (enoughChoices && courseOpt.nonEmpty) div(submitButton)
       else div(nosubmitButton)
     ).render
@@ -220,6 +286,15 @@ object ChooserJS {
       val courses = getCourses(ujson.read(xhr.responseText))
       coursesOpt = Some(courses)
       selectCourseDiv.appendChild(courseChoose)
+    }
+
+    Ajax.get("forbidden-clashes").foreach { xhr =>
+      val coursePairsJs = ujson.read(xhr.responseText).arr.toVector
+      val pairs: Vector[(Course, Course)] = coursePairsJs.map { (js) =>
+        (Course.fromJson(js.obj("first")), Course.fromJson(js.obj("second")))
+      }
+      forbiddenClashes ++= pairs
+
     }
   }
 

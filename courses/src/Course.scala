@@ -20,4 +20,5 @@ object Course{
       js.obj("code").str,
       js.obj("instructor").str
     )
+  
 }
