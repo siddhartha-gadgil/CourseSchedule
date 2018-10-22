@@ -55,7 +55,16 @@ object ChooserJS {
 
   val chosenDiv = div(`class` := "col-md-5")().render
 
-  val sumbitButton = button(`type` := "button", `class` := "btn btn-primary")("Submit").render
+  val submitButton =
+    button(`type` := "button", `class` := "btn btn-primary")("Submit").render
+
+  val nosubmitButton =
+    button(`type` := "button", `class` := "btn btn-default disabled")("Submit").render
+
+  nosubmitButton.onclick = (_) =>
+    dom.window.alert(
+      if (courseOpt.isEmpty) "Please choose course" else
+      "Please give at least three choices, at least one of which is 3 one hour slots")
 
   val timings: mSet[(Int, Timing)] = mSet()
 
@@ -147,7 +156,7 @@ object ChooserJS {
         if (enoughChoices) "More choices are welcome!"
         else
           "Please give at least three choices, at least one of which is 3 one hour slots"),
-      if (enoughChoices) div(sumbitButton) else div()
+      if (enoughChoices && courseOpt.nonEmpty) div(submitButton) else div(nosubmitButton)
     ).render
   }
 
