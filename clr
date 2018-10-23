@@ -1,0 +1,2 @@
+echo "[]" > data/preferences.json
+echo "[]" > data/forbidden-clashes.json

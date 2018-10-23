@@ -42,7 +42,7 @@ object server extends ScalaModule{
     (base ++ Seq(jsout)).map(PathRef(_))
   }
 
-  // def mainClass = Some("server.Server")
+  def mainClass = Some("courses.Server")
 }
 
 object client extends ScalaJSModule {

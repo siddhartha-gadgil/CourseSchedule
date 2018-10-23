@@ -8,23 +8,23 @@ import scala.collection.mutable.{Map => mMap}
 
 import ammonite.ops._
 
-
-object Server extends cask.MainRoutes{
+object Server extends cask.MainRoutes {
   var forbiddenClashes: Vector[(Course, Course)] = CourseData.corePairs
 
-  def userForbidden: Vector[(Course, Course)] = forbiddenClashes.filter(!CourseData.corePairs.contains(_))
+  def userForbidden: Vector[(Course, Course)] =
+    forbiddenClashes.filter(!CourseData.corePairs.contains(_))
 
-  var preferences : mMap[Course, Vector[(Int, Timing)]] = mMap()
+  var preferences: mMap[Course, Vector[(Int, Timing)]] = mMap()
 
   def prefJs: Value =
     Js.Arr(
-      preferences.toVector.map{
+      preferences.toVector.map {
         case (c, t) =>
           Js.Obj(
             "course" -> c.json,
             "timings" -> Timing.timingsToJson(t)
           )
-      }  : _*
+      }: _*
     )
 
   def prefSet: Set[Preference] =
@@ -32,7 +32,10 @@ object Server extends cask.MainRoutes{
       (course, vec) <- preferences
     } yield Preference(course, vec.toSet)).toSet
 
-  def avoid(c1: Course, c2: Course): Boolean = forbiddenClashes.contains(c1 -> c2)
+  def avoid(c1: Course, c2: Course): Boolean =
+    forbiddenClashes.contains(c1 -> c2)
+
+  def scheduler: Scheduler = Scheduler(prefSet, avoid)
 
   def forbid(s: Iterable[(Course, Course)]): Unit = {
     forbiddenClashes = (forbiddenClashes ++ s).distinct
@@ -40,36 +43,35 @@ object Server extends cask.MainRoutes{
   }
 
   override def port: Int = Try(sys.env("COURSES_PORT").toInt).getOrElse(8080)
-  override def host: String = Try(sys.env("COURSES_HOST")).getOrElse("localhost")
+  override def host: String =
+    Try(sys.env("IP")).getOrElse("localhost")
 
   def forbidJs =
     Course.pairsToJson(forbiddenClashes)
-
-
   @cask.get("/preferences.html")
   def hello(): String = Home.indexHTML
 
   @cask.staticResources("/public")
   def staticResourceRoutes() = "."
 
-  @cask.get("/course-list"  )
-  def courseList() : String =
+  @cask.get("/course-list")
+  def courseList(): String =
     ujson.write(CourseData.json)
 
-  val dat = pwd / "data"
+  val dat: Path = pwd / "data"
 
-  def loadPrefs() : Unit =
-  {
+  def loadPrefs(): Unit =
+    {
     val jsV = ujson.read(read(dat / "preferences.json")).arr.toVector
-    jsV.foreach{
-      js =>
-        val course: Course = Course.fromJson(js.obj("course"))
-        val timings: Vector[(Int, Timing)] = Timing.timingsFromJson(js.obj("timings"))
-        preferences += course -> timings
+    jsV.foreach { js =>
+      val course: Course = Course.fromJson(js.obj("course"))
+      val timings: Vector[(Int, Timing)] =
+        Timing.timingsFromJson(js.obj("timings"))
+      preferences += course -> timings
     }
   }
 
-  def loadClashes() : Unit = {
+  def loadClashes(): Unit = {
     val js = ujson.read(read(dat / "forbidden-clashes.json"))
     val cl = Course.pairsFromJson(js)
     forbiddenClashes ++= cl
@@ -77,12 +79,12 @@ object Server extends cask.MainRoutes{
 
   loadPrefs()
 
-  loadClashes() 
+  loadClashes()
 
   pprint.log(preferences)
 
   @cask.post("/save-preferences")
-  def prefSave(request: cask.Request)  =        {
+  def prefSave(request: cask.Request) = {
     val d = new String(request.readAllBytes())
     val js = ujson.read(d)
     pprint.log(js)
@@ -90,13 +92,14 @@ object Server extends cask.MainRoutes{
       Course.pairsFromJson(js.obj("forbidden"))
     forbid(pairs)
     val course = Course.fromJson(js.obj("course"))
-    val timings: Vector[(Int, Timing)] = Timing.timingsFromJson(js.obj("timings"))
+    val timings: Vector[(Int, Timing)] =
+      Timing.timingsFromJson(js.obj("timings"))
 
     preferences += course -> timings
 
     pprint.log(preferences)
 
-    write.over (
+    write.over(
       dat / "preferences.json",
       ujson.write(prefJs, 2)
     )
@@ -110,7 +113,7 @@ object Server extends cask.MainRoutes{
   }
 
   @cask.get("/forbidden-clashes")
-  def forbidden() : String  = {
+  def forbidden(): String = {
 
     ujson.write(Course.pairsToJson(forbiddenClashes))
   }
@@ -119,8 +122,7 @@ object Server extends cask.MainRoutes{
 
 }
 
-
-object Home{
+object Home {
   val indexHTML: String =
     page(
       """
@@ -129,7 +131,7 @@ object Home{
       """.stripMargin
     )
 
-    def page(content: String) =
+  def page(content: String) =
     s"""
        |<!DOCTYPE html>
        |<html>
@@ -165,6 +167,5 @@ object Home{
        |  </body>
        |</html>
      """.stripMargin
-
 
 }
