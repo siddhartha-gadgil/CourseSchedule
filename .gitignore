@@ -3,3 +3,5 @@
 out/
 bin/
 .idea/workspace.xml
+.idea/
+.idea-modules/

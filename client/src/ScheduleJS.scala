@@ -12,6 +12,7 @@ import scalatags.JsDom.all._
 import org.scalajs.dom.ext._
 import org.scalajs.dom.html.{Button, Div, OList, Select, Span, UList}
 import scalatags.JsDom
+import ujson.Js.Value
 
 import scala.collection.immutable
 import scala.collection.mutable.{Set => mSet}
@@ -47,16 +48,8 @@ object ChooserJS {
   def avoid(c: Course): Vector[Course] =
     forbiddenClashes.filter(_._1 == c).map(_._2).toVector.sortBy(_.code)
 
-  def timingsJson =
-    Js.Arr(
-      timings.toVector.sortBy(_._1).map {
-        case (i, t) =>
-          Js.Obj(
-            "choice" -> Js.Num(i),
-            "timing" -> t.json
-          )
-      }: _*
-    )
+  def timingsJson: Value =
+    Timing.timingsToJson(timings)
 
   def submitJson =
     Js.Obj(

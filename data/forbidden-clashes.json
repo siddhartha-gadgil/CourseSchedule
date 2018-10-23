@@ -1,0 +1,50 @@
+[
+  {
+    "first": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Complex Analysis",
+      "code": "MA 224",
+      "instructor": "S. Thangavelu"
+    }
+  },
+  {
+    "first": {
+      "name": "Complex Analysis",
+      "code": "MA 224",
+      "instructor": "S. Thangavelu"
+    },
+    "second": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Ordinary Differential Equations",
+      "code": "MA 241",
+      "instructor": "Thirupathi Gudi"
+    },
+    "second": {
+      "name": "Classical Groups",
+      "code": "MA 385",
+      "instructor": "Pooja Singla"
+    }
+  },
+  {
+    "first": {
+      "name": "Classical Groups",
+      "code": "MA 385",
+      "instructor": "Pooja Singla"
+    },
+    "second": {
+      "name": "Ordinary Differential Equations",
+      "code": "MA 241",
+      "instructor": "Thirupathi Gudi"
+    }
+  }
+]

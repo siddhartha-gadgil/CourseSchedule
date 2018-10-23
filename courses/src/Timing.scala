@@ -1,8 +1,9 @@
 package courses
 
 import ujson.Js
+import ujson.Js.Value
 
-sealed trait Timing{
+sealed trait Timing extends Product with Serializable{
   val days : String
 
   val times: String
@@ -29,6 +30,23 @@ object Timing{
       case "Mon, Wed, Fri" => MWF(js.obj("times").str)
       case "Tue, Thu" => TuTh(js.obj("times").str)
     }
+
+  def timingsFromJson(jsv: Js.Value): Vector[(Int, Timing)] =
+    jsv.arr.toVector.map {
+      js =>
+        js.obj("choice").num.toInt -> Timing.fromJson(js.obj("timing"))
+    }
+
+  def timingsToJson(timings: Iterable[(Int, Timing)]): Value =
+    Js.Arr(
+      timings.toVector.sortBy(_._1).map {
+        case (i, t) =>
+          Js.Obj(
+            "choice" -> Js.Num(i),
+            "timing" -> t.json
+          )
+      }: _*
+    )
 
   val all: Vector[Timing] =Vector(
     MWF("8:00 - 9:00"),

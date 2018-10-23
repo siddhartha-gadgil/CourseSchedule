@@ -1,0 +1,152 @@
+[
+  {
+    "course": {
+      "name": "Calculus on Manifolds",
+      "code": "MA 229",
+      "instructor": "Subhojoy Gupta"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "8:00 - 9:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Algebra II",
+      "code": "MA 213",
+      "instructor": "Soumya Das"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "8:00 - 9:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "E. K. Narayanan"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "8:00 - 9:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Complex Analysis",
+      "code": "MA 224",
+      "instructor": "S. Thangavelu"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "8:00 - 9:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Ordinary Differential Equations",
+      "code": "MA 241",
+      "instructor": "Thirupathi Gudi"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "8:00 - 9:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "1:00 - 2:00"
+        }
+      }
+    ]
+  }
+]

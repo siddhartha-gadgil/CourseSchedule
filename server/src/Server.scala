@@ -1,16 +1,31 @@
 package courses
 
 import ujson.Js
+import ujson.Js.Value
 
 import scala.util.Try
-
 import scala.collection.mutable.{Map => mMap}
+
+import ammonite.ops._
 
 
 object Server extends cask.MainRoutes{
   var forbiddenClashes: Vector[(Course, Course)] = CourseData.corePairs
 
+  def userForbidden: Vector[(Course, Course)] = forbiddenClashes.filter(!CourseData.corePairs.contains(_))
+
   var preferences : mMap[Course, Vector[(Int, Timing)]] = mMap()
+
+  def prefJs: Value =
+    Js.Arr(
+      preferences.toVector.map{
+        case (c, t) =>
+          Js.Obj(
+            "course" -> c.json,
+            "timings" -> Timing.timingsToJson(t)
+          )
+      }  : _*
+    )
 
   def prefSet: Set[Preference] =
     (for {
@@ -19,13 +34,13 @@ object Server extends cask.MainRoutes{
 
   def avoid(c1: Course, c2: Course): Boolean = forbiddenClashes.contains(c1 -> c2)
 
-  def forbid(s: Iterable[(Course, Course)]) = {
+  def forbid(s: Iterable[(Course, Course)]): Unit = {
     forbiddenClashes = (forbiddenClashes ++ s).distinct
     pprint.log(forbiddenClashes)
   }
 
-  override def port = Try(sys.env("COURSES_PORT").toInt).getOrElse(8080)
-  override def host = Try(sys.env("COURSES_HOST")).getOrElse("localhost")
+  override def port: Int = Try(sys.env("COURSES_PORT").toInt).getOrElse(8080)
+  override def host: String = Try(sys.env("COURSES_HOST")).getOrElse("localhost")
 
   def forbidJs =
     Course.pairsToJson(forbiddenClashes)
@@ -41,6 +56,31 @@ object Server extends cask.MainRoutes{
   def courseList() : String =
     ujson.write(CourseData.json)
 
+  val dat = pwd / "data"
+
+  def loadPrefs() : Unit =
+  {
+    val jsV = ujson.read(read(dat / "preferences.json")).arr.toVector
+    jsV.foreach{
+      js =>
+        val course: Course = Course.fromJson(js.obj("course"))
+        val timings: Vector[(Int, Timing)] = Timing.timingsFromJson(js.obj("timings"))
+        preferences += course -> timings
+    }
+  }
+
+  def loadClashes() : Unit = {
+    val js = ujson.read(read(dat / "forbidden-clashes.json"))
+    val cl = Course.pairsFromJson(js)
+    forbiddenClashes ++= cl
+  }
+
+  loadPrefs()
+
+  loadClashes() 
+
+  pprint.log(preferences)
+
   @cask.post("/save-preferences")
   def prefSave(request: cask.Request)  =        {
     val d = new String(request.readAllBytes())
@@ -50,14 +90,21 @@ object Server extends cask.MainRoutes{
       Course.pairsFromJson(js.obj("forbidden"))
     forbid(pairs)
     val course = Course.fromJson(js.obj("course"))
-    val timings: Vector[(Int, Timing)] = js.obj("timings").arr.toVector.map {
-      js =>
-        js.obj("choice").num.toInt -> Timing.fromJson(js.obj("timing"))
-    }
+    val timings: Vector[(Int, Timing)] = Timing.timingsFromJson(js.obj("timings"))
 
     preferences += course -> timings
 
     pprint.log(preferences)
+
+    write.over (
+      dat / "preferences.json",
+      ujson.write(prefJs, 2)
+    )
+
+    write.over(
+      dat / "forbidden-clashes.json",
+      ujson.write(Course.pairsToJson(userForbidden), 2)
+    )
 
     ujson.write(js)
   }

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Logic, Types & Spaces",
+    "code": "MA 210",
+    "instructor": "Siddhartha Gadgil"
+  },
+  {
+    "name": "Algebra II",
+    "code": "MA 213",
+    "instructor": "Soumya Das"
+  },
+  {
+    "name": "Measure & Integration",
+    "code": "MA 222",
+    "instructor": "E. K. Narayanan"
+  },
+  {
+    "name": "Complex Analysis",
+    "code": "MA 224",
+    "instructor": "S. Thangavelu"
+  },
+  {
+    "name": "Calculus on Manifolds",
+    "code": "MA 229",
+    "instructor": "Subhojoy Gupta"
+  },
+  {
+    "name": "Ordinary Differential Equations",
+    "code": "MA 241",
+    "instructor": "Thirupathi Gudi"
+  },
+  {
+    "name": "Algebraic Geometry II",
+    "code": "MA 311",
+    "instructor": "Abhishek Banerjee"
+  },
+  {
+    "name": "Algebraic Combinatorics",
+    "code": "MA 319",
+    "instructor": "Arvind Ayyer"
+  },
+  {
+    "name": "Fourier Anaysis",
+    "code": "MA 326",
+    "instructor": "E.K. Narayanan"
+  },
+  {
+    "name": "Advanced Functional Analysis",
+    "code": "MA 340",
+    "instructor": "Tirthankar Bhattacharyya"
+  },
+  {
+    "name": "Stochastic Finance II",
+    "code": "MA 366",
+    "instructor": "Mrinal K. Ghosh"
+  },
+  {
+    "name": "Mathematical Physics",
+    "code": "MA 384",
+    "instructor": "Kaushal Verma"
+  },
+  {
+    "name": "Classical Groups",
+    "code": "MA 385",
+    "instructor": "Pooja Singla"
+  }
+]

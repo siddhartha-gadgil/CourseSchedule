@@ -14,7 +14,6 @@ case class Schedule(sch: Map[Course, Timing]) {
 }
 
 case class Scheduler(prefs: Set[Preference],
-
                      avoid: (Course, Course) => Boolean) {
   val supp: Set[Course] = prefs.map(_.course)
 
@@ -50,6 +49,23 @@ case class Scheduler(prefs: Set[Preference],
           }
           .getOrElse(getAll(worst, numWorst, ys))
     }
+
+  def getBest(worst: Int, numWorst: Int) : (Set[Schedule], Int, Int) =
+    {
+      val top = getAll(worst, numWorst)
+      if (top.nonEmpty) (top, worst, numWorst)
+      else {
+        val (w, n) = nextLex(worst, numWorst)
+        println(s"Trying worst choice $w, occuring $n times")
+        getBest(w, n)
+      }
+    }
+
+  lazy val (bestChoices, worst, numWorst) = getBest(1, size)
+
+  lazy val minClashes: Int =  bestChoices.map(_.clashes.size).min
+
+  lazy val bestClashes: Set[Schedule] = bestChoices.filter(_.clashes.size == minClashes)
 
 }
 

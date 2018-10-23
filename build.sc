@@ -32,7 +32,8 @@ object server extends ScalaModule{
     ivy"com.lihaoyi::cask:0.1.6",
     ivy"com.lihaoyi:::ammonite:1.2.1",
     ivy"net.jcazevedo::moultingyaml:0.4.0",
-    ivy"com.lihaoyi::upickle::0.6.6"
+    ivy"com.lihaoyi::upickle::0.6.6",
+    ivy"com.lihaoyi::pprint::0.5.3"
   )
 
   def resources = T.sources {
