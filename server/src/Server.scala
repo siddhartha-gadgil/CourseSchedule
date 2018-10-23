@@ -60,8 +60,7 @@ object Server extends cask.MainRoutes {
 
   val dat: Path = pwd / "data"
 
-  def loadPrefs(): Unit =
-    {
+  def loadPrefs(): Unit = {
     val jsV = ujson.read(read(dat / "preferences.json")).arr.toVector
     jsV.foreach { js =>
       val course: Course = Course.fromJson(js.obj("course"))
@@ -104,9 +103,26 @@ object Server extends cask.MainRoutes {
       ujson.write(prefJs, 2)
     )
 
+    val prefVec = prefJs +: ujson
+      .read(read(dat / "preferences-arr.json"))
+      .arr
+      .toVector
+
+    write.over(dat / "preferences-arr.json", ujson.write(Js.Arr(prefVec: _*), 2))
+
     write.over(
       dat / "forbidden-clashes.json",
       ujson.write(Course.pairsToJson(userForbidden), 2)
+    )
+
+    val forbidVec: Vector[Value] = Course.pairsToJson(userForbidden) +: ujson
+      .read(read(dat / "forbidden-clashes-arr.json"))
+      .arr
+      .toVector
+
+    write.over(
+      dat / "forbidden-clashes-arr.json",
+    ujson.write(Js.Arr(forbidVec: _*), 2)
     )
 
     ujson.write(js)
