@@ -13,7 +13,7 @@ object courses extends Module{
 
   object js extends ScalaJSModule {
     def scalaVersion = "2.12.6"
-    def scalaJSVersion = "0.6.22"
+    def scalaJSVersion = "0.6.25"
     def millSourcePath = super.millSourcePath / up
 
     def platformSegment = "js"
@@ -29,7 +29,7 @@ object server extends ScalaModule{
 
 
   def ivyDeps = Agg(
-    ivy"com.lihaoyi::cask:0.1.6",
+    ivy"com.lihaoyi::cask:0.1.9",
     ivy"com.lihaoyi:::ammonite:1.2.1",
     ivy"net.jcazevedo::moultingyaml:0.4.0",
     ivy"com.lihaoyi::upickle::0.6.6",
@@ -47,7 +47,7 @@ object server extends ScalaModule{
 
 object client extends ScalaJSModule {
   def scalaVersion = "2.12.6"
-  def scalaJSVersion = "0.6.22"
+  def scalaJSVersion = "0.6.25"
 
   def platformSegment = "js"
 
