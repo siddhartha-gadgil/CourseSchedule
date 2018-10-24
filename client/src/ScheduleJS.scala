@@ -125,7 +125,7 @@ object ChooserJS {
       }
     }
 
-    div(sl, btn)
+    div(sl, p("Please click the button below after choosing course."), btn)
   }
 
   def focusChoice: Int =
@@ -229,16 +229,28 @@ object ChooserJS {
         li(strong("Title: "), name),
         li(strong("Instructor: "), instructor)
       ),
-      h4(`class` := "text-center")("Avoiding courses"),
-      ul(
-        courseOpt
-          .map((c) => avoid(c))
-          .getOrElse(Vector())
-          .map((c) => li(s"${c.code} ${c.name}")): _*
-      ),
-      div(`class` := "row")(
-        p("Also avoid"),
-        courseOpt.map(c1 => forbidInput(c1)).getOrElse(div())),
+      courseOpt.map(c1 =>
+        div(
+          h4("Avoiding clashes with courses:"),
+          ul(
+            avoid(c1).map((c) => li(s"${c.code} ${c.name}")): _*
+          ),
+          div(`class` := "row")(
+            h6("Additional clashes to avoid (if any)"),
+            courseOpt.map(c1 => forbidInput(c1)).getOrElse(div()))
+        )
+      ).getOrElse(div()),
+//
+//      h4("Avoiding clashes with courses:"),
+//      ul(
+//        courseOpt
+//          .map((c) => avoid(c))
+//          .getOrElse(Vector())
+//          .map((c) => li(s"${c.code} ${c.name}")): _*
+//      ),
+//      div(`class` := "row")(
+//        h6("Additional clashes to avoid (if any)"),
+//        courseOpt.map(c1 => forbidInput(c1)).getOrElse(div())),
       if (enoughChoices && courseOpt.nonEmpty) div(submitButton)
       else div(nosubmitButton)
     ).render

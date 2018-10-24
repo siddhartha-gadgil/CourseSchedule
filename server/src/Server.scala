@@ -5,8 +5,9 @@ import ujson.Js.Value
 
 import scala.util.Try
 import scala.collection.mutable.{Map => mMap}
-
 import ammonite.ops._
+
+import scala.xml.Elem
 
 object Server extends cask.MainRoutes {
   var forbiddenClashes: Vector[(Course, Course)] = CourseData.corePairs
@@ -108,7 +109,8 @@ object Server extends cask.MainRoutes {
       .arr
       .toVector
 
-    write.over(dat / "preferences-arr.json", ujson.write(Js.Arr(prefVec: _*), 2))
+    write.over(dat / "preferences-arr.json",
+               ujson.write(Js.Arr(prefVec: _*), 2))
 
     write.over(
       dat / "forbidden-clashes.json",
@@ -122,7 +124,7 @@ object Server extends cask.MainRoutes {
 
     write.over(
       dat / "forbidden-clashes-arr.json",
-    ujson.write(Js.Arr(forbidVec: _*), 2)
+      ujson.write(Js.Arr(forbidVec: _*), 2)
     )
 
     ujson.write(js)
@@ -139,15 +141,34 @@ object Server extends cask.MainRoutes {
 }
 
 object Home {
+  val instructions: Elem =
+    <div>
+      <h2>Guidelines</h2>
+      <ol>
+        <li>Give at least 3 preferences.</li>
+        <li>You are welcome to give more than 3 preferences.
+          You can also rank your preferences (as positive integers) with,
+          for example several 1st preferences (so that, for k=1, 2, 3, there are at least k courses with rank at most k).</li>
+        <li>All are in the <em>new</em> standard slots: one hour lectures beginning on the hour on MWF or 90 minute ones on Tue-Thu.</li>
+        <li>At least one preference is for 3 (hour long) lectures (on MWF, starting on the hour).</li>
+      </ol>
+      <p>I realize that most of us prefer two 90 minute lectures, but this has to be balanced with trying to minimize
+      schedule clashes of courses students would like to take concurrently (and instances of  colleagues being
+      pressured to hold lectures at strange times to accommodate students).</p>
+      <p>Thanks in advance to those who give better than the minimum number of choices,
+        and those who volunteer to teach thrice a week (i.e, give this as a first/second preference).    </p>
+    </div>
+
   val indexHTML: String =
     page(
-      """
+      s"""
         |<h1 class="text-center"> Course Timing Preferences </h1>
         |      <div id="chooser"></div>
+        |      $instructions
       """.stripMargin
     )
 
-  def page(content: String) =
+  def page(content: String): String =
     s"""
        |<!DOCTYPE html>
        |<html>
