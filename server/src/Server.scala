@@ -163,6 +163,7 @@ object Home {
     page(
       s"""
         |<h1 class="text-center"> Course Timing Preferences </h1>
+        |     <div id="message"></div>
         |      <div id="chooser"></div>
         |      $instructions
       """.stripMargin

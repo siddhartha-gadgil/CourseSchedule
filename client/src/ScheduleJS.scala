@@ -59,7 +59,16 @@ object ChooserJS {
     )
 
   submitButton.onclick = (_) =>
-    Ajax.post("/save-preferences", ujson.write(submitJson))
+    Ajax.post("/save-preferences", ujson.write(submitJson)).foreach{xhr =>
+      courseOpt = None
+      timings.clear()
+      update()
+      Option(dom.document.querySelector("#message")).foreach{
+        message =>
+          message.appendChild(h1(`class` := "text-success")("Thanks for your submission!").render)
+      }
+
+    }
 
   def courseChoose: Div = {
     val opts =
