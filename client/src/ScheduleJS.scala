@@ -67,6 +67,10 @@ object ChooserJS {
         message =>
           message.appendChild(h1(`class` := "text-success")("Thanks for your submission!").render)
       }
+      Option(dom.document.querySelector("#chooser")).foreach{
+        chooser =>
+          chooser.innerHTML = ""
+      }
 
     }
 
