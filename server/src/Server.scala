@@ -59,7 +59,7 @@ object Server extends cask.MainRoutes {
 
   def forbid(s: Iterable[(Course, Course)]): Unit = {
     forbiddenClashes = (forbiddenClashes ++ s).distinct
-    pprint.log(forbiddenClashes)
+    // pprint.log(forbiddenClashes)
   }
 
   override def port: Int = Try(sys.env("COURSES_PORT").toInt).getOrElse(8080)
@@ -109,13 +109,13 @@ object Server extends cask.MainRoutes {
 
   loadClashes()
 
-  pprint.log(preferences)
+  // pprint.log(preferences)
 
   @cask.post("/save-preferences")
   def prefSave(request: cask.Request) = {
     val d = new String(request.readAllBytes())
     val js = ujson.read(d)
-    pprint.log(js)
+    // pprint.log(js)
     val pairs: Vector[(Course, Course)] =
       Course.pairsFromJson(js.obj("forbidden"))
     forbid(pairs)
@@ -125,7 +125,7 @@ object Server extends cask.MainRoutes {
 
     preferences += course -> timings
 
-    pprint.log(preferences)
+    // pprint.log(preferences)
 
     write.over(
       dat / "preferences.json",
