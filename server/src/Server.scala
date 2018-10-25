@@ -7,6 +7,8 @@ import scala.util.Try
 import scala.collection.mutable.{Map => mMap}
 import ammonite.ops._
 
+import scalatags.Text.all._
+
 import scala.xml.Elem
 
 object Server extends cask.MainRoutes {
@@ -27,6 +29,23 @@ object Server extends cask.MainRoutes {
           )
       }: _*
     )
+
+ def prefView : String = {
+   lazy val items =
+     preferences.toVector.sortBy(_._1.code).map {
+       case (c, t) =>
+         val rows = t.sortBy(_._1).map{case (n, tim) => tr(td(n), td(tim.show))}
+         li(ul(`class` := "list-unstyled")(
+           li(strong("Code: "), c.code),
+           li(strong("Title: "), c.name),
+           li(strong("Instructor: "), c.instructor),
+           li(table(`class` := "table table-striped")(
+             thead(td(strong("Rank")), td(strong("Timing"))),
+             tbody(rows : _*)))
+         ))
+     }
+     ol(items :_ *).render
+ }
 
   def prefSet: Set[Preference] =
     (for {
@@ -58,6 +77,15 @@ object Server extends cask.MainRoutes {
   @cask.get("/course-list")
   def courseList(): String =
     ujson.write(CourseData.json)
+
+
+ @cask.get("/data")
+ def dataView() : String =
+   Home.page(
+     s"""
+        |<h2> Preferences data </h2>
+        |   $prefView
+      """.stripMargin)
 
   val dat: Path = pwd / "data"
 

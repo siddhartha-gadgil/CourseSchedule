@@ -1,24 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../out/courses/js/compile/dest/classes" />
-    <exclude-output />
-    <content url="file://$MODULE_DIR$/../courses">
-      <sourceFolder url="file://$MODULE_DIR$/../courses/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../courses/resources" type="java-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/../courses/target" />
-    </content>
-    <content url="file://$MODULE_DIR$/../out/courses/js/generatedSources/dest" />
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="scala-sdk-2.12.6" level="application" />
-    <orderEntry type="library" name="scala-library-2.12.6-sources.jar" level="project" />
-    <orderEntry type="library" name="scala-library-2.12.6.jar" level="project" />
-    <orderEntry type="library" name="scalajs-library_2.12-0.6.22-sources.jar" level="project" />
-    <orderEntry type="library" name="scalajs-library_2.12-0.6.22.jar" level="project" />
-    <orderEntry type="library" name="ujson_sjs0.6_2.12-0.6.6-sources.jar" level="project" />
-    <orderEntry type="library" name="ujson_sjs0.6_2.12-0.6.6.jar" level="project" />
-    <orderEntry type="library" name="upickle_sjs0.6_2.12-0.6.6-sources.jar" level="project" />
-    <orderEntry type="library" name="upickle_sjs0.6_2.12-0.6.6.jar" level="project" />
-  </component>
+    <component name="NewModuleRootManager">
+        <output url="file://$MODULE_DIR$/../out/courses/js/compile/dest/classes"/>
+        <exclude-output/>
+        <content url="file://$MODULE_DIR$/../out/courses/js/generatedSources/dest"/>
+        <content url="file://$MODULE_DIR$/../courses">
+            <sourceFolder url="file://$MODULE_DIR$/../courses/src" isTestSource="false"/>
+            <sourceFolder url="file://$MODULE_DIR$/../courses/resources" type="java-resource"/>
+            <excludeFolder url="file://$MODULE_DIR$/../courses/target"/>
+        </content>
+        <orderEntry type="inheritedJdk"/>
+        <orderEntry type="sourceFolder" forTests="false"/>
+        <orderEntry type="library" name="scala-sdk-2.12.6" level="application"/>
+        <orderEntry type="library" name="scala-library-2.12.6-sources.jar" level="project"/>
+        <orderEntry type="library" name="scala-library-2.12.6.jar" level="project"/>
+        <orderEntry type="library" name="scalajs-library_2.12-0.6.25-sources.jar" level="project"/>
+        <orderEntry type="library" name="scalajs-library_2.12-0.6.25.jar" level="project"/>
+        <orderEntry type="library" name="ujson_sjs0.6_2.12-0.6.6-sources.jar" level="project"/>
+        <orderEntry type="library" name="ujson_sjs0.6_2.12-0.6.6.jar" level="project"/>
+        <orderEntry type="library" name="upickle_sjs0.6_2.12-0.6.6-sources.jar" level="project"/>
+        <orderEntry type="library" name="upickle_sjs0.6_2.12-0.6.6.jar" level="project"/>
+    </component>
 </module>
