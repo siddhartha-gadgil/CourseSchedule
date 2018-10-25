@@ -35,6 +35,11 @@
     "instructor": "Abhishek Banerjee"
   },
   {
+    "name": "Introduction to Homological Algebra",
+    "code": "MA 316",
+    "instructor": "Safdar Quddus"
+  },
+  {
     "name": "Algebraic Combinatorics",
     "code": "MA 319",
     "instructor": "Arvind Ayyer"
@@ -45,9 +50,24 @@
     "instructor": "E.K. Narayanan"
   },
   {
-    "name": "Advanced Functional Analysis",
-    "code": "MA 340",
+    "name": "Topics in Analysis",
+    "code": "MA 327",
+    "instructor": "Manjunath Krishnapur"
+  },
+  {
+    "name": "Algebraic Topology",
+    "code": "MA 332",
+    "instructor": "Arun Maiti"
+  },
+  {
+    "name": "Complex analytic techniques in Operator Theory",
+    "code": "MA 343",
     "instructor": "Tirthankar Bhattacharyya"
+  },
+  {
+    "name": "Stochastic Processes",
+    "code": "MA 362",
+    "instructor": "Srikanth Iyer"
   },
   {
     "name": "Stochastic Finance II",
@@ -63,5 +83,10 @@
     "name": "Classical Groups",
     "code": "MA 385",
     "instructor": "Pooja Singla"
+  },
+  {
+    "name": "Topics in random discrete structures",
+    "code": "MA 393",
+    "instructor": "Sanchayan Sen"
   }
 ]
