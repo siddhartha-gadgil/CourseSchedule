@@ -53,6 +53,156 @@
     },
     {
       "course": {
+        "name": "Topics in Analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Complex analytic techniques in Operator Theory",
+        "code": "MA 343",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "course": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 6,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
         "name": "Logic, Types & Spaces",
         "code": "MA 210",
         "instructor": "Siddhartha Gadgil"

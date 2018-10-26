@@ -118,5 +118,29 @@
       "code": "MA 311",
       "instructor": "Abhishek Banerjee"
     }
+  },
+  {
+    "first": {
+      "name": "Topics in random discrete structures",
+      "code": "MA 393",
+      "instructor": "Sanchayan Sen"
+    },
+    "second": {
+      "name": "Topics in Analysis",
+      "code": "MA 327",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Analysis",
+      "code": "MA 327",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Topics in random discrete structures",
+      "code": "MA 393",
+      "instructor": "Sanchayan Sen"
+    }
   }
 ]
