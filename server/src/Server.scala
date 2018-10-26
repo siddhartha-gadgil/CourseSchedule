@@ -79,7 +79,7 @@ object Server extends cask.MainRoutes {
     ujson.write(CourseData.json)
 
 
- @cask.get("/data")
+ @cask.get("/data.html")
  def dataView() : String =
    Home.page(
      s"""
