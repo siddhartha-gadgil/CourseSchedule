@@ -2,6 +2,7 @@ package courses
 
 import courses.Schedule.empty
 
+
 case class Schedule(sch: Map[Course, Timing]) {
   val clashes: Set[(Course, Course)] =
     (for {
@@ -15,6 +16,23 @@ case class Schedule(sch: Map[Course, Timing]) {
 
 case class Scheduler(prefs: Set[Preference],
                      avoid: (Course, Course) => Boolean) {
+  def coursePref(c: Course): Option[Preference] = prefs.find(_.course == c)
+
+  def rankOpt(c: Course, t: Timing): Option[Int] =
+    coursePref(c).flatMap(_.prefOpt(t))
+
+  def ranks(sc: Schedule): Map[Course, Int] =
+    for {
+      (c, t) <- sc.sch
+      r <- rankOpt(c, t)
+    } yield c -> r
+
+  def byRank(sc: Schedule): Map[Int, Vector[Course]] =
+    ranks(sc).toVector.groupBy(_._2).mapValues(cv =>
+      cv.map(_._1)).toMap
+
+  def rankWeights(sc: Schedule): Map[Int, Int] = byRank(sc).mapValues(_.size)
+
   val supp: Set[Course] = prefs.map(_.course)
 
   val size: Int = supp.size
@@ -30,7 +48,7 @@ case class Scheduler(prefs: Set[Preference],
           .find(_.course == x)
           .map { pref =>
             val top: Set[Schedule] =
-              if (numWorst > 1)
+              if (numWorst > 0)
                 for {
                   timing <- pref.at(worst)
                   sch <- getAll(worst, numWorst - 1, ys)
@@ -52,16 +70,17 @@ case class Scheduler(prefs: Set[Preference],
 
   def getBest(worst: Int, numWorst: Int) : (Set[Schedule], Int, Int) =
     {
+      println(s"Trying worst choice $worst, occuring $numWorst times")
       val top = getAll(worst, numWorst)
       if (top.nonEmpty) (top, worst, numWorst)
       else {
         val (w, n) = nextLex(worst, numWorst)
-        println(s"Trying worst choice $w, occuring $n times")
+
         getBest(w, n)
       }
     }
 
-  lazy val (bestChoices, worst, numWorst) = getBest(1, size)
+  lazy val (bestChoices: Set[Schedule], worst: Int, numWorst) = getBest(1, size)
 
   lazy val minClashes: Int =  bestChoices.map(_.clashes.size).min
 
@@ -76,6 +95,7 @@ object Schedule {
 
 case class Preference(course: Course, timings: Set[(Int, Timing)]) {
   def prefOpt(t: Timing): Option[Int] = timings.find(_._2 == t).map(_._1)
+
 
   def bounded(n: Int): Set[Timing] = timings.filter(_._1 <= n).map(_._2)
 
