@@ -208,9 +208,13 @@ object Home {
        |
        |    <link rel="icon" href="public/IIScLogo.jpg">
        |
-       |     <link rel="stylesheet" href="public/css/bootstrap.min.css">
-       |     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       |     <link rel="stylesheet" href="public/css/extras.css">
+       |   <!--Import Google Icon Font-->	       |
+       |      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       |
+       |             <!--Import materialize.css-->
+       |             <link type="text/css" rel="stylesheet" href="/public/css/materialize.min.css"  media="screen,projection"/>
+       |             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       |       |     <link rel="stylesheet" href="public/css/extras.css">
        |
        |      <!--Let browser know website is optimized for mobile-->
        |      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -221,10 +225,7 @@ object Home {
        |    <p></p>
        |      $content
        |
-       |<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-       |<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-       |<script src="public/js/bootstrap.min.js"></script>
-       |
+       |  <script type="text/javascript" src="/public/js/materialize.min.js"></script>
        |
        |    <script type="text/javascript" src="/public/out.js">
        |

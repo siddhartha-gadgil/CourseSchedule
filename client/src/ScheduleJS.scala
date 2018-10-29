@@ -6,7 +6,10 @@ import org.scalajs.dom
 import scala.concurrent.ExecutionContext.Implicits.global
 import org.scalajs.dom.raw._
 
+
+
 import scala.scalajs.js
+import js.Dynamic.{global => g}
 import ujson.Js
 import scalatags.JsDom.all._
 import org.scalajs.dom.ext._
@@ -298,6 +301,8 @@ object ChooserJS {
         val courses = getCourses(ujson.read(xhr.responseText))
         coursesOpt = Some(courses)
         selectCourseDiv.appendChild(courseChoose)
+        val elems = dom.document.querySelectorAll("select");
+        g.instances = g.M.FormSelect.init(elems, g.options);
       }
 
       Ajax.get("forbidden-clashes").foreach { xhr =>
