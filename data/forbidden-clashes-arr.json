@@ -385,6 +385,660 @@
         "code": "MA 393",
         "instructor": "Sanchayan Sen"
       }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Calculus on Manifolds",
+        "code": "MA 229",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Calculus on Manifolds",
+        "code": "MA 229",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "S. Thangavelu"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "S. Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Thirupathi Gudi"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Thirupathi Gudi"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Geometry II",
+        "code": "MA 311",
+        "instructor": "Abhishek Banerjee"
+      },
+      "second": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "second": {
+        "name": "Algebraic Geometry II",
+        "code": "MA 311",
+        "instructor": "Abhishek Banerjee"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Topics in Analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Stochastic Processes",
+        "code": "MA 362",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Stochastic Processes",
+        "code": "MA 362",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Calculus on Manifolds",
+        "code": "MA 229",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Calculus on Manifolds",
+        "code": "MA 229",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "S. Thangavelu"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "S. Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Thirupathi Gudi"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Thirupathi Gudi"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Geometry II",
+        "code": "MA 311",
+        "instructor": "Abhishek Banerjee"
+      },
+      "second": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "second": {
+        "name": "Algebraic Geometry II",
+        "code": "MA 311",
+        "instructor": "Abhishek Banerjee"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Topics in Analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Stochastic Processes",
+        "code": "MA 362",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Stochastic Processes",
+        "code": "MA 362",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Calculus on Manifolds",
+        "code": "MA 229",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Calculus on Manifolds",
+        "code": "MA 229",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "S. Thangavelu"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "S. Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Thirupathi Gudi"
+      },
+      "second": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Thirupathi Gudi"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Geometry II",
+        "code": "MA 311",
+        "instructor": "Abhishek Banerjee"
+      },
+      "second": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "second": {
+        "name": "Algebraic Geometry II",
+        "code": "MA 311",
+        "instructor": "Abhishek Banerjee"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Topics in Analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Stochastic Processes",
+        "code": "MA 362",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Stochastic Processes",
+        "code": "MA 362",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      }
     }
   ],
   [
