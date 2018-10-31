@@ -78,6 +78,8 @@ object Server extends cask.MainRoutes {
   def courseList(): String =
     ujson.write(CourseData.json)
 
+  @cask.staticFiles("/data-files")
+  def staticFileRoutes() = "data"
 
  @cask.get("/data.html")
  def dataView() : String =
