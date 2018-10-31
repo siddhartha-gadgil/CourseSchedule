@@ -60,6 +60,11 @@
     "instructor": "Arun Maiti"
   },
   {
+    "name": "Differentiable Manifolds & Lie Groups",
+    "code": "MA 338",
+    "instructor": "Harish Seshadri"
+  },
+  {
     "name": "Complex analytic techniques in Operator Theory",
     "code": "MA 343",
     "instructor": "Tirthankar Bhattacharyya"
