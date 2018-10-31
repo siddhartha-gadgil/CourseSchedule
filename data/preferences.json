@@ -52,6 +52,36 @@
   },
   {
     "course": {
+      "name": "Stochastic Processes",
+      "code": "MA 362",
+      "instructor": "Srikanth Iyer"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Topics in Analysis",
       "code": "MA 327",
       "instructor": "Manjunath Krishnapur"
@@ -157,6 +187,50 @@
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "3:00 - 4:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Mathematical Physics",
+      "code": "MA 384",
+      "instructor": "Kaushal Verma"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 5,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
         }
       }
     ]

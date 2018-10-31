@@ -214,5 +214,29 @@
       "code": "MA 332",
       "instructor": "Arun Maiti"
     }
+  },
+  {
+    "first": {
+      "name": "Stochastic Processes",
+      "code": "MA 362",
+      "instructor": "Srikanth Iyer"
+    },
+    "second": {
+      "name": "Stochastic Finance II",
+      "code": "MA 366",
+      "instructor": "Mrinal K. Ghosh"
+    }
+  },
+  {
+    "first": {
+      "name": "Stochastic Finance II",
+      "code": "MA 366",
+      "instructor": "Mrinal K. Ghosh"
+    },
+    "second": {
+      "name": "Stochastic Processes",
+      "code": "MA 362",
+      "instructor": "Srikanth Iyer"
+    }
   }
 ]
