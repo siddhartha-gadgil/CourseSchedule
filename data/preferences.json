@@ -52,6 +52,36 @@
   },
   {
     "course": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "E. K. Narayanan"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Stochastic Processes",
       "code": "MA 362",
       "instructor": "Srikanth Iyer"
@@ -305,6 +335,66 @@
         "timing": {
           "days": "Tue, Thu",
           "times": "10:00 - 11:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Classical Groups",
+      "code": "MA 385",
+      "instructor": "Pooja Singla"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Fourier Anaysis",
+      "code": "MA 326",
+      "instructor": "E.K. Narayanan"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
         }
       }
     ]

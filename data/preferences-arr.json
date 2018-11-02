@@ -53,6 +53,1302 @@
     },
     {
       "course": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "E. K. Narayanan"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Stochastic Processes",
+        "code": "MA 362",
+        "instructor": "Srikanth Iyer"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in Analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "S. Thangavelu"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 6,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Mathematical Physics",
+        "code": "MA 384",
+        "instructor": "Kaushal Verma"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Classical Groups",
+        "code": "MA 385",
+        "instructor": "Pooja Singla"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Fourier Anaysis",
+        "code": "MA 326",
+        "instructor": "E.K. Narayanan"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Thirupathi Gudi"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Complex analytic techniques in Operator Theory",
+        "code": "MA 343",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "course": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 6,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "E. K. Narayanan"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Stochastic Processes",
+        "code": "MA 362",
+        "instructor": "Srikanth Iyer"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in Analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "S. Thangavelu"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 6,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Mathematical Physics",
+        "code": "MA 384",
+        "instructor": "Kaushal Verma"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Classical Groups",
+        "code": "MA 385",
+        "instructor": "Pooja Singla"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Complex analytic techniques in Operator Theory",
+        "code": "MA 343",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Thirupathi Gudi"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "course": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 6,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Stochastic Processes",
+        "code": "MA 362",
+        "instructor": "Srikanth Iyer"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in Analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "S. Thangavelu"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Arun Maiti"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 6,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in random discrete structures",
+        "code": "MA 393",
+        "instructor": "Sanchayan Sen"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Mathematical Physics",
+        "code": "MA 384",
+        "instructor": "Kaushal Verma"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Classical Groups",
+        "code": "MA 385",
+        "instructor": "Pooja Singla"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Logic, Types & Spaces",
+        "code": "MA 210",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Complex analytic techniques in Operator Theory",
+        "code": "MA 343",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Thirupathi Gudi"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "course": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 6,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
         "name": "Stochastic Processes",
         "code": "MA 362",
         "instructor": "Srikanth Iyer"

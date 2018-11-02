@@ -238,5 +238,77 @@
       "code": "MA 362",
       "instructor": "Srikanth Iyer"
     }
+  },
+  {
+    "first": {
+      "name": "Classical Groups",
+      "code": "MA 385",
+      "instructor": "Pooja Singla"
+    },
+    "second": {
+      "name": "Fourier Anaysis",
+      "code": "MA 326",
+      "instructor": "E.K. Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Fourier Anaysis",
+      "code": "MA 326",
+      "instructor": "E.K. Narayanan"
+    },
+    "second": {
+      "name": "Classical Groups",
+      "code": "MA 385",
+      "instructor": "Pooja Singla"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Fourier Anaysis",
+      "code": "MA 326",
+      "instructor": "E.K. Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Fourier Anaysis",
+      "code": "MA 326",
+      "instructor": "E.K. Narayanan"
+    },
+    "second": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Fourier Anaysis",
+      "code": "MA 326",
+      "instructor": "E.K. Narayanan"
+    },
+    "second": {
+      "name": "Complex analytic techniques in Operator Theory",
+      "code": "MA 343",
+      "instructor": "Tirthankar Bhattacharyya"
+    }
+  },
+  {
+    "first": {
+      "name": "Complex analytic techniques in Operator Theory",
+      "code": "MA 343",
+      "instructor": "Tirthankar Bhattacharyya"
+    },
+    "second": {
+      "name": "Fourier Anaysis",
+      "code": "MA 326",
+      "instructor": "E.K. Narayanan"
+    }
   }
 ]
