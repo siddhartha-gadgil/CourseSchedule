@@ -52,6 +52,36 @@
   },
   {
     "course": {
+      "name": "Algebraic Geometry II",
+      "code": "MA 311",
+      "instructor": "Abhishek Banerjee"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Algebraic Combinatorics",
       "code": "MA 319",
       "instructor": "Arvind Ayyer"
