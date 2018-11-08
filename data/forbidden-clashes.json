@@ -310,5 +310,125 @@
       "code": "MA 326",
       "instructor": "E.K. Narayanan"
     }
+  },
+  {
+    "first": {
+      "name": "Classical Groups",
+      "code": "MA 385",
+      "instructor": "Pooja Singla"
+    },
+    "second": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebra II",
+      "code": "MA 213",
+      "instructor": "Soumya Das"
+    },
+    "second": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Geometry II",
+      "code": "MA 311",
+      "instructor": "Abhishek Banerjee"
+    },
+    "second": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Ordinary Differential Equations",
+      "code": "MA 241",
+      "instructor": "Thirupathi Gudi"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Algebraic Geometry II",
+      "code": "MA 311",
+      "instructor": "Abhishek Banerjee"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Algebra II",
+      "code": "MA 213",
+      "instructor": "Soumya Das"
+    }
+  },
+  {
+    "first": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "E. K. Narayanan"
+    },
+    "second": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Classical Groups",
+      "code": "MA 385",
+      "instructor": "Pooja Singla"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "E. K. Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Ordinary Differential Equations",
+      "code": "MA 241",
+      "instructor": "Thirupathi Gudi"
+    },
+    "second": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    }
   }
 ]
