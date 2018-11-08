@@ -1,0 +1,211 @@
+[
+  {
+    "course": {
+      "name": "Logic, Types & Spaces",
+      "code": "MA 210",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "8:30 - 10:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Algebra II",
+      "code": "MA 213",
+      "instructor": "Soumya Das"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "11:30 - 1:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "E. K. Narayanan"
+    },
+    "timing": {
+      "days": "Mon, Wed, Fri",
+      "times": "9:00 - 10:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Complex Analysis",
+      "code": "MA 224",
+      "instructor": "S. Thangavelu"
+    },
+    "timing": {
+      "days": "Mon, Wed, Fri",
+      "times": "10:00 - 11:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Calculus on Manifolds",
+      "code": "MA 229",
+      "instructor": "Subhojoy Gupta"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "11:30 - 1:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Ordinary Differential Equations",
+      "code": "MA 241",
+      "instructor": "Thirupathi Gudi"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "10:00 - 11:30"
+    }
+  },
+  {
+    "course": {
+      "name": "Algebraic Geometry II",
+      "code": "MA 311",
+      "instructor": "Abhishek Banerjee"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "2:00 - 3:30"
+    }
+  },
+  {
+    "course": {
+      "name": "Introduction to Homological Algebra",
+      "code": "MA 316",
+      "instructor": "Safdar Quddus"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "10:00 - 11:30"
+    }
+  },
+  {
+    "course": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "3:30 - 5: 00"
+    }
+  },
+  {
+    "course": {
+      "name": "Fourier Anaysis",
+      "code": "MA 326",
+      "instructor": "E.K. Narayanan"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "8:30 - 10:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Topics in Analysis",
+      "code": "MA 327",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "3:30 - 5: 00"
+    }
+  },
+  {
+    "course": {
+      "name": "Algebraic Topology",
+      "code": "MA 332",
+      "instructor": "Arun Maiti"
+    },
+    "timing": {
+      "days": "Mon, Wed, Fri",
+      "times": "11:00 - 12:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Differentiable Manifolds & Lie Groups",
+      "code": "MA 338",
+      "instructor": "Harish Seshadri"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "11:30 - 1:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Complex analytic techniques in Operator Theory",
+      "code": "MA 343",
+      "instructor": "Tirthankar Bhattacharyya"
+    },
+    "timing": {
+      "days": "Mon, Wed, Fri",
+      "times": "10:00 - 11:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Stochastic Processes",
+      "code": "MA 362",
+      "instructor": "Srikanth Iyer"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "11:30 - 1:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Stochastic Finance II",
+      "code": "MA 366",
+      "instructor": "Mrinal K. Ghosh"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "3:30 - 5: 00"
+    }
+  },
+  {
+    "course": {
+      "name": "Mathematical Physics",
+      "code": "MA 384",
+      "instructor": "Kaushal Verma"
+    },
+    "timing": {
+      "days": "Mon, Wed, Fri",
+      "times": "3:00 - 4:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Classical Groups",
+      "code": "MA 385",
+      "instructor": "Pooja Singla"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "11:30 - 1:00"
+    }
+  },
+  {
+    "course": {
+      "name": "Topics in random discrete structures",
+      "code": "MA 393",
+      "instructor": "Sanchayan Sen"
+    },
+    "timing": {
+      "days": "Tue, Thu",
+      "times": "2:00 - 3:30"
+    }
+  }
+]
