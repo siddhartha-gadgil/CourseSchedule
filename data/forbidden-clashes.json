@@ -430,5 +430,17 @@
       "code": "MA 319",
       "instructor": "Arvind Ayyer"
     }
+  },
+  {
+    "first": {
+      "name": "Stochastic Finance II",
+      "code": "MA 366",
+      "instructor": "Mrinal K. Ghosh"
+    },
+    "second": {
+      "name": "Stochastic Finance II",
+      "code": "MA 366",
+      "instructor": "Mrinal K. Ghosh"
+    }
   }
 ]
