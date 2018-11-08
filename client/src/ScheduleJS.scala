@@ -114,7 +114,7 @@ object ChooserJS {
       for {
         l <- coursesOpt.toVector
         c <- l
-        if !avoid(c1).contains(c)
+        if !avoid(c1).contains(c) && c != c1
       } yield option(value := c.code)(s"${c.code} ${c.name} (${c.instructor})")
 
     val sl =
@@ -253,17 +253,7 @@ object ChooserJS {
             courseOpt.map(c1 => forbidInput(c1)).getOrElse(div()))
         )
       ).getOrElse(div()),
-//
-//      h4("Avoiding clashes with courses:"),
-//      ul(
-//        courseOpt
-//          .map((c) => avoid(c))
-//          .getOrElse(Vector())
-//          .map((c) => li(s"${c.code} ${c.name}")): _*
-//      ),
-//      div(`class` := "row")(
-//        h6("Additional clashes to avoid (if any)"),
-//        courseOpt.map(c1 => forbidInput(c1)).getOrElse(div())),
+
       if (enoughChoices && courseOpt.nonEmpty) div(submitButton)
       else div(nosubmitButton)
     ).render
