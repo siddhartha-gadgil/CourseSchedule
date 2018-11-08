@@ -30,7 +30,7 @@ object server extends ScalaModule{
 
   def ivyDeps = Agg(
     ivy"com.lihaoyi::cask:0.1.9",
-    ivy"com.lihaoyi:::ammonite:1.2.1",
+    ivy"com.lihaoyi:::ammonite:1.4.2",
     ivy"net.jcazevedo::moultingyaml:0.4.0",
     ivy"com.lihaoyi::upickle::0.6.6",
     ivy"com.lihaoyi::scalatags::0.6.7",
