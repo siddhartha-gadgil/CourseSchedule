@@ -6,8 +6,8 @@ import courses.Schedule.empty
 case class Schedule(sch: Map[Course, Timing]) {
   val clashes: Set[(Course, Course)] =
     (for {
-      (c1, t1) <- sch
-      (c2, t2) <- sch
+      (c1, t1) <- sch.toVector
+      (c2, t2) <- sch.toVector
       if t1 == t2 && c1.code < c2.code
     } yield (c1, c2)).toSet
 

@@ -50,8 +50,8 @@
       "instructor": "Subhojoy Gupta"
     },
     "timing": {
-      "days": "Tue, Thu",
-      "times": "11:30 - 1:00"
+      "days": "Mon, Wed, Fri",
+      "times": "11:00 - 12:00"
     }
   },
   {
@@ -128,7 +128,7 @@
     },
     "timing": {
       "days": "Mon, Wed, Fri",
-      "times": "11:00 - 12:00"
+      "times": "10:00 - 11:00"
     }
   },
   {
@@ -139,7 +139,7 @@
     },
     "timing": {
       "days": "Tue, Thu",
-      "times": "11:30 - 1:00"
+      "times": "2:00 - 3:30"
     }
   },
   {
