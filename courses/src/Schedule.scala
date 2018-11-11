@@ -2,6 +2,7 @@ package courses
 
 import courses.Schedule.empty
 
+import ujson.Js
 
 case class Schedule(sch: Map[Course, Timing]) {
   val clashes: Set[(Course, Course)] =
@@ -12,6 +13,30 @@ case class Schedule(sch: Map[Course, Timing]) {
     } yield (c1, c2)).toSet
 
   def +(c: Course, t: Timing) = Schedule(sch + (c -> t))
+
+  val sorted: Vector[(Course, Timing)] = sch.toVector.sortBy(_._1.code)
+
+  val json: Js.Arr = {
+    val jsV = sorted.map {
+      case (c, t) => Js.Obj("course" -> c.json, "timing" -> t.json)
+    }
+    Js.Arr(jsV: _*)
+  }
+}
+
+object Schedule {
+  def empty: Schedule = Schedule(Map())
+
+  def fromJson(js: Js.Value): Schedule = {
+    val m =
+      js.arr.toVector.map(
+          jsV =>
+            Course.fromJson(jsV.obj("course")) -> Timing.fromJson(
+              jsV.obj("timing")))
+        .toMap
+    Schedule(m)
+  }
+
 }
 
 case class Scheduler(prefs: Set[Preference],
@@ -28,8 +53,7 @@ case class Scheduler(prefs: Set[Preference],
     } yield c -> r
 
   def byRank(sc: Schedule): Map[Int, Vector[Course]] =
-    ranks(sc).toVector.groupBy(_._2).mapValues(cv =>
-      cv.map(_._1)).toMap
+    ranks(sc).toVector.groupBy(_._2).mapValues(cv => cv.map(_._1)).toMap
 
   def rankWeights(sc: Schedule): Map[Int, Int] = byRank(sc).mapValues(_.size)
 
@@ -40,7 +64,9 @@ case class Scheduler(prefs: Set[Preference],
   def nextLex(w: Int, n: Int): (Int, Int) =
     if (n < size) (w, n + 1) else (w + 1, 1)
 
-  def getAll(worst: Int, numWorst: Int,  courses: Vector[Course] = supp.toVector): Set[Schedule] =
+  def getAll(worst: Int,
+             numWorst: Int,
+             courses: Vector[Course] = supp.toVector): Set[Schedule] =
     courses match {
       case Vector() => Set(empty)
       case x +: ys =>
@@ -68,34 +94,28 @@ case class Scheduler(prefs: Set[Preference],
           .getOrElse(getAll(worst, numWorst, ys))
     }
 
-  def getBest(worst: Int, numWorst: Int) : (Set[Schedule], Int, Int) =
-    {
-      println(s"Trying worst choice $worst, occuring $numWorst times")
-      val top = getAll(worst, numWorst)
-      if (top.nonEmpty) (top, worst, numWorst)
-      else {
-        val (w, n) = nextLex(worst, numWorst)
+  def getBest(worst: Int, numWorst: Int): (Set[Schedule], Int, Int) = {
+    println(s"Trying worst choice $worst, occuring $numWorst times")
+    val top = getAll(worst, numWorst)
+    if (top.nonEmpty) (top, worst, numWorst)
+    else {
+      val (w, n) = nextLex(worst, numWorst)
 
-        getBest(w, n)
-      }
+      getBest(w, n)
     }
+  }
 
   lazy val (bestChoices: Set[Schedule], worst: Int, numWorst) = getBest(1, size)
 
-  lazy val minClashes: Int =  bestChoices.map(_.clashes.size).min
+  lazy val minClashes: Int = bestChoices.map(_.clashes.size).min
 
-  lazy val bestClashes: Set[Schedule] = bestChoices.filter(_.clashes.size == minClashes)
-
-}
-
-object Schedule {
-  def empty: Schedule = Schedule(Map())
+  lazy val bestClashes: Set[Schedule] =
+    bestChoices.filter(_.clashes.size == minClashes)
 
 }
 
 case class Preference(course: Course, timings: Set[(Int, Timing)]) {
   def prefOpt(t: Timing): Option[Int] = timings.find(_._2 == t).map(_._1)
-
 
   def bounded(n: Int): Set[Timing] = timings.filter(_._1 <= n).map(_._2)
 
