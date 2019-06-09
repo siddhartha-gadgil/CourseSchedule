@@ -12,7 +12,6 @@ import scalatags.JsDom.all._
 import org.scalajs.dom.ext._
 import org.scalajs.dom.html.{Button, Div, OList, Select, Span, UList}
 import scalatags.JsDom
-import ujson.Js.Value
 
 import scala.collection.immutable
 import scala.collection.mutable.{Set => mSet}
@@ -20,7 +19,7 @@ import scala.util.{Failure, Success}
 
 @JSExportTopLevel("ChooserJS")
 object ChooserJS {
-  def getCourses(js: Js.Value): Vector[Course] =
+  def getCourses(js: ujson.Value): Vector[Course] =
     js.arr.toVector.map(Course.fromJson)
 
   var coursesOpt: Option[Vector[Course]] = None
@@ -31,7 +30,7 @@ object ChooserJS {
 
   val forbiddenClashes: mSet[(Course, Course)] = mSet()
 
-  def forbidJs: Js.Arr =
+  def forbidJs: ujson.Arr =
     Course.pairsToJson(forbiddenClashes)
 
   val timingDiv: Div = div(`class` := "col-md-7")().render
@@ -49,11 +48,11 @@ object ChooserJS {
   def avoid(c: Course): Vector[Course] =
     forbiddenClashes.filter(_._1 == c).map(_._2).toVector.sortBy(_.code)
 
-  def timingsJson: Value =
+  def timingsJson: ujson.Value =
     Timing.timingsToJson(timings)
 
   def submitJson =
-    Js.Obj(
+    ujson.Obj(
       "course" -> courseOpt.get.json,
       "timings" -> timingsJson,
       "forbidden" -> forbidJs

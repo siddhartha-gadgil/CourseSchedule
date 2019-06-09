@@ -28,7 +28,7 @@ object CourseData{
 
   lazy val courses: Vector[Course] = courseMap.map(Course.fromMap).filter(_.code.startsWith("MA")).sortBy(_.code)
 
-  lazy val json = Js.Arr(courses.map(_.json)  : _*)
+  lazy val json = ujson.Arr(courses.map(_.json)  : _*)
 
   def pairs[A](s: Set[A]) : Vector[(A, A)] =
     (for {
@@ -48,7 +48,7 @@ object CourseData{
   def save() = {
     write.over(
       pwd / "data" / semName / "courses.json",
-      ujson.write(Js.Arr(courses.map(_.json): _*), 2)
+      ujson.write(ujson.Arr(courses.map(_.json): _*), 2)
     )
   }
 

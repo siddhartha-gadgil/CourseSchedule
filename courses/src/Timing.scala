@@ -1,7 +1,5 @@
 package courses
 
-import ujson.Js
-import ujson.Js.Value
 
 sealed trait Timing extends Product with Serializable{
   val days : String
@@ -10,7 +8,7 @@ sealed trait Timing extends Product with Serializable{
 
   lazy val show: String = s"$days $times"
 
-  def json = Js.Obj(
+  def json = ujson.Obj(
     "days" -> days,
     "times" -> times
   )
@@ -25,24 +23,24 @@ object Timing{
     val days = "Tue, Thu"
   }
 
-  def fromJson(js: Js.Value) =
+  def fromJson(js: ujson.Value) =
     js.obj("days").str match {
       case "Mon, Wed, Fri" => MWF(js.obj("times").str)
       case "Tue, Thu" => TuTh(js.obj("times").str)
     }
 
-  def timingsFromJson(jsv: Js.Value): Vector[(Int, Timing)] =
+  def timingsFromJson(jsv: ujson.Value): Vector[(Int, Timing)] =
     jsv.arr.toVector.map {
       js =>
         js.obj("choice").num.toInt -> Timing.fromJson(js.obj("timing"))
     }
 
-  def timingsToJson(timings: Iterable[(Int, Timing)]): Value =
-    Js.Arr(
+  def timingsToJson(timings: Iterable[(Int, Timing)]): ujson.Value =
+    ujson.Arr(
       timings.toVector.sortBy(_._1).map {
         case (i, t) =>
-          Js.Obj(
-            "choice" -> Js.Num(i),
+          ujson.Obj(
+            "choice" -> ujson.Num(i),
             "timing" -> t.json
           )
       }: _*

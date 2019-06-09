@@ -1,6 +1,6 @@
 package courses
 
-import courses.Schedule.empty
+import courses.Schedule._
 
 import ujson.Js
 
@@ -16,18 +16,22 @@ case class Schedule(sch: Map[Course, Timing]) {
 
   val sorted: Vector[(Course, Timing)] = sch.toVector.sortBy(_._1.code)
 
-  val json: Js.Arr = {
+  val json: ujson.Arr = {
     val jsV = sorted.map {
-      case (c, t) => Js.Obj("course" -> c.json, "timing" -> t.json)
+      case (c, t) => ujson.Obj("course" -> c.json, "timing" -> t.json)
     }
-    Js.Arr(jsV: _*)
+    ujson.Arr(jsV: _*)
   }
+
+  val tsv: String = sorted.map{
+    case (c, t) => Vector(c.code, c.name, c.instructor, t.days, t.times).mkString("\t")
+  }.mkString("\n", "\n", "\n")
 }
 
 object Schedule {
   def empty: Schedule = Schedule(Map())
 
-  def fromJson(js: Js.Value): Schedule = {
+  def fromJson(js: ujson.Value): Schedule = {
     val m =
       js.arr.toVector.map(
           jsV =>

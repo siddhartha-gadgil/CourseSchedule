@@ -1,7 +1,5 @@
 package courses
 
-import ujson.Js
-import ujson.Js.Value
 
 import scala.util.Try
 import scala.collection.mutable.{Map => mMap}
@@ -21,11 +19,11 @@ object Server extends cask.MainRoutes {
 
   var preferences: mMap[Course, Vector[(Int, Timing)]] = mMap()
 
-  def prefJs: Value =
-    Js.Arr(
+  def prefJs: ujson.Value =
+    ujson.Arr(
       preferences.toVector.map {
         case (c, t) =>
-          Js.Obj(
+          ujson.Obj(
             "course" -> c.json,
             "timings" -> Timing.timingsToJson(t)
           )
@@ -68,7 +66,7 @@ object Server extends cask.MainRoutes {
   override def host: String =
     Try(sys.env("IP")).getOrElse("localhost")
 
-  def forbidJs: Js.Arr =
+  def forbidJs: ujson.Arr =
     Course.pairsToJson(forbiddenClashes)
   @cask.get("/preferences.html")
   def hello(): String = Home.indexHTML
@@ -142,21 +140,21 @@ object Server extends cask.MainRoutes {
       .toVector
 
     write.over(dat / "preferences-arr.json",
-               ujson.write(Js.Arr(prefVec: _*), 2))
+               ujson.write(ujson.Arr(prefVec: _*), 2))
 
     write.over(
       dat / "forbidden-clashes.json",
       ujson.write(Course.pairsToJson(userForbidden), 2)
     )
 
-    val forbidVec: Vector[Value] = Course.pairsToJson(userForbidden) +: ujson
+    val forbidVec: Vector[ujson.Value] = Course.pairsToJson(userForbidden) +: ujson
       .read(read(dat / "forbidden-clashes-arr.json"))
       .arr
       .toVector
 
     write.over(
       dat / "forbidden-clashes-arr.json",
-      ujson.write(Js.Arr(forbidVec: _*), 2)
+      ujson.write(ujson.Arr(forbidVec: _*), 2)
     )
 
 //    pprint.log(ujson.write(js))
