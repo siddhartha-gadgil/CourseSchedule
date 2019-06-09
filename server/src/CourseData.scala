@@ -6,7 +6,7 @@ import net.jcazevedo.moultingyaml.DefaultYamlProtocol._
 import ujson.Js
 
 object CourseData{
-  val semName = "jan2019"
+  val semName = "aug2019"
 
   lazy val source: String = read(resource / "courses.yaml")
 
@@ -16,9 +16,15 @@ object CourseData{
 
   lazy val sem: Map[String, YamlValue] = m(semName).convertTo[Map[String, YamlValue]]
 
-  lazy val core1: Vector[Course] = sem("core1").convertTo[Vector[Map[String, String]]].map(Course.fromMap)
+  def stringMap(y: YamlValue): Vector[Map[String, String]] = y.convertTo[Vector[Map[String, YamlValue]]]map(_.collect{
+    case (key, YamlString(value)) => key-> value
+  })
 
-  lazy val courseMap: Vector[Map[String, String]] = sem.values.flatMap(_.convertTo[Vector[Map[String, String]]]).toVector
+  lazy val core1: Vector[Course] = stringMap(sem("core1")).map(Course.fromMap)
+
+  lazy val core2: Vector[Course] = sem.get("core2").map(y =>stringMap(y).map(Course.fromMap)).getOrElse(Vector())
+
+  lazy val courseMap: Vector[Map[String, String]] = sem.values.flatMap(stringMap).toVector
 
   lazy val courses: Vector[Course] = courseMap.map(Course.fromMap).filter(_.code.startsWith("MA")).sortBy(_.code)
 
@@ -30,7 +36,7 @@ object CourseData{
       j <- s
     } yield (i, j)).toVector
 
-  lazy val corePairs: Vector[(Course, Course)] = pairs(core1.toSet)
+  lazy val corePairs: Vector[(Course, Course)] = pairs(core1.toSet) ++ pairs(core2.toSet)
 
   lazy val sameInstructor: Vector[(Course, Course)] =
     for {
@@ -39,9 +45,11 @@ object CourseData{
       if i.instructor == j.instructor
     } yield (i, j)
 
-  write.over(
-    pwd / "data" / semName / "courses.json",
-    ujson.write(Js.Arr(courses.map(_.json) : _*), 2)
-  )
+  def save() = {
+    write.over(
+      pwd / "data" / semName / "courses.json",
+      ujson.write(Js.Arr(courses.map(_.json): _*), 2)
+    )
+  }
 
 }

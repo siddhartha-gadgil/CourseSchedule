@@ -46,7 +46,7 @@ object ChooserJS {
   val timings: mSet[(Int, Timing)] = mSet()
 
   def avoid(c: Course): Vector[Course] =
-    forbiddenClashes.filter(_._1 == c).map(_._2).toVector.sortBy(_.code)
+    forbiddenClashes.filter(_._1 == c).map(_._2).toVector.sortBy(_.code).filterNot(_ == c)
 
   def timingsJson: Value =
     Timing.timingsToJson(timings)
