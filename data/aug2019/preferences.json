@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "course": {
+      "name": "Introduction to Algebraic Topology",
+      "code": "MA 232",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      }
+    ]
+  }
+]

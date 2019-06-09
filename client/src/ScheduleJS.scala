@@ -16,6 +16,7 @@ import ujson.Js.Value
 
 import scala.collection.immutable
 import scala.collection.mutable.{Set => mSet}
+import scala.util.{Failure, Success}
 
 @JSExportTopLevel("ChooserJS")
 object ChooserJS {
@@ -46,7 +47,7 @@ object ChooserJS {
   val timings: mSet[(Int, Timing)] = mSet()
 
   def avoid(c: Course): Vector[Course] =
-    forbiddenClashes.filter(_._1 == c).map(_._2).toVector.sortBy(_.code).filterNot(_ == c)
+    forbiddenClashes.filter(_._1 == c).map(_._2).toVector.sortBy(_.code)
 
   def timingsJson: Value =
     Timing.timingsToJson(timings)
@@ -59,19 +60,24 @@ object ChooserJS {
     )
 
   submitButton.onclick = (_) =>
-    Ajax.post("/save-preferences", ujson.write(submitJson)).foreach{xhr =>
-      courseOpt = None
-      timings.clear()
-      update()
-      Option(dom.document.querySelector("#message")).foreach{
-        message =>
-          message.appendChild(h1(`class` := "text-success")("Thanks for your submission!").render)
-      }
-      Option(dom.document.querySelector("#chooser")).foreach{
-        chooser =>
-          chooser.innerHTML = ""
-      }
-
+    Ajax.post("/save-preferences", ujson.write(submitJson)).onComplete {
+      case Failure(exception) =>
+        Option(dom.document.querySelector("#message")).foreach{
+          message =>
+            message.appendChild(h1(`class` := "text-failure")(exception.toString()).render)
+        }
+      case Success(xhr) =>
+        courseOpt = None
+        timings.clear()
+        update()
+        Option(dom.document.querySelector("#message")).foreach{
+          message =>
+            message.appendChild(h1(`class` := "text-success")("Thanks for your submission!").render)
+        }
+        Option(dom.document.querySelector("#chooser")).foreach{
+          chooser =>
+            chooser.innerHTML = ""
+        }
     }
 
   def courseChoose: Div = {
@@ -246,7 +252,7 @@ object ChooserJS {
         div(
           h4("Avoiding clashes with courses:"),
           ul(
-            avoid(c1).map((c) => li(s"${c.code} ${c.name}")): _*
+            avoid(c1).filterNot(_ == c1).map((c) => li(s"${c.code} ${c.name}")): _*
           ),
           div(`class` := "row")(
             h6("Additional clashes to avoid (if any)"),

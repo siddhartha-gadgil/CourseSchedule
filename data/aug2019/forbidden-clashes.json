@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "first": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Apoorva Khare"
+    },
+    "second": {
+      "name": "Matrix Analysis & positivity",
+      "code": "MA 341",
+      "instructor": "Apoorva Khare"
+    }
+  },
+  {
+    "first": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Pooja Singla"
+    },
+    "second": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Pooja Singla"
+    }
+  },
+  {
+    "first": {
+      "name": "Analysis I: Real Anaysis",
+      "code": "MA 221",
+      "instructor": "Gadadhar Misra"
+    },
+    "second": {
+      "name": "Topics around the Grothendieck inequality",
+      "code": "MA 349",
+      "instructor": "Gadadhar Misra"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Morse Theory",
+      "code": "MA 306",
+      "instructor": "Arun Maiti"
+    },
+    "second": {
+      "name": "Topics in Morse Theory",
+      "code": "MA 306",
+      "instructor": "Arun Maiti"
+    }
+  },
+  {
+    "first": {
+      "name": "Operator Theory",
+      "code": "MA 323",
+      "instructor": "Surjit Kumar"
+    },
+    "second": {
+      "name": "Operator Theory",
+      "code": "MA 323",
+      "instructor": "Surjit Kumar"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Several Complex Variables",
+      "code": "MA 328",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Introduction to Several Complex Variables",
+      "code": "MA 328",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    },
+    "second": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    }
+  },
+  {
+    "first": {
+      "name": "Matrix Analysis & positivity",
+      "code": "MA 341",
+      "instructor": "Apoorva Khare"
+    },
+    "second": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Apoorva Khare"
+    }
+  },
+  {
+    "first": {
+      "name": "Matrix Analysis & positivity",
+      "code": "MA 341",
+      "instructor": "Apoorva Khare"
+    },
+    "second": {
+      "name": "Matrix Analysis & positivity",
+      "code": "MA 341",
+      "instructor": "Apoorva Khare"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics around the Grothendieck inequality",
+      "code": "MA 349",
+      "instructor": "Gadadhar Misra"
+    },
+    "second": {
+      "name": "Analysis I: Real Anaysis",
+      "code": "MA 221",
+      "instructor": "Gadadhar Misra"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics around the Grothendieck inequality",
+      "code": "MA 349",
+      "instructor": "Gadadhar Misra"
+    },
+    "second": {
+      "name": "Topics around the Grothendieck inequality",
+      "code": "MA 349",
+      "instructor": "Gadadhar Misra"
+    }
+  },
+  {
+    "first": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Control & Homogenization",
+      "code": "MA 371",
+      "instructor": "A. K. Nandakumaran"
+    },
+    "second": {
+      "name": "Control & Homogenization",
+      "code": "MA 371",
+      "instructor": "A. K. Nandakumaran"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Stochastic Finance",
+      "code": "MA 395",
+      "instructor": "Mrinal K. Ghosh"
+    },
+    "second": {
+      "name": "Topics in Stochastic Finance",
+      "code": "MA 395",
+      "instructor": "Mrinal K. Ghosh"
+    }
+  },
+  {
+    "first": {
+      "name": "Large Deviations",
+      "code": "MA 396",
+      "instructor": "Anirban Basak"
+    },
+    "second": {
+      "name": "Large Deviations",
+      "code": "MA 396",
+      "instructor": "Anirban Basak"
+    }
+  }
+]

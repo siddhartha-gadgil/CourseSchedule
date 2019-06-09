@@ -119,7 +119,7 @@ object Server extends cask.MainRoutes {
   def prefSave(request: cask.Request): String = {
     val d = new String(request.readAllBytes())
     val js = ujson.read(d)
-    // pprint.log(js)
+//     pprint.log(js)
     val pairs: Vector[(Course, Course)] =
       Course.pairsFromJson(js.obj("forbidden"))
     forbid(pairs)
@@ -129,7 +129,7 @@ object Server extends cask.MainRoutes {
 
     preferences += course -> timings
 
-    // pprint.log(preferences)
+//     pprint.log(preferences)
 
     write.over(
       dat / "preferences.json",
@@ -158,6 +158,8 @@ object Server extends cask.MainRoutes {
       dat / "forbidden-clashes-arr.json",
       ujson.write(Js.Arr(forbidVec: _*), 2)
     )
+
+//    pprint.log(ujson.write(js))
 
     ujson.write(js)
   }
