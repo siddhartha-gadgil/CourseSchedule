@@ -11,8 +11,10 @@ import scalatags.Text.all._
 
 import scala.xml.Elem
 
+import CourseData.semName
+
 object Server extends cask.MainRoutes {
-  var forbiddenClashes: Vector[(Course, Course)] = CourseData.corePairs
+  var forbiddenClashes: Vector[(Course, Course)] = CourseData.corePairs ++ CourseData.sameInstructor
 
   def userForbidden: Vector[(Course, Course)] =
     forbiddenClashes.filter(!CourseData.corePairs.contains(_))
@@ -66,7 +68,7 @@ object Server extends cask.MainRoutes {
   override def host: String =
     Try(sys.env("IP")).getOrElse("localhost")
 
-  def forbidJs =
+  def forbidJs: Js.Arr =
     Course.pairsToJson(forbiddenClashes)
   @cask.get("/preferences.html")
   def hello(): String = Home.indexHTML
@@ -89,7 +91,7 @@ object Server extends cask.MainRoutes {
         |   $prefView
       """.stripMargin)
 
-  val dat: Path = pwd / "data"
+  val dat: Path = pwd / "data" / semName
 
   def loadPrefs(): Unit = {
     val jsV = ujson.read(read(dat / "preferences.json")).arr.toVector
@@ -114,7 +116,7 @@ object Server extends cask.MainRoutes {
   // pprint.log(preferences)
 
   @cask.post("/save-preferences")
-  def prefSave(request: cask.Request) = {
+  def prefSave(request: cask.Request): String = {
     val d = new String(request.readAllBytes())
     val js = ujson.read(d)
     // pprint.log(js)

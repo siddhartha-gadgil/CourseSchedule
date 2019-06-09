@@ -33,7 +33,7 @@ object Course{
   }
 
   def pairsFromJson(js: Js.Value): Vector[(Course, Course)] = {
-    js.arr.toVector.map { (js) =>
+    js.arr.toVector.map { js =>
       (Course.fromJson(js.obj("first")), Course.fromJson(js.obj("second")))
     }
   }

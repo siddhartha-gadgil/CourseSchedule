@@ -32,8 +32,15 @@ object CourseData{
 
   lazy val corePairs: Vector[(Course, Course)] = pairs(core1.toSet)
 
+  lazy val sameInstructor: Vector[(Course, Course)] =
+    for {
+      i <- courses
+      j <- courses
+      if i.instructor == j.instructor
+    } yield (i, j)
+
   write.over(
-    pwd / "data" / "courses.json",
+    pwd / "data" / semName / "courses.json",
     ujson.write(Js.Arr(courses.map(_.json) : _*), 2)
   )
 
