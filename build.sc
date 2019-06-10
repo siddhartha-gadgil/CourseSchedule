@@ -1,7 +1,5 @@
-import mill._, scalalib._, scalajslib._, define.Task
-import ammonite.ops._
-
-
+import mill._, scalalib._, scalajslib._
+import os._
 
 object courses extends Module{
   object jvm extends ScalaModule{
@@ -30,11 +28,12 @@ object server extends ScalaModule{
 
   def ivyDeps = Agg(
     ivy"com.lihaoyi::cask:0.1.9",
-    ivy"com.lihaoyi:::ammonite:1.6.0",
+    ivy"com.lihaoyi::os-lib:0.3.0",
     ivy"net.jcazevedo::moultingyaml:0.4.0",
     ivy"com.lihaoyi::upickle::0.7.1",
     ivy"com.lihaoyi::scalatags::0.6.7",
-    ivy"com.lihaoyi::pprint::0.5.3"
+    ivy"com.lihaoyi::pprint::0.5.3",
+    ivy"org.scala-lang.modules::scala-xml:1.1.0"
   )
 
   def resources = T.sources {

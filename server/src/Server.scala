@@ -3,7 +3,6 @@ package courses
 
 import scala.util.Try
 import scala.collection.mutable.{Map => mMap}
-import ammonite.ops._
 
 import scalatags.Text.all._
 
@@ -89,10 +88,10 @@ object Server extends cask.MainRoutes {
         |   $prefView
       """.stripMargin)
 
-  val dat: Path = pwd / "data" / semName
+  val dat: os.Path = os.pwd / "data" / semName
 
   def loadPrefs(): Unit = {
-    val jsV = ujson.read(read(dat / "preferences.json")).arr.toVector
+    val jsV = ujson.read(os.read(dat / "preferences.json")).arr.toVector
     jsV.foreach { js =>
       val course: Course = Course.fromJson(js.obj("course"))
       val timings: Vector[(Int, Timing)] =
@@ -102,7 +101,10 @@ object Server extends cask.MainRoutes {
   }
 
   def loadClashes(): Unit = {
-    val js = ujson.read(read(dat / "forbidden-clashes.json"))
+    val d : String = Try(os.read(dat / "forbidden-clashes.json")).getOrElse("[]")
+    val js = ujson.read(
+      d
+    )
     val cl = Course.pairsFromJson(js)
     forbiddenClashes ++= cl
   }
@@ -129,32 +131,38 @@ object Server extends cask.MainRoutes {
 
 //     pprint.log(preferences)
 
-    write.over(
+    os.write.over(
       dat / "preferences.json",
-      ujson.write(prefJs, 2)
+      ujson.write(prefJs, 2),
+      createFolders = true
     )
 
     val prefVec = prefJs +: ujson
-      .read(read(dat / "preferences-arr.json"))
+      .read(
+        Try(os.read(dat / "preferences-arr.json")).getOrElse[String]("[]")
+      )
       .arr
       .toVector
 
-    write.over(dat / "preferences-arr.json",
-               ujson.write(ujson.Arr(prefVec: _*), 2))
+    os.write.over(dat / "preferences-arr.json",
+               ujson.write(ujson.Arr(prefVec: _*), 2),
+      createFolders = true)
 
-    write.over(
+    os.write.over(
       dat / "forbidden-clashes.json",
-      ujson.write(Course.pairsToJson(userForbidden), 2)
+      ujson.write(Course.pairsToJson(userForbidden), 2),
+      createFolders = true
     )
 
     val forbidVec: Vector[ujson.Value] = Course.pairsToJson(userForbidden) +: ujson
-      .read(read(dat / "forbidden-clashes-arr.json"))
+      .read(Try(os.read(dat / "forbidden-clashes-arr.json")).getOrElse[String]("[]"))
       .arr
       .toVector
 
-    write.over(
+    os.write.over(
       dat / "forbidden-clashes-arr.json",
-      ujson.write(ujson.Arr(forbidVec: _*), 2)
+      ujson.write(ujson.Arr(forbidVec: _*), 2),
+      createFolders = true
     )
 
 //    pprint.log(ujson.write(js))

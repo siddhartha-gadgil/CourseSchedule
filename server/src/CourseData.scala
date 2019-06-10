@@ -1,14 +1,14 @@
 package courses
 
-import ammonite.ops._
 import net.jcazevedo.moultingyaml._
 import net.jcazevedo.moultingyaml.DefaultYamlProtocol._
 import ujson.Js
 
+
 object CourseData{
   val semName = "aug2019"
 
-  lazy val source: String = read(resource / "courses.yaml")
+  lazy val source: String = os.read(os.resource / "courses.yaml")
 
   lazy val yamlAst: YamlValue = source.parseYaml
 
@@ -46,9 +46,10 @@ object CourseData{
     } yield (i, j)
 
   def save() = {
-    write.over(
-      pwd / "data" / semName / "courses.json",
-      ujson.write(ujson.Arr(courses.map(_.json): _*), 2)
+    os.write.over(
+      os.pwd / "data" / semName / "courses.json",
+      ujson.write(ujson.Arr(courses.map(_.json): _*), 2),
+      createFolders = true
     )
   }
 
