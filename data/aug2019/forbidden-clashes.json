@@ -13,6 +13,18 @@
   },
   {
     "first": {
+      "name": "Introduction to Graph Theory",
+      "code": "MA 216",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Probability Models",
+      "code": "MA 261",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
       "name": "Analysis I: Real Anaysis",
       "code": "MA 221",
       "instructor": "Gadadhar Misra"
@@ -21,6 +33,18 @@
       "name": "Topics around the Grothendieck inequality",
       "code": "MA 349",
       "instructor": "Gadadhar Misra"
+    }
+  },
+  {
+    "first": {
+      "name": "Probability Models",
+      "code": "MA 261",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Introduction to Graph Theory",
+      "code": "MA 216",
+      "instructor": "Arvind Ayyer"
     }
   },
   {
