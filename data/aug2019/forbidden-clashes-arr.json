@@ -289,6 +289,516 @@
         "code": "MA 328",
         "instructor": "Gautam Bharali"
       }
+    },
+    {
+      "first": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis & positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis I: Real Anaysis",
+        "code": "MA 221",
+        "instructor": "Gadadhar Misra"
+      },
+      "second": {
+        "name": "Topics around the Grothendieck inequality",
+        "code": "MA 349",
+        "instructor": "Gadadhar Misra"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis & positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics around the Grothendieck inequality",
+        "code": "MA 349",
+        "instructor": "Gadadhar Misra"
+      },
+      "second": {
+        "name": "Analysis I: Real Anaysis",
+        "code": "MA 221",
+        "instructor": "Gadadhar Misra"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Algebraic Topology",
+        "code": "MA 232",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Algebraic Topology",
+        "code": "MA 232",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis & positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis I: Real Anaysis",
+        "code": "MA 221",
+        "instructor": "Gadadhar Misra"
+      },
+      "second": {
+        "name": "Topics around the Grothendieck inequality",
+        "code": "MA 349",
+        "instructor": "Gadadhar Misra"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis & positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics around the Grothendieck inequality",
+        "code": "MA 349",
+        "instructor": "Gadadhar Misra"
+      },
+      "second": {
+        "name": "Analysis I: Real Anaysis",
+        "code": "MA 221",
+        "instructor": "Gadadhar Misra"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Algebraic Topology",
+        "code": "MA 232",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Algebraic Topology",
+        "code": "MA 232",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Topics in Morse Theory",
+        "code": "MA 306",
+        "instructor": "Arun Maiti"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis & positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis I: Real Anaysis",
+        "code": "MA 221",
+        "instructor": "Gadadhar Misra"
+      },
+      "second": {
+        "name": "Topics around the Grothendieck inequality",
+        "code": "MA 349",
+        "instructor": "Gadadhar Misra"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis & positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics around the Grothendieck inequality",
+        "code": "MA 349",
+        "instructor": "Gadadhar Misra"
+      },
+      "second": {
+        "name": "Analysis I: Real Anaysis",
+        "code": "MA 221",
+        "instructor": "Gadadhar Misra"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Algebraic Topology",
+        "code": "MA 232",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Algebraic Topology",
+        "code": "MA 232",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
     }
   ],
   [
