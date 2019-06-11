@@ -70,5 +70,101 @@
       "code": "MA 221",
       "instructor": "Gadadhar Misra"
     }
+  },
+  {
+    "first": {
+      "name": "Introduction to Several Complex Variables",
+      "code": "MA 328",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    },
+    "second": {
+      "name": "Introduction to Algebraic Topology",
+      "code": "MA 232",
+      "instructor": "Siddhartha Gadgil"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Algebraic Topology",
+      "code": "MA 232",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "second": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    },
+    "second": {
+      "name": "Introduction to Several Complex Variables",
+      "code": "MA 328",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Morse Theory",
+      "code": "MA 306",
+      "instructor": "Arun Maiti"
+    },
+    "second": {
+      "name": "Introduction to Several Complex Variables",
+      "code": "MA 328",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    },
+    "second": {
+      "name": "Topics in Morse Theory",
+      "code": "MA 306",
+      "instructor": "Arun Maiti"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Morse Theory",
+      "code": "MA 306",
+      "instructor": "Arun Maiti"
+    },
+    "second": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Several Complex Variables",
+      "code": "MA 328",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Topics in Morse Theory",
+      "code": "MA 306",
+      "instructor": "Arun Maiti"
+    }
   }
 ]
