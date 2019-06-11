@@ -190,7 +190,7 @@ object Home {
           You can also rank your preferences (as positive integers) with,
           for example several 1st preferences (so that, for k=1, 2, 3, there are at least k courses with rank at most k).</li>
         <li>All are in the <em>new</em> standard slots: one hour lectures beginning on the hour on MWF or 90 minute ones on Tue-Thu.</li>
-        <li>At least one preference (with rank at most 3) should be for 3 (hour long) lectures (on MWF, starting on the hour).</li>
+        <li>At least one preference with rank at most 3 should be for 3 (hour long) lectures (on MWF, starting on the hour).</li>
       </ol>
       <p>I realize that most of us prefer two 90 minute lectures, but this has to be balanced with trying to minimize
       schedule clashes of courses students would like to take concurrently (and instances of  colleagues being

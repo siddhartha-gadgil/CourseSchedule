@@ -110,7 +110,7 @@ object ChooserJS {
     dom.window.alert(
       if (courseOpt.isEmpty) "Please choose course"
       else
-        "Please give at least three choices; at least one of the first three choices should be for 3 one hour lectures.")
+        "Please give at least three choices; at least one choice with rank at most 3 should be for 3 one hour lectures.")
 
   def forbidInput(c1: Course): JsDom.TypedTag[Div] = {
     val btn =
@@ -240,7 +240,7 @@ object ChooserJS {
         if (enoughChoices)
           "Please check selected course below befor submitting. More choices are always welcome!"
         else
-          "Please give at least three choices; at least one of the first three choices should be for 3 one hour lectures."),
+          "Please give at least three choices; at least one choice with rank at most 3 should be for 3 one hour lectures."),
       h3(`class` := "text-center")(strong("Course")),
       ul(`class` := "list-unstyled")(
         li(strong("Code: "), code),
