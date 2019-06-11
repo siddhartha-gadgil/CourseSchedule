@@ -10,7 +10,7 @@ import scala.scalajs.js
 import ujson.Js
 import scalatags.JsDom.all._
 import org.scalajs.dom.ext._
-import org.scalajs.dom.html.{Button, Div, LI, OList, Select, Span, UList}
+import org.scalajs.dom.html.{Button, Div, LI, OList, Select, Span, Table, UList}
 import scalatags.JsDom
 
 import scala.collection.immutable
@@ -33,7 +33,7 @@ object ChooserJS {
   val newlyForbidden : mSet[Course] = mSet()
 
   def forbidJs: ujson.Arr =
-    Course.pairsToJson(forbiddenClashes)
+    Course.pairsToJson(forbiddenClashes.filterNot{case (c1, c2) => c1 == c2})
 
   val timingDiv: Div = div(`class` := "col-md-7")().render
 
@@ -186,14 +186,14 @@ object ChooserJS {
 
     btn.onclick = _ => {
       newlyForbidden -= c2
-      forbiddenClashes --= Seq(c1 -> c2, c2 -> c2)
+      forbiddenClashes --= Seq(c1 -> c2, c2 -> c1)
       update()
     }
 
     btn
   }
 
-  def timingTable = {
+  def timingTable: JsDom.TypedTag[Table] = {
     val rows =
       for {
         t <- Timing.all
@@ -250,7 +250,9 @@ object ChooserJS {
 
     val name = courseOpt.map(_.name).getOrElse("")
 
-    def avoidingLI(c2: Course): JsDom.TypedTag[LI] = li(s"${c2.code} ${c2.name}")
+    def avoidingLI(c1: Course, c2: Course): JsDom.TypedTag[LI] =
+      if (newlyForbidden.contains(c2)) li(s"${c2.code} ${c2.name}", clashButton(c1, c2))
+      else li(s"${c2.code} ${c2.name}")
 
     div(
       h4(`class` := "text-center")("Your choices"),
@@ -270,7 +272,7 @@ object ChooserJS {
         div(
           h4("Avoiding clashes with courses:"),
           ul(
-            avoid(c1).filterNot(_ == c1).map(c2 => li(s"${c2.code} ${c2.name}")): _*
+            avoid(c1).filterNot(_ == c1).map(c2 => avoidingLI(c1, c2)) : _*
           ),
           div(`class` := "row")(
             h6("Additional clashes to avoid (if any)"),

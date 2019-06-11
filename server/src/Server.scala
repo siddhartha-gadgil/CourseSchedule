@@ -91,7 +91,7 @@ object Server extends cask.MainRoutes {
   val dat: os.Path = os.pwd / "data" / semName
 
   def loadPrefs(): Unit = {
-    val jsV = ujson.read(os.read(dat / "preferences.json")).arr.toVector
+    val jsV = ujson.read(Try(os.read(dat / "preferences.json")).getOrElse[String]("[]")).arr.toVector
     jsV.foreach { js =>
       val course: Course = Course.fromJson(js.obj("course"))
       val timings: Vector[(Int, Timing)] =

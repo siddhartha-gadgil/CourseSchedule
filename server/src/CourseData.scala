@@ -34,6 +34,7 @@ object CourseData{
     (for {
       i <- s
       j <- s
+      if i != j
     } yield (i, j)).toVector
 
   lazy val corePairs: Vector[(Course, Course)] = pairs(core1.toSet) ++ pairs(core2.toSet)
@@ -42,7 +43,7 @@ object CourseData{
     for {
       i <- courses
       j <- courses
-      if i.instructor == j.instructor
+      if i.instructor == j.instructor && i != j
     } yield (i, j)
 
   def save() = {

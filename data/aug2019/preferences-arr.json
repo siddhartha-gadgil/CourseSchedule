@@ -24,6 +24,13 @@
         {
           "choice": 3,
           "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
             "days": "Tue, Thu",
             "times": "10:00 - 11:30"
           }
