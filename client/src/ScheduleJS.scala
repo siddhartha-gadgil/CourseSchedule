@@ -10,7 +10,7 @@ import scala.scalajs.js
 import ujson.Js
 import scalatags.JsDom.all._
 import org.scalajs.dom.ext._
-import org.scalajs.dom.html.{Button, Div, OList, Select, Span, UList}
+import org.scalajs.dom.html.{Button, Div, LI, OList, Select, Span, UList}
 import scalatags.JsDom
 
 import scala.collection.immutable
@@ -29,6 +29,8 @@ object ChooserJS {
   var courseOpt: Option[Course] = None
 
   val forbiddenClashes: mSet[(Course, Course)] = mSet()
+
+  val newlyForbidden : mSet[Course] = mSet()
 
   def forbidJs: ujson.Arr =
     Course.pairsToJson(forbiddenClashes)
@@ -138,6 +140,7 @@ object ChooserJS {
 
     btn.onclick = (_) => {
       cOpt.map { c2 =>
+        newlyForbidden += c2
         forbiddenClashes ++= Seq(c1 -> c2, c2 -> c1)
         update()
       }
@@ -170,6 +173,20 @@ object ChooserJS {
 
     btn.onclick = _ => {
       timings -= level -> timing
+      update()
+    }
+
+    btn
+  }
+
+  def clashButton(c1: Course, c2: Course): Button = {
+    val btn =
+      button(`class` := "btn btn-secondary btn-sm")(
+        span(`class` := "fa fa-remove")).render
+
+    btn.onclick = _ => {
+      newlyForbidden -= c2
+      forbiddenClashes --= Seq(c1 -> c2, c2 -> c2)
       update()
     }
 
@@ -233,12 +250,14 @@ object ChooserJS {
 
     val name = courseOpt.map(_.name).getOrElse("")
 
+    def avoidingLI(c2: Course): JsDom.TypedTag[LI] = li(s"${c2.code} ${c2.name}")
+
     div(
       h4(`class` := "text-center")("Your choices"),
       ol(rows: _*),
       p(
         if (enoughChoices)
-          "Please check selected course below befor submitting. More choices are always welcome!"
+          "Please check selected course below before submitting. More choices are always welcome!"
         else
           "Please give at least three choices; at least one choice with rank at most 3 should be for 3 one hour lectures."),
       h3(`class` := "text-center")(strong("Course")),
@@ -251,7 +270,7 @@ object ChooserJS {
         div(
           h4("Avoiding clashes with courses:"),
           ul(
-            avoid(c1).filterNot(_ == c1).map((c) => li(s"${c.code} ${c.name}")): _*
+            avoid(c1).filterNot(_ == c1).map(c2 => li(s"${c2.code} ${c2.name}")): _*
           ),
           div(`class` := "row")(
             h6("Additional clashes to avoid (if any)"),
