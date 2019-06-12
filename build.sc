@@ -3,7 +3,7 @@ import os._
 
 object courses extends Module{
   object jvm extends ScalaModule{
-    def scalaVersion = "2.12.6"
+    def scalaVersion = "2.12.8"
     def millSourcePath = super.millSourcePath / up
 
     def ivyDeps = Agg(ivy"com.lihaoyi::upickle::0.7.1")
