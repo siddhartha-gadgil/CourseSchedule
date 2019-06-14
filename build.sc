@@ -10,7 +10,7 @@ object courses extends Module{
   }
 
   object js extends ScalaJSModule {
-    def scalaVersion = "2.12.6"
+    def scalaVersion = "2.12.8"
     def scalaJSVersion = "0.6.25"
     def millSourcePath = super.millSourcePath / up
 
@@ -21,7 +21,7 @@ object courses extends Module{
 }
 
 object server extends ScalaModule{
-  def scalaVersion = "2.12.6"
+  def scalaVersion = "2.12.8"
 
   def moduleDeps = Seq(courses.jvm)
 
@@ -46,7 +46,7 @@ object server extends ScalaModule{
 }
 
 object client extends ScalaJSModule {
-  def scalaVersion = "2.12.6"
+  def scalaVersion = "2.12.8"
   def scalaJSVersion = "0.6.25"
 
   def platformSegment = "js"
