@@ -169,10 +169,24 @@
         }
       },
       {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
         "choice": 2,
         "timing": {
           "days": "Tue, Thu",
-          "times": "2:00 - 3:30"
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
         }
       },
       {
@@ -180,20 +194,6 @@
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "2:00 - 3:00"
-        }
-      },
-      {
-        "choice": 4,
-        "timing": {
-          "days": "Tue, Thu",
-          "times": "3:30 - 5: 00"
-        }
-      },
-      {
-        "choice": 5,
-        "timing": {
-          "days": "Tue, Thu",
-          "times": "10:00 - 11:30"
         }
       }
     ]
@@ -268,6 +268,80 @@
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "2:00 - 3:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Probability Models",
+      "code": "MA 261",
+      "instructor": "Arvind Ayyer"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Introduction to Graph Theory",
+      "code": "MA 216",
+      "instructor": "Arvind Ayyer"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
         }
       }
     ]
