@@ -45,6 +45,16 @@ object Schedule {
 
 case class Scheduler(prefs: Set[Preference],
                      avoid: (Course, Course) => Boolean) {
+  def dontClash(c: Course, s: Set[Course]) = {
+    def bad(x: Course, y: Course) = (x == c && s.contains(y)) || (y == c && s.contains(x)) || avoid(x, y)
+    Scheduler(prefs, bad) 
+  }
+
+  def noClashes(s: Set[Course]) = {
+    def bad(x: Course, y: Course) = (s.contains(x) && s.contains(y)) || avoid(x, y)
+    Scheduler(prefs, bad) 
+  }
+
   def coursePref(c: Course): Option[Preference] = prefs.find(_.course == c)
 
   def rankOpt(c: Course, t: Timing): Option[Int] =

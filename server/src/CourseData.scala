@@ -28,6 +28,8 @@ object CourseData{
 
   lazy val courses: Vector[Course] = courseMap.map(Course.fromMap).filter(_.code.startsWith("MA")).sortBy(_.code)
 
+  def get(c: String) = courses.find(_.code == c)
+
   lazy val json = ujson.Arr(courses.map(_.json)  : _*)
 
   def pairs[A](s: Set[A]) : Vector[(A, A)] =
