@@ -75,6 +75,43 @@
   },
   {
     "course": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Pooja Singla"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Linear Algebra",
       "code": "MA 219",
       "instructor": "Vamsi Pingali"
@@ -342,6 +379,36 @@
         "timing": {
           "days": "Tue, Thu",
           "times": "3:30 - 5: 00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "S. Thangavelu"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
         }
       }
     ]
