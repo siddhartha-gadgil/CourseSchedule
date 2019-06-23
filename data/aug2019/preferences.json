@@ -415,6 +415,36 @@
   },
   {
     "course": {
+      "name": "Topology",
+      "code": "MA 231",
+      "instructor": "Subhojoy Gupta"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Functional Analysis",
       "code": "MA 223",
       "instructor": "S. Thangavelu"

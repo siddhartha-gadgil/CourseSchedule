@@ -34,8 +34,15 @@ object StudentChoices{
 
     def weakClashes(sch: Schedule) = 
         sch.clashes.map{
-        case (c1, c2) => (c1, c2) -> all.filter(_.strongClash(c1, c2))
+        case (c1, c2) => (c1, c2) -> all.filter(_.weakClash(c1, c2))
     }.toMap
+
+    def numWeakClashes(sch: Schedule) = weakClashes(sch).mapValues(_.size)
+
+    def totalWeakClashes(sch: Schedule) = numWeakClashes(sch).values.sum
+
+    def clashScores(sched: Scheduler) = sched.bestChoices.map(s => s -> (totalStrongClashes(s), totalWeakClashes(s), s.clashes.size)).toMap 
+
     
 }
 
