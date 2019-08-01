@@ -23,6 +23,11 @@ object Data{
     lazy val summerStudents = data.map(l => SummerStudent.getAll(l))
 
     lazy val facultyData = data.map(l => FacultyData.get(l)).sortBy(_.name)
+
+    lazy val reports = facultyData.map(d =>
+    s"\\subsection{${d.name}}\n\n${d.research}").mkString("\n\n\n")
+
+    def writeReport() = os.write.over(os.pwd / "data" / "reports.tex", reports)
 }
 
 case class FacultyData(
