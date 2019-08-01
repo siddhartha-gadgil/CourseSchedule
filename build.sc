@@ -20,6 +20,17 @@ object courses extends Module{
   }
 }
 
+object ugc extends ScalaModule{
+  def scalaVersion = "2.12.8"
+
+  def moduleDeps = Seq(courses.jvm)
+
+
+  def ivyDeps = Agg(
+    ivy"com.lihaoyi::os-lib:0.3.0"
+  )
+}
+
 object server extends ScalaModule{
   def scalaVersion = "2.12.8"
 
