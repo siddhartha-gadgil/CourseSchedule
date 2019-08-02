@@ -27,7 +27,9 @@ object ugc extends ScalaModule{
 
 
   def ivyDeps = Agg(
-    ivy"com.lihaoyi::os-lib:0.3.0"
+    ivy"com.lihaoyi::os-lib:0.3.0",
+    ivy"org.jbibtex:jbibtex:1.0.5",
+    ivy"net.jcazevedo::moultingyaml:0.4.0"
   )
 }
 
