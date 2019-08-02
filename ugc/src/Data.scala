@@ -1,33 +1,70 @@
 package ugc
 import Data._
 
-object Data{
-    val paperInit = 2
-    val numPapers = 7
-    val confInit = paperInit + (numPapers * 8)
-    val numConfs = 5
-    val bookInit = confInit + (numConfs * 5)
-    val numBooks = 4
-    val summerInit = bookInit + (numBooks * 8)
-    val numSummer = 6
-    val grantInit = summerInit + (numSummer * 4)
-    val numGrants = 4
-    val awardsPos = grantInit + (numGrants * 6)
-    val fullSize = awardsPos + 3
-    def pad(v: Vector[String]) = v ++ Vector.fill(fullSize - v.size)("")
+object Data {
+  val paperInit = 2
+  val numPapers = 7
+  val confInit = paperInit + (numPapers * 8)
+  val numConfs = 5
+  val bookInit = confInit + (numConfs * 5)
+  val numBooks = 4
+  val summerInit = bookInit + (numBooks * 8)
+  val numSummer = 6
+  val grantInit = summerInit + (numSummer * 4)
+  val numGrants = 4
+  val awardsPos = grantInit + (numGrants * 6)
+  val fullSize = awardsPos + 3
+  def pad(v: Vector[String]) = v ++ Vector.fill(fullSize - v.size)("")
 
-    lazy val data = os.read.lines(os.resource / "ugc2019.tsv").toVector.tail.map(_.split("\t").toVector.tail).map(pad)
+  lazy val data = os.read
+    .lines(os.resource / "ugc2019.tsv")
+    .toVector
+    .tail
+    .map(_.split("\t").toVector.tail)
+    .map(pad)
 
-    lazy val papers = data.map(l => Paper.getAll(l))
+  lazy val papers = data.map(l => Paper.getAll(l))
 
-    lazy val summerStudents = data.map(l => SummerStudent.getAll(l))
+  lazy val summerStudents = data.flatMap(
+    l =>
+      SummerStudent.getAll(l).map { stu =>
+        stu.text(l(0))
+      }
+  )
 
-    lazy val facultyData = data.map(l => FacultyData.get(l)).sortBy(_.name)
+  lazy val summerTeX =
+    s"""
+\\subsection{Summer Students}
 
-    lazy val reports = facultyData.map(d =>
-    s"\\subsection{${d.name}}\n\n${d.research}").mkString("\n\n\n")
+\\begin{enumerate}
+${summerStudents.map(s => "\\item " + s).mkString("\n")}
+\\end{enumerate}
+"""
+  lazy val facultyData: Vector[FacultyData] =
+    data.map(l => FacultyData.get(l)).sortBy(_.name)
 
-    def writeReport() = os.write.over(os.pwd / "data" / "reports.tex", reports)
+  lazy val grantsItems = facultyData.flatMap(f => f.grantTeX)
+
+  lazy val grants =
+    s"""
+\\section{Resource Generation}
+
+\\begin{enumerate}
+${grantsItems.mkString("\n")}
+\\end{enumerate}
+"""
+
+  lazy val reports = facultyData
+    .map(d => s"\\subsection{${d.name}}\n\n${d.research}")
+    .mkString("\n\n\n")
+
+  lazy val awards = facultyData.flatMap(f => f.awards.awardOpt(f.name))
+
+  lazy val fellows = facultyData.flatMap(f => f.awards.fellowOpt(f.name))
+
+  lazy val editors = facultyData.flatMap(f => f.awards.edOpt(f.name))
+
+  def writeReport() = os.write.over(os.pwd / "data" / "reports.tex", reports)
 }
 
 case class FacultyData(
@@ -39,20 +76,23 @@ case class FacultyData(
     summer: Vector[SummerStudent],
     grants: Vector[Grant],
     awards: Award
-)
+) {
+  lazy val grantTeX =
+    grants.map(g => g.tex(name))
+}
 
-object FacultyData{
-    def get(data: Vector[String]) = 
-        FacultyData(
-            data(0),
-            data(1),
-            Paper.getAll(data),
-            ConfPaper.getAll(data),
-            Book.getAll(data),
-            SummerStudent.getAll(data),
-            Grant.getAll(data),
-            Award.get(data)
-        )
+object FacultyData {
+  def get(data: Vector[String]) =
+    FacultyData(
+      data(0),
+      data(1),
+      Paper.getAll(data),
+      ConfPaper.getAll(data),
+      Book.getAll(data),
+      SummerStudent.getAll(data),
+      Grant.getAll(data),
+      Award.get(data)
+    )
 }
 
 case class Paper(
@@ -65,44 +105,50 @@ case class Paper(
     pages: String
 )
 
-object Paper{
-    def get(data: Vector[String], index: Int) = {
-        val start = paperInit + (index * 8)
-        Paper(
-            data(start),
-            data(start + 1),
-            data(start + 2),
-            data(start + 3),
-            data(start + 4),
-            data(start + 5),
-            data(start + 6),
-        )
-    }
+object Paper {
+  def get(data: Vector[String], index: Int) = {
+    val start = paperInit + (index * 8)
+    Paper(
+      data(start),
+      data(start + 1),
+      data(start + 2),
+      data(start + 3),
+      data(start + 4),
+      data(start + 5),
+      data(start + 6)
+    )
+  }
 
-    def getAll(data: Vector[String]) = 
-        (0 until numPapers).map(index => get(data, index)).toVector.takeWhile(_.author.nonEmpty)
+  def getAll(data: Vector[String]) =
+    (0 until numPapers)
+      .map(index => get(data, index))
+      .toVector
+      .takeWhile(_.author.nonEmpty)
 }
 
 case class ConfPaper(
     author: String,
     title: String,
-    conf : String,
-    year: String,
+    conf: String,
+    year: String
 )
 
-object ConfPaper{
-    def get(data: Vector[String], index: Int) = {
-        val start = confInit + (index * 5)
-        ConfPaper(
-            data(start),
-            data(start + 1),
-            data(start + 2),
-            data(start + 3)
-        )
-    }
+object ConfPaper {
+  def get(data: Vector[String], index: Int) = {
+    val start = confInit + (index * 5)
+    ConfPaper(
+      data(start),
+      data(start + 1),
+      data(start + 2),
+      data(start + 3)
+    )
+  }
 
-    def getAll(data: Vector[String]) = 
-        (0 until numConfs).map(index => get(data, index)).toVector.takeWhile(_.author.nonEmpty)
+  def getAll(data: Vector[String]) =
+    (0 until numConfs)
+      .map(index => get(data, index))
+      .toVector
+      .takeWhile(_.author.nonEmpty)
 }
 
 case class Book(
@@ -115,45 +161,53 @@ case class Book(
     pages: String
 )
 
-object Book{
-    def get(data: Vector[String], index: Int) = {
-        val start = bookInit + (index * 8)
-        Book(
-            data(start),
-            data(start + 1),
-            data(start + 2),
-            data(start + 3),
-            data(start + 4),
-            data(start + 5),
-            data(start + 6),
-        )
-    }
+object Book {
+  def get(data: Vector[String], index: Int) = {
+    val start = bookInit + (index * 8)
+    Book(
+      data(start),
+      data(start + 1),
+      data(start + 2),
+      data(start + 3),
+      data(start + 4),
+      data(start + 5),
+      data(start + 6)
+    )
+  }
 
-    def getAll(data: Vector[String]) = 
-        (0 until numBooks).map(index => get(data, index)).toVector.takeWhile(_.author.nonEmpty)
+  def getAll(data: Vector[String]) =
+    (0 until numBooks)
+      .map(index => get(data, index))
+      .toVector
+      .takeWhile(_.author.nonEmpty)
 }
-
 
 case class SummerStudent(
     name: String,
     program: String,
     period: String
-)
-
-object SummerStudent{
-    def get(data: Vector[String], index: Int) = {
-        val start = summerInit + (index * 4)
-        SummerStudent(
-            data(start),
-            data(start + 1),
-            data(start + 2)
-        )
-    }
-
-    def getAll(data: Vector[String]) = 
-        (0 until numSummer).map(index => get(data, index)).toVector.takeWhile(_.name.nonEmpty)
+) {
+  val time = if (period.nonEmpty) s"during $period" else "in summer of 2018"
+  def text(faculty: String) =
+    s"$name did his/her ${program} summer project under the guidance of $faculty $time"
 }
 
+object SummerStudent {
+  def get(data: Vector[String], index: Int) = {
+    val start = summerInit + (index * 4)
+    SummerStudent(
+      data(start),
+      data(start + 1),
+      data(start + 2)
+    )
+  }
+
+  def getAll(data: Vector[String]) =
+    (0 until numSummer)
+      .map(index => get(data, index))
+      .toVector
+      .takeWhile(_.name.nonEmpty)
+}
 
 case class Grant(
     role: String,
@@ -161,38 +215,59 @@ case class Grant(
     title: String,
     period: String,
     amount: String
-)
+) {
+  def tex(name: String) =
+    s"""
+\\item {\bf $name\\,:} $role in a $agency project
+\\begin{description}
+  \\item[Project Title\\,:] $title
+  \\item[Duration\\,:] $period
+  \\item[Grant\\,:] $amount
+\\end{description}
+"""
+}
 
-object Grant{
-    def get(data: Vector[String], index: Int) = {
-        val start = grantInit + (index * 6)
-        Grant(
-            data(start),
-            data(start + 1),
-            data(start + 2),
-            data(start + 3),
-            data(start + 4)
-        )
-    }
+object Grant {
+  def get(data: Vector[String], index: Int) = {
+    val start = grantInit + (index * 6)
+    Grant(
+      data(start),
+      data(start + 1),
+      data(start + 2),
+      data(start + 3),
+      data(start + 4)
+    )
+  }
 
-    def getAll(data: Vector[String]) = 
-        (0 until numGrants).map(index => get(data, index)).toVector.takeWhile(_.role.nonEmpty)
+  def getAll(data: Vector[String]) =
+    (0 until numGrants)
+      .map(index => get(data, index))
+      .toVector
+      .takeWhile(_.role.nonEmpty)
 }
 
 case class Award(
     awards: String,
     fellow: String,
     ed: String
-)
+){
+    def awardOpt(name: String) = if (awards.nonEmpty) Some(s"$name was awarded $awards") else None
 
-object Award{
-    def get(data: Vector[String]) = {
-        val start = awardsPos
-        Award(
-            data(start),
-            data(start + 1),
-            data(start + 2)
-        )
-    }
+    def fellowOpt(name: String) = if (fellow.nonEmpty) Some(s"$name was elected a $fellow") else None
+
+    def edOpt(name: String) = if (ed.nonEmpty) Some(s"\\item $name, $ed") else None
+
+
+}
+
+object Award {
+  def get(data: Vector[String]) = {
+    val start = awardsPos
+    Award(
+      data(start),
+      data(start + 1),
+      data(start + 2)
+    )
+  }
 
 }
