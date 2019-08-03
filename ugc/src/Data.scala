@@ -23,8 +23,6 @@ object Data {
     .map(_.split("\t").toVector.tail)
     .map(pad)
 
-  lazy val papers = data.map(l => Paper.getAll(l))
-
   lazy val summerStudents = data.flatMap(
     l =>
       SummerStudent.getAll(l).map { stu =>
@@ -64,7 +62,94 @@ ${grantsItems.mkString("\n")}
 
   lazy val editors = facultyData.flatMap(f => f.awards.edOpt(f.name))
 
+  lazy val draftSections =
+    s"""
+$summerTeX
+
+$grants
+
+\\subsection{Awards}
+
+\\begin{enumerate}
+${awards.mkString("\n")}
+\\end{enumerate}
+
+\\subsection{Fellowships of Academies}
+
+\\begin{enumerate}
+${fellows.mkString("\n")}
+\\end{enumerate}
+
+\\subsection{Editorial boards}
+\\begin{enumerate}
+${editors.mkString("\n")}
+\\end{enumerate}
+"""
+
+  lazy val papers = facultyData
+    .flatMap(f => f.papers)
+    .filter(
+      p => Set("Published", "Accepted for publication").contains(p.status)
+    )
+    .map(_.tex)
+
+  lazy val preprints = facultyData
+    .flatMap(f => f.papers)
+    .filter(
+      p => Set("Preprint", "Submitted").contains(p.status)
+    )
+    .map(_.tex)
+
+  lazy val confPapers = facultyData.flatMap(f => f.confs.map(_.tex))
+
+  lazy val books = facultyData.flatMap(f => f.books.map(_.tex))
+
+  lazy val draftPubs =
+    s"""
+\\subsection{Papers in Journals}
+
+\\begin{enumerate}
+${papers.mkString("\n")}
+\\end{enumerate}
+
+\\subsection{Papers in Conference proceedings}
+
+\\begin{enumerate}
+${confPapers.mkString("\n")}
+\\end{enumerate}
+
+\\subsection{Books and book chapters}
+
+\\begin{enumerate}
+${books.mkString("\n")}
+\\end{enumerate}
+
+\\subsection{Preprints}
+
+\\begin{enumerate}
+${preprints.mkString("\n")}
+\\end{enumerate}
+
+% from web page
+
+\\subsection{Publications (all kinds) from web page}
+
+\\begin{enumerate}
+${Publications.pubItems.mkString("\n")}
+\\end{enumerate}
+"""
+
   def writeReport() = os.write.over(os.pwd / "data" / "reports.tex", reports)
+
+  def writeSections() = os.write.over(os.pwd / "data" / "draft-sections.tex", draftSections)
+
+  def writePublications() = os.write.over(os.pwd / "data" / "draft-publications.tex", draftPubs)
+
+  def writeAll() = {
+    writeReport()
+    writePublications()
+    writeSections()
+  }
 }
 
 case class FacultyData(
@@ -103,7 +188,17 @@ case class Paper(
     volume: String,
     year: String,
     pages: String
-)
+) {
+  val tail = status match {
+    case "Preprint"                 => "preprint."
+    case "Submitted"                => "submitted for publication."
+    case "Accepted for publication" => s"to appear in $journal."
+    case "Published"                => s"{\\em $journal} {\\bf $volume} ($year), $pages."
+    case _                          => ""
+  }
+
+  val tex = s"\\item $author, $title, $tail"
+}
 
 object Paper {
   def get(data: Vector[String], index: Int) = {
@@ -131,7 +226,9 @@ case class ConfPaper(
     title: String,
     conf: String,
     year: String
-)
+) {
+  val tex = s"\\item $author, $title {\\em $conf} ($year)."
+}
 
 object ConfPaper {
   def get(data: Vector[String], index: Int) = {
@@ -159,7 +256,13 @@ case class Book(
     volume: String,
     year: String,
     pages: String
-)
+) {
+  val tex =
+    if (role == "Author of chapter in book")
+      s"\\item $author, $title in {\\em $publisher}{\bf $volume} ($year), $pages."
+    else
+      s"\\item $author, {\\em $title}, $publisher{\bf $volume} ($year), $pages."
+}
 
 object Book {
   def get(data: Vector[String], index: Int) = {
@@ -218,7 +321,7 @@ case class Grant(
 ) {
   def tex(name: String) =
     s"""
-\\item {\bf $name\\,:} $role in a $agency project
+\\item {\\bf $name\\,:} $role in a $agency project
 \\begin{description}
   \\item[Project Title\\,:] $title
   \\item[Duration\\,:] $period
@@ -250,13 +353,15 @@ case class Award(
     awards: String,
     fellow: String,
     ed: String
-){
-    def awardOpt(name: String) = if (awards.nonEmpty) Some(s"$name was awarded $awards") else None
+) {
+  def awardOpt(name: String) =
+    if (awards.nonEmpty) Some(s"\\item $name was awarded $awards") else None
 
-    def fellowOpt(name: String) = if (fellow.nonEmpty) Some(s"$name was elected a $fellow") else None
+  def fellowOpt(name: String) =
+    if (fellow.nonEmpty) Some(s"\\item $name was elected a $fellow") else None
 
-    def edOpt(name: String) = if (ed.nonEmpty) Some(s"\\item $name, $ed") else None
-
+  def edOpt(name: String) =
+    if (ed.nonEmpty) Some(s"\\item $name, $ed") else None
 
 }
 
