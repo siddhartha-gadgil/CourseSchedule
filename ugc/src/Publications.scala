@@ -32,7 +32,9 @@ object Publications {
       case _ => ""
   }
 
-  lazy val allPubs : Vector[Map[String,String]] = (mp ++ (data.map(m => m.mapValues(getString(_))))).sortBy(m => m("author"))
+  lazy val allPubs : Vector[Map[String,String]] = (mp ++ 
+    (data.map(m => m.mapValues(getString(_)))).filter(m => Set("2018", "2019").contains(m("year")))
+    ).sortBy(m => m("author"))
 
   def tex(m: Map[String, String]) = {
       val author = m("author")
