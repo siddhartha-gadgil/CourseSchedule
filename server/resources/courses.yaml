@@ -58,6 +58,9 @@ jan2020:
     timing:
     venue: "LH-4"
   electives:
+  - name: Mathematical Logic
+    instructor: Kamal Lodaya
+    code: MA 20x
   - name: Introduction to Dynamical Systems Theory
     instructor: Janaki Balakrishnan
     code: MA 278
@@ -73,6 +76,10 @@ jan2020:
   - name: Lie Algebras and their Representations
     code: MA 315
     instructor: R. Venkatesh/Apoorva Khare
+  - name: Introduction to Homological Algebra
+    code: MA 316
+    instructor: Safdar Quddus
+    prereq-courses: ''
   - name: Operator Theory
     code: MA 323
     instructor: Surjit Kumar
