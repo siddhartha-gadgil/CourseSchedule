@@ -58,9 +58,9 @@ jan2020:
     timing:
     venue: "LH-4"
   electives:
-  - name: Mathematical Logic
+  - name: "Logic: classical, modal and intuitionistic"
     instructor: Kamal Lodaya
-    code: MA 20x
+    code: MA 209
   - name: Introduction to Dynamical Systems Theory
     instructor: Janaki Balakrishnan
     code: MA 278
@@ -120,7 +120,7 @@ jan2020:
     code: MA 374
     instructor: A. K. Nandakumaran
   - name: Topics in Rigorous Statistical Mechanics
-    code: MA 39x
+    code: MA 397
     instructor: Riddhipratim Basu (ICTS)
 
 
