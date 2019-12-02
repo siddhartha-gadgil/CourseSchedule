@@ -1,0 +1,98 @@
+[
+  {
+    "first": {
+      "name": "Algebraic Topology",
+      "code": "MA 332",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "second": {
+      "name": "Computer Assisted Topology and Geometry",
+      "code": "MA 337",
+      "instructor": "Siddhartha Gadgil"
+    }
+  },
+  {
+    "first": {
+      "name": "Computer Assisted Topology and Geometry",
+      "code": "MA 337",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "second": {
+      "name": "Algebraic Topology",
+      "code": "MA 332",
+      "instructor": "Siddhartha Gadgil"
+    }
+  },
+  {
+    "first": {
+      "name": "Differentiable Manifolds & Lie Groups",
+      "code": "MA 338",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Geometric Analysis",
+      "code": "MA 339",
+      "instructor": "Vamsi Pingali"
+    }
+  },
+  {
+    "first": {
+      "name": "Geometric Analysis",
+      "code": "MA 339",
+      "instructor": "Vamsi Pingali"
+    },
+    "second": {
+      "name": "Differentiable Manifolds & Lie Groups",
+      "code": "MA 338",
+      "instructor": "Subhojoy Gupta"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Topology",
+      "code": "MA 332",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "second": {
+      "name": "Geometric Analysis",
+      "code": "MA 339",
+      "instructor": "Vamsi Pingali"
+    }
+  },
+  {
+    "first": {
+      "name": "Geometric Analysis",
+      "code": "MA 339",
+      "instructor": "Vamsi Pingali"
+    },
+    "second": {
+      "name": "Algebraic Topology",
+      "code": "MA 332",
+      "instructor": "Siddhartha Gadgil"
+    }
+  },
+  {
+    "first": {
+      "name": "Elliptic Curves",
+      "code": "MA 353",
+      "instructor": "Mahesh Kakde"
+    },
+    "second": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Elliptic Curves",
+      "code": "MA 353",
+      "instructor": "Mahesh Kakde"
+    }
+  }
+]
