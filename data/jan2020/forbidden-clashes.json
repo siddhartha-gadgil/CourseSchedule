@@ -94,5 +94,101 @@
       "code": "MA 353",
       "instructor": "Mahesh Kakde"
     }
+  },
+  {
+    "first": {
+      "name": "Elliptic Curves",
+      "code": "MA 353",
+      "instructor": "Mahesh Kakde"
+    },
+    "second": {
+      "name": "Introduction to Homological Algebra",
+      "code": "MA 316",
+      "instructor": "Safdar Quddus"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Homological Algebra",
+      "code": "MA 316",
+      "instructor": "Safdar Quddus"
+    },
+    "second": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Dilip Patil"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Homological Algebra",
+      "code": "MA 316",
+      "instructor": "Safdar Quddus"
+    },
+    "second": {
+      "name": "Elliptic Curves",
+      "code": "MA 353",
+      "instructor": "Mahesh Kakde"
+    }
+  },
+  {
+    "first": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Dilip Patil"
+    },
+    "second": {
+      "name": "Introduction to Homological Algebra",
+      "code": "MA 316",
+      "instructor": "Safdar Quddus"
+    }
+  },
+  {
+    "first": {
+      "name": "Computer Assisted Topology and Geometry",
+      "code": "MA 337",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "second": {
+      "name": "Differentiable Manifolds & Lie Groups",
+      "code": "MA 338",
+      "instructor": "Subhojoy Gupta"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Topology",
+      "code": "MA 332",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "second": {
+      "name": "Differentiable Manifolds & Lie Groups",
+      "code": "MA 338",
+      "instructor": "Subhojoy Gupta"
+    }
+  },
+  {
+    "first": {
+      "name": "Differentiable Manifolds & Lie Groups",
+      "code": "MA 338",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Computer Assisted Topology and Geometry",
+      "code": "MA 337",
+      "instructor": "Siddhartha Gadgil"
+    }
+  },
+  {
+    "first": {
+      "name": "Differentiable Manifolds & Lie Groups",
+      "code": "MA 338",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Algebraic Topology",
+      "code": "MA 332",
+      "instructor": "Siddhartha Gadgil"
+    }
   }
 ]
