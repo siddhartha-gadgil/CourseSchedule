@@ -128,6 +128,36 @@
   },
   {
     "course": {
+      "name": "Calculus on Manifolds",
+      "code": "MA 229",
+      "instructor": "Basudeb Datta"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Differentiable Manifolds & Lie Groups",
       "code": "MA 338",
       "instructor": "Subhojoy Gupta"
@@ -189,6 +219,36 @@
         "timing": {
           "days": "Tue, Thu",
           "times": "3:30 - 5: 00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Topics in Harmonic Anaysis",
+      "code": "MA 304",
+      "instructor": "S. Thangavelu"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
         }
       }
     ]
