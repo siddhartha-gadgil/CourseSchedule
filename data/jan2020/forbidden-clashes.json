@@ -214,5 +214,29 @@
       "code": "MA 338",
       "instructor": "Subhojoy Gupta"
     }
+  },
+  {
+    "first": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Dilip Patil"
+    },
+    "second": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Dilip Patil"
+    }
   }
 ]
