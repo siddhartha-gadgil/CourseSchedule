@@ -188,6 +188,43 @@
   },
   {
     "course": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Gautam Bharali"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Geometric Analysis",
       "code": "MA 339",
       "instructor": "Vamsi Pingali"

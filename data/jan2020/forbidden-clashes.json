@@ -190,5 +190,29 @@
       "code": "MA 332",
       "instructor": "Siddhartha Gadgil"
     }
+  },
+  {
+    "first": {
+      "name": "Differentiable Manifolds & Lie Groups",
+      "code": "MA 338",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Differentiable Manifolds & Lie Groups",
+      "code": "MA 338",
+      "instructor": "Subhojoy Gupta"
+    }
   }
 ]
