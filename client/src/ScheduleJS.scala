@@ -160,6 +160,7 @@ object ChooserJS {
 
     btn.onclick = _ => {
       timings += level -> timing
+      timings --= timings.filter{case (l, t) => t == timing && l != level}
       update()
     }
 
