@@ -38,6 +38,36 @@
   },
   {
     "course": {
+      "name": "Introduction to Dynamical Systems Theory",
+      "code": "MA 278",
+      "instructor": "Janaki Balakrishnan"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Algebraic Topology",
       "code": "MA 332",
       "instructor": "Siddhartha Gadgil"
