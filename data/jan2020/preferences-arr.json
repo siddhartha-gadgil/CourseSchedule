@@ -129,6 +129,2056 @@
     },
     {
       "course": {
+        "name": "Operator Theory",
+        "code": "MA 323",
+        "instructor": "Surjit Kumar"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Computer Assisted Topology and Geometry",
+        "code": "MA 337",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Calculus on Manifolds",
+        "code": "MA 229",
+        "instructor": "Basudeb Datta"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Logic: classical, modal and intuitionistic",
+        "code": "MA 209",
+        "instructor": "Kamal Lodaya"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Gautam Bharali"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "R. Venkatesh/Apoorva Khare"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pingali"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in Harmonic Anaysis",
+        "code": "MA 304",
+        "instructor": "S. Thangavelu"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Mahesh Kakde"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "Ved Datar"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 6,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Dilip Patil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "course": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "E. K. Narayanan"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Operator Theory",
+        "code": "MA 323",
+        "instructor": "Surjit Kumar"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Computer Assisted Topology and Geometry",
+        "code": "MA 337",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Calculus on Manifolds",
+        "code": "MA 229",
+        "instructor": "Basudeb Datta"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Logic: classical, modal and intuitionistic",
+        "code": "MA 209",
+        "instructor": "Kamal Lodaya"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Gautam Bharali"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "R. Venkatesh/Apoorva Khare"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pingali"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in Harmonic Anaysis",
+        "code": "MA 304",
+        "instructor": "S. Thangavelu"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Mahesh Kakde"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 6,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Dilip Patil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "course": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "E. K. Narayanan"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Operator Theory",
+        "code": "MA 323",
+        "instructor": "Surjit Kumar"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Computer Assisted Topology and Geometry",
+        "code": "MA 337",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Calculus on Manifolds",
+        "code": "MA 229",
+        "instructor": "Basudeb Datta"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Logic: classical, modal and intuitionistic",
+        "code": "MA 209",
+        "instructor": "Kamal Lodaya"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Gautam Bharali"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "R. Venkatesh/Apoorva Khare"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pingali"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in Harmonic Anaysis",
+        "code": "MA 304",
+        "instructor": "S. Thangavelu"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Mahesh Kakde"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Dilip Patil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "course": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "E. K. Narayanan"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Computer Assisted Topology and Geometry",
+        "code": "MA 337",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Calculus on Manifolds",
+        "code": "MA 229",
+        "instructor": "Basudeb Datta"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Logic: classical, modal and intuitionistic",
+        "code": "MA 209",
+        "instructor": "Kamal Lodaya"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Gautam Bharali"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "R. Venkatesh/Apoorva Khare"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pingali"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in Harmonic Anaysis",
+        "code": "MA 304",
+        "instructor": "S. Thangavelu"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Mahesh Kakde"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Dilip Patil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "course": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "E. K. Narayanan"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
         "name": "Computer Assisted Topology and Geometry",
         "code": "MA 337",
         "instructor": "Siddhartha Gadgil"

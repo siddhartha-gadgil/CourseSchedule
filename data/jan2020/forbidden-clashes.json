@@ -238,5 +238,101 @@
       "code": "MA 312",
       "instructor": "Dilip Patil"
     }
+  },
+  {
+    "first": {
+      "name": "Lie Algebras and their Representations",
+      "code": "MA 315",
+      "instructor": "R. Venkatesh/Apoorva Khare"
+    },
+    "second": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Dilip Patil"
+    }
+  },
+  {
+    "first": {
+      "name": "Lie Algebras and their Representations",
+      "code": "MA 315",
+      "instructor": "R. Venkatesh/Apoorva Khare"
+    },
+    "second": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Dilip Patil"
+    },
+    "second": {
+      "name": "Lie Algebras and their Representations",
+      "code": "MA 315",
+      "instructor": "R. Venkatesh/Apoorva Khare"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Lie Algebras and their Representations",
+      "code": "MA 315",
+      "instructor": "R. Venkatesh/Apoorva Khare"
+    }
+  },
+  {
+    "first": {
+      "name": "Operator Theory",
+      "code": "MA 323",
+      "instructor": "Surjit Kumar"
+    },
+    "second": {
+      "name": "Topics in Harmonic Anaysis",
+      "code": "MA 304",
+      "instructor": "S. Thangavelu"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Harmonic Anaysis",
+      "code": "MA 304",
+      "instructor": "S. Thangavelu"
+    },
+    "second": {
+      "name": "Operator Theory",
+      "code": "MA 323",
+      "instructor": "Surjit Kumar"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Rigorous Statistical Mechanics",
+      "code": "MA 397",
+      "instructor": "Riddhipratim Basu (ICTS)"
+    },
+    "second": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Topics in Rigorous Statistical Mechanics",
+      "code": "MA 397",
+      "instructor": "Riddhipratim Basu (ICTS)"
+    }
   }
 ]
