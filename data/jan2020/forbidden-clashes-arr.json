@@ -1663,6 +1663,344 @@
         "code": "MA 323",
         "instructor": "Surjit Kumar"
       }
+    },
+    {
+      "first": {
+        "name": "Topics in Rigorous Statistical Mechanics",
+        "code": "MA 397",
+        "instructor": "Riddhipratim Basu (ICTS)"
+      },
+      "second": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Topics in Rigorous Statistical Mechanics",
+        "code": "MA 397",
+        "instructor": "Riddhipratim Basu (ICTS)"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Computer Assisted Topology and Geometry",
+        "code": "MA 337",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Computer Assisted Topology and Geometry",
+        "code": "MA 337",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pingali"
+      },
+      "second": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pingali"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Dilip Patil"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "second": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Dilip Patil"
+      },
+      "second": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      }
+    },
+    {
+      "first": {
+        "name": "Computer Assisted Topology and Geometry",
+        "code": "MA 337",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Computer Assisted Topology and Geometry",
+        "code": "MA 337",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Dilip Patil"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Dilip Patil"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "R. Venkatesh/Apoorva Khare"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Dilip Patil"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "R. Venkatesh/Apoorva Khare"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Dilip Patil"
+      },
+      "second": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "R. Venkatesh/Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "R. Venkatesh/Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory",
+        "code": "MA 323",
+        "instructor": "Surjit Kumar"
+      },
+      "second": {
+        "name": "Topics in Harmonic Anaysis",
+        "code": "MA 304",
+        "instructor": "S. Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Harmonic Anaysis",
+        "code": "MA 304",
+        "instructor": "S. Thangavelu"
+      },
+      "second": {
+        "name": "Operator Theory",
+        "code": "MA 323",
+        "instructor": "Surjit Kumar"
+      }
     }
   ],
   [
