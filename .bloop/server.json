@@ -70,7 +70,6 @@
         "platform" : {
             "name" : "jvm",
             "config" : {
-                "home" : "/usr/lib/jvm/java-8-openjdk-amd64",
                 "options" : [
                 ]
             },

@@ -5,7 +5,7 @@ import scala.util.Try
 
 object StudentChoices{
     val groupMap : Map[String, Set[Course]] = 
-        Map("Undergraduate 3rd year" -> CourseData.core1.toSet,
+        Map("Undergraduate 3rd year" -> CourseData.core1.toSet.filterNot(c => Set("MA 229", "MA 241").contains(c.code)),
             "Int. Ph. D second year" -> CourseData.core2.toSet)
     def groupCourses(gp: String) : Set[Course] = groupMap.getOrElse(gp, Set())
 
@@ -15,7 +15,7 @@ object StudentChoices{
         StudentChoices(
             v(1),
             v(2),
-            v(3).split(",").toSet.map(getCourse).flatten,
+            Try(v(3).split(",").toSet.map(getCourse).flatten).getOrElse(Set()),
             Try(v(4).split(",").toSet.map(getCourse).flatten).getOrElse(Set())
         )
     
@@ -23,7 +23,7 @@ object StudentChoices{
 
     lazy val all = dataLines.map(fromVec(_))
 
-    def strongClashes(sch: Schedule) = 
+    def strongClashes(sch: Schedule) : Map[(Course, Course),Vector[StudentChoices]] = 
         sch.clashes.map{
             case (c1, c2) => (c1, c2) -> all.filter(_.strongClash(c1, c2))
         }.toMap
