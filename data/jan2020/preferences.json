@@ -319,13 +319,6 @@
           "days": "Tue, Thu",
           "times": "2:00 - 3:30"
         }
-      },
-      {
-        "choice": 3,
-        "timing": {
-          "days": "Mon, Wed, Fri",
-          "times": "12:00 - 1:00"
-        }
       }
     ]
   },
