@@ -12,24 +12,22 @@
         ],
         "classpath": [
             "/home/gadgil/code/CourseSchedule/.bloop/out/courses.jvm/classes",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.12/0.3.0/os-lib_2.12-0.3.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.7.0/os-lib_2.13-0.7.0.jar",
             "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jbibtex/jbibtex/1.0.5/jbibtex-1.0.5.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.12/0.4.0/moultingyaml_2.12-0.4.0.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/0.7.1/upickle_2.12-0.7.1.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.1.8/geny_2.12-0.1.8.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12/2.14.0/nscala-time_2.12-2.14.0.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.12/0.7.1/ujson_2.12-0.7.1.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.12/0.7.1/upack_2.12-0.7.1.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.12/0.7.1/upickle-implicits_2.12-0.7.1.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.12/0.7.1/upickle-core_2.12-0.7.1.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.12/0.6.4/utest_2.12-0.6.4.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/acyclic_2.12/0.1.5/acyclic_2.12-0.1.5.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/1.2.0/upickle_2.13-1.2.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.2/geny_2.13-0.6.2.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.2.0/ujson_2.13-1.2.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.13/1.2.0/upack_2.13-1.2.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/1.2.0/upickle-implicits_2.13-1.2.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.2.0/upickle-core_2.13-1.2.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.4/scala-collection-compat_2.13-2.1.4.jar"
         ],
         "out": "/home/gadgil/code/CourseSchedule/.bloop/out/ugc",
         "classesDir": "/home/gadgil/code/CourseSchedule/.bloop/out/ugc/classes",
@@ -39,15 +37,16 @@
         "scala": {
             "organization": "org.scala-lang",
             "name": "scala-compiler",
-            "version": "2.12.8",
+            "version": "2.13.1",
             "options": [
                 
             ],
             "jars": [
-                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar",
-                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar",
-                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
-                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"
+                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
+                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
             ]
         },
         "java": {
@@ -70,226 +69,226 @@
         "resolution": {
             "modules": [
                 {
-                    "organization": "org.yaml",
-                    "name": "snakeyaml",
-                    "version": "1.17",
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.13",
+                    "version": "0.6.2",
                     "artifacts": [
                         {
-                            "name": "snakeyaml",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar"
+                            "name": "geny_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.2/geny_2.13-0.6.2.jar"
                         },
                         {
-                            "name": "snakeyaml",
+                            "name": "geny_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.2/geny_2.13-0.6.2-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.12.8",
+                    "version": "2.13.1",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-sbt",
-                    "name": "test-interface",
-                    "version": "1.0",
-                    "artifacts": [
-                        {
-                            "name": "test-interface",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
-                        },
-                        {
-                            "name": "test-interface",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.lihaoyi",
-                    "name": "upickle-implicits_2.12",
-                    "version": "0.7.1",
+                    "name": "upickle-implicits_2.13",
+                    "version": "1.2.0",
                     "artifacts": [
                         {
-                            "name": "upickle-implicits_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.12/0.7.1/upickle-implicits_2.12-0.7.1.jar"
+                            "name": "upickle-implicits_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/1.2.0/upickle-implicits_2.13-1.2.0.jar"
                         },
                         {
-                            "name": "upickle-implicits_2.12",
+                            "name": "upickle-implicits_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.12/0.7.1/upickle-implicits_2.12-0.7.1-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/1.2.0/upickle-implicits_2.13-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.nscala-time",
+                    "name": "nscala-time_2.13",
+                    "version": "2.22.0",
+                    "artifacts": [
+                        {
+                            "name": "nscala-time_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0.jar"
+                        },
+                        {
+                            "name": "nscala-time_2.13",
+                            "classifier": "sources",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.jcazevedo",
+                    "name": "moultingyaml_2.13",
+                    "version": "0.4.2",
+                    "artifacts": [
+                        {
+                            "name": "moultingyaml_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2.jar"
+                        },
+                        {
+                            "name": "moultingyaml_2.13",
+                            "classifier": "sources",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.lihaoyi",
-                    "name": "geny_2.12",
-                    "version": "0.1.8",
+                    "name": "ujson_2.13",
+                    "version": "1.2.0",
                     "artifacts": [
                         {
-                            "name": "geny_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.1.8/geny_2.12-0.1.8.jar"
+                            "name": "ujson_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.2.0/ujson_2.13-1.2.0.jar"
                         },
                         {
-                            "name": "geny_2.12",
+                            "name": "ujson_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.1.8/geny_2.12-0.1.8-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.2.0/ujson_2.13-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.13",
+                    "version": "2.1.4",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.4/scala-collection-compat_2.13-2.1.4.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "classifier": "sources",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.4/scala-collection-compat_2.13-2.1.4-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.lihaoyi",
-                    "name": "upickle_2.12",
-                    "version": "0.7.1",
+                    "name": "upickle_2.13",
+                    "version": "1.2.0",
                     "artifacts": [
                         {
-                            "name": "upickle_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/0.7.1/upickle_2.12-0.7.1.jar"
+                            "name": "upickle_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/1.2.0/upickle_2.13-1.2.0.jar"
                         },
                         {
-                            "name": "upickle_2.12",
+                            "name": "upickle_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/0.7.1/upickle_2.12-0.7.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.lihaoyi",
-                    "name": "ujson_2.12",
-                    "version": "0.7.1",
-                    "artifacts": [
-                        {
-                            "name": "ujson_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.12/0.7.1/ujson_2.12-0.7.1.jar"
-                        },
-                        {
-                            "name": "ujson_2.12",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.12/0.7.1/ujson_2.12-0.7.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.lihaoyi",
-                    "name": "os-lib_2.12",
-                    "version": "0.3.0",
-                    "artifacts": [
-                        {
-                            "name": "os-lib_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.12/0.3.0/os-lib_2.12-0.3.0.jar"
-                        },
-                        {
-                            "name": "os-lib_2.12",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.12/0.3.0/os-lib_2.12-0.3.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.lihaoyi",
-                    "name": "upickle-core_2.12",
-                    "version": "0.7.1",
-                    "artifacts": [
-                        {
-                            "name": "upickle-core_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.12/0.7.1/upickle-core_2.12-0.7.1.jar"
-                        },
-                        {
-                            "name": "upickle-core_2.12",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.12/0.7.1/upickle-core_2.12-0.7.1-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/1.2.0/upickle_2.13-1.2.0-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.joda",
                     "name": "joda-convert",
-                    "version": "1.2",
+                    "version": "2.2.0",
                     "artifacts": [
                         {
                             "name": "joda-convert",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar"
                         },
                         {
                             "name": "joda-convert",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.0/joda-convert-2.2.0-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "net.jcazevedo",
-                    "name": "moultingyaml_2.12",
-                    "version": "0.4.0",
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-core_2.13",
+                    "version": "1.2.0",
                     "artifacts": [
                         {
-                            "name": "moultingyaml_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.12/0.4.0/moultingyaml_2.12-0.4.0.jar"
+                            "name": "upickle-core_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.2.0/upickle-core_2.13-1.2.0.jar"
                         },
                         {
-                            "name": "moultingyaml_2.12",
+                            "name": "upickle-core_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.12/0.4.0/moultingyaml_2.12-0.4.0-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.2.0/upickle-core_2.13-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.yaml",
+                    "name": "snakeyaml",
+                    "version": "1.26",
+                    "artifacts": [
+                        {
+                            "name": "snakeyaml",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar"
+                        },
+                        {
+                            "name": "snakeyaml",
+                            "classifier": "sources",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "os-lib_2.13",
+                    "version": "0.7.0",
+                    "artifacts": [
+                        {
+                            "name": "os-lib_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.7.0/os-lib_2.13-0.7.0.jar"
+                        },
+                        {
+                            "name": "os-lib_2.13",
+                            "classifier": "sources",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.7.0/os-lib_2.13-0.7.0-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "joda-time",
                     "name": "joda-time",
-                    "version": "2.9.4",
+                    "version": "2.10.1",
                     "artifacts": [
                         {
                             "name": "joda-time",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar"
                         },
                         {
                             "name": "joda-time",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.lihaoyi",
-                    "name": "acyclic_2.12",
-                    "version": "0.1.5",
-                    "artifacts": [
-                        {
-                            "name": "acyclic_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/acyclic_2.12/0.1.5/acyclic_2.12-0.1.5.jar"
-                        },
-                        {
-                            "name": "acyclic_2.12",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/acyclic_2.12/0.1.5/acyclic_2.12-0.1.5-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.lihaoyi",
-                    "name": "upack_2.12",
-                    "version": "0.7.1",
-                    "artifacts": [
-                        {
-                            "name": "upack_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.12/0.7.1/upack_2.12-0.7.1.jar"
-                        },
-                        {
-                            "name": "upack_2.12",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.12/0.7.1/upack_2.12-0.7.1-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar"
                         }
                     ]
                 },
@@ -310,50 +309,18 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang",
-                    "name": "scala-reflect",
-                    "version": "2.12.7",
-                    "artifacts": [
-                        {
-                            "name": "scala-reflect",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7.jar"
-                        },
-                        {
-                            "name": "scala-reflect",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.github.nscala-time",
-                    "name": "nscala-time_2.12",
-                    "version": "2.14.0",
-                    "artifacts": [
-                        {
-                            "name": "nscala-time_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12/2.14.0/nscala-time_2.12-2.14.0.jar"
-                        },
-                        {
-                            "name": "nscala-time_2.12",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12/2.14.0/nscala-time_2.12-2.14.0-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "com.lihaoyi",
-                    "name": "utest_2.12",
-                    "version": "0.6.4",
+                    "name": "upack_2.13",
+                    "version": "1.2.0",
                     "artifacts": [
                         {
-                            "name": "utest_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.12/0.6.4/utest_2.12-0.6.4.jar"
+                            "name": "upack_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.13/1.2.0/upack_2.13-1.2.0.jar"
                         },
                         {
-                            "name": "utest_2.12",
+                            "name": "upack_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.12/0.6.4/utest_2.12-0.6.4-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.13/1.2.0/upack_2.13-1.2.0-sources.jar"
                         }
                     ]
                 }

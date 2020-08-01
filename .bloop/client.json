@@ -12,20 +12,18 @@
         ],
         "classpath": [
             "/home/gadgil/code/CourseSchedule/.bloop/out/courses.js/classes",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.4/scalajs-dom_sjs0.6_2.12-0.9.4.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.12/0.6.7/scalatags_sjs0.6_2.12-0.6.7.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_sjs0.6_2.12/0.7.1/upickle_sjs0.6_2.12-0.7.1.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.25/scalajs-library_2.12-0.6.25.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.12/0.1.4/sourcecode_sjs0.6_2.12-0.1.4.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_sjs0.6_2.12/0.7.1/ujson_sjs0.6_2.12-0.7.1.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_sjs0.6_2.12/0.7.1/upack_sjs0.6_2.12-0.7.1.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_sjs0.6_2.12/0.7.1/upickle-implicits_sjs0.6_2.12-0.7.1.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_sjs0.6_2.12/0.7.1/upickle-core_sjs0.6_2.12-0.7.1.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_sjs0.6_2.12/0.6.4/utest_sjs0.6_2.12-0.6.4.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/acyclic_2.12/0.1.5/acyclic_2.12-0.1.5.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar",
-            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.22/scalajs-test-interface_2.12-0.6.22.jar"
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/1.0.0/scalajs-dom_sjs1_2.13-1.0.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs1_2.13/0.9.1/scalatags_sjs1_2.13-0.9.1.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_sjs1_2.13/1.2.0/upickle_sjs1_2.13-1.2.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.0.0/scalajs-library_2.13-1.0.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs1_2.13/0.2.1/sourcecode_sjs1_2.13-0.2.1.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_sjs1_2.13/0.6.2/geny_sjs1_2.13-0.6.2.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_sjs1_2.13/1.2.0/ujson_sjs1_2.13-1.2.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_sjs1_2.13/1.2.0/upack_sjs1_2.13-1.2.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_sjs1_2.13/1.2.0/upickle-implicits_sjs1_2.13-1.2.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_sjs1_2.13/1.2.0/upickle-core_sjs1_2.13-1.2.0.jar",
+            "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_sjs1_2.13/2.1.4/scala-collection-compat_sjs1_2.13-2.1.4.jar"
         ],
         "out": "/home/gadgil/code/CourseSchedule/.bloop/out/client",
         "classesDir": "/home/gadgil/code/CourseSchedule/.bloop/out/client/classes",
@@ -35,19 +33,21 @@
         "scala": {
             "organization": "org.scala-lang",
             "name": "scala-compiler",
-            "version": "2.12.8",
+            "version": "2.13.1",
             "options": [
-                "-Xplugin:/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.12.8/0.6.25/scalajs-compiler_2.12.8-0.6.25.jar",
-                "-Xplugin:/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar",
-                "-Xplugin:/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
-                "-Xplugin:/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar",
-                "-Xplugin:/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"
+                "-Xplugin:/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.1/1.0.0/scalajs-compiler_2.13.1-1.0.0.jar",
+                "-Xplugin:/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+                "-Xplugin:/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+                "-Xplugin:/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
+                "-Xplugin:/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "-Xplugin:/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
             ],
             "jars": [
-                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar",
-                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar",
-                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
-                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"
+                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
+                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
             ]
         },
         "java": {
@@ -58,7 +58,7 @@
         "platform": {
             "name": "js",
             "config": {
-                "version": "0.6.25",
+                "version": "1.0.0",
                 "mode": "debug",
                 "kind": "none",
                 "emitSourceMaps": true,
@@ -74,226 +74,194 @@
         "resolution": {
             "modules": [
                 {
-                    "organization": "org.scala-js",
-                    "name": "scalajs-test-interface_2.12",
-                    "version": "0.6.22",
+                    "organization": "com.lihaoyi",
+                    "name": "upack_sjs1_2.13",
+                    "version": "1.2.0",
                     "artifacts": [
                         {
-                            "name": "scalajs-test-interface_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.22/scalajs-test-interface_2.12-0.6.22.jar"
+                            "name": "upack_sjs1_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_sjs1_2.13/1.2.0/upack_sjs1_2.13-1.2.0.jar"
                         },
                         {
-                            "name": "scalajs-test-interface_2.12",
+                            "name": "upack_sjs1_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.22/scalajs-test-interface_2.12-0.6.22-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_sjs1_2.13/1.2.0/upack_sjs1_2.13-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle_sjs1_2.13",
+                    "version": "1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "upickle_sjs1_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_sjs1_2.13/1.2.0/upickle_sjs1_2.13-1.2.0.jar"
+                        },
+                        {
+                            "name": "upickle_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_sjs1_2.13/1.2.0/upickle_sjs1_2.13-1.2.0-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.12.7",
+                    "version": "2.13.1",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.lihaoyi",
-                    "name": "scalatags_sjs0.6_2.12",
-                    "version": "0.6.7",
+                    "name": "upickle-core_sjs1_2.13",
+                    "version": "1.2.0",
                     "artifacts": [
                         {
-                            "name": "scalatags_sjs0.6_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.12/0.6.7/scalatags_sjs0.6_2.12-0.6.7.jar"
+                            "name": "upickle-core_sjs1_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_sjs1_2.13/1.2.0/upickle-core_sjs1_2.13-1.2.0.jar"
                         },
                         {
-                            "name": "scalatags_sjs0.6_2.12",
+                            "name": "upickle-core_sjs1_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.12/0.6.7/scalatags_sjs0.6_2.12-0.6.7-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_sjs1_2.13/1.2.0/upickle-core_sjs1_2.13-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_sjs1_2.13",
+                    "version": "2.1.4",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_sjs1_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_sjs1_2.13/2.1.4/scala-collection-compat_sjs1_2.13-2.1.4.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_sjs1_2.13/2.1.4/scala-collection-compat_sjs1_2.13-2.1.4-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.lihaoyi",
-                    "name": "utest_sjs0.6_2.12",
-                    "version": "0.6.4",
+                    "name": "ujson_sjs1_2.13",
+                    "version": "1.2.0",
                     "artifacts": [
                         {
-                            "name": "utest_sjs0.6_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_sjs0.6_2.12/0.6.4/utest_sjs0.6_2.12-0.6.4.jar"
+                            "name": "ujson_sjs1_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_sjs1_2.13/1.2.0/ujson_sjs1_2.13-1.2.0.jar"
                         },
                         {
-                            "name": "utest_sjs0.6_2.12",
+                            "name": "ujson_sjs1_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_sjs0.6_2.12/0.6.4/utest_sjs0.6_2.12-0.6.4-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_sjs1_2.13/1.2.0/ujson_sjs1_2.13-1.2.0-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.lihaoyi",
-                    "name": "upickle-implicits_sjs0.6_2.12",
-                    "version": "0.7.1",
+                    "name": "geny_sjs1_2.13",
+                    "version": "0.6.2",
                     "artifacts": [
                         {
-                            "name": "upickle-implicits_sjs0.6_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_sjs0.6_2.12/0.7.1/upickle-implicits_sjs0.6_2.12-0.7.1.jar"
+                            "name": "geny_sjs1_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_sjs1_2.13/0.6.2/geny_sjs1_2.13-0.6.2.jar"
                         },
                         {
-                            "name": "upickle-implicits_sjs0.6_2.12",
+                            "name": "geny_sjs1_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_sjs0.6_2.12/0.7.1/upickle-implicits_sjs0.6_2.12-0.7.1-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_sjs1_2.13/0.6.2/geny_sjs1_2.13-0.6.2-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.lihaoyi",
-                    "name": "upickle_sjs0.6_2.12",
-                    "version": "0.7.1",
+                    "name": "sourcecode_sjs1_2.13",
+                    "version": "0.2.1",
                     "artifacts": [
                         {
-                            "name": "upickle_sjs0.6_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_sjs0.6_2.12/0.7.1/upickle_sjs0.6_2.12-0.7.1.jar"
+                            "name": "sourcecode_sjs1_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs1_2.13/0.2.1/sourcecode_sjs1_2.13-0.2.1.jar"
                         },
                         {
-                            "name": "upickle_sjs0.6_2.12",
+                            "name": "sourcecode_sjs1_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_sjs0.6_2.12/0.7.1/upickle_sjs0.6_2.12-0.7.1-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs1_2.13/0.2.1/sourcecode_sjs1_2.13-0.2.1-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.scala-js",
-                    "name": "scalajs-library_2.12",
-                    "version": "0.6.25",
+                    "name": "scalajs-dom_sjs1_2.13",
+                    "version": "1.0.0",
                     "artifacts": [
                         {
-                            "name": "scalajs-library_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.25/scalajs-library_2.12-0.6.25.jar"
+                            "name": "scalajs-dom_sjs1_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/1.0.0/scalajs-dom_sjs1_2.13-1.0.0.jar"
                         },
                         {
-                            "name": "scalajs-library_2.12",
+                            "name": "scalajs-dom_sjs1_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.25/scalajs-library_2.12-0.6.25-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/1.0.0/scalajs-dom_sjs1_2.13-1.0.0-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.lihaoyi",
-                    "name": "sourcecode_sjs0.6_2.12",
-                    "version": "0.1.4",
+                    "name": "upickle-implicits_sjs1_2.13",
+                    "version": "1.2.0",
                     "artifacts": [
                         {
-                            "name": "sourcecode_sjs0.6_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.12/0.1.4/sourcecode_sjs0.6_2.12-0.1.4.jar"
+                            "name": "upickle-implicits_sjs1_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_sjs1_2.13/1.2.0/upickle-implicits_sjs1_2.13-1.2.0.jar"
                         },
                         {
-                            "name": "sourcecode_sjs0.6_2.12",
+                            "name": "upickle-implicits_sjs1_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.12/0.1.4/sourcecode_sjs0.6_2.12-0.1.4-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_sjs1_2.13/1.2.0/upickle-implicits_sjs1_2.13-1.2.0-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.lihaoyi",
-                    "name": "acyclic_2.12",
-                    "version": "0.1.5",
+                    "name": "scalatags_sjs1_2.13",
+                    "version": "0.9.1",
                     "artifacts": [
                         {
-                            "name": "acyclic_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/acyclic_2.12/0.1.5/acyclic_2.12-0.1.5.jar"
+                            "name": "scalatags_sjs1_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs1_2.13/0.9.1/scalatags_sjs1_2.13-0.9.1.jar"
                         },
                         {
-                            "name": "acyclic_2.12",
+                            "name": "scalatags_sjs1_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/acyclic_2.12/0.1.5/acyclic_2.12-0.1.5-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang",
-                    "name": "scala-reflect",
-                    "version": "2.12.7",
-                    "artifacts": [
-                        {
-                            "name": "scala-reflect",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7.jar"
-                        },
-                        {
-                            "name": "scala-reflect",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.lihaoyi",
-                    "name": "upickle-core_sjs0.6_2.12",
-                    "version": "0.7.1",
-                    "artifacts": [
-                        {
-                            "name": "upickle-core_sjs0.6_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_sjs0.6_2.12/0.7.1/upickle-core_sjs0.6_2.12-0.7.1.jar"
-                        },
-                        {
-                            "name": "upickle-core_sjs0.6_2.12",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_sjs0.6_2.12/0.7.1/upickle-core_sjs0.6_2.12-0.7.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.lihaoyi",
-                    "name": "upack_sjs0.6_2.12",
-                    "version": "0.7.1",
-                    "artifacts": [
-                        {
-                            "name": "upack_sjs0.6_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_sjs0.6_2.12/0.7.1/upack_sjs0.6_2.12-0.7.1.jar"
-                        },
-                        {
-                            "name": "upack_sjs0.6_2.12",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_sjs0.6_2.12/0.7.1/upack_sjs0.6_2.12-0.7.1-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs1_2.13/0.9.1/scalatags_sjs1_2.13-0.9.1-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.scala-js",
-                    "name": "scalajs-dom_sjs0.6_2.12",
-                    "version": "0.9.4",
+                    "name": "scalajs-library_2.13",
+                    "version": "1.0.0",
                     "artifacts": [
                         {
-                            "name": "scalajs-dom_sjs0.6_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.4/scalajs-dom_sjs0.6_2.12-0.9.4.jar"
+                            "name": "scalajs-library_2.13",
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.0.0/scalajs-library_2.13-1.0.0.jar"
                         },
                         {
-                            "name": "scalajs-dom_sjs0.6_2.12",
+                            "name": "scalajs-library_2.13",
                             "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.4/scalajs-dom_sjs0.6_2.12-0.9.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.lihaoyi",
-                    "name": "ujson_sjs0.6_2.12",
-                    "version": "0.7.1",
-                    "artifacts": [
-                        {
-                            "name": "ujson_sjs0.6_2.12",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_sjs0.6_2.12/0.7.1/ujson_sjs0.6_2.12-0.7.1.jar"
-                        },
-                        {
-                            "name": "ujson_sjs0.6_2.12",
-                            "classifier": "sources",
-                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_sjs0.6_2.12/0.7.1/ujson_sjs0.6_2.12-0.7.1-sources.jar"
+                            "path": "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.0.0/scalajs-library_2.13-1.0.0-sources.jar"
                         }
                     ]
                 }
