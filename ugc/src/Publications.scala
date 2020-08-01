@@ -26,27 +26,29 @@ object Publications {
     yamlAst.convertTo[Vector[Map[String, YamlValue]]]
 
   def getString(y: YamlValue): String = y match {
-      case YamlNumber(value) => value.toString()
-      case YamlString(value) => value
-      case YamlBoolean(boolean) => boolean.toString()
-      case _ => ""
+    case YamlNumber(value)    => value.toString()
+    case YamlString(value)    => value
+    case YamlBoolean(boolean) => boolean.toString()
+    case _                    => ""
   }
 
-  lazy val allPubs : Vector[Map[String,String]] = (mp ++ 
-    (data.map(m => m.mapValues(getString(_)))).filter(m => Set("2018", "2019").contains(m("year")))
-    ).sortBy(m => m("author"))
+  lazy val allPubs: Vector[Map[String, String]] = (mp ++
+    (data
+      .map(m => m.mapValues(getString(_)).toMap
+      ))
+      .filter(m => Set("2019", "2020").contains(m("year"))))
+    .sortBy(m => m("author"))
 
   def tex(m: Map[String, String]) = {
-      val author = m("author")
-      val title  = m("title")
-      val journal = m.get("journal").orElse(m.get("booktitle")).getOrElse("")
-      val pages = m.getOrElse("pages", "")
-      val volume = m.getOrElse("volume", "")
-      val year = m("year")
-      s"\\item $author, $title {\\em $journal} {\\bf $volume} ($year), $pages."
+    val author = m("author")
+    val title = m("title")
+    val journal = m.get("journal").orElse(m.get("booktitle")).getOrElse("")
+    val pages = m.getOrElse("pages", "")
+    val volume = m.getOrElse("volume", "")
+    val year = m("year")
+    s"\\item $author, $title {\\em $journal} {\\bf $volume} ($year), $pages."
   }
 
   lazy val pubItems = allPubs.map(tex)
-
 
 }

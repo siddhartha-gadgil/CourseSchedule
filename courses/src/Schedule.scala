@@ -67,9 +67,9 @@ case class Scheduler(prefs: Set[Preference],
     } yield c -> r
 
   def byRank(sc: Schedule): Map[Int, Vector[Course]] =
-    ranks(sc).toVector.groupBy(_._2).mapValues(cv => cv.map(_._1))
+    ranks(sc).toVector.groupBy(_._2).mapValues(cv => cv.map(_._1)).toMap
 
-  def rankWeights(sc: Schedule): Map[Int, Int] = byRank(sc).mapValues(_.size)
+  def rankWeights(sc: Schedule): Map[Int, Int] = byRank(sc).mapValues(_.size).toMap
 
   val supp: Set[Course] = prefs.map(_.course)
 
