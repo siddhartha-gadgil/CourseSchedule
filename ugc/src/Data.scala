@@ -4,14 +4,14 @@ import Data._
 object Data {
   val paperInit = 2
   val numPapers = 7
-  val confInit = paperInit + (numPapers * 8)
+  val confInit = paperInit + (numPapers * 10)
   val numConfs = 5
   val bookInit = confInit + (numConfs * 9)
   val numBooks = 4
   val bookChapterInit = bookInit + (numBooks * 8)
   val numBookChapters = 4
   val summerInit = bookChapterInit + (numBookChapters * 11)
-  val numSummer = 6
+  val numSummer = 7
   val grantInit = summerInit + (numSummer * 4)
   val numGrants = 4
   val awardsPos = grantInit + (numGrants * 6)
@@ -199,7 +199,9 @@ case class Paper(
     journal: String,
     volume: String,
     year: String,
-    pages: String
+    pages: String,
+    doi: String,
+    url: String
 ) {
   val tail = status match {
     case "Preprint"                 => "preprint."
@@ -214,7 +216,7 @@ case class Paper(
 
 object Paper {
   def get(data: Vector[String], index: Int) = {
-    val start = paperInit + (index * 8)
+    val start = paperInit + (index * 10)
     Paper(
       data(start),
       data(start + 1),
@@ -222,7 +224,9 @@ object Paper {
       data(start + 3),
       data(start + 4),
       data(start + 5),
-      data(start + 6)
+      data(start + 6),
+      data(start + 7),
+      data(start + 8)
     )
   }
 
