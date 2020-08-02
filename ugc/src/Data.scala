@@ -53,7 +53,7 @@ ${grantsItems.mkString("\n")}
 """
 
   lazy val reports = facultyData
-    .map(d => s"\\subsection{${d.name}}\n\n${d.research}")
+    .map(d => s"\\subsection{${d.name}}\n\n${d.researchHighlights}")
     .mkString("\n\n\n")
 
   lazy val awards = facultyData.flatMap(f => f.awards.awardOpt(f.name))
@@ -154,7 +154,7 @@ ${Publications.pubItems.mkString("\n")}
 
 case class FacultyData(
     name: String,
-    research: String,
+    researchHighlights: String,
     papers: Vector[Paper],
     confs: Vector[ConfPaper],
     books: Vector[Book],
