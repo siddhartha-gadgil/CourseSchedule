@@ -6,18 +6,22 @@ object Data {
   val numPapers = 7
   val confInit = paperInit + (numPapers * 8)
   val numConfs = 5
-  val bookInit = confInit + (numConfs * 5)
+  val bookInit = confInit + (numConfs * 9)
   val numBooks = 4
-  val summerInit = bookInit + (numBooks * 8)
+  val bookChapterInit = bookInit + (numBooks * 8)
+  val numBookChapters = 4
+  val summerInit = bookChapterInit + (numBookChapters * 11)
   val numSummer = 6
   val grantInit = summerInit + (numSummer * 4)
   val numGrants = 4
   val awardsPos = grantInit + (numGrants * 6)
-  val fullSize = awardsPos + 3
+  val activitiesSize = 4
+  val activiesInit = awardsPos + 3  
+  val fullSize = activiesInit + (2 * activitiesSize) // because of old activities
   def pad(v: Vector[String]) = v ++ Vector.fill(fullSize - v.size)("")
 
   lazy val data = os.read
-    .lines(os.resource / "ugc2019.tsv")
+    .lines(os.resource / "ugc2020.tsv")
     .toVector
     .tail
     .map(_.split("\t").toVector.tail)
@@ -141,9 +145,11 @@ ${Publications.pubItems.mkString("\n")}
 
   def writeReport() = os.write.over(os.pwd / "data" / "reports.tex", reports)
 
-  def writeSections() = os.write.over(os.pwd / "data" / "draft-sections.tex", draftSections)
+  def writeSections() =
+    os.write.over(os.pwd / "data" / "draft-sections.tex", draftSections)
 
-  def writePublications() = os.write.over(os.pwd / "data" / "draft-publications.tex", draftPubs)
+  def writePublications() =
+    os.write.over(os.pwd / "data" / "draft-publications.tex", draftPubs)
 
   def writeAll() = {
     writeReport()
@@ -158,9 +164,12 @@ case class FacultyData(
     papers: Vector[Paper],
     confs: Vector[ConfPaper],
     books: Vector[Book],
+    bookChapters: Vector[BookChapter],
     summer: Vector[SummerStudent],
     grants: Vector[Grant],
-    awards: Award
+    awards: Award,
+    otherOld: Vector[String],
+    otherActivities: Vector[String]
 ) {
   lazy val grantTeX =
     grants.map(g => g.tex(name))
@@ -174,9 +183,12 @@ object FacultyData {
       Paper.getAll(data),
       ConfPaper.getAll(data),
       Book.getAll(data),
+      BookChapter.getAll(data),
       SummerStudent.getAll(data),
       Grant.getAll(data),
-      Award.get(data)
+      Award.get(data),
+      data.drop(activiesInit).take(activitiesSize),
+      data.drop(activiesInit + activitiesSize)
     )
 }
 
@@ -224,8 +236,12 @@ object Paper {
 case class ConfPaper(
     author: String,
     title: String,
+    volumeTitle: String,
+    volumeEditors: String,
     conf: String,
-    year: String
+    publisher: String,
+    year: String,
+    pages: String
 ) {
   val tex = s"\\item $author, $title {\\em $conf} ($year)."
 }
@@ -237,7 +253,11 @@ object ConfPaper {
       data(start),
       data(start + 1),
       data(start + 2),
-      data(start + 3)
+      data(start + 3),
+      data(start + 4),
+      data(start + 5),
+      data(start + 6),
+      data(start + 7)
     )
   }
 
@@ -251,17 +271,14 @@ object ConfPaper {
 case class Book(
     author: String,
     title: String,
-    role: String,
-    publisher: String,
+    isEditor: Boolean,
+    series: String,
     volume: String,
-    year: String,
-    pages: String
+    publisher: String,
+    year: String
 ) {
   val tex =
-    if (role == "Author of chapter in book")
-      s"\\item $author, $title in {\\em $publisher}{\bf $volume} ($year), $pages."
-    else
-      s"\\item $author, {\\em $title}, $publisher{\bf $volume} ($year), $pages."
+    s"\\item $author, $title in {\\em $publisher}{\bf $volume} ($year)."
 }
 
 object Book {
@@ -270,7 +287,7 @@ object Book {
     Book(
       data(start),
       data(start + 1),
-      data(start + 2),
+      data(start + 2).trim == "Editor(s)",
       data(start + 3),
       data(start + 4),
       data(start + 5),
@@ -284,6 +301,44 @@ object Book {
       .toVector
       .takeWhile(_.author.nonEmpty)
 }
+
+case class BookChapter(
+    author: String,
+    title: String,
+    bookAuthor: String,
+    isEditor: Boolean,
+    bookTitle: String,
+    series: String,
+    volume: String,
+    publisher: String,
+    year: String,
+    pages: String
+)
+
+object BookChapter {
+  def get(data: Vector[String], index: Int) = {
+    val start = bookChapterInit + (index * 11)
+    BookChapter(
+      data(start),
+      data(start + 1),
+      data(start + 2),
+      data(start + 3).trim == "Editor(s)",
+      data(start + 4),
+      data(start + 5),
+      data(start + 6),
+      data(start + 7),
+      data(start + 8),
+      data(start + 9)
+    )
+  }
+
+  def getAll(data: Vector[String]) =
+    (0 until numBookChapters)
+      .map(index => get(data, index))
+      .toVector
+      .takeWhile(_.author.nonEmpty)
+}
+
 
 case class SummerStudent(
     name: String,
