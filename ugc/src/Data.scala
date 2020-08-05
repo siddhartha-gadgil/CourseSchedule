@@ -98,7 +98,7 @@ ${grantsItems.mkString("\n")}
     f.otherOld.map(act => s"\\item ${f.name} was $act"))
 
   lazy val other  = facultyData.flatMap(f => 
-    f.otherActivities.map(act => s"${f.name} was $act"))
+    f.otherActivities.map(act => s"\\item ${f.name} was $act"))
 
   lazy val draftSections =
     s"""
