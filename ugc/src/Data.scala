@@ -95,7 +95,7 @@ ${grantsItems.mkString("\n")}
   lazy val editors = facultyData.flatMap(f => f.awards.edOpt(f.name))
 
   lazy val otherOld = facultyData.flatMap(f => 
-    f.otherOld.map(act => s"${f.name} was $act"))
+    f.otherOld.map(act => s"\\item ${f.name} was $act"))
 
   lazy val other  = facultyData.flatMap(f => 
     f.otherActivities.map(act => s"${f.name} was $act"))
