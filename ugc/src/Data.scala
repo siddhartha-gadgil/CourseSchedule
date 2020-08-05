@@ -16,9 +16,11 @@ object Data {
   val numGrants = 4
   val awardsPos = grantInit + (numGrants * 6)
   val activitiesSize = 4
-  val activiesInit = awardsPos + 3  
+  val activiesInit = awardsPos + 3
   val fullSize = activiesInit + (2 * activitiesSize) // because of old activities
-  def pad(v: Vector[String]) = v ++ Vector.fill(fullSize - v.size)("")
+  val postDocSize = grantInit + 9 + 1 // joining-leaving and awards
+  def pad(v: Vector[String], full: Int = fullSize) =
+    v ++ Vector.fill(full - v.size)("")
   def preComma(s: String) = if (s.trim() == "") "" else s", $s"
 
   lazy val data = os.read
@@ -26,7 +28,7 @@ object Data {
     .toVector
     .tail
     .map(_.split("\t").toVector.tail)
-    .map(pad)
+    .map(pad(_))
 
   lazy val summerStudents = data.flatMap(
     l =>
@@ -34,6 +36,24 @@ object Data {
         stu.text(l(0))
       }
   )
+
+  lazy val postDocRaw = os.read
+    .lines(os.resource / "ugc2020-postdocs.tsv")
+    .toVector
+    .tail
+    .map(_.split("\t").toVector.tail)
+    .map(pad(_, postDocSize))
+
+  lazy val postDocTriple
+      : Vector[(Vector[String], Vector[String], Vector[String])] =
+    postDocRaw.map(
+      v =>
+        (
+          v.take(2) ++ v.drop(11).dropRight(2),
+          v.drop(2).take(9),
+          v.takeRight(2)
+        )
+    )
 
   lazy val summerTeX =
     s"""
@@ -45,6 +65,11 @@ ${summerStudents.map(s => "\\item " + s).mkString("\n")}
 """
   lazy val facultyData: Vector[FacultyData] =
     data.map(l => FacultyData.get(l)).sortBy(_.name)
+
+  lazy val postDocData: Vector[PostDocData] =
+    postDocTriple.map {
+      case (data, fel, aws) => PostDocData.get(data, fel, aws)
+    }
 
   lazy val grantsItems = facultyData.flatMap(f => f.grantTeX)
 
@@ -59,13 +84,21 @@ ${grantsItems.mkString("\n")}
 
   lazy val reports = facultyData
     .map(d => s"\\subsection{${d.name}}\n\n${d.researchHighlights}")
+    .mkString("\n\n\n") ++ postDocData
+    .map(d => s"\\subsection{${d.name}}\n\n${d.researchHighlights}")
     .mkString("\n\n\n")
 
-  lazy val awards = facultyData.flatMap(f => f.awards.awardOpt(f.name))
+  lazy val awards = facultyData.flatMap(f => f.awards.awardOpt(f.name)) ++ postDocData.flatMap(f => f.awards)
 
-  lazy val fellows = facultyData.flatMap(f => f.awards.fellowOpt(f.name))
+  lazy val fellows = facultyData.flatMap(f => f.awards.fellowOpt(f.name)) ++ postDocData.flatMap(f => f.assoc)
 
   lazy val editors = facultyData.flatMap(f => f.awards.edOpt(f.name))
+
+  lazy val otherOld = facultyData.flatMap(f => 
+    f.otherOld.map(act => s"${f.name} was $act"))
+
+  lazy val other  = facultyData.flatMap(f => 
+    f.otherActivities.map(act => s"${f.name} was $act"))
 
   lazy val draftSections =
     s"""
@@ -89,6 +122,16 @@ ${fellows.mkString("\n")}
 \\begin{enumerate}
 ${editors.mkString("\n")}
 \\end{enumerate}
+
+\\subsection{Other Activities: 2018-19}
+\\begin{enumerate}
+${otherOld .mkString("\n")}
+\\end{enumerate}
+
+\\subsection{Other Activities: 2019-20}
+\\begin{enumerate}
+${other .mkString("\n")}
+\\end{enumerate}
 """
 
   lazy val papers = facultyData
@@ -96,18 +139,28 @@ ${editors.mkString("\n")}
     .filter(
       p => Set("Published", "Accepted for publication").contains(p.status)
     )
-    .map(_.tex)
+    .map(_.tex) ++ (postDocData
+    .flatMap(f => f.papers)
+    .filter(
+      p => Set("Published", "Accepted for publication").contains(p.status)
+    )
+    .map(_.tex))
 
   lazy val preprints = facultyData
     .flatMap(f => f.papers)
     .filter(
       p => Set("Preprint", "Submitted").contains(p.status)
     )
-    .map(_.tex)
+    .map(_.tex) ++ (postDocData
+    .flatMap(f => f.papers)
+    .filter(
+      p => Set("Preprint", "Submitted").contains(p.status)
+    )
+    .map(_.tex))
 
-  lazy val confPapers = facultyData.flatMap(f => f.confs.map(_.tex))
+  lazy val confPapers = facultyData.flatMap(f => f.confs.map(_.tex)) ++ postDocData.flatMap(f => f.confs.map(_.tex))
 
-  lazy val books = facultyData.flatMap(f => f.books.map(_.tex))
+  lazy val books = facultyData.flatMap(f => f.books.map(_.tex)) ++ postDocData.flatMap(f => f.books.map(_.tex))
 
   lazy val draftPubs =
     s"""
@@ -188,11 +241,56 @@ object FacultyData {
       SummerStudent.getAll(data),
       Grant.getAll(data),
       Award.get(data),
-      data.drop(activiesInit).take(activitiesSize),
-      data.drop(activiesInit + activitiesSize)
+      data.drop(activiesInit).take(activitiesSize).takeWhile(_.trim() != ""),
+      data.drop(activiesInit + activitiesSize).takeWhile(_.trim() != "")
     )
 }
 
+case class Fellowship(
+    fellowship: String,
+    start: String,
+    resign: String
+)
+
+object Fellowship {
+  def getAll(v: Vector[String]) =
+    v.grouped(3)
+      .map { w =>
+        Fellowship(w(0), w(1), w(2))
+      }
+      .toVector
+}
+
+case class PostDocData(
+    name: String,
+    researchHighlights: String,
+    papers: Vector[Paper],
+    confs: Vector[ConfPaper],
+    books: Vector[Book],
+    bookChapters: Vector[BookChapter],
+    fellowships: Vector[Fellowship],
+    awards: String,
+    assoc: String
+)
+
+object PostDocData {
+  def get(
+      data: Vector[String],
+      fellowships: Vector[String],
+      aws: Vector[String]
+  ) =
+    PostDocData(
+      data(0),
+      data(1),
+      Paper.getAll(data),
+      ConfPaper.getAll(data),
+      Book.getAll(data),
+      BookChapter.getAll(data),
+      Fellowship.getAll(fellowships),
+      aws(0),
+      aws(1)
+    )
+}
 case class Paper(
     author: String,
     title: String,
@@ -250,7 +348,10 @@ case class ConfPaper(
     year: String,
     pages: String
 ) {
-  val tex = s"\\item $author, \\emph{$title} in $volumeEditors (ed.), {\\em $volumeTitle} ${preComma(conf)} ${preComma(publisher)} ($year)${preComma(pages)}."
+  val tex =
+    s"\\item $author, \\emph{$title} in $volumeEditors (ed.), {\\em $volumeTitle} ${preComma(
+      conf
+    )} ${preComma(publisher)} ($year)${preComma(pages)}."
 }
 
 object ConfPaper {
@@ -345,7 +446,6 @@ object BookChapter {
       .toVector
       .takeWhile(_.author.nonEmpty)
 }
-
 
 case class SummerStudent(
     name: String,
