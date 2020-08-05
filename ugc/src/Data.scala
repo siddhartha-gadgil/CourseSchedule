@@ -19,6 +19,7 @@ object Data {
   val activiesInit = awardsPos + 3  
   val fullSize = activiesInit + (2 * activitiesSize) // because of old activities
   def pad(v: Vector[String]) = v ++ Vector.fill(fullSize - v.size)("")
+  def preComma(s: String) = if (s.trim() == "") "" else s", $s"
 
   lazy val data = os.read
     .lines(os.resource / "ugc2020.tsv")
@@ -203,15 +204,17 @@ case class Paper(
     doi: String,
     url: String
 ) {
+  val doiText = if (doi.trim() == "") "" else s", DOI $doi"
+  val urlText = if (url.trim() == "") "" else s", \\url{$url}"
   val tail = status match {
-    case "Preprint"                 => "preprint."
-    case "Submitted"                => "submitted for publication."
-    case "Accepted for publication" => s"to appear in $journal."
-    case "Published"                => s"{\\em $journal} {\\bf $volume} ($year), $pages."
+    case "Preprint"                 => "preprint"
+    case "Submitted"                => "submitted for publication"
+    case "Accepted for publication" => s"to appear in $journal"
+    case "Published"                => s"$journal {\\bf $volume} ($year), $pages"
     case _                          => ""
   }
 
-  val tex = s"\\item $author, $title, $tail"
+  val tex = s"\\item $author, \\emph{$title}, $tail$doiText$urlText."
 }
 
 object Paper {
@@ -247,7 +250,7 @@ case class ConfPaper(
     year: String,
     pages: String
 ) {
-  val tex = s"\\item $author, $title {\\em $conf} ($year)."
+  val tex = s"\\item $author, \\emph{$title} in $volumeEditors (ed.), {\\em $volumeTitle} ${preComma(conf)} ${preComma(publisher)} ($year)${preComma(pages)}."
 }
 
 object ConfPaper {
@@ -282,7 +285,7 @@ case class Book(
     year: String
 ) {
   val tex =
-    s"\\item $author, $title in {\\em $publisher}{\bf $volume} ($year)."
+    s"\\item $author, \\emph{$title} ${preComma(series)} $volume ${preComma(publisher)} ($year)."
 }
 
 object Book {
