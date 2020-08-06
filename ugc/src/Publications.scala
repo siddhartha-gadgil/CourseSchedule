@@ -46,11 +46,11 @@ object Publications {
     val pages = m.getOrElse("pages", "")
     val volume = m.getOrElse("volume", "")
     val year = m("year")
-    val doiOpt = m.get("doi")
+    val doiOpt = m.get("doi").map(_.replace("_", "\\_"))
     val urlOpt = m.get("url")
     val doiText = doiOpt.map(s =>s", DOI $s").getOrElse("")
     val urlText = urlOpt.map(s => s", \\url{$s}").getOrElse("")
-    s"\\item $author, {\\em $title}, $journal} {\\bf $volume} ($year), $pages$doiText$urlText."
+    s"\\item $author, {\\em $title}, $journal {\\bf $volume} ($year), $pages$doiText$urlText."
   }
 
   lazy val pubItems = allPubs.map(tex)

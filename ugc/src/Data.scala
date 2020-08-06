@@ -78,7 +78,7 @@ ${summerStudents.map(s => "\\item " + s).mkString("\n")}
 \\section{Resource Generation}
 
 \\begin{enumerate}
-${grantsItems.mkString("\n")}
+${grantsItems.mkString("\n").replace("&", "\\&")}
 \\end{enumerate}
 """
 
@@ -88,17 +88,27 @@ ${grantsItems.mkString("\n")}
     .map(d => s"\\subsection{${d.name}}\n\n${d.researchHighlights}")
     .mkString("\n\n\n")
 
-  lazy val awards = facultyData.flatMap(f => f.awards.awardOpt(f.name)) ++ postDocData.flatMap(f => f.awards)
+  lazy val awards = facultyData.flatMap(f => f.awards.awardOpt(f.name)) ++ (postDocData.flatMap(f => f.awardOpt(f.name)))
 
-  lazy val fellows = facultyData.flatMap(f => f.awards.fellowOpt(f.name)) ++ postDocData.flatMap(f => f.assoc)
+  lazy val fellows = facultyData.flatMap(f => f.awards.fellowOpt(f.name)) ++ postDocData
+    .flatMap(f => f.fellowOpt(f.name))
 
   lazy val editors = facultyData.flatMap(f => f.awards.edOpt(f.name))
 
-  lazy val otherOld = facultyData.flatMap(f => 
-    f.otherOld.map(act => s"\\item ${f.name} was $act"))
+  lazy val otherOld = facultyData.flatMap(
+    f => f.otherOld.map(act => s"\\item ${f.name} was $act")
+  )
 
-  lazy val other  = facultyData.flatMap(f => 
-    f.otherActivities.map(act => s"\\item ${f.name} was $act"))
+  lazy val other = facultyData.flatMap(
+    f => f.otherActivities.map(act => s"\\item ${f.name} was $act")
+  )
+
+  def enumString(v: Vector[String]) =
+    if (v.isEmpty) ""
+    else s"""|\\begin{enumerate}
+             |${v.mkString("\n")}
+             |\\end{enumerate}
+             |""".stripMargin
 
   lazy val draftSections =
     s"""
@@ -108,30 +118,20 @@ $grants
 
 \\subsection{Awards}
 
-\\begin{enumerate}
-${awards.mkString("\n")}
-\\end{enumerate}
+${enumString(awards)}
 
 \\subsection{Fellowships of Academies}
 
-\\begin{enumerate}
-${fellows.mkString("\n")}
-\\end{enumerate}
+${enumString(fellows)}
 
 \\subsection{Editorial boards}
-\\begin{enumerate}
-${editors.mkString("\n")}
-\\end{enumerate}
+${enumString(editors)}
 
 \\subsection{Other Activities: 2018-19}
-\\begin{enumerate}
-${otherOld .mkString("\n")}
-\\end{enumerate}
+${enumString(otherOld)}
 
 \\subsection{Other Activities: 2019-20}
-\\begin{enumerate}
-${other .mkString("\n")}
-\\end{enumerate}
+${enumString(other)}
 """
 
   lazy val papers = facultyData
@@ -158,9 +158,14 @@ ${other .mkString("\n")}
     )
     .map(_.tex))
 
-  lazy val confPapers = facultyData.flatMap(f => f.confs.map(_.tex)) ++ postDocData.flatMap(f => f.confs.map(_.tex))
+  lazy val confPapers = facultyData.flatMap(f => f.confs.map(_.tex)) ++ postDocData
+    .flatMap(f => f.confs.map(_.tex))
 
-  lazy val books = facultyData.flatMap(f => f.books.map(_.tex)) ++ postDocData.flatMap(f => f.books.map(_.tex))
+  lazy val books = facultyData.flatMap(f => f.books.map(_.tex)) ++ postDocData
+    .flatMap(f => f.books.map(_.tex))
+
+  lazy val bookChapters = facultyData.flatMap(f => f.bookChapters.map(_.tex)) ++ postDocData
+    .flatMap(f => f.bookChapters.map(_.tex))
 
   lazy val draftPubs =
     s"""
@@ -172,15 +177,15 @@ ${papers.mkString("\n")}
 
 \\subsection{Papers in Conference proceedings}
 
-\\begin{enumerate}
-${confPapers.mkString("\n")}
-\\end{enumerate}
+${enumString(confPapers)}
 
-\\subsection{Books and book chapters}
+\\subsection{Books}
 
-\\begin{enumerate}
-${books.mkString("\n")}
-\\end{enumerate}
+${enumString(books)}
+
+\\subsection{Book Chapters}
+
+${enumString(bookChapters)}
 
 \\subsection{Preprints}
 
@@ -271,7 +276,13 @@ case class PostDocData(
     fellowships: Vector[Fellowship],
     awards: String,
     assoc: String
-)
+){
+  def awardOpt(name: String) =
+    if (awards.trim != "") Some(s"\\item $name was awarded $awards") else None
+
+  def fellowOpt(name: String) =
+    if (assoc.trim() != "") Some(s"\\item $name was elected a $assoc") else None
+}
 
 object PostDocData {
   def get(
@@ -302,7 +313,8 @@ case class Paper(
     doi: String,
     url: String
 ) {
-  val doiText = if (doi.trim() == "") "" else s", DOI $doi"
+  val doiText =
+    if (doi.trim() == "") "" else s", DOI ${doi.replace("_", "\\_")}"
   val urlText = if (url.trim() == "") "" else s", \\url{$url}"
   val tail = status match {
     case "Preprint"                 => "preprint"
@@ -385,8 +397,9 @@ case class Book(
     publisher: String,
     year: String
 ) {
+  val authorString = if (isEditor) s"$author (ed.)" else author
   val tex =
-    s"\\item $author, \\emph{$title} ${preComma(series)} $volume ${preComma(publisher)} ($year)."
+    s"\\item $authorString, \\emph{$title} ${preComma(series)} $volume ${preComma(publisher)} ($year)."
 }
 
 object Book {
@@ -421,7 +434,13 @@ case class BookChapter(
     publisher: String,
     year: String,
     pages: String
-)
+){
+  val bookAuthorString = if (isEditor) s"$bookAuthor (ed.)" else bookAuthor
+  val tex =
+    s"\\item $author, \\emph{$title} in $bookAuthorString (ed.), {\\em $bookTitle} ${preComma(
+      series
+    )} ${preComma(publisher)} ($year)${preComma(pages)}."
+}
 
 object BookChapter {
   def get(data: Vector[String], index: Int) = {
