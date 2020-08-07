@@ -27,8 +27,15 @@ object Data {
     .lines(os.resource / "ugc2020.tsv")
     .toVector
     .tail
-    .map(_.split("\t").toVector.tail)
+    .map(_.split("\t").toVector.tail.map(_.trim))
     .map(pad(_))
+
+  lazy val visitorData = os.read
+    .lines(os.resource / "ugc2020.tsv")
+    .toVector
+    .tail
+    .map(_.split("\t").toVector.tail.map(_.trim))
+    .map(pad(_, 5))
 
   lazy val summerStudents = data.flatMap(
     l =>
@@ -41,7 +48,7 @@ object Data {
     .lines(os.resource / "ugc2020-postdocs.tsv")
     .toVector
     .tail
-    .map(_.split("\t").toVector.tail)
+    .map(_.split("\t").toVector.tail.map(_.trim))
     .map(pad(_, postDocSize))
 
   lazy val postDocTriple
@@ -167,6 +174,8 @@ ${enumString(other)}
   lazy val bookChapters = facultyData.flatMap(f => f.bookChapters.map(_.tex)) ++ postDocData
     .flatMap(f => f.bookChapters.map(_.tex))
 
+  lazy val visitors = visitorData.map(Visitor.get(_).tex)
+
   lazy val draftPubs =
     s"""
 \\subsection{Papers in Journals}
@@ -200,6 +209,10 @@ ${preprints.mkString("\n")}
 \\begin{enumerate}
 ${Publications.pubItems.mkString("\n")}
 \\end{enumerate}
+
+\\subsection{List of Visitors to the Department}
+
+${enumString(visitors)}
 """
 
   def writeReport() = os.write.over(os.pwd / "data" / "reports.tex", reports)
@@ -266,6 +279,19 @@ object Fellowship {
       .toVector
 }
 
+case class Visitor(
+  name: String,
+  affiliation: String,
+  from: String,
+  till: String
+){
+  val tex = s"\\item Dr.$name, $affiliation, $from--$till"
+}
+
+object Visitor{
+  def get(v: Vector[String]) = Visitor(v(0), v(1), v(3), v(4))
+}
+
 case class PostDocData(
     name: String,
     researchHighlights: String,
@@ -319,12 +345,12 @@ case class Paper(
   val tail = status match {
     case "Preprint"                 => "preprint"
     case "Submitted"                => "submitted for publication"
-    case "Accepted for publication" => s"to appear in $journal"
-    case "Published"                => s"$journal {\\bf $volume} ($year), $pages"
+    case "Accepted for publication" => s"to appear in \\emph{$journal}"
+    case "Published"                => s"\\emph{$journal} {\\bf $volume} ($year)${preComma(pages)}"
     case _                          => ""
   }
 
-  val tex = s"\\item $author, \\emph{$title}, $tail$doiText$urlText."
+  val tex = s"\\item $author: $title, $tail$doiText$urlText."
 }
 
 object Paper {
@@ -361,7 +387,7 @@ case class ConfPaper(
     pages: String
 ) {
   val tex =
-    s"\\item $author, \\emph{$title} in $volumeEditors (ed.), {\\em $volumeTitle} ${preComma(
+    s"\\item $author: $title in {\\em $volumeTitle} $volumeEditors (ed.) ${preComma(
       conf
     )} ${preComma(publisher)} ($year)${preComma(pages)}."
 }
@@ -399,7 +425,7 @@ case class Book(
 ) {
   val authorString = if (isEditor) s"$author (ed.)" else author
   val tex =
-    s"\\item $authorString, \\emph{$title} ${preComma(series)} $volume ${preComma(publisher)} ($year)."
+    s"\\item $authorString: $title${preComma(series)} $volume ${preComma(publisher)} ($year)."
 }
 
 object Book {
@@ -437,9 +463,9 @@ case class BookChapter(
 ){
   val bookAuthorString = if (isEditor) s"$bookAuthor (ed.)" else bookAuthor
   val tex =
-    s"\\item $author, \\emph{$title} in $bookAuthorString (ed.), {\\em $bookTitle} ${preComma(
+    s"\\item $author: $title in {\\em $bookTitle} $bookAuthorString${preComma(
       series
-    )} ${preComma(publisher)} ($year)${preComma(pages)}."
+    )}${preComma(publisher)} ($year)${preComma(pages)}."
 }
 
 object BookChapter {

@@ -1,5 +1,6 @@
 package ugc
 import os.remove.all
+import Data.preComma
 
 object Publications {
   import org.jbibtex._
@@ -27,7 +28,7 @@ object Publications {
 
   def getString(y: YamlValue): String = y match {
     case YamlNumber(value)    => value.toString()
-    case YamlString(value)    => value
+    case YamlString(value)    => value.trim()
     case YamlBoolean(boolean) => boolean.toString()
     case _                    => ""
   }
@@ -50,7 +51,7 @@ object Publications {
     val urlOpt = m.get("url")
     val doiText = doiOpt.map(s =>s", DOI $s").getOrElse("")
     val urlText = urlOpt.map(s => s", \\url{$s}").getOrElse("")
-    s"\\item $author, {\\em $title}, $journal {\\bf $volume} ($year), $pages$doiText$urlText."
+    s"\\item $author: $title, \\emph{$journal} {\\bf $volume} ($year)${preComma(pages)}$doiText$urlText."
   }
 
   lazy val pubItems = allPubs.map(tex)
