@@ -8,3 +8,5 @@ bin/
 .metals/
 *.jar
 mill.*
+*.pdf
+*.fdb_latexmk

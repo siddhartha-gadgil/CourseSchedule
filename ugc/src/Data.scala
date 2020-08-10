@@ -174,14 +174,26 @@ ${enumString(other)}
   lazy val papersLinked = facultyData
     .flatMap(f => f.papers)
     .filter(
-      p => Set("Published", "Accepted for publication").contains(p.status)
+      p => Set("Published").contains(p.status)
     )
     .map(_.tex) ++ (postDocData
     .flatMap(f => f.papers)
     .filter(
-      p => Set("Published", "Accepted for publication").contains(p.status)
+      p => Set("Published").contains(p.status)
     )
-    .map(_.texLinked))
+    .map(_.texLinked)).sorted
+
+  lazy val acceptedLinked = facultyData
+    .flatMap(f => f.papers)
+    .filter(
+      p => Set("Accepted for publication").contains(p.status)
+    )
+    .map(_.tex) ++ (postDocData
+    .flatMap(f => f.papers)
+    .filter(
+      p => Set("Accepted for publication").contains(p.status)
+    )
+    .map(_.texLinked)).sorted
 
   lazy val preprintsLinked = facultyData
     .flatMap(f => f.papers)
@@ -193,28 +205,28 @@ ${enumString(other)}
     .filter(
       p => Set("Preprint", "Submitted").contains(p.status)
     )
-    .map(_.texLinked))
+    .map(_.texLinked)).sorted
 
   lazy val confPapers = facultyData.flatMap(f => f.confs.map(_.tex)) ++ postDocData
-    .flatMap(f => f.confs.map(_.tex))
+    .flatMap(f => f.confs.map(_.tex)).sorted
 
   lazy val books = facultyData.flatMap(f => f.books.map(_.tex)) ++ postDocData
-    .flatMap(f => f.books.map(_.tex))
+    .flatMap(f => f.books.map(_.tex)).sorted
 
   lazy val bookChapters = facultyData.flatMap(f => f.bookChapters.map(_.tex)) ++ postDocData
-    .flatMap(f => f.bookChapters.map(_.tex))
+    .flatMap(f => f.bookChapters.map(_.tex)).sorted
 
   lazy val visitors = visitorData.map(Visitor.get(_).tex)
 
   lazy val draftPubs =
     s"""
-\\subsection{Papers in Journals}
-
-${enumString(papers)}
-
-\\subsection{Papers in Journals with links}
+\\subsection{Papers in Journals (with links)}
 
 ${enumString(papersLinked)}
+
+\\subsection{Accepted Papers}
+
+${enumString(acceptedLinked)}
 
 \\subsection{Papers in Conference proceedings}
 
@@ -227,10 +239,6 @@ ${enumString(books)}
 \\subsection{Book Chapters}
 
 ${enumString(bookChapters)}
-
-\\subsection{Preprints}
-
-${enumString(preprints)}
 
 \\subsection{Preprints with links}
 
@@ -435,7 +443,7 @@ case class ConfPaper(
 
 object ConfPaper {
   def get(data: Vector[String], index: Int) = {
-    val start = confInit + (index * 5)
+    val start = confInit + (index * 9)
     ConfPaper(
       data(start),
       data(start + 1),
