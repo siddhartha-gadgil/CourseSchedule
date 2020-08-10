@@ -31,10 +31,10 @@ object Data {
     .map(pad(_))
 
   lazy val visitorData = os.read
-    .lines(os.resource / "ugc2020.tsv")
+    .lines(os.resource / "visitors.tsv")
     .toVector
     .tail
-    .map(_.split("\t").toVector.tail.map(_.trim))
+    .map(_.split("\t").toVector.map(_.trim))
     .map(pad(_, 5))
 
   lazy val summerStudents = data.flatMap(
@@ -69,6 +69,12 @@ object Data {
 \\begin{enumerate}
 ${summerStudents.map(s => "\\item " + s).mkString("\n")}
 \\end{enumerate}
+
+
+\\subsection{List of Visitors to the Department}
+
+${enumString(visitors)}
+
 """
   lazy val facultyData: Vector[FacultyData] =
     data.map(l => FacultyData.get(l)).sortBy(_.name)
@@ -165,6 +171,30 @@ ${enumString(other)}
     )
     .map(_.tex))
 
+  lazy val papersLinked = facultyData
+    .flatMap(f => f.papers)
+    .filter(
+      p => Set("Published", "Accepted for publication").contains(p.status)
+    )
+    .map(_.tex) ++ (postDocData
+    .flatMap(f => f.papers)
+    .filter(
+      p => Set("Published", "Accepted for publication").contains(p.status)
+    )
+    .map(_.texLinked))
+
+  lazy val preprintsLinked = facultyData
+    .flatMap(f => f.papers)
+    .filter(
+      p => Set("Preprint", "Submitted").contains(p.status)
+    )
+    .map(_.tex) ++ (postDocData
+    .flatMap(f => f.papers)
+    .filter(
+      p => Set("Preprint", "Submitted").contains(p.status)
+    )
+    .map(_.texLinked))
+
   lazy val confPapers = facultyData.flatMap(f => f.confs.map(_.tex)) ++ postDocData
     .flatMap(f => f.confs.map(_.tex))
 
@@ -180,9 +210,11 @@ ${enumString(other)}
     s"""
 \\subsection{Papers in Journals}
 
-\\begin{enumerate}
-${papers.mkString("\n")}
-\\end{enumerate}
+${enumString(papers)}
+
+\\subsection{Papers in Journals with links}
+
+${enumString(papersLinked)}
 
 \\subsection{Papers in Conference proceedings}
 
@@ -198,21 +230,25 @@ ${enumString(bookChapters)}
 
 \\subsection{Preprints}
 
-\\begin{enumerate}
-${preprints.mkString("\n")}
-\\end{enumerate}
+${enumString(preprints)}
+
+\\subsection{Preprints with links}
+
+${enumString(preprintsLinked)}
 
 % from web page
 
 \\subsection{Publications (all kinds) from web page}
 
 \\begin{enumerate}
-${Publications.pubItems.mkString("\n")}
+${Publications.pubItems.map(_._1).mkString("\n")}
 \\end{enumerate}
 
-\\subsection{List of Visitors to the Department}
+\\subsection{Publications (all kinds) from web page with hyperlinks}
 
-${enumString(visitors)}
+\\begin{enumerate}
+${Publications.pubItems.map(_._2).mkString("\n")}
+\\end{enumerate}
 """
 
   def writeReport() = os.write.over(os.pwd / "data" / "reports.tex", reports)
@@ -285,7 +321,7 @@ case class Visitor(
   from: String,
   till: String
 ){
-  val tex = s"\\item Dr.$name, $affiliation, $from--$till"
+  val tex = s"\\item Dr.~$name, $affiliation, $from--$till."
 }
 
 object Visitor{
@@ -350,7 +386,12 @@ case class Paper(
     case _                          => ""
   }
 
-  val tex = s"\\item $author: $title, $tail$doiText$urlText."
+  val titleString = if (url.trim.size > 0) s"\\href{$url}{$title}" else title
+
+  val texLinked = s"\\item $author: $titleString, $tail."
+
+  val tex = s"\\item $author: $title, $tail."
+
 }
 
 object Paper {
@@ -582,4 +623,8 @@ object Award {
     )
   }
 
+}
+
+object Update extends App{
+  Data.writeAll()
 }

@@ -17,7 +17,7 @@ object Publications {
       case (k, v) => k.getValue.toLowerCase -> v.toUserString
     })
     .toVector
-    .filter(m => Set("2018", "2019").contains(m("year")))
+    .filter(m => Set("2019", "2020").contains(m("year")))
 
   import net.jcazevedo.moultingyaml._
   import net.jcazevedo.moultingyaml.DefaultYamlProtocol._
@@ -40,7 +40,7 @@ object Publications {
       .filter(m => Set("2019", "2020").contains(m("year"))))
     .sortBy(m => m("author"))
 
-  def tex(m: Map[String, String]) = {
+  def texPair(m: Map[String, String]) = {
     val author = m("author")
     val title = m("title")
     val journal = m.get("journal").orElse(m.get("booktitle")).getOrElse("")
@@ -51,9 +51,11 @@ object Publications {
     val urlOpt = m.get("url")
     val doiText = doiOpt.map(s =>s", DOI $s").getOrElse("")
     val urlText = urlOpt.map(s => s", \\url{$s}").getOrElse("")
-    s"\\item $author: $title, \\emph{$journal} {\\bf $volume} ($year)${preComma(pages)}$doiText$urlText."
+    val titleString = urlOpt.map(url =>  s"\\href{$url}{$title}").getOrElse(title)
+    (s"\\item $author: $title, \\emph{$journal} {\\bf $volume} ($year)${preComma(pages)}.",
+    s"\\item $author: $titleString, \\emph{$journal} {\\bf $volume} ($year)${preComma(pages)}.")
   }
 
-  lazy val pubItems = allPubs.map(tex)
+  lazy val pubItems = allPubs.map(texPair)
 
 }
