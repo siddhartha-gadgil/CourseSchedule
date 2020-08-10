@@ -37,6 +37,20 @@ object Data {
     .map(_.split("\t").toVector.map(_.trim))
     .map(pad(_, 5))
 
+  def sortFile() =
+    os.write.over(
+      os.pwd / "sorted.tex",
+      os.read(os.pwd / "data" / "to-sort.tex")
+        .split("\\\\item")
+        .toVector
+        .tail
+        .sorted
+        .map(
+          s => "\\item " + s.trim()
+        )
+        .mkString("\n\n")
+    )
+
   lazy val summerStudents = data.flatMap(
     l =>
       SummerStudent.getAll(l).map { stu =>
@@ -101,7 +115,8 @@ ${grantsItems.mkString("\n").replace("&", "\\&")}
     .map(d => s"\\subsection{${d.name}}\n\n${d.researchHighlights}")
     .mkString("\n\n\n")
 
-  lazy val awards = facultyData.flatMap(f => f.awards.awardOpt(f.name)) ++ (postDocData.flatMap(f => f.awardOpt(f.name)))
+  lazy val awards = facultyData.flatMap(f => f.awards.awardOpt(f.name)) ++ (postDocData
+    .flatMap(f => f.awardOpt(f.name)))
 
   lazy val fellows = facultyData.flatMap(f => f.awards.fellowOpt(f.name)) ++ postDocData
     .flatMap(f => f.fellowOpt(f.name))
@@ -181,7 +196,8 @@ ${enumString(other)}
     .filter(
       p => Set("Published").contains(p.status)
     )
-    .map(_.texLinked)).sorted
+    .map(_.texLinked))
+    .sorted
 
   lazy val acceptedLinked = facultyData
     .flatMap(f => f.papers)
@@ -193,7 +209,8 @@ ${enumString(other)}
     .filter(
       p => Set("Accepted for publication").contains(p.status)
     )
-    .map(_.texLinked)).sorted
+    .map(_.texLinked))
+    .sorted
 
   lazy val preprintsLinked = facultyData
     .flatMap(f => f.papers)
@@ -205,16 +222,20 @@ ${enumString(other)}
     .filter(
       p => Set("Preprint", "Submitted").contains(p.status)
     )
-    .map(_.texLinked)).sorted
+    .map(_.texLinked))
+    .sorted
 
   lazy val confPapers = facultyData.flatMap(f => f.confs.map(_.tex)) ++ postDocData
-    .flatMap(f => f.confs.map(_.tex)).sorted
+    .flatMap(f => f.confs.map(_.tex))
+    .sorted
 
   lazy val books = facultyData.flatMap(f => f.books.map(_.tex)) ++ postDocData
-    .flatMap(f => f.books.map(_.tex)).sorted
+    .flatMap(f => f.books.map(_.tex))
+    .sorted
 
   lazy val bookChapters = facultyData.flatMap(f => f.bookChapters.map(_.tex)) ++ postDocData
-    .flatMap(f => f.bookChapters.map(_.tex)).sorted
+    .flatMap(f => f.bookChapters.map(_.tex))
+    .sorted
 
   lazy val visitors = visitorData.map(Visitor.get(_).tex)
 
@@ -324,15 +345,15 @@ object Fellowship {
 }
 
 case class Visitor(
-  name: String,
-  affiliation: String,
-  from: String,
-  till: String
-){
+    name: String,
+    affiliation: String,
+    from: String,
+    till: String
+) {
   val tex = s"\\item Dr.~$name, $affiliation, $from--$till."
 }
 
-object Visitor{
+object Visitor {
   def get(v: Vector[String]) = Visitor(v(0), v(1), v(3), v(4))
 }
 
@@ -346,7 +367,7 @@ case class PostDocData(
     fellowships: Vector[Fellowship],
     awards: String,
     assoc: String
-){
+) {
   def awardOpt(name: String) =
     if (awards.trim != "") Some(s"\\item $name was awarded $awards") else None
 
@@ -390,8 +411,9 @@ case class Paper(
     case "Preprint"                 => "preprint"
     case "Submitted"                => "submitted for publication"
     case "Accepted for publication" => s"to appear in \\emph{$journal}"
-    case "Published"                => s"\\emph{$journal} {\\bf $volume} ($year)${preComma(pages)}"
-    case _                          => ""
+    case "Published" =>
+      s"\\emph{$journal} {\\bf $volume} ($year)${preComma(pages)}"
+    case _ => ""
   }
 
   val titleString = if (url.trim.size > 0) s"\\href{$url}{$title}" else title
@@ -509,7 +531,7 @@ case class BookChapter(
     publisher: String,
     year: String,
     pages: String
-){
+) {
   val bookAuthorString = if (isEditor) s"$bookAuthor (ed.)" else bookAuthor
   val tex =
     s"\\item $author: $title in {\\em $bookTitle} $bookAuthorString${preComma(
@@ -633,6 +655,6 @@ object Award {
 
 }
 
-object Update extends App{
+object Update extends App {
   Data.writeAll()
 }
