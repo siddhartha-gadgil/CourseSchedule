@@ -77,19 +77,16 @@ object Data {
     )
 
   lazy val summerTeX =
-    s"""
-\\subsection{Summer Students}
+    s"""|\\subsection{Summer Students}
+      |
+      |${enumString(summerStudents)}
+      |
+      |\\subsection{List of Visitors to the Department}
+      |
+      |${enumString(visitors)}
+      |
+      |""".stripMargin
 
-\\begin{enumerate}
-${summerStudents.map(s => "\\item " + s).mkString("\n")}
-\\end{enumerate}
-
-
-\\subsection{List of Visitors to the Department}
-
-${enumString(visitors)}
-
-"""
   lazy val facultyData: Vector[FacultyData] =
     data.map(l => FacultyData.get(l)).sortBy(_.name)
 
@@ -101,13 +98,12 @@ ${enumString(visitors)}
   lazy val grantsItems = facultyData.flatMap(f => f.grantTeX)
 
   lazy val grants =
-    s"""
-\\section{Resource Generation}
-
-\\begin{enumerate}
-${grantsItems.mkString("\n").replace("&", "\\&")}
-\\end{enumerate}
-"""
+    s"""|\\section{Resource Generation}
+      |
+      |\\begin{enumerate}
+      |${grantsItems.mkString("\n").replace("&", "\\&")}
+      |\\end{enumerate}
+      |""".stripMargin
 
   lazy val reports = facultyData
     .map(d => s"\\subsection{${d.name}}\n\n${d.researchHighlights}")
@@ -139,28 +135,27 @@ ${grantsItems.mkString("\n").replace("&", "\\&")}
              |""".stripMargin
 
   lazy val draftSections =
-    s"""
-$summerTeX
-
-$grants
-
-\\subsection{Awards}
-
-${enumString(awards)}
-
-\\subsection{Fellowships of Academies}
-
-${enumString(fellows)}
-
-\\subsection{Editorial boards}
-${enumString(editors)}
-
-\\subsection{Other Activities: 2018-19}
-${enumString(otherOld)}
-
-\\subsection{Other Activities: 2019-20}
-${enumString(other)}
-"""
+    s"""|$summerTeX
+        |
+        |$grants
+        |
+        |\\subsection{Awards}
+        |
+        |${enumString(awards)}
+        |
+        |\\subsection{Fellowships of Academies}
+        |
+        |${enumString(fellows)}
+        |
+        |\\subsection{Editorial boards}
+        |${enumString(editors)}
+        |
+        |\\subsection{Other Activities: 2018-19}
+        |${enumString(otherOld)}
+        |
+        |\\subsection{Other Activities: 2019-20}
+        |${enumString(other)}
+        |""".stripMargin
 
   lazy val papers = facultyData
     .flatMap(f => f.papers)
@@ -240,45 +235,44 @@ ${enumString(other)}
   lazy val visitors = visitorData.map(Visitor.get(_).tex)
 
   lazy val draftPubs =
-    s"""
-\\subsection{Papers in Journals (with links)}
-
-${enumString(papersLinked)}
-
-\\subsection{Accepted Papers}
-
-${enumString(acceptedLinked)}
-
-\\subsection{Papers in Conference proceedings}
-
-${enumString(confPapers)}
-
-\\subsection{Books}
-
-${enumString(books)}
-
-\\subsection{Book Chapters}
-
-${enumString(bookChapters)}
-
-\\subsection{Preprints with links}
-
-${enumString(preprintsLinked)}
-
-% from web page
-
-\\subsection{Publications (all kinds) from web page}
-
-\\begin{enumerate}
-${Publications.pubItems.map(_._1).mkString("\n")}
-\\end{enumerate}
-
-\\subsection{Publications (all kinds) from web page with hyperlinks}
-
-\\begin{enumerate}
-${Publications.pubItems.map(_._2).mkString("\n")}
-\\end{enumerate}
-"""
+    s"""|\\subsection{Papers in Journals (with links)}
+        |
+        |${enumString(papersLinked)}
+        |
+        |\\subsection{Accepted Papers}
+        |
+        |${enumString(acceptedLinked)}
+        |
+        |\\subsection{Papers in Conference proceedings}
+        |
+        |${enumString(confPapers)}
+        |
+        |\\subsection{Books}
+        |
+        |${enumString(books)}
+        |
+        |\\subsection{Book Chapters}
+        |
+        |${enumString(bookChapters)}
+        |
+        |\\subsection{Preprints with links}
+        |
+        |${enumString(preprintsLinked)}
+        |
+        |% from web page
+        |
+        |\\subsection{Publications (all kinds) from web page}
+        |
+        |\\begin{enumerate}
+        |${Publications.pubItems.map(_._1).mkString("\n")}
+        |\\end{enumerate}
+        |
+        |\\subsection{Publications (all kinds) from web page with hyperlinks}
+        |
+        |\\begin{enumerate}
+        |${Publications.pubItems.map(_._2).mkString("\n")}
+        |\\end{enumerate}
+        |""".stripMargin
 
   def writeReport() = os.write.over(os.pwd / "data" / "reports.tex", reports)
 
