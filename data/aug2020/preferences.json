@@ -1,0 +1,39 @@
+[
+  {
+    "course": {
+      "name": "Introduction to Algebraic Topology",
+      "code": "MA 232",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "8:00 - 9:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      }
+    ]
+  }
+]
