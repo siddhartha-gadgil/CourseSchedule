@@ -341,6 +341,104 @@
         "code": "MA 381",
         "instructor": "Purvi Gupta"
       }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      },
+      "second": {
+        "name": "Complex Analysis II",
+        "code": "MA 226",
+        "instructor": "Kaushal Verma"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis II",
+        "code": "MA 226",
+        "instructor": "Kaushal Verma"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      },
+      "second": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      }
     }
   ],
   [
