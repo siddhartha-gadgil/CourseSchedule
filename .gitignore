@@ -10,3 +10,5 @@ bin/
 mill.*
 *.pdf
 *.fdb_latexmk
+.bloop/
+.vscode/

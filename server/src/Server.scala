@@ -1,6 +1,5 @@
 package courses
 
-
 import scala.util.Try
 import scala.collection.mutable.{Map => mMap}
 
@@ -11,7 +10,8 @@ import scala.xml.Elem
 import CourseData.semName
 
 object Server extends cask.MainRoutes {
-  var forbiddenClashes: Vector[(Course, Course)] = CourseData.corePairs ++ CourseData.sameInstructor
+  var forbiddenClashes
+      : Vector[(Course, Course)] = CourseData.corePairs ++ CourseData.sameInstructor
 
   def userForbidden: Vector[(Course, Course)] =
     forbiddenClashes.filter(!CourseData.corePairs.contains(_))
@@ -29,22 +29,28 @@ object Server extends cask.MainRoutes {
       }: _*
     )
 
- def prefView : String = {
-   lazy val items =
-     preferences.toVector.sortBy(_._1.code).map {
-       case (c, t) =>
-         val rows = t.sortBy(_._1).map{case (n, tim) => tr(td(n), td(tim.show))}
-         li(ul(`class` := "list-unstyled")(
-           li(strong("Code: "), c.code),
-           li(strong("Title: "), c.name),
-           li(strong("Instructor: "), c.instructor),
-           li(table(`class` := "table table-striped")(
-             thead(td(strong("Rank")), td(strong("Timing"))),
-             tbody(rows : _*)))
-         ))
-     }
-     ol(items :_ *).render
- }
+  def prefView: String = {
+    lazy val items =
+      preferences.toVector.sortBy(_._1.code).map {
+        case (c, t) =>
+          val rows =
+            t.sortBy(_._1).map { case (n, tim) => tr(td(n), td(tim.show)) }
+          li(
+            ul(`class` := "list-unstyled")(
+              li(strong("Code: "), c.code),
+              li(strong("Title: "), c.name),
+              li(strong("Instructor: "), c.instructor),
+              li(
+                table(`class` := "table table-striped")(
+                  thead(td(strong("Rank")), td(strong("Timing"))),
+                  tbody(rows: _*)
+                )
+              )
+            )
+          )
+      }
+    ol(items: _*).render
+  }
 
   def prefSet: Set[Preference] =
     (for {
@@ -61,15 +67,22 @@ object Server extends cask.MainRoutes {
     // pprint.log(forbiddenClashes)
   }
 
-  override def port: Int = Try(sys.env("COURSES_PORT").toInt).getOrElse(8080)
+  override def port: Int = Try(sys.env("COURSE_PORT").toInt).getOrElse(8080)
   override def host: String =
     Try(sys.env("IP")).getOrElse("localhost")
+
+  pprint.log(port)
+  pprint.log(host)
+  // println(sys.env.get("PORT"))
 
   def forbidJs: ujson.Arr =
     Course.pairsToJson(forbiddenClashes)
   @cask.get("/preferences.html")
-  def hello(): String = Home.indexHTML
-
+  def hello() =
+    cask.Response(
+      Home.indexHTML,
+      headers = Seq("Content-Type" -> "text/html")
+    )
   @cask.staticResources("/public")
   def staticResourceRoutes() = "."
 
@@ -80,18 +93,23 @@ object Server extends cask.MainRoutes {
   @cask.staticFiles("/data-files")
   def staticFileRoutes() = "data"
 
- @cask.get("/data.html")
- def dataView() : String =
-   Home.page(
-     s"""
+  @cask.get("/data.html")
+  def dataView() =
+    cask.Response(
+      Home.page(s"""
         |<h2> Preferences data </h2>
         |   $prefView
-      """.stripMargin)
+      """.stripMargin),
+      headers = Seq("Content-Type" -> "text/html")
+    )
 
   val dat: os.Path = os.pwd / "data" / semName
 
   def loadPrefs(): Unit = {
-    val jsV = ujson.read(Try(os.read(dat / "preferences.json")).getOrElse[String]("[]")).arr.toVector
+    val jsV = ujson
+      .read(Try(os.read(dat / "preferences.json")).getOrElse[String]("[]"))
+      .arr
+      .toVector
     jsV.foreach { js =>
       val course: Course = Course.fromJson(js.obj("course"))
       val timings: Vector[(Int, Timing)] =
@@ -101,7 +119,7 @@ object Server extends cask.MainRoutes {
   }
 
   def loadClashes(): Unit = {
-    val d : String = Try(os.read(dat / "forbidden-clashes.json")).getOrElse("[]")
+    val d: String = Try(os.read(dat / "forbidden-clashes.json")).getOrElse("[]")
     val js = ujson.read(
       d
     )
@@ -144,9 +162,11 @@ object Server extends cask.MainRoutes {
       .arr
       .toVector
 
-    os.write.over(dat / "preferences-arr.json",
-               ujson.write(ujson.Arr(prefVec: _*), 2),
-      createFolders = true)
+    os.write.over(
+      dat / "preferences-arr.json",
+      ujson.write(ujson.Arr(prefVec: _*), 2),
+      createFolders = true
+    )
 
     os.write.over(
       dat / "forbidden-clashes.json",
@@ -154,8 +174,11 @@ object Server extends cask.MainRoutes {
       createFolders = true
     )
 
-    val forbidVec: Vector[ujson.Value] = Course.pairsToJson(userForbidden) +: ujson
-      .read(Try(os.read(dat / "forbidden-clashes-arr.json")).getOrElse[String]("[]"))
+    val forbidVec
+        : Vector[ujson.Value] = Course.pairsToJson(userForbidden) +: ujson
+      .read(
+        Try(os.read(dat / "forbidden-clashes-arr.json")).getOrElse[String]("[]")
+      )
       .arr
       .toVector
 
