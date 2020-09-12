@@ -63,6 +63,13 @@
           "days": "Mon, Wed, Fri",
           "times": "12:00 - 1:00"
         }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
       }
     ]
   },
