@@ -94,5 +94,77 @@
       "code": "MA 381",
       "instructor": "Purvi Gupta"
     }
+  },
+  {
+    "first": {
+      "name": "Basic Algebraic Geometry",
+      "code": "MA 308",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Topics in Number Theory",
+      "code": "MA 354",
+      "instructor": "Ignazio Longhi"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Number Theory",
+      "code": "MA 354",
+      "instructor": "Ignazio Longhi"
+    },
+    "second": {
+      "name": "Basic Algebraic Geometry",
+      "code": "MA 308",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Partial Differential Equations",
+      "code": "MA 242",
+      "instructor": "Mrinal K. Ghosh"
+    },
+    "second": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "S. Thangavelu"
+    }
+  },
+  {
+    "first": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "S. Thangavelu"
+    },
+    "second": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Gadadhar Misra"
+    }
+  },
+  {
+    "first": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Gadadhar Misra"
+    },
+    "second": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "S. Thangavelu"
+    }
+  },
+  {
+    "first": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "S. Thangavelu"
+    },
+    "second": {
+      "name": "Partial Differential Equations",
+      "code": "MA 242",
+      "instructor": "Mrinal K. Ghosh"
+    }
   }
 ]
