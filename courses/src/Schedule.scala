@@ -93,14 +93,14 @@ case class Scheduler(prefs: Set[Preference],
                   timing <- pref.at(worst)
                   sch <- getAll(worst, numWorst - 1, ys)
 
-                } yield sch + (x, timing)
+                } yield sch. + (x, timing)
               else Set()
             val inner =
               for {
                 timing <- pref.bounded(worst - 1)
                 sch <- getAll(worst, numWorst, ys)
 
-              } yield sch + (x, timing)
+              } yield sch. + (x, timing)
 
             (top union inner).filter(sch =>
               !sch.clashes.exists({ case (c1, c2) => avoid(c1, c2) }))
