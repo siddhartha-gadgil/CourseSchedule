@@ -1,6 +1,66 @@
 [
   {
     "course": {
+      "name": "Riemann Surfaces",
+      "code": "MA 307",
+      "instructor": "Subhojoy Gupta"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Probability Models",
+      "code": "MA 261",
+      "instructor": "Arvind Ayyer"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Introduction to Algebraic Topology",
       "code": "MA 232",
       "instructor": "Siddhartha Gadgil"
