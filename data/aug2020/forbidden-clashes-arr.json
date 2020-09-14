@@ -263,6 +263,562 @@
         "code": "MA 307",
         "instructor": "Subhojoy Gupta"
       }
+    },
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Mahesh Kakde and Soumya Das"
+      },
+      "second": {
+        "name": "Basic Algebraic Geometry",
+        "code": "MA 308",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Basic Algebraic Geometry",
+        "code": "MA 308",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Mahesh Kakde and Soumya Das"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      },
+      "second": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      },
+      "second": {
+        "name": "Complex Analysis II",
+        "code": "MA 226",
+        "instructor": "Kaushal Verma"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis II",
+        "code": "MA 226",
+        "instructor": "Kaushal Verma"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Basic Algebraic Geometry",
+        "code": "MA 308",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Topics in Number Theory",
+        "code": "MA 354",
+        "instructor": "Ignazio Longhi"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory",
+        "code": "MA 354",
+        "instructor": "Ignazio Longhi"
+      },
+      "second": {
+        "name": "Basic Algebraic Geometry",
+        "code": "MA 308",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Mrinal K. Ghosh"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "S. Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "S. Thangavelu"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Gadadhar Misra"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Gadadhar Misra"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "S. Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "S. Thangavelu"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Mrinal K. Ghosh"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Mechanics",
+        "code": "MA 302",
+        "instructor": "Pranav Pandit"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Complex Analysis II",
+        "code": "MA 226",
+        "instructor": "Kaushal Verma"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Basic Algebraic Geometry",
+        "code": "MA 308",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Mechanics",
+        "code": "MA 302",
+        "instructor": "Pranav Pandit"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Basic Algebraic Geometry",
+        "code": "MA 308",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis II",
+        "code": "MA 226",
+        "instructor": "Kaushal Verma"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      },
+      "second": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Riemannian Geometry",
+        "code": "MA 336",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      },
+      "second": {
+        "name": "Complex Analysis II",
+        "code": "MA 226",
+        "instructor": "Kaushal Verma"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis II",
+        "code": "MA 226",
+        "instructor": "Kaushal Verma"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 381",
+        "instructor": "Purvi Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Basic Algebraic Geometry",
+        "code": "MA 308",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Topics in Number Theory",
+        "code": "MA 354",
+        "instructor": "Ignazio Longhi"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory",
+        "code": "MA 354",
+        "instructor": "Ignazio Longhi"
+      },
+      "second": {
+        "name": "Basic Algebraic Geometry",
+        "code": "MA 308",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Mrinal K. Ghosh"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "S. Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "S. Thangavelu"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Gadadhar Misra"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Gadadhar Misra"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "S. Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "S. Thangavelu"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Mrinal K. Ghosh"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Mechanics",
+        "code": "MA 302",
+        "instructor": "Pranav Pandit"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Complex Analysis II",
+        "code": "MA 226",
+        "instructor": "Kaushal Verma"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Basic Algebraic Geometry",
+        "code": "MA 308",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Mechanics",
+        "code": "MA 302",
+        "instructor": "Pranav Pandit"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Basic Algebraic Geometry",
+        "code": "MA 308",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis II",
+        "code": "MA 226",
+        "instructor": "Kaushal Verma"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Subhojoy Gupta"
+      }
     }
   ],
   [
