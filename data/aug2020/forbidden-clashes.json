@@ -262,5 +262,29 @@
       "code": "MA 307",
       "instructor": "Subhojoy Gupta"
     }
+  },
+  {
+    "first": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Mahesh Kakde and Soumya Das"
+    },
+    "second": {
+      "name": "Basic Algebraic Geometry",
+      "code": "MA 308",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Basic Algebraic Geometry",
+      "code": "MA 308",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Mahesh Kakde and Soumya Das"
+    }
   }
 ]

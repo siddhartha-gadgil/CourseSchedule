@@ -232,6 +232,66 @@
   },
   {
     "course": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Mahesh Kakde and Soumya Das"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "8:00 - 9:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Partial Differential Equations",
+      "code": "MA 242",
+      "instructor": "Mrinal K. Ghosh"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Topics in Riemannian Geometry",
       "code": "MA 336",
       "instructor": "Ved Datar"
