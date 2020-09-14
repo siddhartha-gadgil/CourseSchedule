@@ -286,5 +286,29 @@
       "code": "MA 212",
       "instructor": "Mahesh Kakde and Soumya Das"
     }
+  },
+  {
+    "first": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Srikanth Iyer"
+    },
+    "second": {
+      "name": "Topics in Gaussian Processes",
+      "code": "MA 365",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Gaussian Processes",
+      "code": "MA 365",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Srikanth Iyer"
+    }
   }
 ]
