@@ -166,5 +166,101 @@
       "code": "MA 242",
       "instructor": "Mrinal K. Ghosh"
     }
+  },
+  {
+    "first": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Srikanth Iyer"
+    },
+    "second": {
+      "name": "Probability Models",
+      "code": "MA 261",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Probability Models",
+      "code": "MA 261",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Srikanth Iyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemann Surfaces",
+      "code": "MA 307",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Mechanics",
+      "code": "MA 302",
+      "instructor": "Pranav Pandit"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemann Surfaces",
+      "code": "MA 307",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Complex Analysis II",
+      "code": "MA 226",
+      "instructor": "Kaushal Verma"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemann Surfaces",
+      "code": "MA 307",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Basic Algebraic Geometry",
+      "code": "MA 308",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Mechanics",
+      "code": "MA 302",
+      "instructor": "Pranav Pandit"
+    },
+    "second": {
+      "name": "Riemann Surfaces",
+      "code": "MA 307",
+      "instructor": "Subhojoy Gupta"
+    }
+  },
+  {
+    "first": {
+      "name": "Basic Algebraic Geometry",
+      "code": "MA 308",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Riemann Surfaces",
+      "code": "MA 307",
+      "instructor": "Subhojoy Gupta"
+    }
+  },
+  {
+    "first": {
+      "name": "Complex Analysis II",
+      "code": "MA 226",
+      "instructor": "Kaushal Verma"
+    },
+    "second": {
+      "name": "Riemann Surfaces",
+      "code": "MA 307",
+      "instructor": "Subhojoy Gupta"
+    }
   }
 ]
