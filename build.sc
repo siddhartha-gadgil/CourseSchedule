@@ -21,7 +21,7 @@ object courses extends Module{
 }
 
 object ugc extends ScalaModule{
-  def scalaVersion = "2.13.1"
+  def scalaVersion = "2.13.3"
 
   def moduleDeps = Seq(courses.jvm)
 
@@ -33,8 +33,19 @@ object ugc extends ScalaModule{
   )
 }
 
+object forms extends ScalaModule{
+  def scalaVersion = "2.13.3"
+
+  def moduleDeps = Seq(courses.jvm)
+
+
+  def ivyDeps = Agg(
+    ivy"com.lihaoyi::os-lib:0.7.0"
+  )
+}
+
 object server extends ScalaModule{
-  def scalaVersion = "2.13.1"
+  def scalaVersion = "2.13.3"
 
   def moduleDeps = Seq(courses.jvm)
 
@@ -79,3 +90,4 @@ object client extends ScalaJSModule {
   def moduleDeps = Seq(courses.js)
 
 }
+
