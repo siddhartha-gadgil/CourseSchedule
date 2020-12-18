@@ -5,7 +5,10 @@ package forms
   *
   * @param allVotes votes in ranked order
   */
-case class Voting(allVotes: Vector[(String, Vector[String])]) {
+case class Voting(
+    allVotes: Vector[(String, Vector[String])],
+    verbose: Boolean
+) {
 
   /**
     * choose top vote, if any, among candidates who are still eligible
@@ -42,12 +45,13 @@ case class Voting(allVotes: Vector[(String, Vector[String])]) {
     * @param eligible eligible candidates
     * @return surviving eligible candidates after purge
     */
-  def nextStep(eligible: Vector[String]): Vector[String] = {
+  def nextStep(eligible: Vector[String], round: Int): Vector[String] = {
     val votes = currentVotes(eligible)
-    println("Current standing:")
+    println(s"Round $round:")
     votes.zipWithIndex.foreach {
       case ((x, ys), n) =>
-        println(s"${n + 1}. $x : ${ys.size} (${ys.mkString(", ")})")
+        val details = if (verbose) s" (${ys.mkString(", ")})" else ""
+        println(s"${n + 1}. $x : ${ys.size}$details")
     }
     println()
 
@@ -62,9 +66,9 @@ case class Voting(allVotes: Vector[(String, Vector[String])]) {
     * @return Vector of winners
     */
   @annotation.tailrec
-  final def recWinners(eligible: Vector[String]): Vector[String] = {
-    val survivors = nextStep(eligible)
-    if (survivors.nonEmpty) recWinners(survivors) else eligible
+  final def recWinners(eligible: Vector[String], round: Int): Vector[String] = {
+    val survivors = nextStep(eligible, round)
+    if (survivors.nonEmpty) recWinners(survivors, round + 1) else eligible
   }
 
   /**
@@ -73,20 +77,23 @@ case class Voting(allVotes: Vector[(String, Vector[String])]) {
     * @return Vector of winners
     */
   lazy val winners: Vector[String] = recWinners(
-    allVotes.flatMap(_._2.headOption)
+    allVotes.flatMap(_._2.headOption),
+    1
   )
 }
 
 object Voting {
-  def voterClass(filename: String) =
+  def voterClass(filename: String, verbose: Boolean) =
     Voting(
       os.read
         .lines(os.resource / filename)
         .toVector
         .tail
         .map(_.split("\t").toVector.tail.map(_.trim))
-        .map(v => v.head -> v.tail)
+        .map(v => v.head -> v.tail),
+      verbose
     )
 
-  val mf2020 = voterClass("martin-foster-2020.tsv")
+  def mf2020(verbose: Boolean = true) =
+    voterClass("martin-foster-2020.tsv", verbose)
 }
