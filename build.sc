@@ -11,7 +11,7 @@ object courses extends Module{
 
   object js extends ScalaJSModule {
     def scalaVersion = "2.13.3"
-    def scalaJSVersion = "1.1.0"
+    def scalaJSVersion = "1.4.0"
     def millSourcePath = super.millSourcePath / up
 
     def platformSegment = "js"
@@ -27,8 +27,8 @@ object ugc extends ScalaModule{
 
 
   def ivyDeps = Agg(
-    ivy"com.lihaoyi::os-lib:0.7.0",
-    ivy"org.jbibtex:jbibtex:1.0.5",
+    ivy"com.lihaoyi::os-lib:0.7.2",
+    ivy"org.jbibtex:jbibtex:1.0.18",
     ivy"net.jcazevedo::moultingyaml:0.4.2"
   )
 }
@@ -40,7 +40,7 @@ object forms extends ScalaModule{
 
 
   def ivyDeps = Agg(
-    ivy"com.lihaoyi::os-lib:0.7.0"
+    ivy"com.lihaoyi::os-lib:0.7.2"
   )
 }
 
@@ -51,13 +51,13 @@ object server extends ScalaModule{
 
 
   def ivyDeps = Agg(
-    ivy"com.lihaoyi::cask:0.7.3",
-    ivy"com.lihaoyi::os-lib:0.7.0",
+    ivy"com.lihaoyi::cask:0.7.8",
+    ivy"com.lihaoyi::os-lib:0.7.2",
     ivy"net.jcazevedo::moultingyaml:0.4.2",
-    ivy"com.lihaoyi::upickle::1.2.0",
-    ivy"com.lihaoyi::scalatags::0.9.1",
-    ivy"com.lihaoyi::pprint::0.5.8",
-    ivy"org.scala-lang.modules::scala-xml:1.2.0"
+    ivy"com.lihaoyi::upickle::1.2.2",
+    ivy"com.lihaoyi::scalatags::0.9.3",
+    ivy"com.lihaoyi::pprint::0.6.0",
+    ivy"org.scala-lang.modules::scala-xml:1.3.0"
   )
 
   def resources = T.sources {
@@ -71,7 +71,7 @@ object server extends ScalaModule{
 
 object client extends ScalaJSModule {
   def scalaVersion = "2.13.3"
-  def scalaJSVersion = "1.1.0"
+  def scalaJSVersion = "1.4.0"
 
   def platformSegment = "js"
 
@@ -82,9 +82,9 @@ object client extends ScalaJSModule {
   )
 
   def ivyDeps = Agg(
-    ivy"org.scala-js::scalajs-dom::1.0.0",
-    ivy"com.lihaoyi::scalatags::0.9.1",
-    ivy"com.lihaoyi::upickle::1.2.0"
+    ivy"org.scala-js::scalajs-dom::1.1.0",
+    ivy"com.lihaoyi::scalatags::0.9.3",
+    ivy"com.lihaoyi::upickle::1.2.2"
   )
 
   def moduleDeps = Seq(courses.js)
