@@ -8,7 +8,7 @@ import ujson.Js
 object CourseData{
   val semName = "jan2021"
 
-  lazy val source: String = os.read(os.resource / "courses.yaml")
+  lazy val source: String = os.read(os.pwd / "server" / "resources" / "courses.yaml")
 
   lazy val yamlAst: YamlValue = source.parseYaml
 
