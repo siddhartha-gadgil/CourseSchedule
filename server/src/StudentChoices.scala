@@ -23,7 +23,7 @@ object StudentChoices {
     )
 
   lazy val dataLines = os.read
-    .lines(Server.dat / "students.tsv")
+    .lines(SavedData.dat / "students.tsv")
     .map(_.split("\t").toVector)
     .toVector
     .drop(1)
@@ -76,7 +76,7 @@ case class StudentChoices(
 }
 
 object BestChoice {
-  lazy val sch = Server.scheduler
+  lazy val sch = SavedData.scheduler
   lazy val best = sch.bestChoices
   lazy val minStrong = best.map(totalStrongClashes).min
   lazy val bestStrong = best.filter(s => totalStrongClashes(s) == minStrong)

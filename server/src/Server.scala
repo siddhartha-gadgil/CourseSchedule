@@ -203,6 +203,43 @@ object Server extends cask.MainRoutes {
 
 }
 
+object SavedData {
+  val dat: os.Path = os.pwd / "data" / semName
+  
+
+  lazy val prefs = {
+    val jsV = ujson
+      .read(Try(os.read(dat / "preferences.json")).getOrElse[String]("[]"))
+      .arr
+      .toVector
+    jsV.map { js =>
+      val course: Course = Course.fromJson(js.obj("course"))
+      val timings: Vector[(Int, Timing)] =
+        Timing.timingsFromJson(js.obj("timings"))
+      (course -> timings)
+    }
+  }
+
+  lazy val forbiddenClashes = {
+    val d: String = Try(os.read(dat / "forbidden-clashes.json")).getOrElse("[]")
+    val js = ujson.read(
+      d
+    )
+    Course.pairsFromJson(js)
+  }
+
+  def avoid(c1: Course, c2: Course): Boolean =
+    forbiddenClashes.contains(c1 -> c2)
+
+  lazy val prefSet: Set[Preference] =
+    (for {
+      (course, vec) <- prefs
+    } yield Preference(course, vec.toSet)).toSet
+
+  lazy val scheduler: Scheduler = Scheduler(prefSet, avoid)
+
+}
+
 object Home {
   val instructions: Elem =
     <div>
