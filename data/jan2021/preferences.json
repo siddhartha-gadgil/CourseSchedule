@@ -179,6 +179,36 @@
   },
   {
     "course": {
+      "name": "Introduction to the Calculus of Variations",
+      "code": "MA 374",
+      "instructor": "Swarnendu Sil"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Complex Analysis",
       "code": "MA 224",
       "instructor": "Purvi Gupta"
