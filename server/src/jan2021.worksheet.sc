@@ -1,14 +1,7 @@
 import courses._
 
 BestChoice.best
-
-CourseData
-
-import scala.util._
-
-val source: String = os.read(os.pwd / "server" / "resources" / "courses.yaml")
-
-CourseData
+BestChoice.best.size
 
 BestChoice.bestSW
 BestChoice.unhappy
