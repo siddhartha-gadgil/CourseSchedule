@@ -118,5 +118,29 @@
       "code": "MA 321",
       "instructor": "E. K. Narayanan"
     }
+  },
+  {
+    "first": {
+      "name": "Differentiable Manifolds & Lie Groups",
+      "code": "MA 338",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Differentiable Manifolds & Lie Groups",
+      "code": "MA 338",
+      "instructor": "Subhojoy Gupta"
+    }
   }
 ]
