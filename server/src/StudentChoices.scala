@@ -88,7 +88,7 @@ object BestChoice {
     bestSW.head
   }
   lazy val unhappy =
-    strongClashes(chosen)
+    strongClashes(chosen).toVector
       .map {
         case (c, v) => (c._1.name, c._2.name) -> v.map(_.name).mkString(", ")
       }
