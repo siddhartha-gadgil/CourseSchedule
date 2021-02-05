@@ -265,6 +265,298 @@
         "code": "MA 321",
         "instructor": "E. K. Narayanan"
       }
+    },
+    {
+      "first": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Introduction to Complex Dynamics",
+        "code": "MA 380",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Complex Dynamics",
+        "code": "MA 380",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability in higher dimensions",
+        "code": "MA 363",
+        "instructor": "Anirban Basak"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Probability in higher dimensions",
+        "code": "MA 363",
+        "instructor": "Anirban Basak"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Topics in Harmonic Anaysis",
+        "code": "MA 304",
+        "instructor": "S. Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Harmonic Anaysis",
+        "code": "MA 304",
+        "instructor": "S. Thangavelu"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Complex Dynamics",
+        "code": "MA 380",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Introduction to Complex Dynamics",
+        "code": "MA 380",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Introduction to Complex Dynamics",
+        "code": "MA 380",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Complex Dynamics",
+        "code": "MA 380",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Differentiable Manifolds & Lie Groups",
+        "code": "MA 338",
+        "instructor": "Subhojoy Gupta"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability in higher dimensions",
+        "code": "MA 363",
+        "instructor": "Anirban Basak"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Probability in higher dimensions",
+        "code": "MA 363",
+        "instructor": "Anirban Basak"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Topics in Harmonic Anaysis",
+        "code": "MA 304",
+        "instructor": "S. Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Harmonic Anaysis",
+        "code": "MA 304",
+        "instructor": "S. Thangavelu"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Complex Dynamics",
+        "code": "MA 380",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Introduction to Complex Dynamics",
+        "code": "MA 380",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
     }
   ],
   [
