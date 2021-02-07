@@ -142,5 +142,53 @@
       "code": "MA 338",
       "instructor": "Subhojoy Gupta"
     }
+  },
+  {
+    "first": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Analysis III",
+      "code": "MA 321",
+      "instructor": "E. K. Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Analysis III",
+      "code": "MA 321",
+      "instructor": "E. K. Narayanan"
+    },
+    "second": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Introduction to Modular Forms",
+      "code": "MA 215",
+      "instructor": "Soumya Das"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Modular Forms",
+      "code": "MA 215",
+      "instructor": "Soumya Das"
+    },
+    "second": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    }
   }
 ]
