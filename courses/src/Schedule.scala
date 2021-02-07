@@ -26,6 +26,9 @@ case class Schedule(sch: Map[Course, Timing]) {
   val tsv: String = sorted.map{
     case (c, t) => Vector(c.code, c.name, c.instructor, t.days, t.times).mkString("\t")
   }.mkString("\n", "\n", "\n")
+
+  def diff(that: Schedule): Map[Course,(Timing, Option[Timing])] = 
+    sch.keySet.filter(key => that.sch.get(key) != Some(sch(key))).map(key => key -> ((sch(key), that.sch.get(key)))).toMap
 }
 
 object Schedule {
