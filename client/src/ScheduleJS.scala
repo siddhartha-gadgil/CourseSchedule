@@ -126,7 +126,7 @@ object ChooserJS {
     dom.window.alert(
       if (courseOpt.isEmpty) "Please choose course"
       else
-        "Please give at least three choices; at least one choice with rank at most 3 should be for 3 one hour lectures."
+        "Please give at least three choices; and enough choices on MWF and TuTh"
     )
 
   def forbidInput(c1: Course): JsDom.TypedTag[Div] = {
@@ -285,7 +285,7 @@ object ChooserJS {
         if (enoughChoices)
           "Please check selected course below before submitting. More choices are always welcome!"
         else
-          "Please give at least three choices; at least one choice with rank at most 3 should be for 3 one hour lectures."
+          "Please give at least three choices; and enough choices on MWF and TuTh."
       ),
       h3(`class` := "text-center")(strong("Course")),
       ul(`class` := "list-unstyled")(
@@ -347,13 +347,13 @@ object ChooserJS {
       Ajax.get("core1-course-list").foreach { xhr =>
         val courses = getCourses(ujson.read(xhr.responseText))
         coursesCore1Opt = Some(courses)
-        selectCourseDiv.appendChild(courseChoose)
+
       }
 
       Ajax.get("core2-course-list").foreach { xhr =>
         val courses = getCourses(ujson.read(xhr.responseText))
         coursesCore2Opt = Some(courses)
-        selectCourseDiv.appendChild(courseChoose)
+
       }
 
       Ajax.get("forbidden-clashes").foreach { xhr =>

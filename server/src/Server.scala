@@ -253,12 +253,14 @@ object Home {
     <div>
       <h2>Guidelines</h2>
       <ol>
-        <li>Give at least 3 preferences.</li>
+        <li>Give at least 3 preferences (you will have to give more if you are teaching a core course).</li>
         <li>You are welcome to give more than 3 preferences.
           You can also rank your preferences (as positive integers) with,
           for example several 1st preferences (so that, for k=1, 2, 3, there are at least k courses with rank at most k).</li>
         <li>All are in the <em>new</em> standard slots: one hour lectures beginning on the hour on MWF or 90 minute ones on Tue-Thu.</li>
         <li>At least one preference with rank at most 3 should be for 3 (hour long) lectures (on MWF, starting on the hour).</li>
+        <li>If you are teaching a core course you must give at least two preferences ranked 1 or 2 that are on MWF,
+              and at least two preferences ranked 1 or 2 that are on TuTh. </li>
       </ol>
       <p>I realize that most of us prefer two 90 minute lectures, but this has to be balanced with trying to minimize
       schedule clashes of courses students would like to take concurrently (and instances of  colleagues being
@@ -271,6 +273,8 @@ object Home {
     page(
       s"""
         |<h1 class="text-center"> Course Timing Preferences </h1>
+        |<p> Please note that those teaching <em>core courses</em> need to give more choices than previously,
+        | specifically at least two choices ranked 2 or above on MWF and two choices ranked 2 or above on TuTh.
         |     <div id="message"></div>
         |      <div id="chooser"></div>
         |      $instructions
