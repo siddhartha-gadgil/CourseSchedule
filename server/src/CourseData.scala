@@ -32,6 +32,10 @@ object CourseData{
 
   lazy val json = ujson.Arr(courses.map(_.json)  : _*)
 
+  lazy val jsonCore1 = ujson.Arr(core1.map(_.json)  : _*)
+
+  lazy val jsonCore2 = ujson.Arr(core2.map(_.json)  : _*)
+
   def pairs[A](s: Set[A]) : Vector[(A, A)] =
     (for {
       i <- s

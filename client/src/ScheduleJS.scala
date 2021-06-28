@@ -24,16 +24,29 @@ object ChooserJS {
 
   var coursesOpt: Option[Vector[Course]] = None
 
+  var coursesCore1Opt: Option[Vector[Course]] = None
+
+  var coursesCore2Opt: Option[Vector[Course]] = None
+
   def courses: Vector[Course] = coursesOpt.getOrElse(Vector.empty[Course])
 
   var courseOpt: Option[Course] = None
 
+  def isCoreOpt: Option[Boolean] = 
+    for {
+      course <- courseOpt
+      core1 <- coursesCore1Opt
+      core2 <- coursesCore2Opt
+    } yield ((core1 ++ core2).contains(course))
+
+  def isCore: Boolean = isCoreOpt.getOrElse(throw new Exception("Courses not loaded"))
+
   val forbiddenClashes: mSet[(Course, Course)] = mSet()
 
-  val newlyForbidden : mSet[Course] = mSet()
+  val newlyForbidden: mSet[Course] = mSet()
 
   def forbidJs: ujson.Arr =
-    Course.pairsToJson(forbiddenClashes.filterNot{case (c1, c2) => c1 == c2})
+    Course.pairsToJson(forbiddenClashes.filterNot { case (c1, c2) => c1 == c2 })
 
   val timingDiv: Div = div(`class` := "col-md-7")().render
 
@@ -63,21 +76,22 @@ object ChooserJS {
   submitButton.onclick = (_) =>
     Ajax.post("/save-preferences", ujson.write(submitJson)).onComplete {
       case Failure(exception) =>
-        Option(dom.document.querySelector("#message")).foreach{
-          message =>
-            message.appendChild(h1(`class` := "text-failure")(exception.toString()).render)
+        Option(dom.document.querySelector("#message")).foreach { message =>
+          message.appendChild(
+            h1(`class` := "text-failure")(exception.toString()).render
+          )
         }
       case Success(xhr) =>
         courseOpt = None
         timings.clear()
         update()
-        Option(dom.document.querySelector("#message")).foreach{
-          message =>
-            message.appendChild(h1(`class` := "text-success")("Thanks for your submission!").render)
+        Option(dom.document.querySelector("#message")).foreach { message =>
+          message.appendChild(
+            h1(`class` := "text-success")("Thanks for your submission!").render
+          )
         }
-        Option(dom.document.querySelector("#chooser")).foreach{
-          chooser =>
-            chooser.innerHTML = ""
+        Option(dom.document.querySelector("#chooser")).foreach { chooser =>
+          chooser.innerHTML = ""
         }
     }
 
@@ -112,7 +126,8 @@ object ChooserJS {
     dom.window.alert(
       if (courseOpt.isEmpty) "Please choose course"
       else
-        "Please give at least three choices; at least one choice with rank at most 3 should be for 3 one hour lectures.")
+        "Please give at least three choices; at least one choice with rank at most 3 should be for 3 one hour lectures."
+    )
 
   def forbidInput(c1: Course): JsDom.TypedTag[Div] = {
     val btn =
@@ -160,7 +175,7 @@ object ChooserJS {
 
     btn.onclick = _ => {
       timings += level -> timing
-      timings --= timings.filter{case (l, t) => t == timing && l != level}
+      timings --= timings.filter { case (l, t) => t == timing && l != level }
       update()
     }
 
@@ -170,7 +185,8 @@ object ChooserJS {
   def removeButton(level: Int, timing: Timing): Button = {
     val btn =
       button(`class` := "btn btn-secondary btn-sm")(
-        span(`class` := "fa fa-remove")).render
+        span(`class` := "fa fa-remove")
+      ).render
 
     btn.onclick = _ => {
       timings -= level -> timing
@@ -183,7 +199,8 @@ object ChooserJS {
   def clashButton(c1: Course, c2: Course): Button = {
     val btn =
       button(`class` := "btn btn-secondary btn-sm")(
-        span(`class` := "fa fa-remove")).render
+        span(`class` := "fa fa-remove")
+      ).render
 
     btn.onclick = _ => {
       newlyForbidden -= c2
@@ -224,13 +241,18 @@ object ChooserJS {
     )
   }
 
+  def mwfRank2 = timings.count { case (i, t) => i <= 2 && t.isMWF } > 1
+
+  def tuThRank2 = timings.count { case (i, t) => i <= 2 && t.isTuTh } > 1
+
   def enoughChoices: Boolean = {
     (1 to 3)
       .map { (j) =>
         timings.count(_._1 <= j) >= j
       }
       .reduce(_ && _) &&
-    timings.exists { case (n, t) => n <= 3 && t.days == "Mon, Wed, Fri" }
+    timings.exists { case (n, t) => n <= 3 && t.days == "Mon, Wed, Fri" } &&
+    (!isCore || (mwfRank2 && tuThRank2))
   }
 
   def chosenList: Div = {
@@ -252,7 +274,8 @@ object ChooserJS {
     val name = courseOpt.map(_.name).getOrElse("")
 
     def avoidingLI(c1: Course, c2: Course): JsDom.TypedTag[LI] =
-      if (newlyForbidden.contains(c2)) li(s"${c2.code} ${c2.name}", clashButton(c1, c2))
+      if (newlyForbidden.contains(c2))
+        li(s"${c2.code} ${c2.name}", clashButton(c1, c2))
       else li(s"${c2.code} ${c2.name}")
 
     div(
@@ -262,25 +285,29 @@ object ChooserJS {
         if (enoughChoices)
           "Please check selected course below before submitting. More choices are always welcome!"
         else
-          "Please give at least three choices; at least one choice with rank at most 3 should be for 3 one hour lectures."),
+          "Please give at least three choices; at least one choice with rank at most 3 should be for 3 one hour lectures."
+      ),
       h3(`class` := "text-center")(strong("Course")),
       ul(`class` := "list-unstyled")(
         li(strong("Code: "), code),
         li(strong("Title: "), name),
         li(strong("Instructor: "), instructor)
       ),
-      courseOpt.map(c1 =>
-        div(
-          h4("Avoiding clashes with courses:"),
-          ul(
-            avoid(c1).filterNot(_ == c1).map(c2 => avoidingLI(c1, c2)) : _*
-          ),
-          div(`class` := "row")(
-            h6("Additional clashes to avoid (if any)"),
-            courseOpt.map(c1 => forbidInput(c1)).getOrElse(div()))
+      courseOpt
+        .map(
+          c1 =>
+            div(
+              h4("Avoiding clashes with courses:"),
+              ul(
+                avoid(c1).filterNot(_ == c1).map(c2 => avoidingLI(c1, c2)): _*
+              ),
+              div(`class` := "row")(
+                h6("Additional clashes to avoid (if any)"),
+                courseOpt.map(c1 => forbidInput(c1)).getOrElse(div())
+              )
+            )
         )
-      ).getOrElse(div()),
-
+        .getOrElse(div()),
       if (enoughChoices && courseOpt.nonEmpty) div(submitButton)
       else div(nosubmitButton)
     ).render
@@ -314,6 +341,18 @@ object ChooserJS {
       Ajax.get("course-list").foreach { xhr =>
         val courses = getCourses(ujson.read(xhr.responseText))
         coursesOpt = Some(courses)
+        selectCourseDiv.appendChild(courseChoose)
+      }
+
+      Ajax.get("core1-course-list").foreach { xhr =>
+        val courses = getCourses(ujson.read(xhr.responseText))
+        coursesCore1Opt = Some(courses)
+        selectCourseDiv.appendChild(courseChoose)
+      }
+
+      Ajax.get("core2-course-list").foreach { xhr =>
+        val courses = getCourses(ujson.read(xhr.responseText))
+        coursesCore2Opt = Some(courses)
         selectCourseDiv.appendChild(courseChoose)
       }
 

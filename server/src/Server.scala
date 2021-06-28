@@ -90,6 +90,14 @@ object Server extends cask.MainRoutes {
   def courseList(): String =
     ujson.write(CourseData.json)
 
+  @cask.get("/core1-course-list")
+  def courseListCore1(): String =
+    ujson.write(CourseData.jsonCore1)
+
+  @cask.get("/core2-course-list")
+  def courseListCore2(): String =
+    ujson.write(CourseData.jsonCore2)
+
   @cask.staticFiles("/data-files")
   def staticFileRoutes() = "data"
 

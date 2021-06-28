@@ -6,6 +6,10 @@ sealed trait Timing extends Product with Serializable{
 
   val times: String
 
+  lazy val isMWF: Boolean = days == "Mon, Wed, Fri"
+
+  lazy val isTuTh: Boolean = days == "Tue, Thu"
+
   lazy val show: String = s"$days $times"
 
   def json = ujson.Obj(
