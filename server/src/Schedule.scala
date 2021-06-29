@@ -1,6 +1,7 @@
 package courses
 
 import courses.Schedule._
+import CourseData.{core1, core2}
 
 import ujson.Js
 
@@ -13,6 +14,11 @@ case class Schedule(sch: Map[Course, Timing]) {
     } yield (c1, c2)).toSet
 
   def +(c: Course, t: Timing) = Schedule(sch + (c -> t))
+
+  val core1TuTh = sch.count{case (_, t) => t.isTuTh && (core1.contains(t))}
+
+  val core2TuTh = sch.count{case (_, t) => t.isTuTh && (core2.contains(t))}
+
 
   val sorted: Vector[(Course, Timing)] = sch.toVector.sortBy(_._1.code)
 
@@ -106,6 +112,8 @@ case class Scheduler(prefs: Set[Preference],
               } yield sch. + (x, timing)
 
             (top union inner).filter(sch =>
+              sch.core1TuTh < 3 &&
+              sch.core2TuTh < 3 &&
               !sch.clashes.exists({ case (c1, c2) => avoid(c1, c2) }))
           }
           .getOrElse(getAll(worst, numWorst, ys))

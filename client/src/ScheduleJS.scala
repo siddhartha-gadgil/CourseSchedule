@@ -252,7 +252,7 @@ object ChooserJS {
       }
       .reduce(_ && _) &&
     timings.exists { case (n, t) => n <= 3 && t.days == "Mon, Wed, Fri" } &&
-    (!isCore || (mwfRank2 && tuThRank2))
+    (!isCore || mwfRank2)
   }
 
   def chosenList: Div = {
