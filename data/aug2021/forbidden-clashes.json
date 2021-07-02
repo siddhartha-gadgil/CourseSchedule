@@ -166,5 +166,29 @@
       "code": "MA 312",
       "instructor": "Abhishek Banerjee"
     }
+  },
+  {
+    "first": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Partial Differential Equations",
+      "code": "MA 242",
+      "instructor": "Swarnendu Sil"
+    }
+  },
+  {
+    "first": {
+      "name": "Partial Differential Equations",
+      "code": "MA 242",
+      "instructor": "Swarnendu Sil"
+    },
+    "second": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "Manjunath Krishnapur"
+    }
   }
 ]

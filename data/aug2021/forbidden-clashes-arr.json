@@ -167,6 +167,394 @@
         "code": "MA 312",
         "instructor": "Abhishek Banerjee"
       }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Abhishek Banerjee"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Abhishek Banerjee"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Abhishek Banerjee"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Abhishek Banerjee"
+      }
     }
   ],
   [
