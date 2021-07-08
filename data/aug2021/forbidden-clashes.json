@@ -358,5 +358,53 @@
       "code": "MA 315",
       "instructor": "R. Venkaesh"
     }
+  },
+  {
+    "first": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Srikanth Iyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Srikanth Iyer"
+    },
+    "second": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Operator Theory",
+      "code": "MA 323",
+      "instructor": "Srijan Sarkar (DST-INSPIRE)"
+    },
+    "second": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Tirthankar Bhattacharyya"
+    }
+  },
+  {
+    "first": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Tirthankar Bhattacharyya"
+    },
+    "second": {
+      "name": "Operator Theory",
+      "code": "MA 323",
+      "instructor": "Srijan Sarkar (DST-INSPIRE)"
+    }
   }
 ]
