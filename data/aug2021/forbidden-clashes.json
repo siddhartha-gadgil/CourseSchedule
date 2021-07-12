@@ -406,5 +406,77 @@
       "code": "MA 323",
       "instructor": "Srijan Sarkar (DST-INSPIRE)"
     }
+  },
+  {
+    "first": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Elliptic Curves",
+      "code": "MA 353",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Mahesh Kakde"
+    }
+  },
+  {
+    "first": {
+      "name": "Linear Algebra",
+      "code": "MA 219",
+      "instructor": "Apoorva Khare"
+    },
+    "second": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Shaunak Deo"
+    }
+  },
+  {
+    "first": {
+      "name": "Elliptic Curves",
+      "code": "MA 353",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Shaunak Deo"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Mahesh Kakde"
+    },
+    "second": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Shaunak Deo"
+    }
+  },
+  {
+    "first": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Linear Algebra",
+      "code": "MA 219",
+      "instructor": "Apoorva Khare"
+    }
   }
 ]
