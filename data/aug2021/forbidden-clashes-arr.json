@@ -2335,6 +2335,488 @@
         "code": "MA 323",
         "instructor": "Srijan Sarkar (DST-INSPIRE)"
       }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Abhishek Banerjee"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Remannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Abhishek Banerjee"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Topics in Harmonic Analysis",
+        "code": "MA 304",
+        "instructor": "Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Harmonic Analysis",
+        "code": "MA 304",
+        "instructor": "Thangavelu"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie algebras and their representations",
+        "code": "MA 315",
+        "instructor": "R. Venkaesh"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie algebras and their representations",
+        "code": "MA 315",
+        "instructor": "R. Venkaesh"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Abhishek Banerjee"
+      },
+      "second": {
+        "name": "Lie algebras and their representations",
+        "code": "MA 315",
+        "instructor": "R. Venkaesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Lie algebras and their representations",
+        "code": "MA 315",
+        "instructor": "R. Venkaesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie algebras and their representations",
+        "code": "MA 315",
+        "instructor": "R. Venkaesh"
+      },
+      "second": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Lie algebras and their representations",
+        "code": "MA 315",
+        "instructor": "R. Venkaesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie algebras and their representations",
+        "code": "MA 315",
+        "instructor": "R. Venkaesh"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Abhishek Banerjee"
+      }
+    },
+    {
+      "first": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Lie algebras and their representations",
+        "code": "MA 315",
+        "instructor": "R. Venkaesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory",
+        "code": "MA 323",
+        "instructor": "Srijan Sarkar (DST-INSPIRE)"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Operator Theory",
+        "code": "MA 323",
+        "instructor": "Srijan Sarkar (DST-INSPIRE)"
+      }
     }
   ],
   [
