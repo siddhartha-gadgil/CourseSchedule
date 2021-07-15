@@ -246,6 +246,36 @@
   },
   {
     "course": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Mahesh Kakde"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "8:00 - 9:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Commutative Algebra",
       "code": "MA 312",
       "instructor": "Abhishek Banerjee"
