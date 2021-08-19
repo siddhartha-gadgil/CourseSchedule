@@ -17,7 +17,7 @@ object Publications {
       case (k, v) => k.getValue.toLowerCase -> v.toUserString
     })
     .toVector
-    .filter(m => Set("2019", "2020").contains(m("year")))
+    .filter(m => Set("2016", "2017", "2018", "2019", "2020").contains(m("year")))
 
   import net.jcazevedo.moultingyaml._
   import net.jcazevedo.moultingyaml.DefaultYamlProtocol._
