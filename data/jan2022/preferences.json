@@ -98,6 +98,50 @@
   },
   {
     "course": {
+      "name": "Complex Analysis",
+      "code": "MA 224",
+      "instructor": "E. K. Narayanan"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "8:00 - 9:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Algebraic Topology",
       "code": "MA 332",
       "instructor": "Siddhartha Gadgil"

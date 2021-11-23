@@ -52,6 +52,32 @@
     }
   ],
   [
+    {
+      "first": {
+        "name": "Topics: Percolation",
+        "code": "MA 390",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Stochastic Finance",
+        "code": "MA 263",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Stochastic Finance",
+        "code": "MA 263",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Topics: Percolation",
+        "code": "MA 390",
+        "instructor": "Sanchayan Sen"
+      }
+    }
+  ],
+  [
     
   ],
   [
