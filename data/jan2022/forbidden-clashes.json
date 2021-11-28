@@ -70,5 +70,29 @@
       "code": "MA 324",
       "instructor": "Purvi Gupta"
     }
+  },
+  {
+    "first": {
+      "name": "Algebra II",
+      "code": "MA 213",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Soumya Das"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Soumya Das"
+    },
+    "second": {
+      "name": "Algebra II",
+      "code": "MA 213",
+      "instructor": "Shaunak Deo"
+    }
   }
 ]
