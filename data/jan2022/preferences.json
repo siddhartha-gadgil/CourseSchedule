@@ -61,6 +61,36 @@
   },
   {
     "course": {
+      "name": "Topics: Percolation",
+      "code": "MA 390",
+      "instructor": "Sanchayan Sen"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Introduction to Differentiable Manifolds",
       "code": "MA 235",
       "instructor": "Ved Datar"
