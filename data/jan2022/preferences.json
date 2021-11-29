@@ -209,6 +209,36 @@
   },
   {
     "course": {
+      "name": "Topics in Harmonic Analysis II",
+      "code": "MA 322",
+      "instructor": "Thangavelu"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Topics in Complex Analysis",
       "code": "MA 324",
       "instructor": "Purvi Gupta"
