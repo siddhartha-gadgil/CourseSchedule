@@ -239,6 +239,36 @@
   },
   {
     "course": {
+      "name": "Ordinary Differential Equations",
+      "code": "MA 241",
+      "instructor": "Harish Seshadri"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Topics in Complex Analysis",
       "code": "MA 324",
       "instructor": "Purvi Gupta"

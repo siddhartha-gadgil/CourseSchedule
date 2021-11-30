@@ -365,6 +365,104 @@
         "code": "MA 324",
         "instructor": "Purvi Gupta"
       }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Topics: Percolation",
+        "code": "MA 390",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Stochastic Finance",
+        "code": "MA 263",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Stochastic Finance",
+        "code": "MA 263",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Topics: Percolation",
+        "code": "MA 390",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Topics in Complex Analysis",
+        "code": "MA 324",
+        "instructor": "Purvi Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Complex Analysis",
+        "code": "MA 324",
+        "instructor": "Purvi Gupta"
+      },
+      "second": {
+        "name": "Topics in Harmonic Analysis II",
+        "code": "MA 322",
+        "instructor": "Thangavelu"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Complex Analysis",
+        "code": "MA 324",
+        "instructor": "Purvi Gupta"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Harmonic Analysis II",
+        "code": "MA 322",
+        "instructor": "Thangavelu"
+      },
+      "second": {
+        "name": "Topics in Complex Analysis",
+        "code": "MA 324",
+        "instructor": "Purvi Gupta"
+      }
     }
   ],
   [
