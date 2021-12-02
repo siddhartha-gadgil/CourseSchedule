@@ -118,5 +118,53 @@
       "code": "MA 213",
       "instructor": "Shaunak Deo"
     }
+  },
+  {
+    "first": {
+      "name": "Topics in Geometric Topology: Geometric structures",
+      "code": "MA 355",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Topics in Complex Analysis",
+      "code": "MA 324",
+      "instructor": "Purvi Gupta"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Topology",
+      "code": "MA 332",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "second": {
+      "name": "Topics in Geometric Topology: Geometric structures",
+      "code": "MA 355",
+      "instructor": "Subhojoy Gupta"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Complex Analysis",
+      "code": "MA 324",
+      "instructor": "Purvi Gupta"
+    },
+    "second": {
+      "name": "Topics in Geometric Topology: Geometric structures",
+      "code": "MA 355",
+      "instructor": "Subhojoy Gupta"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Geometric Topology: Geometric structures",
+      "code": "MA 355",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Algebraic Topology",
+      "code": "MA 332",
+      "instructor": "Siddhartha Gadgil"
+    }
   }
 ]
