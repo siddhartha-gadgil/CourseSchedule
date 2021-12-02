@@ -94,5 +94,29 @@
       "code": "MA 213",
       "instructor": "Shaunak Deo"
     }
+  },
+  {
+    "first": {
+      "name": "Algebra II",
+      "code": "MA 213",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Class field theory: a course in arithmetic geometry",
+      "code": "MA 356",
+      "instructor": "Amalendu Krishna"
+    }
+  },
+  {
+    "first": {
+      "name": "Class field theory: a course in arithmetic geometry",
+      "code": "MA 356",
+      "instructor": "Amalendu Krishna"
+    },
+    "second": {
+      "name": "Algebra II",
+      "code": "MA 213",
+      "instructor": "Shaunak Deo"
+    }
   }
 ]
