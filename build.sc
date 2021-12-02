@@ -3,15 +3,15 @@ import os._
 
 object courses extends Module{
   object jvm extends ScalaModule{
-    def scalaVersion = "2.13.3"
+    def scalaVersion = "2.13.7"
     def millSourcePath = super.millSourcePath / up
 
     def ivyDeps = Agg(ivy"com.lihaoyi::upickle::1.2.0")
   }
 
   object js extends ScalaJSModule {
-    def scalaVersion = "2.13.3"
-    def scalaJSVersion = "1.4.0"
+    def scalaVersion = "2.13.7"
+    def scalaJSVersion = "1.7.1"
     def millSourcePath = super.millSourcePath / up
 
     def platformSegment = "js"
@@ -21,7 +21,7 @@ object courses extends Module{
 }
 
 object ugc extends ScalaModule{
-  def scalaVersion = "2.13.3"
+  def scalaVersion = "2.13.7"
 
   def moduleDeps = Seq(courses.jvm)
 
@@ -34,7 +34,7 @@ object ugc extends ScalaModule{
 }
 
 object forms extends ScalaModule{
-  def scalaVersion = "2.13.3"
+  def scalaVersion = "2.13.7"
 
   def moduleDeps = Seq(courses.jvm)
 
@@ -45,7 +45,7 @@ object forms extends ScalaModule{
 }
 
 object server extends ScalaModule{
-  def scalaVersion = "2.13.3"
+  def scalaVersion = "2.13.7"
 
   def moduleDeps = Seq(courses.jvm)
 
@@ -70,8 +70,8 @@ object server extends ScalaModule{
 }
 
 object client extends ScalaJSModule {
-  def scalaVersion = "2.13.3"
-  def scalaJSVersion = "1.4.0"
+  def scalaVersion = "2.13.7"
+  def scalaJSVersion = "1.7.1"
 
   def platformSegment = "js"
 
