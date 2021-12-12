@@ -96,4 +96,7 @@ object Voting {
 
   def mf2020(verbose: Boolean = true) =
     voterClass("martin-foster-2020.tsv", verbose)
+
+  def mf2021(verbose: Boolean = true) =
+    voterClass("martin-foster-2020.tsv", verbose)
 }
