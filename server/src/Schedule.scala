@@ -22,6 +22,10 @@ case class Schedule(sch: Map[Course, Timing]) {
 
   val sorted: Vector[(Course, Timing)] = sch.toVector.sortBy(_._1.code)
 
+  val grouped = sorted.groupMap(_._2)(_._1)
+
+  lazy val maxGroup = grouped.values.map(_.size).max
+
   val json: ujson.Arr = {
     val jsV = sorted.map {
       case (c, t) => ujson.Obj("course" -> c.json, "timing" -> t.json)
@@ -114,6 +118,7 @@ case class Scheduler(prefs: Set[Preference],
             (top union inner).filter(sch =>
               sch.core1TuTh < 3 &&
               sch.core2TuTh < 3 &&
+              sch.maxGroup < 5 &&
               !sch.clashes.exists({ case (c1, c2) => avoid(c1, c2) }))
           }
           .getOrElse(getAll(worst, numWorst, ys))
