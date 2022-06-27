@@ -282,10 +282,12 @@ object ChooserJS {
       h4(`class` := "text-center")("Your choices"),
       ol(rows: _*),
       p(
-        if (enoughChoices)
+        if (courseOpt.nonEmpty) 
+        {if (enoughChoices)
           "Please check selected course below before submitting. More choices are always welcome!"
         else
-          "Please give at least three choices; and enough choices on MWF and TuTh."
+          "Please give at least three choices; and enough choices on MWF and TuTh."}
+        else "Please choose course"
       ),
       h3(`class` := "text-center")(strong("Course")),
       ul(`class` := "list-unstyled")(
@@ -308,7 +310,7 @@ object ChooserJS {
             )
         )
         .getOrElse(div()),
-      if (enoughChoices && courseOpt.nonEmpty) div(submitButton)
+      if (courseOpt.nonEmpty && enoughChoices) div(submitButton)
       else div(nosubmitButton)
     ).render
   }
