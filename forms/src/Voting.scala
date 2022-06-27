@@ -17,7 +17,7 @@ case class Voting(
     * @param eligible candidates who are still eligible
     * @return vote as string, if any
     */
-  def voteOption(votes: Vector[String], eligible: Vector[String]) =
+  def voteOption(votes: Vector[String], eligible: Vector[String]): Option[String] =
     votes.filter(eligible.contains(_)).headOption
 
   /**
@@ -83,7 +83,7 @@ case class Voting(
 }
 
 object Voting {
-  def voterClass(filename: String, verbose: Boolean) =
+  def voterClass(filename: String, verbose: Boolean): Voting =
     Voting(
       os.read
         .lines(os.resource / filename)
@@ -94,9 +94,9 @@ object Voting {
       verbose
     )
 
-  def mf2020(verbose: Boolean = true) =
+  def mf2020(verbose: Boolean = true): Voting =
     voterClass("martin-foster-2020.tsv", verbose)
 
-  def mf2021(verbose: Boolean = true) =
-    voterClass("martin-foster-2020.tsv", verbose)
+  def mf2021(verbose: Boolean = true): Voting =
+    voterClass("martin-foster-2021.tsv", verbose)
 }
