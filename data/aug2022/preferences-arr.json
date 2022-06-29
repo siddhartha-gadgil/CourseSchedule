@@ -55,7 +55,7 @@
       "course": {
         "name": "Probability Theory",
         "code": "MA 361",
-        "instructor": "Bharathwaj Krishnapur"
+        "instructor": "Manjunath Krishnapur"
       },
       "timings": [
         {
@@ -138,7 +138,7 @@
           }
         }
       ]
-    },Bharathwaj
+    },
     {
       "course": {
         "name": "Topology",
