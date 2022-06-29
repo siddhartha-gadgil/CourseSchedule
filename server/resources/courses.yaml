@@ -50,7 +50,7 @@ jan2023:
     venue: 
   - name: Complex Analysis
     credits: '3:1'
-    instructor: Bharatwaj Palvannan
+    instructor: Bharathwaj Palvannan
     code: MA 224
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
@@ -78,7 +78,7 @@ jan2023:
     code: MA 208
     instructor: Siddhartha Gadgil
   - name: Introduction to Modular Forms
-    instructor: Soumya Das 
+    instructor: Mahesh Kakde 
     code: MA 215
   - name: Introduction to Stochastic Processes
     code: MA 262
@@ -206,8 +206,8 @@ aug2022:
     code: MA 220
     instructor: Radhika Ganapathy
     timing: 
-  - code: MA 303
-    name : Topics in Operator Theory
+  - code: MA 325
+    name : Operator Theory II
     instructor: E.K.Narayanan
     prereq-courses: 
     ug-prereq-courses: 
@@ -217,7 +217,7 @@ aug2022:
     timing: 
   - name: Algebraic Number Theory
     code: MA 313
-    instructor: Bharatwaj Palvannan
+    instructor: Bharathwaj Palvannan
   - name : Introduction to Analytic Number Theory
     code: MA 317
     instructor: Soumya Das

@@ -56,7 +56,7 @@ object server extends ScalaModule{
     ivy"net.jcazevedo::moultingyaml:0.4.2",
     ivy"com.lihaoyi::upickle::1.6.0",
     ivy"com.lihaoyi::scalatags::0.11.1",
-    ivy"com.lihaoyi::pprint::0.6.0",
+    ivy"com.lihaoyi::pprint::0.7.3",
     ivy"org.scala-lang.modules::scala-xml:1.3.0"
   )
 

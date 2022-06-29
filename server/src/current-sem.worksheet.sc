@@ -1,7 +1,7 @@
 import courses._
 import BestChoice._
 
-best
+best 
 best.size
 
 bestSW
