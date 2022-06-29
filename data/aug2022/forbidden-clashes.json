@@ -94,5 +94,53 @@
       "code": "MA 361",
       "instructor": "Manjunath Krishnapur"
     }
+  },
+  {
+    "first": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Shaunak Deo"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Introduction to Analytic Number Theory",
+      "code": "MA 317",
+      "instructor": "Soumya Das"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Analytic Number Theory",
+      "code": "MA 317",
+      "instructor": "Soumya Das"
+    },
+    "second": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Radhika Ganapathy"
+    }
   }
 ]

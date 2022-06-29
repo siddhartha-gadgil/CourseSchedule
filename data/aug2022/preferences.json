@@ -52,6 +52,50 @@
   },
   {
     "course": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Bharathwaj Palvannan"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 5,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Probability Theory",
       "code": "MA 361",
       "instructor": "Manjunath Krishnapur"
@@ -96,44 +140,30 @@
   },
   {
     "course": {
-      "name": "Algebraic Number Theory",
-      "code": "MA 313",
-      "instructor": "Bharathwaj Palvannan"
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Radhika Ganapathy"
     },
     "timings": [
       {
         "choice": 1,
         "timing": {
           "days": "Tue, Thu",
-          "times": "10:00 - 11:30"
+          "times": "8:30 - 10:00"
         }
       },
       {
         "choice": 2,
         "timing": {
           "days": "Tue, Thu",
-          "times": "8:30 - 10:00"
+          "times": "10:00 - 11:30"
         }
       },
       {
         "choice": 3,
         "timing": {
           "days": "Mon, Wed, Fri",
-          "times": "9:00 - 10:00"
-        }
-      },
-      {
-        "choice": 4,
-        "timing": {
-          "days": "Tue, Thu",
-          "times": "11:30 - 1:00"
-        }
-      },
-      {
-        "choice": 5,
-        "timing": {
-          "days": "Tue, Thu",
-          "times": "2:00 - 3:30"
+          "times": "8:00 - 9:00"
         }
       }
     ]
