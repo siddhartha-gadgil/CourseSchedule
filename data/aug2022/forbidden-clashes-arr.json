@@ -4,7 +4,7 @@
       "first": {
         "name": "Algebraic Number Theory",
         "code": "MA 313",
-        "instructor": "Bharatwaj Palvannan"
+        "instructor": "Bharathwaj Palvannan"
       },
       "second": {
         "name": "Introduction to Analytic Number Theory",
@@ -21,7 +21,7 @@
       "second": {
         "name": "Algebraic Number Theory",
         "code": "MA 313",
-        "instructor": "Bharatwaj Palvannan"
+        "instructor": "Bharathwaj Palvannan"
       }
     },
     {
@@ -33,14 +33,14 @@
       "second": {
         "name": "Algebraic Number Theory",
         "code": "MA 313",
-        "instructor": "Bharatwaj Palvannan"
+        "instructor": "Bharathwaj Palvannan"
       }
     },
     {
       "first": {
         "name": "Algebraic Number Theory",
         "code": "MA 313",
-        "instructor": "Bharatwaj Palvannan"
+        "instructor": "Bharathwaj Palvannan"
       },
       "second": {
         "name": "Representation Theory of Finite Groups",
@@ -52,7 +52,7 @@
       "first": {
         "name": "Algebraic Number Theory",
         "code": "MA 313",
-        "instructor": "Bharatwaj Palvannan"
+        "instructor": "Bharathwaj Palvannan"
       },
       "second": {
         "name": "Commutative Algebra",
@@ -69,7 +69,7 @@
       "second": {
         "name": "Algebraic Number Theory",
         "code": "MA 313",
-        "instructor": "Bharatwaj Palvannan"
+        "instructor": "Bharathwaj Palvannan"
       }
     },
     {
@@ -78,7 +78,7 @@
         "code": "MA 361",
         "instructor": "Manjunath Krishnapur"
       },
-      "second": {
+      "second": {Bharathwaj
         "name": "Functional Analysis",
         "code": "MA 223",
         "instructor": "Tirthankar Bhattacharyya"
@@ -95,7 +95,7 @@
         "code": "MA 361",
         "instructor": "Manjunath Krishnapur"
       }
-    }
+    }Bharathwaj
   ],
   [
     {
@@ -107,14 +107,14 @@
       "second": {
         "name": "Introduction to Analytic Number Theory",
         "code": "MA 317",
-        "instructor": "Soumya Das"
+        "instructor": "Bharathwajs"
       }
     },
     {
       "first": {
         "name": "Representation Theory of Finite Groups",
         "code": "MA 220",
-        "instructor": "Radhika Ganapathy"
+        "instructor": "Bharathwajanapathy"
       },
       "second": {
         "name": "Algebraic Number Theory",
@@ -126,7 +126,7 @@
       "first": {
         "name": "Introduction to Analytic Number Theory",
         "code": "MA 317",
-        "instructor": "Soumya Das"
+        "instructor": "Bharathwajs"
       },
       "second": {
         "name": "Algebraic Number Theory",
@@ -143,7 +143,7 @@
       "second": {
         "name": "Representation Theory of Finite Groups",
         "code": "MA 220",
-        "instructor": "Radhika Ganapathy"
+        "instructor": "Bharathwajanapathy"
       }
     },
     {
