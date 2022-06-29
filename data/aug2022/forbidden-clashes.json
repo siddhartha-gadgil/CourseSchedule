@@ -1,3 +1,74 @@
 [
-  
+  {
+    "first": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Bharatwaj Palvannan"
+    },
+    "second": {
+      "name": "Introduction to Analytic Number Theory",
+      "code": "MA 317",
+      "instructor": "Soumya Das"
+    }
+  },
+  {
+    "first": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Bharatwaj Palvannan"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Analytic Number Theory",
+      "code": "MA 317",
+      "instructor": "Soumya Das"
+    },
+    "second": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Bharatwaj Palvannan"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Bharatwaj Palvannan"
+    },
+    "second": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Bharatwaj Palvannan"
+    },
+    "second": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Amalendu Krishna"
+    }
+  },
+  {
+    "first": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Amalendu Krishna"
+    },
+    "second": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Bharatwaj Palvannan"
+    }
+  }
 ]
