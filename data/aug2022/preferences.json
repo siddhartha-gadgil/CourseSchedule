@@ -52,6 +52,50 @@
   },
   {
     "course": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 5,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Algebraic Number Theory",
       "code": "MA 313",
       "instructor": "Bharatwaj Palvannan"

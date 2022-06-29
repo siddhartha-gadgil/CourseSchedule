@@ -70,5 +70,29 @@
       "code": "MA 313",
       "instructor": "Bharatwaj Palvannan"
     }
+  },
+  {
+    "first": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Tirthankar Bhattacharyya"
+    }
+  },
+  {
+    "first": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Tirthankar Bhattacharyya"
+    },
+    "second": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Manjunath Krishnapur"
+    }
   }
 ]
