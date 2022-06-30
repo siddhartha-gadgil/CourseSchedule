@@ -142,5 +142,29 @@
       "code": "MA 220",
       "instructor": "Radhika Ganapathy"
     }
+  },
+  {
+    "first": {
+      "name": "Operator Theory II",
+      "code": "MA 325",
+      "instructor": "E.K.Narayanan"
+    },
+    "second": {
+      "name": "Topics in Several Complex Variables",
+      "code": "MA 329",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Several Complex Variables",
+      "code": "MA 329",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Operator Theory II",
+      "code": "MA 325",
+      "instructor": "E.K.Narayanan"
+    }
   }
 ]
