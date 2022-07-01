@@ -237,6 +237,36 @@
   },
   {
     "course": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Amalendu Krishna"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Operator Theory II",
       "code": "MA 325",
       "instructor": "E.K.Narayanan"
