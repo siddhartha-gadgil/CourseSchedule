@@ -653,6 +653,176 @@
         "code": "MA 220",
         "instructor": "Radhika Ganapathy"
       }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
     }
   ],
   [
