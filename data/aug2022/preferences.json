@@ -1,16 +1,23 @@
 [
   {
     "course": {
-      "name": "Multivariable Calculus",
-      "code": "MA 200",
-      "instructor": "Vamsi Pingali"
+      "name": "Linear Algebra",
+      "code": "MA 219",
+      "instructor": "Apoorva Khare"
     },
     "timings": [
       {
         "choice": 1,
         "timing": {
           "days": "Tue, Thu",
-          "times": "3:30 - 5: 00"
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
         }
       },
       {
@@ -18,6 +25,13 @@
         "timing": {
           "days": "Tue, Thu",
           "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
         }
       },
       {
@@ -31,7 +45,74 @@
         "choice": 2,
         "timing": {
           "days": "Mon, Wed, Fri",
-          "times": "2:00 - 3:00"
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Algebraic Graph Theory",
+      "code": "MA 375",
+      "instructor": "Shivani Goel/Arvind Ayyer"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 5,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 6,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "8:00 - 9:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Introduction to Analytic Number Theory",
+      "code": "MA 317",
+      "instructor": "Soumya Das"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
         }
       },
       {
@@ -45,7 +126,58 @@
         "choice": 3,
         "timing": {
           "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Shaunak Deo"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
           "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
         }
       }
     ]
@@ -90,50 +222,6 @@
         "timing": {
           "days": "Tue, Thu",
           "times": "2:00 - 3:30"
-        }
-      }
-    ]
-  },
-  {
-    "course": {
-      "name": "Probability Theory",
-      "code": "MA 361",
-      "instructor": "Manjunath Krishnapur"
-    },
-    "timings": [
-      {
-        "choice": 1,
-        "timing": {
-          "days": "Tue, Thu",
-          "times": "2:00 - 3:30"
-        }
-      },
-      {
-        "choice": 2,
-        "timing": {
-          "days": "Tue, Thu",
-          "times": "3:30 - 5: 00"
-        }
-      },
-      {
-        "choice": 3,
-        "timing": {
-          "days": "Mon, Wed, Fri",
-          "times": "12:00 - 1:00"
-        }
-      },
-      {
-        "choice": 4,
-        "timing": {
-          "days": "Mon, Wed, Fri",
-          "times": "9:00 - 10:00"
-        }
-      },
-      {
-        "choice": 5,
-        "timing": {
-          "days": "Tue, Thu",
-          "times": "11:30 - 1:00"
         }
       }
     ]
@@ -194,6 +282,145 @@
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "12:00 - 1:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Operator Theory II",
+      "code": "MA 325",
+      "instructor": "E.K.Narayanan"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Multivariable Calculus",
+      "code": "MA 200",
+      "instructor": "Vamsi Pingali"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 5,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
         }
       }
     ]
@@ -297,50 +524,6 @@
   },
   {
     "course": {
-      "name": "Operator Theory II",
-      "code": "MA 325",
-      "instructor": "E.K.Narayanan"
-    },
-    "timings": [
-      {
-        "choice": 1,
-        "timing": {
-          "days": "Tue, Thu",
-          "times": "8:30 - 10:00"
-        }
-      },
-      {
-        "choice": 1,
-        "timing": {
-          "days": "Tue, Thu",
-          "times": "10:00 - 11:30"
-        }
-      },
-      {
-        "choice": 2,
-        "timing": {
-          "days": "Mon, Wed, Fri",
-          "times": "10:00 - 11:00"
-        }
-      },
-      {
-        "choice": 2,
-        "timing": {
-          "days": "Mon, Wed, Fri",
-          "times": "9:00 - 10:00"
-        }
-      },
-      {
-        "choice": 3,
-        "timing": {
-          "days": "Mon, Wed, Fri",
-          "times": "11:00 - 12:00"
-        }
-      }
-    ]
-  },
-  {
-    "course": {
       "name": "Functional Analysis",
       "code": "MA 223",
       "instructor": "Tirthankar Bhattacharyya"
@@ -365,6 +548,50 @@
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "12:00 - 1:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Topics in Non-linear Functional Analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 5,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
         }
       }
     ]

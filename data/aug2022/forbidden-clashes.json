@@ -166,5 +166,149 @@
       "code": "MA 325",
       "instructor": "E.K.Narayanan"
     }
+  },
+  {
+    "first": {
+      "name": "Topics in Non-linear Functional Analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Tirthankar Bhattacharyya"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Non-linear Functional Analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Partial Differential Equations",
+      "code": "MA 242",
+      "instructor": "Swarnendu Sil"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Several Complex Variables",
+      "code": "MA 329",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Topics in Non-linear Functional Analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Tirthankar Bhattacharyya"
+    },
+    "second": {
+      "name": "Topics in Non-linear Functional Analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Partial Differential Equations",
+      "code": "MA 242",
+      "instructor": "Swarnendu Sil"
+    },
+    "second": {
+      "name": "Topics in Non-linear Functional Analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Non-linear Functional Analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Operator Theory II",
+      "code": "MA 325",
+      "instructor": "E.K.Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Non-linear Functional Analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Topics in Several Complex Variables",
+      "code": "MA 329",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Operator Theory II",
+      "code": "MA 325",
+      "instructor": "E.K.Narayanan"
+    },
+    "second": {
+      "name": "Topics in Non-linear Functional Analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Analysis III",
+      "code": "MA 321",
+      "instructor": "A.K.Nandakumaran"
+    },
+    "second": {
+      "name": "Topics in Non-linear Functional Analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Non-linear Functional Analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Analysis III",
+      "code": "MA 321",
+      "instructor": "A.K.Nandakumaran"
+    }
+  },
+  {
+    "first": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Amalendu Krishna"
+    },
+    "second": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Shaunak Deo"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Amalendu Krishna"
+    }
   }
 ]

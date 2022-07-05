@@ -167,6 +167,1360 @@
         "code": "MA 325",
         "instructor": "E.K.Narayanan"
       }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "A.K.Nandakumaran"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "A.K.Nandakumaran"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "A.K.Nandakumaran"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "A.K.Nandakumaran"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "A.K.Nandakumaran"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "A.K.Nandakumaran"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "A.K.Nandakumaran"
+      },
+      "second": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Non-linear Functional Analysis",
+        "code": "MA 388",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "A.K.Nandakumaran"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Amalendu Krishna"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Functional Analysis",
+        "code": "MA 223",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Several Complex Variables",
+        "code": "MA 329",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E.K.Narayanan"
+      }
     }
   ],
   [
