@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CiviCRM//NONSGML CiviEvent iCal//EN
+X-WR-TIMEZONE:Europe/London
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:CiviCRM_EventID_77_3a6364ccb4240aa451423458bb65bfac@www.lms.ac.uk
+SUMMARY:vICM Satellite Event: Public Lecture by Geordie Wi
+ lliamson (Sydney)
+DESCRIPTION:\n Programme (timings in CEST)\n \n 12.00 Opening 
+ of the event\n \n 12.05 vICM Satellite Event: Publ
+ ic Lecture by Geordie Williamson (Sydney)\n \n Mac
+ hine learning as a tool for the mathematician\n \n
+  12.55 Q&amp\;A\n \n 13.00 End of event
+CATEGORIES:Meeting
+CALSCALE:GREGORIAN
+DTSTAMP;TZID=Europe/London:20220708T120000
+DTSTART;TZID=Europe/London:20220708T120000
+DTEND;TZID=Europe/London:20220708T130000
+LOCATION:Online\, via Zoom (hosted by the LMS)\n United Kin
+ gdom\n 
+ORGANIZER:MAILTO:lmsmeetings@lms.ac.uk
+URL:https://www.lms.ac.uk/civicrm/event/info?reset=1&id=77
+END:VEVENT
+END:VCALENDAR
