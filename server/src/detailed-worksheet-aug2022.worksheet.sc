@@ -8,11 +8,12 @@ best
 //     sch = HashMap(
 //       Course(name = "Commutative Algebra", code = "MA 312", instructor = "Amalendu Krishna") -> TuTh(times = "11:30 - 1:00"),
 //       Course(name = "Introduction to Analytic Number Theory", code = "MA 317", instructor = "Soumya Das") -> TuTh(times = "11:30 - 1:00"),
-//       Course(name = "Topics in Several Complex Variables", code = "MA 329", instructor = "Gautam Bharali") -> MWF(times = "2:00 - 3:00"),
+//       Course(name = "Topics in Several Complex Variables", code = "MA 329", instructor = "Gautam Bharali") -> TuTh(times = "2:00 - 3:30"),
 //       Course(name = "Partial Differential Equations", code = "MA 242", instructor = "Swarnendu Sil") -> MWF(times = "2:00 - 3:00"),
 //       Course(name = "Probability Models", code = "MA 261", instructor = "Sanchayan Sen") -> TuTh(times = "2:00 - 3:30"),
 //       Course(name = "Algebraic Number Theory", code = "MA 313", instructor = "Bharathwaj Palvannan") -> TuTh(times = "10:00 - 11:30"),
 //       Course(name = "Functional Analysis", code = "MA 223", instructor = "Tirthankar Bhattacharyya") -> MWF(times = "10:00 - 11:00"),
+//       Course(name = "Introduction to Algebraic Topology", code = "MA 232", instructor = "Harish Seshadri") -> MWF(times = "12:00 - 1:00"),
 //       Course(name = "Algebraic Graph Theory", code = "MA 375", instructor = "Shivani Goel/Arvind Ayyer") -> MWF(times = "11:00 - 12:00"),
 //       Course(name = "Analysis III", code = "MA 321", instructor = "A.K.Nandakumaran") -> TuTh(times = "10:00 - 11:30"),
 //       Course(name = "Analysis I: Real Anaysis", code = "MA 221", instructor = "Sunadaram Thangavelu/R. Venkatesh") -> MWF(
@@ -21,21 +22,20 @@ best
 //       Course(name = "Representation Theory of Finite Groups", code = "MA 220", instructor = "Radhika Ganapathy") -> TuTh(
 //         times = "8:30 - 10:00"
 //       ),
-//       Course(name = "Algebra I", code = "MA 212", instructor = "Shaunak Deo") -> MWF(times = "3:00 - 4:00"),
+//       Course(name = "Algebra I", code = "MA 212", instructor = "Shaunak Deo") -> MWF(times = "11:00 - 12:00"),
 //       Course(name = "Topics in Non-linear Functional Analysis", code = "MA 388", instructor = "Arka Mallick") -> TuTh(times = "3:30 - 5: 00"),
-//       Course(name = "Multivariable Calculus", code = "MA 200", instructor = "Vamsi Pingali") -> TuTh(times = "2:00 - 3:30"),
+//       Course(name = "Multivariable Calculus", code = "MA 200", instructor = "Vamsi Pingali") -> TuTh(times = "3:30 - 5: 00"),
 //       Course(name = "Operator Theory II", code = "MA 325", instructor = "E.K.Narayanan") -> TuTh(times = "8:30 - 10:00"),
-//       Course(name = "Linear Algebra", code = "MA 219", instructor = "Apoorva Khare") -> TuTh(times = "11:30 - 1:00"),
-//       Course(name = "Topology", code = "MA 231", instructor = "Siddhartha Gadgil") -> TuTh(times = "8:30 - 10:00"),
-//       Course(name = "Probability Theory", code = "MA 361", instructor = "Manjunath Krishnapur") -> TuTh(times = "2:00 - 3:30")
+//       Course(name = "Linear Algebra", code = "MA 219", instructor = "Apoorva Khare") -> TuTh(times = "2:00 - 3:30"),
+//       Course(name = "Topology", code = "MA 231", instructor = "Siddhartha Gadgil") -> MWF(times = "9:00 - 10:00"),
+//       Course(name = "Probability Theory", code = "MA 361", instructor = "Manjunath Krishnapur") -> TuTh(times = "3:30 - 5: 00")
 //     )
 //   ),
 //   Schedule(
 //     sch = HashMap(
 //       Course(name = "Commutative Algebra", code = "MA 312", instructor = "Amalendu Krishna") -> TuTh(times = "11:30 - 1:00"),
 //       Course(name = "Introduction to Analytic Number Theory", code = "MA 317", instructor = "Soumya Das") -> TuTh(times = "11:30 - 1:00"),
-//       Course(name = "Topics in Several Complex Variables", code = "MA 329", instructor = "Gautam Bharali") -> MWF(times = "2:00 - 3:00"),
-//       Course(name = "Partial Differential Equations", code = "MA 242", instructor = "Swarnendu Sil") -> MWF(times = "2:0...
+//       Course(name = "Topics in Several Complex Variables", code = "MA 329", instructor = "Gautam Bharali") -> TuTh(times...
 best.size
 // res1: Int = 376
 
@@ -45,11 +45,12 @@ bestSW
 //     sch = HashMap(
 //       Course(name = "Commutative Algebra", code = "MA 312", instructor = "Amalendu Krishna") -> TuTh(times = "11:30 - 1:00"),
 //       Course(name = "Introduction to Analytic Number Theory", code = "MA 317", instructor = "Soumya Das") -> TuTh(times = "11:30 - 1:00"),
-//       Course(name = "Topics in Several Complex Variables", code = "MA 329", instructor = "Gautam Bharali") -> TuTh(times = "2:00 - 3:30"),
+//       Course(name = "Topics in Several Complex Variables", code = "MA 329", instructor = "Gautam Bharali") -> TuTh(times = "3:30 - 5: 00"),
 //       Course(name = "Partial Differential Equations", code = "MA 242", instructor = "Swarnendu Sil") -> MWF(times = "2:00 - 3:00"),
-//       Course(name = "Probability Models", code = "MA 261", instructor = "Sanchayan Sen") -> TuTh(times = "2:00 - 3:30"),
+//       Course(name = "Probability Models", code = "MA 261", instructor = "Sanchayan Sen") -> TuTh(times = "3:30 - 5: 00"),
 //       Course(name = "Algebraic Number Theory", code = "MA 313", instructor = "Bharathwaj Palvannan") -> TuTh(times = "10:00 - 11:30"),
 //       Course(name = "Functional Analysis", code = "MA 223", instructor = "Tirthankar Bhattacharyya") -> MWF(times = "10:00 - 11:00"),
+//       Course(name = "Introduction to Algebraic Topology", code = "MA 232", instructor = "Harish Seshadri") -> MWF(times = "12:00 - 1:00"),
 //       Course(name = "Algebraic Graph Theory", code = "MA 375", instructor = "Shivani Goel/Arvind Ayyer") -> MWF(times = "11:00 - 12:00"),
 //       Course(name = "Analysis III", code = "MA 321", instructor = "A.K.Nandakumaran") -> TuTh(times = "10:00 - 11:30"),
 //       Course(name = "Analysis I: Real Anaysis", code = "MA 221", instructor = "Sunadaram Thangavelu/R. Venkatesh") -> MWF(
@@ -59,20 +60,19 @@ bestSW
 //         times = "8:30 - 10:00"
 //       ),
 //       Course(name = "Algebra I", code = "MA 212", instructor = "Shaunak Deo") -> MWF(times = "3:00 - 4:00"),
-//       Course(name = "Topics in Non-linear Functional Analysis", code = "MA 388", instructor = "Arka Mallick") -> TuTh(times = "3:30 - 5: 00"),
-//       Course(name = "Multivariable Calculus", code = "MA 200", instructor = "Vamsi Pingali") -> TuTh(times = "3:30 - 5: 00"),
-//       Course(name = "Operator Theory II", code = "MA 325", instructor = "E.K.Narayanan") -> TuTh(times = "10:00 - 11:30"),
+//       Course(name = "Topics in Non-linear Functional Analysis", code = "MA 388", instructor = "Arka Mallick") -> TuTh(times = "2:00 - 3:30"),
+//       Course(name = "Multivariable Calculus", code = "MA 200", instructor = "Vamsi Pingali") -> TuTh(times = "2:00 - 3:30"),
+//       Course(name = "Operator Theory II", code = "MA 325", instructor = "E.K.Narayanan") -> TuTh(times = "8:30 - 10:00"),
 //       Course(name = "Linear Algebra", code = "MA 219", instructor = "Apoorva Khare") -> TuTh(times = "10:00 - 11:30"),
 //       Course(name = "Topology", code = "MA 231", instructor = "Siddhartha Gadgil") -> MWF(times = "9:00 - 10:00"),
-//       Course(name = "Probability Theory", code = "MA 361", instructor = "Manjunath Krishnapur") -> TuTh(times = "3:30 - 5: 00")
+//       Course(name = "Probability Theory", code = "MA 361", instructor = "Manjunath Krishnapur") -> TuTh(times = "2:00 - 3:30")
 //     )
 //   ),
 //   Schedule(
 //     sch = HashMap(
 //       Course(name = "Commutative Algebra", code = "MA 312", instructor = "Amalendu Krishna") -> TuTh(times = "11:30 - 1:00"),
 //       Course(name = "Introduction to Analytic Number Theory", code = "MA 317", instructor = "Soumya Das") -> TuTh(times = "11:30 - 1:00"),
-//       Course(name = "Topics in Several Complex Variables", code = "MA 329", instructor = "Gautam Bharali") -> MWF(times = "2:00 - 3:00"),
-//       Course(name = "Partial Differential Equations", code = "MA 242", instructor = "Swarnendu Sil") -> MWF(times = "2:0...
+// ...
 bestSW.size
 // res3: Int = 6
 bestSW.map(_.clashes.size)
@@ -119,6 +119,7 @@ val minClashes = bestSW.filter(_.clashes.size == minClashSize).toVector
 //       Course(name = "Probability Models", code = "MA 261", instructor = "Sanchayan Sen") -> TuTh(times = "3:30 - 5: 00"),
 //       Course(name = "Algebraic Number Theory", code = "MA 313", instructor = "Bharathwaj Palvannan") -> TuTh(times = "10:00 - 11:30"),
 //       Course(name = "Functional Analysis", code = "MA 223", instructor = "Tirthankar Bhattacharyya") -> MWF(times = "10:00 - 11:00"),
+//       Course(name = "Introduction to Algebraic Topology", code = "MA 232", instructor = "Harish Seshadri") -> MWF(times = "12:00 - 1:00"),
 //       Course(name = "Algebraic Graph Theory", code = "MA 375", instructor = "Shivani Goel/Arvind Ayyer") -> MWF(times = "11:00 - 12:00"),
 //       Course(name = "Analysis III", code = "MA 321", instructor = "A.K.Nandakumaran") -> TuTh(times = "10:00 - 11:30"),
 //       Course(name = "Analysis I: Real Anaysis", code = "MA 221", instructor = "Sunadaram Thangavelu/R. Venkatesh") -> MWF(
@@ -150,6 +151,7 @@ val chosen = minClashes(0)
 //     Course(name = "Probability Models", code = "MA 261", instructor = "Sanchayan Sen") -> TuTh(times = "3:30 - 5: 00"),
 //     Course(name = "Algebraic Number Theory", code = "MA 313", instructor = "Bharathwaj Palvannan") -> TuTh(times = "10:00 - 11:30"),
 //     Course(name = "Functional Analysis", code = "MA 223", instructor = "Tirthankar Bhattacharyya") -> MWF(times = "10:00 - 11:00"),
+//     Course(name = "Introduction to Algebraic Topology", code = "MA 232", instructor = "Harish Seshadri") -> MWF(times = "12:00 - 1:00"),
 //     Course(name = "Algebraic Graph Theory", code = "MA 375", instructor = "Shivani Goel/Arvind Ayyer") -> MWF(times = "11:00 - 12:00"),
 //     Course(name = "Analysis III", code = "MA 321", instructor = "A.K.Nandakumaran") -> TuTh(times = "10:00 - 11:30"),
 //     Course(name = "Analysis I: Real Anaysis", code = "MA 221", instructor = "Sunadaram Thangavelu/R. Venkatesh") -> MWF(
@@ -168,7 +170,7 @@ val chosen = minClashes(0)
 //   )
 // )
 chosen.sch.size
-// res7: Int = 18
+// res7: Int = 19
 
 chosen.tsv
 // res8: String = """MA 200	Multivariable Calculus	Vamsi Pingali	Tue, Thu	2:00 - 3:30
@@ -178,6 +180,7 @@ chosen.tsv
 // MA 221	Analysis I: Real Anaysis	Sunadaram Thangavelu/R. Venkatesh	Mon, Wed, Fri	10:00 - 11:00
 // MA 223	Functional Analysis	Tirthankar Bhattacharyya	Mon, Wed, Fri	10:00 - 11:00
 // MA 231	Topology	Siddhartha Gadgil	Mon, Wed, Fri	9:00 - 10:00
+// MA 232	Introduction to Algebraic Topology	Harish Seshadri	Mon, Wed, Fri	12:00 - 1:00
 // MA 242	Partial Differential Equations	Swarnendu Sil	Mon, Wed, Fri	2:00 - 3:00
 // MA 261	Probability Models	Sanchayan Sen	Tue, Thu	3:30 - 5: 00
 // MA 312	Commutative Algebra	Amalendu Krishna	Tue, Thu	11:30 - 1:00
@@ -239,6 +242,9 @@ StudentChoices
 // )
 chosen.sorted.groupMap(_._2)(_._1)
 // res12: Map[Timing, Vector[Course]] = HashMap(
+//   MWF(times = "12:00 - 1:00") -> Vector(
+//     Course(name = "Introduction to Algebraic Topology", code = "MA 232", instructor = "Harish Seshadri")
+//   ),
 //   TuTh(times = "11:30 - 1:00") -> Vector(
 //     Course(name = "Commutative Algebra", code = "MA 312", instructor = "Amalendu Krishna"),
 //     Course(name = "Introduction to Analytic Number Theory", code = "MA 317", instructor = "Soumya Das")
