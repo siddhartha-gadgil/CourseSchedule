@@ -93,4 +93,22 @@ object BestChoice {
         case (c, v) => (c._1.name, c._2.name) -> v.map(_.name).mkString(", ")
       }
       .filter(_._2.nonEmpty)
+
+}
+
+object CollisionData {
+  import CourseData._, StudentChoices._
+    
+  lazy val numberStrong: Vector[((Course, Course), Int)]  = 
+    for {
+      c1 <- electives
+      c2 <- electives
+      if c1 != c2
+    } yield (c1, c2) -> all.filter(_.strongClash(c1, c2)).size
+  
+  lazy val collisionTableData : Vector[Vector[String]]  =
+    ("" +: electives.map(c2 => c2.code)) +:
+    (electives.map(c1 => c1.code +: electives.map(c2 => all.filter(_.strongClash(c1, c2)).size.toString)))
+  
+  lazy val collisionTableTsv = collisionTableData.map(_.mkString("\t")).mkString("\n", "\n", "\n")
 }
