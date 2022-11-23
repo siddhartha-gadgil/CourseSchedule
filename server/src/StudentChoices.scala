@@ -107,8 +107,10 @@ object CollisionData {
     } yield (c1, c2) -> all.filter(_.strongClash(c1, c2)).size
   
   lazy val collisionTableData : Vector[Vector[String]]  =
-    ("" +: electives.map(c2 => c2.code)) +:
-    (electives.map(c1 => c1.code +: electives.map(c2 => all.filter(_.strongClash(c1, c2)).size.toString)))
+    (" "  +: electives.map(c2 => c2.code)) +:
+    (electives.map(
+        c1 => c1.code  +: electives.map(c2 => 
+          all.filter(_.strongClash(c1, c2)).size.toString)))
   
-  lazy val collisionTableTsv = collisionTableData.map(_.mkString("\t")).mkString("\n", "\n", "\n")
+  lazy val collisionTableTsv = collisionTableData.map(_.mkString("\t")).mkString("", "\n", "\n")
 }
