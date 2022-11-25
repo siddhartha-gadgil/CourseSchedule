@@ -46,5 +46,101 @@
       "code": "MA 350",
       "instructor": "Soumya Das"
     }
+  },
+  {
+    "first": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Algebra II",
+      "code": "MA 213",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Complex Analysis",
+      "code": "MA 224",
+      "instructor": "Bharathwaj Palvannan"
+    },
+    "second": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Introduction to Stochastic Processes",
+      "code": "MA 262",
+      "instructor": "Srikanth Iyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Stochastic Processes",
+      "code": "MA 262",
+      "instructor": "Srikanth Iyer"
+    },
+    "second": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebra II",
+      "code": "MA 213",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Complex Analysis",
+      "code": "MA 224",
+      "instructor": "Bharathwaj Palvannan"
+    }
   }
 ]
