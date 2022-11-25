@@ -1,0 +1,209 @@
+[
+  [
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      }
+    }
+  ],
+  [
+    
+  ]
+]
