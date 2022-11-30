@@ -1113,6 +1113,200 @@
         "code": "MA 224",
         "instructor": "Bharathwaj Palvannan"
       }
+    },
+    {
+      "first": {
+        "name": "Topics in function theoretic operator Theory",
+        "code": "MA 348",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Topics in function theoretic operator Theory",
+        "code": "MA 348",
+        "instructor": "Tirthankar Bhattacharyya"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "Bharathwaj Palvannan"
+      }
     }
   ],
   [
