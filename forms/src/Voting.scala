@@ -77,7 +77,7 @@ case class Voting(
     * @return Vector of winners
     */
   lazy val winners: Vector[String] = recWinners(
-    allVotes.flatMap(_._2.headOption),
+    allVotes.flatMap(_._2.headOption).distinct,
     1
   )
 }
