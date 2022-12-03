@@ -77,7 +77,7 @@ case class Voting(
     * @return Vector of winners
     */
   lazy val winners: Vector[String] = recWinners(
-    allVotes.flatMap(_._2.headOption),
+    allVotes.flatMap(_._2.headOption).distinct,
     1
   )
 }
@@ -97,6 +97,6 @@ object Voting {
   def mf2020(verbose: Boolean = true): Voting =
     voterClass("martin-foster-2020.tsv", verbose)
 
-  def mf2021(verbose: Boolean = true): Voting =
-    voterClass("martin-foster-2021.tsv", verbose)
+  def mf2022(verbose: Boolean = true): Voting =
+    voterClass("martin-foster-2022.tsv", verbose)
 }
