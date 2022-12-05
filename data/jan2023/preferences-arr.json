@@ -217,6 +217,565 @@
     },
     {
       "course": {
+        "name": "Algebraic Geometry",
+        "code": "MA 308",
+        "instructor": "Abhishek Banerjee"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Gautam Bharali"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Combinatorics",
+        "code": "MA 318",
+        "instructor": "Arvind Ayyer"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Mahesh Kakde"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "8:00 - 9:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Introduction to Dynamical Systems Theory",
+        "code": "MA 278",
+        "instructor": "Janaki Balakrishnan"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 5,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Radhika Ganapathy"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "8:00 - 9:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "8:30 - 10:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Introduction to the Calculus of Variations",
+        "code": "MA 374",
+        "instructor": "Swarnendu Sil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in Analytic Number Theory",
+        "code": "MA 350",
+        "instructor": "Soumya Das"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Elliptic Curves",
+        "code": "MA 353",
+        "instructor": "Shaunak Deo"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "course": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Srikanth Iyer"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Subhojoy Gupta"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        },
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "3:30 - 5: 00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Topics in function theoretic operator Theory",
+        "code": "MA 348",
+        "instructor": "Tirthankar Bhattacharyya"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "12:00 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "10:00 - 11:30"
+          }
+        },
+        {
+          "choice": 4,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "11:30 - 1:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "9:00 - 10:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "10:00 - 11:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "11:00 - 12:00"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Arka Mallick"
+      },
+      "timings": [
+        {
+          "choice": 1,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "3:00 - 4:00"
+          }
+        },
+        {
+          "choice": 2,
+          "timing": {
+            "days": "Mon, Wed, Fri",
+            "times": "2:00 - 3:00"
+          }
+        },
+        {
+          "choice": 3,
+          "timing": {
+            "days": "Tue, Thu",
+            "times": "2:00 - 3:30"
+          }
+        }
+      ]
+    },
+    {
+      "course": {
         "name": "Measure & Integration",
         "code": "MA 222",
         "instructor": "Gautam Bharali"

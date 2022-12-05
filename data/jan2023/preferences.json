@@ -216,6 +216,36 @@
   },
   {
     "course": {
+      "name": "Algebraic Geometry",
+      "code": "MA 308",
+      "instructor": "Abhishek Banerjee"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Measure & Integration",
       "code": "MA 222",
       "instructor": "Gautam Bharali"
