@@ -16,7 +16,7 @@ jan2023:
   - code: UM 205
     name: Introduction to Algebraic Structures
     credits: '3:1'
-    instructor: R.Venkatesh
+    instructor: R. Venkatesh
     webpage: 
     ug-prereq-courses: UM 102
     timing: 
@@ -240,13 +240,13 @@ aug2022:
     venue: LH-4
   - name: Analysis III
     code: MA 321
-    instructor: A.K.Nandakumaran
+    instructor: A. K. Nandakumaran
     timing: 'Tue, Thu: 10:00 - 11:30'
     venue: LH-4
     webpage: 
   - code: MA 325
     name : Operator Theory II
-    instructor: E.K.Narayanan
+    instructor: E. K. Narayanan
     timing: 'Tue, Thu: 8:30 - 10:00'
     venue: LH-5
     prereq-courses: 
@@ -420,7 +420,7 @@ jan2022:
 aug2021:
   ug:
   - code: UM 101
-    instructor: T. Gudi
+    instructor: Thirupathi Gudi
     name: Anaysis and Linear Algebra - I
     ug-prereq-courses:
   - code: UM 201
@@ -518,7 +518,7 @@ aug2021:
     timing: 'Tue, Thu: 2:00 - 3:30'
   - name: Lie algebras and their representations
     code: MA 315
-    instructor: R. Venkaesh
+    instructor: R. Venkatesh
     timing: 'Tue, Thu: 3:30 - 5:00'
   - name: Operator Theory
     code: MA 323
@@ -721,7 +721,7 @@ aug2020:
     ug-prereq-courses: UM 102
     timing: 'Tue, Thu 10:00 - 11:30'
   - name: 'Analysis I: Real Anaysis'
-    instructor: T. Gudi
+    instructor: Thirupathi Gudi
     timing: 'Mon, Wed, Fri 3:00 - 4:00'
     code: MA 221
     prereq-courses: ''
@@ -1217,7 +1217,7 @@ jan2019:
     timing: 'Tue, Thu: 3:30-5:00'
     venue: "LH-4"
   - name: Fourier Anaysis
-    instructor: E.K. Narayanan
+    instructor: E. K. Narayanan
     code: MA 326
     prereq-courses: MA 223
     ug-prereq-courses: ''
@@ -1422,7 +1422,7 @@ jan2017:
     prereq-courses: MA 223
     ug-prereq-courses: ''
   - name: Algebraic Number Theory
-    instructor: Dilip P. Patil
+    instructor: Dilip Patil
     code: MA 313
     prereq-courses: ''
     ug-prereq-courses: ''
@@ -1571,7 +1571,7 @@ aug2016:
     prereq-courses: ''
     ug-prereq-courses: UM 204
   - name: Probability Models
-    instructor: M. K. Ghosh
+    instructor: Mrinal K. Ghosh
     code: MA 261
     prereq-courses: ''
     ug-prereq-courses: ''
