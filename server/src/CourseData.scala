@@ -6,7 +6,7 @@ import ujson.Js
 
 
 object CourseData{
-  val semName = "jan2023"
+  val semName = "aug2023"
 
   lazy val source: String = os.read(os.pwd / "server" / "resources" / "courses.yaml")
 
