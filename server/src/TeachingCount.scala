@@ -18,8 +18,17 @@ object TeachingCount {
       c("instructor"),
       if (Set("UM 101", "UM 102", "UM 201").contains(c("code"))) 2 else 1
     )
+  
+  def weightedTriples(c: Map[String, String]) =
+    (
+      c("instructor"),
+      if (Set("UM 101", "UM 102", "UM 201").contains(c("code"))) 2 else 1,
+      c("name")
+    )
 
   val instructors = allCourses.map(weightedPairs).toVector
+
+  val instructorData = allCourses.map(weightedTriples(_)).toVector
 
   val instructorNumbers = instructors.groupMapReduce(_._1)(_._2)(_ + _).toVector.sortBy(_._2) 
 
