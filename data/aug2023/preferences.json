@@ -44,17 +44,17 @@
         }
       },
       {
-        "choice": 1,
+        "choice": 2,
         "timing": {
           "days": "Mon, Wed, Fri",
-          "times": "9:00 - 10:00"
+          "times": "10:00 - 11:00"
         }
       },
       {
         "choice": 2,
         "timing": {
           "days": "Mon, Wed, Fri",
-          "times": "10:00 - 11:00"
+          "times": "9:00 - 10:00"
         }
       }
     ]
