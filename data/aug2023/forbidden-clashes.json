@@ -190,5 +190,29 @@
       "code": "MA 313",
       "instructor": "Mahesh Kakde"
     }
+  },
+  {
+    "first": {
+      "name": "Topics in Number Theory 1 (Galois representations)",
+      "code": "MA 354",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Introduction to Analytic Number Theory",
+      "code": "MA 317",
+      "instructor": "Soumya Das"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Analytic Number Theory",
+      "code": "MA 317",
+      "instructor": "Soumya Das"
+    },
+    "second": {
+      "name": "Topics in Number Theory 1 (Galois representations)",
+      "code": "MA 354",
+      "instructor": "Shaunak Deo"
+    }
   }
 ]

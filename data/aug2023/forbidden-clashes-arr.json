@@ -191,6 +191,224 @@
         "code": "MA 313",
         "instructor": "Mahesh Kakde"
       }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 1 (Galois representations)",
+        "code": "MA 354",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Topics in Number Theory 1 (Galois representations)",
+        "code": "MA 354",
+        "instructor": "Shaunak Deo"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Introduction to Analytic Number Theory",
+        "code": "MA 317",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Algebraic Topology",
+        "code": "MA 232",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "A. K. Nandakumaran"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Partial Differential Equations",
+        "code": "MA 242",
+        "instructor": "A. K. Nandakumaran"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Algebraic Topology",
+        "code": "MA 232",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Multivariable Calculus",
+        "code": "MA 200",
+        "instructor": "Vamsi Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Multivariable Calculus",
+        "code": "MA 200",
+        "instructor": "Vamsi Pingali"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 1 (Galois representations)",
+        "code": "MA 354",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Linear Algebraic Groups",
+        "code": "MA 379",
+        "instructor": "Mihir Sheth"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Linear Algebraic Groups",
+        "code": "MA 379",
+        "instructor": "Mihir Sheth"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Topics in Number Theory 1 (Galois representations)",
+        "code": "MA 354",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Mahesh Kakde"
+      }
     }
   ],
   [
