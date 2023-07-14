@@ -68,6 +68,12 @@ case class Scheduler(prefs: Set[Preference],
     Scheduler(prefs, bad) 
   }
 
+  def avoidFull : (Course, Course) => Boolean ={
+    case (c1, c2) => 
+        avoid (c1, c2) || (core1.contains(c1) && core1.contains(c2)) || 
+        (core2.contains(c1) && core2.contains(c2))
+  }
+
   def coursePref(c: Course): Option[Preference] = prefs.find(_.course == c)
 
   def rankOpt(c: Course, t: Timing): Option[Int] =
@@ -119,7 +125,7 @@ case class Scheduler(prefs: Set[Preference],
               sch.core1TuTh < 3 &&
               sch.core2TuTh < 3 &&
               sch.maxGroup < 5 &&
-              !sch.clashes.exists({ case (c1, c2) => avoid(c1, c2) }))
+              !sch.clashes.exists({ case (c1, c2) => avoidFull(c1, c2) }))
           }
           .getOrElse(getAll(worst, numWorst, ys))
     }
