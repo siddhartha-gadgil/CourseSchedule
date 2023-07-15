@@ -214,5 +214,29 @@
       "code": "MA 354",
       "instructor": "Shaunak Deo"
     }
+  },
+  {
+    "first": {
+      "name": "Topics in Number Theory 1 (Galois representations)",
+      "code": "MA 354",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Linear Algebraic Groups",
+      "code": "MA 379",
+      "instructor": "Mihir Sheth"
+    }
+  },
+  {
+    "first": {
+      "name": "Linear Algebraic Groups",
+      "code": "MA 379",
+      "instructor": "Mihir Sheth"
+    },
+    "second": {
+      "name": "Topics in Number Theory 1 (Galois representations)",
+      "code": "MA 354",
+      "instructor": "Shaunak Deo"
+    }
   }
 ]
