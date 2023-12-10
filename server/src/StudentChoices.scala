@@ -98,18 +98,20 @@ object BestChoice {
 
 object CollisionData {
   import CourseData._, StudentChoices._
+
+  val allElectives = electives ++ core2
     
   lazy val numberStrong: Vector[((Course, Course), Int)]  = 
     for {
-      c1 <- electives
-      c2 <- electives
+      c1 <- allElectives
+      c2 <- allElectives
       if c1 != c2
     } yield (c1, c2) -> all.filter(_.strongClash(c1, c2)).size
   
   lazy val collisionTableData : Vector[Vector[String]]  =
-    (" "  +: electives.map(c2 => c2.code)) +:
-    (electives.map(
-        c1 => c1.code  +: electives.map(c2 => 
+    (" "  +: allElectives.map(c2 => c2.code)) +:
+    (allElectives.map(
+        c1 => c1.code  +: allElectives.map(c2 => 
           all.filter(_.strongClash(c1, c2)).size.toString)))
   
   lazy val collisionTableTsv = collisionTableData.map(_.mkString("\t")).mkString("", "\n", "\n")
