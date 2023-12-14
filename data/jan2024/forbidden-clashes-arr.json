@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "first": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    }
+  ]
+]
