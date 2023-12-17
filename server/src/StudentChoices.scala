@@ -12,7 +12,7 @@ object StudentChoices {
     )
   def groupCourses(gp: String): Set[Course] = groupMap.getOrElse(gp, Set())
 
-  def getCourse(s: String) = CourseData.get(s.trim.take(6))
+  def getCourse(s: String) = CourseData.get(s.trim.split(" ").take(2).mkString(" "))
 
   def fromVec(v: Vector[String]) =
     StudentChoices(
