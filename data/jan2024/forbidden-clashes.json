@@ -430,5 +430,53 @@
       "code": "MA 327",
       "instructor": "Manjunath Krishnapur"
     }
+  },
+  {
+    "first": {
+      "name": "Analysis 3",
+      "code": "MA 321",
+      "instructor": "E. K. Narayanan"
+    },
+    "second": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Analysis 3",
+      "code": "MA 321",
+      "instructor": "E. K. Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Topics in analysis",
+      "code": "MA 327",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in analysis",
+      "code": "MA 327",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Arka Mallick"
+    }
   }
 ]

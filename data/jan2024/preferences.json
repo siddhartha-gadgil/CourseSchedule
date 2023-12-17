@@ -408,6 +408,36 @@
   },
   {
     "course": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Arka Mallick"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Introduction to Differentiable Manifolds",
       "code": "MA 235",
       "instructor": "Vamsi Pritham Pingali"
