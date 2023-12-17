@@ -382,5 +382,53 @@
       "code": "MA 262",
       "instructor": "Sanchayan Sen"
     }
+  },
+  {
+    "first": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Topics in Representation theory",
+      "code": "MA 357",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Representation theory",
+      "code": "MA 357",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Shaunak Deo"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in analysis",
+      "code": "MA 327",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Introduction to Stochastic Processes",
+      "code": "MA 262",
+      "instructor": "Sanchayan Sen"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Stochastic Processes",
+      "code": "MA 262",
+      "instructor": "Sanchayan Sen"
+    },
+    "second": {
+      "name": "Topics in analysis",
+      "code": "MA 327",
+      "instructor": "Manjunath Krishnapur"
+    }
   }
 ]
