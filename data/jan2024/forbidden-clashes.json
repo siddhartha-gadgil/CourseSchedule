@@ -478,5 +478,101 @@
       "code": "MA 222",
       "instructor": "Arka Mallick"
     }
+  },
+  {
+    "first": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer and Digjoy Paul"
+    },
+    "second": {
+      "name": "Introduction to Graph Theory",
+      "code": "MA 216",
+      "instructor": "Vineeth Chintala/ R. Venkatesh"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Graph Theory",
+      "code": "MA 216",
+      "instructor": "Vineeth Chintala/ R. Venkatesh"
+    },
+    "second": {
+      "name": "Algebraic Combinatorics",
+      "code": "MA 319",
+      "instructor": "Arvind Ayyer and Digjoy Paul"
+    }
+  },
+  {
+    "first": {
+      "name": "Stochastic Finance II",
+      "code": "MA 366",
+      "instructor": "Srikanth Iyer"
+    },
+    "second": {
+      "name": "Introduction to Graph Theory",
+      "code": "MA 216",
+      "instructor": "Vineeth Chintala/ R. Venkatesh"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Graph Theory",
+      "code": "MA 216",
+      "instructor": "Vineeth Chintala/ R. Venkatesh"
+    },
+    "second": {
+      "name": "Algebraic Topology",
+      "code": "MA 332",
+      "instructor": "Siddhartha Gadgil"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Graph Theory",
+      "code": "MA 216",
+      "instructor": "Vineeth Chintala/ R. Venkatesh"
+    },
+    "second": {
+      "name": "Stochastic Finance II",
+      "code": "MA 366",
+      "instructor": "Srikanth Iyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in analysis",
+      "code": "MA 327",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Introduction to Graph Theory",
+      "code": "MA 216",
+      "instructor": "Vineeth Chintala/ R. Venkatesh"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Graph Theory",
+      "code": "MA 216",
+      "instructor": "Vineeth Chintala/ R. Venkatesh"
+    },
+    "second": {
+      "name": "Topics in analysis",
+      "code": "MA 327",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebraic Topology",
+      "code": "MA 332",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "second": {
+      "name": "Introduction to Graph Theory",
+      "code": "MA 216",
+      "instructor": "Vineeth Chintala/ R. Venkatesh"
+    }
   }
 ]

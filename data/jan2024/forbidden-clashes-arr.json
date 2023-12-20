@@ -479,6 +479,1668 @@
         "code": "MA 222",
         "instructor": "Arka Mallick"
       }
+    },
+    {
+      "first": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      }
+    },
+    {
+      "first": {
+        "name": "Stochastic Finance II",
+        "code": "MA 366",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Stochastic Finance II",
+        "code": "MA 366",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      },
+      "second": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Abhishek Banerjee"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Abhishek Banerjee"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Stochastic Finance II",
+        "code": "MA 366",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Stochastic Finance II",
+        "code": "MA 366",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      }
+    },
+    {
+      "first": {
+        "name": "Stochastic Finance II",
+        "code": "MA 366",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Stochastic Finance II",
+        "code": "MA 366",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      },
+      "second": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Abhishek Banerjee"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Abhishek Banerjee"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Stochastic Finance II",
+        "code": "MA 366",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Stochastic Finance II",
+        "code": "MA 366",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      },
+      "second": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Operator Theory II",
+        "code": "MA 325",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Advanced Functional Analysis",
+        "code": "MA 340",
+        "instructor": "Chandan Pradhan and Tirthankar Bhattacharyya"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      },
+      "second": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Algebraic Topology",
+        "code": "MA 332",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Abhishek Banerjee"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Abhishek Banerjee"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Topics in Number Theory 3 (Iwasawa theory)",
+        "code": "MA 358A",
+        "instructor": "Mahesh Kakde"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Introduction to Homological Algebra",
+        "code": "MA 316",
+        "instructor": "Safdar Quddus"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ R. Venkatesh"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Algebraic Combinatorics",
+        "code": "MA 319",
+        "instructor": "Arvind Ayyer and Digjoy Paul"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Number Theory 2 (p-adic L-functions)",
+        "code": "MA 358",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Stochastic Finance II",
+        "code": "MA 366",
+        "instructor": "Srikanth Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Stochastic Finance II",
+        "code": "MA 366",
+        "instructor": "Srikanth Iyer"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Representation theory",
+        "code": "MA 357",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis 3",
+        "code": "MA 321",
+        "instructor": "E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in analysis",
+        "code": "MA 327",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
     }
   ],
   [
