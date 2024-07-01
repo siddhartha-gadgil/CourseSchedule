@@ -1,0 +1,166 @@
+[
+  {
+    "course": {
+      "name": "Linear Algebra",
+      "code": "MA 219",
+      "instructor": "Apoorva Khare"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Introduction to Several Complex Variables",
+      "code": "MA 328",
+      "instructor": "Gautam Bharali"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Riemann Surfaces",
+      "code": "MA 307",
+      "instructor": "Ved Datar"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Introduction to Algebraic Topology",
+      "code": "MA 232",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Lie Algebras and their Representations",
+      "code": "MA 315",
+      "instructor": "Souvik Pal/Apoorva Khare"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  }
+]

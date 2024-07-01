@@ -1,0 +1,491 @@
+[
+  [
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Vamsi Pingali"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Vamsi Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "Souvik Pal/Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "Souvik Pal/Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Vamsi Pingali"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Vamsi Pingali"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Vamsi Pingali"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Vamsi Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "Souvik Pal/Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "Souvik Pal/Apoorva Khare"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Vamsi Pingali"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Vamsi Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "Souvik Pal/Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "Souvik Pal/Apoorva Khare"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Vamsi Pingali"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Vamsi Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      },
+      "second": {
+        "name": "Riemann Surfaces",
+        "code": "MA 307",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Modular Forms",
+        "code": "MA 215",
+        "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Introduction to Several Complex Variables",
+        "code": "MA 328",
+        "instructor": "Gautam Bharali"
+      }
+    }
+  ],
+  []
+]
