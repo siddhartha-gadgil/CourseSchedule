@@ -142,5 +142,53 @@
       "code": "MA 333",
       "instructor": "Vamsi Pingali"
     }
+  },
+  {
+    "first": {
+      "name": "Lie Algebras and their Representations",
+      "code": "MA 315",
+      "instructor": "Souvik Pal/Apoorva Khare"
+    },
+    "second": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Vamsi Pingali"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Vamsi Pingali"
+    },
+    "second": {
+      "name": "Lie Algebras and their Representations",
+      "code": "MA 315",
+      "instructor": "Souvik Pal/Apoorva Khare"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Vamsi Pingali"
+    },
+    "second": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Swarnendu Sil"
+    }
+  },
+  {
+    "first": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Swarnendu Sil"
+    },
+    "second": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Vamsi Pingali"
+    }
   }
 ]
