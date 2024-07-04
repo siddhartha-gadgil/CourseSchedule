@@ -190,5 +190,149 @@
       "code": "MA 333",
       "instructor": "Vamsi Pingali"
     }
+  },
+  {
+    "first": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Probability Models",
+      "code": "MA 261",
+      "instructor": "Sanchayan Sen"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Probability Models",
+      "code": "MA 261",
+      "instructor": "Sanchayan Sen"
+    },
+    "second": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Multivariable Calculus",
+      "code": "MA 200",
+      "instructor": "Muna Naik"
+    },
+    "second": {
+      "name": "Introduction to Several Complex Variables",
+      "code": "MA 328",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Several Complex Variables",
+      "code": "MA 328",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Multivariable Calculus",
+      "code": "MA 200",
+      "instructor": "Muna Naik"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Vamsi Pingali"
+    },
+    "second": {
+      "name": "Topics in Non-linear functional analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Partial Differential Equations",
+      "code": "MA 242",
+      "instructor": "Harish Seshadri"
+    },
+    "second": {
+      "name": "Topics in Non-linear functional analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Swarnendu Sil"
+    },
+    "second": {
+      "name": "Topics in Non-linear functional analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Non-linear functional analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Partial Differential Equations",
+      "code": "MA 242",
+      "instructor": "Harish Seshadri"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Non-linear functional analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Vamsi Pingali"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Non-linear functional analysis",
+      "code": "MA 388",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Functional Analysis",
+      "code": "MA 223",
+      "instructor": "Swarnendu Sil"
+    }
   }
 ]
