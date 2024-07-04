@@ -99,7 +99,7 @@ object BestChoice {
 object CollisionData {
   import CourseData._, StudentChoices._
 
-  val allElectives = electives ++ core2
+  val allElectives = electives
     
   lazy val numberStrong: Vector[((Course, Course), Int)]  = 
     for {
