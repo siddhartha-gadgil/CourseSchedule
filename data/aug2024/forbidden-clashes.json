@@ -334,5 +334,53 @@
       "code": "MA 223",
       "instructor": "Swarnendu Sil"
     }
+  },
+  {
+    "first": {
+      "name": "Introduction to Modular Forms",
+      "code": "MA 215",
+      "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+    },
+    "second": {
+      "name": "Riemann Surfaces",
+      "code": "MA 307",
+      "instructor": "Ved Datar"
+    }
+  },
+  {
+    "first": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Abhishek Banerjee"
+    },
+    "second": {
+      "name": "Introduction to Modular Forms",
+      "code": "MA 215",
+      "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Modular Forms",
+      "code": "MA 215",
+      "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+    },
+    "second": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Abhishek Banerjee"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemann Surfaces",
+      "code": "MA 307",
+      "instructor": "Ved Datar"
+    },
+    "second": {
+      "name": "Introduction to Modular Forms",
+      "code": "MA 215",
+      "instructor": "Ravitheja Vangala & Rishabh Agnihotri/Bharathwaj Palvannan"
+    }
   }
 ]
