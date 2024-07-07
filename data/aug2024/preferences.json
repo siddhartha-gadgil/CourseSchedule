@@ -297,6 +297,36 @@
   },
   {
     "course": {
+      "name": "Partial Differential Equations",
+      "code": "MA 242",
+      "instructor": "Harish Seshadri"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Introduction to Several Complex Variables",
       "code": "MA 328",
       "instructor": "Gautam Bharali"
