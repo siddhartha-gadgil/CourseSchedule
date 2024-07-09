@@ -15,9 +15,9 @@ case class Schedule(sch: Map[Course, Timing]) {
 
   def +(c: Course, t: Timing) = Schedule(sch + (c -> t))
 
-  val core1TuTh = sch.count{case (_, t) => t.isTuTh && (core1.contains(t))}
+  val core1TuTh = sch.count{case (c, t) => t.isTuTh && (core1.contains(c))}
 
-  val core2TuTh = sch.count{case (_, t) => t.isTuTh && (core2.contains(t))}
+  val core2TuTh = sch.count{case (c, t) => t.isTuTh && (core2.contains(c))}
 
 
   val sorted: Vector[(Course, Timing)] = sch.toVector.sortBy(_._1.code)
