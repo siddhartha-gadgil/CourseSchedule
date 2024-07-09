@@ -256,7 +256,7 @@ object SavedData {
   }
 
   def avoid(c1: Course, c2: Course): Boolean =
-    forbiddenClashes.contains(c1 -> c2)
+    forbiddenClashes.contains(c1 -> c2) || forbiddenClashes.contains(c2 -> c1)
 
   lazy val prefSet: Set[Preference] =
     (for {
