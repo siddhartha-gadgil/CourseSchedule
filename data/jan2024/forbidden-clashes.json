@@ -1,6 +1,42 @@
 [
   {
     "first": {
+      "name": "Applied Data Science and Artificial Intelligence",
+      "code": "UMC 301",
+      "instructor": "Deepak Subramani"
+    },
+    "second": {
+      "name": "Linear Algebra",
+      "code": "MA 219",
+      "instructor": "Apoorva Khare"
+    }
+  },
+  {
+    "first": {
+      "name": "Applied Data Science and Artificial Intelligence",
+      "code": "UMC 301",
+      "instructor": "Deepak Subramani"
+    },
+    "second": {
+      "name": "Probability Theory",
+      "code": "MA 361",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Applied Data Science and Artificial Intelligence",
+      "code": "UMC 301",
+      "instructor": "Deepak Subramani"
+    },
+    "second": {
+      "name": "Multivariable Calculus",
+      "code": "MA 200",
+      "instructor": "Muna Naik"
+    }
+  },
+  {
+    "first": {
       "name": "Analysis 3",
       "code": "MA 321",
       "instructor": "E. K. Narayanan"
