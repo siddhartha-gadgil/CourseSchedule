@@ -297,6 +297,73 @@
   },
   {
     "course": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Abhishek Banerjee"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Analysis I: Real Anaysis",
+      "code": "MA 221",
+      "instructor": "Purvi Gupta"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Partial Differential Equations",
       "code": "MA 242",
       "instructor": "Harish Seshadri"
