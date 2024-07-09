@@ -535,6 +535,36 @@
   },
   {
     "course": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Mahesh Kakde"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Multivariable Calculus",
       "code": "MA 200",
       "instructor": "Muna Naik"
