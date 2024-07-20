@@ -38,3 +38,5 @@ chosen.core1TuTh
 CourseData.core1
 chosen.sch.filter{case (c, t) => CourseData.core1.contains(c) && t.isTuTh}
 chosen.sch.filter{case (c, t) => CourseData.core2.contains(c) && t.isTuTh}
+BestChoice.sch.worst
+BestChoice.sch.numWorst
