@@ -68,7 +68,7 @@ object CourseData{
     )
   }
 
-  lazy val electives: Vector[Course] = courses.filterNot(core1.contains(_))
+  lazy val electives: Vector[Course] = courses.filterNot((core1 ++ coreUG ++ coreIntPhD).contains(_))
 
   lazy val electivesForForm: String = (electives).map{(c: Course) => s"${c.code} ${c.name} (${c.instructor})"}.mkString("\n","\n", "\n")
 
