@@ -6,7 +6,7 @@ import ujson.Js
 
 
 object CourseData{
-  val semName = "aug2024"
+  val semName = "jan2025"
 
   lazy val source: String = os.read(os.pwd / "server" / "resources" / "courses.yaml")
 
@@ -22,6 +22,10 @@ object CourseData{
 
   lazy val core1: Vector[Course] = stringMap(sem("core1")).map(Course.fromMap)
 
+  lazy val coreUG: Vector[Course] = sem.get("core-ug").map(y =>stringMap(y).map(Course.fromMap)).getOrElse(Vector())
+
+  lazy val coreIntPhD: Vector[Course] = sem.get("core-intphd").map(y =>stringMap(y).map(Course.fromMap)).getOrElse(Vector())
+
   lazy val core2: Vector[Course] = sem.get("core2").map(y =>stringMap(y).map(Course.fromMap)).getOrElse(Vector())
 
   lazy val courseMap: Vector[Map[String, String]] = sem.values.flatMap(stringMap).toVector
@@ -33,6 +37,10 @@ object CourseData{
   lazy val json = ujson.Arr(courses.map(_.json)  : _*)
 
   lazy val jsonCore1 = ujson.Arr(core1.map(_.json)  : _*)
+
+  lazy val jsonCoreUG = ujson.Arr(coreUG.map(_.json)  : _*)
+
+  lazy val jsonCoreIntPhD = ujson.Arr(coreIntPhD.map(_.json)  : _*)
 
   lazy val jsonCore2 = ujson.Arr(core2.map(_.json)  : _*)
 

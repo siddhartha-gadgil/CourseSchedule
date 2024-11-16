@@ -6,8 +6,8 @@ import scala.util.Try
 object StudentChoices {
   val groupMap: Map[String, Set[Course]] =
     Map(
-      "BS 3rd year" -> CourseData.core1.toSet
-        .filterNot(c => Set("MA 221",  "MA 235", "MA 241", "MA 261").contains(c.code)),
+      "BS 3rd year" -> (CourseData.core1 ++ CourseData.coreUG).toSet
+        ,
       "Int. Ph. D second year" -> CourseData.core2.toSet
     )
   def groupCourses(gp: String): Set[Course] = groupMap.getOrElse(gp, Set())

@@ -1,7 +1,7 @@
 package courses
 
 import courses.Schedule._
-import CourseData.{core1, core2}
+import CourseData.{core1, core2, coreUG, coreIntPhD}
 
 import ujson.Js
 
@@ -15,7 +15,7 @@ case class Schedule(sch: Map[Course, Timing]) {
 
   def +(c: Course, t: Timing) = Schedule(sch + (c -> t))
 
-  val core1TuTh = sch.count{case (c, t) => t.isTuTh && (core1.contains(c))}
+  val core1TuTh = sch.count{case (c, t) => t.isTuTh && ((core1 ++ coreUG ++ coreIntPhD).contains(c))}
 
   val core2TuTh = sch.count{case (c, t) => t.isTuTh && (core2.contains(c))}
 
@@ -70,7 +70,8 @@ case class Scheduler(prefs: Set[Preference],
 
   def avoidFull : (Course, Course) => Boolean ={
     case (c1, c2) => 
-        avoid (c1, c2) || (core1.contains(c1) && core1.contains(c2)) || 
+        avoid (c1, c2) || ((core1 ++ coreUG).contains(c1) && (core1 ++ coreUG ).contains(c2)) ||
+        ((core1 ++ coreIntPhD).contains(c1) && (core1 ++ coreIntPhD ).contains(c2)) || 
         (core2.contains(c1) && core2.contains(c2))
   }
 

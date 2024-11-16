@@ -113,6 +113,14 @@ object Server extends cask.MainRoutes {
   def courseListCore1(): String =
     ujson.write(CourseData.jsonCore1)
 
+  @cask.get("/core-ug-course-list")
+  def courseListCoreUG(): String =
+    ujson.write(CourseData.jsonCoreUG)
+
+  @cask.get("/core-intphd-course-list")
+  def courseListCoreIntPhD(): String =
+    ujson.write(CourseData.jsonCoreIntPhD)
+
   @cask.get("/core2-course-list")
   def courseListCore2(): String =
     ujson.write(CourseData.jsonCore2)

@@ -26,6 +26,10 @@ object ChooserJS {
 
   var coursesCore1Opt: Option[Vector[Course]] = None
 
+  var coursesCoreUGOpt: Option[Vector[Course]] = None
+
+  var coursesCoreIntPhDOpt: Option[Vector[Course]] = None
+
   var coursesCore2Opt: Option[Vector[Course]] = None
 
   def courses: Vector[Course] = coursesOpt.getOrElse(Vector.empty[Course])
@@ -36,8 +40,10 @@ object ChooserJS {
     for {
       course <- courseOpt
       core1 <- coursesCore1Opt
+      coreUG <- coursesCoreUGOpt
+      coreIntPhD <- coursesCoreIntPhDOpt
       core2 <- coursesCore2Opt
-    } yield ((core1 ++ core2).contains(course))
+    } yield ((core1 ++ coreUG ++ coreIntPhD ++ core2).contains(course))
 
   def isCore: Boolean = isCoreOpt.getOrElse(throw new Exception("Courses not loaded"))
 
@@ -349,6 +355,18 @@ object ChooserJS {
       Ajax.get("core1-course-list").foreach { xhr =>
         val courses = getCourses(ujson.read(xhr.responseText))
         coursesCore1Opt = Some(courses)
+
+      }
+
+      Ajax.get("core-ug-course-list").foreach { xhr =>
+        val courses = getCourses(ujson.read(xhr.responseText))
+        coursesCoreUGOpt = Some(courses)
+
+      }
+
+      Ajax.get("core-intphd-course-list").foreach { xhr =>
+        val courses = getCourses(ujson.read(xhr.responseText))
+        coursesCoreIntPhDOpt = Some(courses)
 
       }
 
