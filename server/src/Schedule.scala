@@ -15,7 +15,9 @@ case class Schedule(sch: Map[Course, Timing]) {
 
   def +(c: Course, t: Timing) = Schedule(sch + (c -> t))
 
-  val core1TuTh = sch.count{case (c, t) => t.isTuTh && ((core1 ++ coreUG ++ coreIntPhD).contains(c))}
+  val core1TuThUG = sch.count{case (c, t) => t.isTuTh && ((core1 ++ coreUG).contains(c))}
+
+  val core1TuTh = sch.count{case (c, t) => t.isTuTh && ((core1 ++ coreIntPhD).contains(c))}
 
   val core2TuTh = sch.count{case (c, t) => t.isTuTh && (core2.contains(c))}
 
@@ -124,6 +126,7 @@ case class Scheduler(prefs: Set[Preference],
 
             (top union inner).filter(sch =>
               sch.core1TuTh < 3 &&
+              sch.core1TuThUG < 3 &&
               sch.core2TuTh < 3 &&
               sch.maxGroup < 5 &&
               !sch.clashes.exists({ case (c1, c2) => avoidFull(c1, c2) }))
