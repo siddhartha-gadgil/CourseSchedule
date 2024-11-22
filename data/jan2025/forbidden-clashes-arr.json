@@ -1,0 +1,346 @@
+[
+  [
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    }
+  ]
+]
