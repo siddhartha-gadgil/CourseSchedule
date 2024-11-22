@@ -12,7 +12,7 @@ commonClashes.size
 val minClashSize = bestSW.map(_.clashes.size).min
 val minClashes = bestSW.filter(_.clashes.size == minClashSize).toVector
 minClashes.size
-minClashes(0).diff(minClashes(1))
+// minClashes(0).diff(minClashes(1))
 val chosen = minClashes(0)
 chosen.sch.size
 
