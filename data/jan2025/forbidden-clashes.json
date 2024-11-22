@@ -94,5 +94,77 @@
       "code": "MA 321",
       "instructor": "Swarnendu Sil"
     }
+  },
+  {
+    "first": {
+      "name": "Proofs and Programs",
+      "code": "MA 208",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "second": {
+      "name": "Introduction to Tilings",
+      "code": "MA 237",
+      "instructor": "Subhojoy Gupta"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Tilings",
+      "code": "MA 237",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Introduction to Differentiable Manifolds",
+      "code": "MA 235",
+      "instructor": "Ved Datar"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Differentiable Manifolds",
+      "code": "MA 235",
+      "instructor": "Ved Datar"
+    },
+    "second": {
+      "name": "Introduction to Tilings",
+      "code": "MA 237",
+      "instructor": "Subhojoy Gupta"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Tilings",
+      "code": "MA 237",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Proofs and Programs",
+      "code": "MA 208",
+      "instructor": "Siddhartha Gadgil"
+    }
+  },
+  {
+    "first": {
+      "name": "Lie Groups and Lie Algebras",
+      "code": "MA 305",
+      "instructor": "Muna Naik"
+    },
+    "second": {
+      "name": "Abstract Harmonic Analysis",
+      "code": "MA 372",
+      "instructor": "E.K.Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Abstract Harmonic Analysis",
+      "code": "MA 372",
+      "instructor": "E.K.Narayanan"
+    },
+    "second": {
+      "name": "Lie Groups and Lie Algebras",
+      "code": "MA 305",
+      "instructor": "Muna Naik"
+    }
   }
 ]
