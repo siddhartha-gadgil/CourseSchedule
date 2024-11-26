@@ -166,5 +166,53 @@
       "code": "MA 305",
       "instructor": "Muna Naik"
     }
+  },
+  {
+    "first": {
+      "name": "Topics in Gaussian Processes",
+      "code": "MA 365",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Biltu Dan/ Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Biltu Dan/ Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Topics in Gaussian Processes",
+      "code": "MA 365",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Gaussian Processes",
+      "code": "MA 365",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Ergodic Theory",
+      "code": "MA 346",
+      "instructor": "Abhishek Khetan"
+    }
+  },
+  {
+    "first": {
+      "name": "Ergodic Theory",
+      "code": "MA 346",
+      "instructor": "Abhishek Khetan"
+    },
+    "second": {
+      "name": "Topics in Gaussian Processes",
+      "code": "MA 365",
+      "instructor": "Manjunath Krishnapur"
+    }
   }
 ]
