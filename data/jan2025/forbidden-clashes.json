@@ -214,5 +214,101 @@
       "code": "MA 365",
       "instructor": "Manjunath Krishnapur"
     }
+  },
+  {
+    "first": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Soumya Das"
+    },
+    "second": {
+      "name": "Number Theory",
+      "code": "MA 218",
+      "instructor": "Radhika Ganapathy"
+    }
+  },
+  {
+    "first": {
+      "name": "Number Theory",
+      "code": "MA 218",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Soumya Das"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Gaussian Processes",
+      "code": "MA 365",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Introduction to Statistical Learning<br/> with Applications",
+      "code": "MA 267",
+      "instructor": "Siva Athreya"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Stochastic Processes",
+      "code": "MA 262",
+      "instructor": "Sanchayan Sen"
+    },
+    "second": {
+      "name": "Introduction to Statistical Learning<br/> with Applications",
+      "code": "MA 267",
+      "instructor": "Siva Athreya"
+    }
+  },
+  {
+    "first": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Introduction to Statistical Learning<br/> with Applications",
+      "code": "MA 267",
+      "instructor": "Siva Athreya"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Statistical Learning<br/> with Applications",
+      "code": "MA 267",
+      "instructor": "Siva Athreya"
+    },
+    "second": {
+      "name": "Introduction to Stochastic Processes",
+      "code": "MA 262",
+      "instructor": "Sanchayan Sen"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Statistical Learning<br/> with Applications",
+      "code": "MA 267",
+      "instructor": "Siva Athreya"
+    },
+    "second": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Statistical Learning<br/> with Applications",
+      "code": "MA 267",
+      "instructor": "Siva Athreya"
+    },
+    "second": {
+      "name": "Topics in Gaussian Processes",
+      "code": "MA 365",
+      "instructor": "Manjunath Krishnapur"
+    }
   }
 ]

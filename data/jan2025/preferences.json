@@ -1,16 +1,16 @@
 [
   {
     "course": {
-      "name": "Lie Groups and Lie Algebras",
-      "code": "MA 305",
-      "instructor": "Muna Naik"
+      "name": "Topics in Probability and Stochastic Processes",
+      "code": "MA 368",
+      "instructor": "Biltu Dan/ Manjunath Krishnapur"
     },
     "timings": [
       {
         "choice": 1,
         "timing": {
           "days": "Tue, Thu",
-          "times": "11:30 - 1:00"
+          "times": "3:30 - 5: 00"
         }
       },
       {
@@ -25,6 +25,71 @@
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "3:00 - 4:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 5,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Lie Groups and Lie Algebras",
+      "code": "MA 305",
+      "instructor": "Muna Naik"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 5,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      },
+      {
+        "choice": 6,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
         }
       }
     ]
@@ -68,6 +133,133 @@
   },
   {
     "course": {
+      "name": "Complex Manifolds",
+      "code": "MA 345",
+      "instructor": "Purvi Gupta"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Proofs and Programs",
+      "code": "MA 208",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Introduction to Statistical Learning<br/> with Applications",
+      "code": "MA 267",
+      "instructor": "Siva Athreya"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Representation Theory of Finite Groups",
+      "code": "MA 220",
+      "instructor": "Soumya Das"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Introduction to Tilings",
       "code": "MA 237",
       "instructor": "Subhojoy Gupta"
@@ -85,6 +277,36 @@
         "timing": {
           "days": "Tue, Thu",
           "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Introduction to Stochastic Processes",
+      "code": "MA 262",
+      "instructor": "Sanchayan Sen"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
         }
       },
       {
@@ -142,36 +364,6 @@
   },
   {
     "course": {
-      "name": "Proofs and Programs",
-      "code": "MA 208",
-      "instructor": "Siddhartha Gadgil"
-    },
-    "timings": [
-      {
-        "choice": 1,
-        "timing": {
-          "days": "Mon, Wed, Fri",
-          "times": "9:00 - 10:00"
-        }
-      },
-      {
-        "choice": 2,
-        "timing": {
-          "days": "Mon, Wed, Fri",
-          "times": "10:00 - 11:00"
-        }
-      },
-      {
-        "choice": 3,
-        "timing": {
-          "days": "Tue, Thu",
-          "times": "8:30 - 10:00"
-        }
-      }
-    ]
-  },
-  {
-    "course": {
       "name": "Ordinary Differential Equations",
       "code": "MA 241",
       "instructor": "Vamsi Pingali"
@@ -203,6 +395,36 @@
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "2:00 - 3:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Number Theory",
+      "code": "MA 218",
+      "instructor": "Radhika Ganapathy"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
         }
       }
     ]
