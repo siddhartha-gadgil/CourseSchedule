@@ -163,6 +163,36 @@
   },
   {
     "course": {
+      "name": "Analysis III",
+      "code": "MA 321",
+      "instructor": "Swarnendu Sil"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Proofs and Programs",
       "code": "MA 208",
       "instructor": "Siddhartha Gadgil"
