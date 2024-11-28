@@ -201,22 +201,22 @@
       {
         "choice": 1,
         "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
           "days": "Mon, Wed, Fri",
           "times": "9:00 - 10:00"
         }
       },
       {
-        "choice": 2,
+        "choice": 1,
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "10:00 - 11:00"
-        }
-      },
-      {
-        "choice": 3,
-        "timing": {
-          "days": "Tue, Thu",
-          "times": "8:30 - 10:00"
         }
       }
     ]
@@ -385,6 +385,43 @@
       },
       {
         "choice": 5,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Algebra II",
+      "code": "MA 213",
+      "instructor": "Shaunak Deo"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 3,
         "timing": {
           "days": "Tue, Thu",
           "times": "10:00 - 11:30"
