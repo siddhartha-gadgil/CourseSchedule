@@ -193,6 +193,36 @@
   },
   {
     "course": {
+      "name": "Abstract Harmonic Analysis",
+      "code": "MA 372",
+      "instructor": "E.K.Narayanan"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Proofs and Programs",
       "code": "MA 208",
       "instructor": "Siddhartha Gadgil"
@@ -284,6 +314,66 @@
         "timing": {
           "days": "Tue, Thu",
           "times": "10:00 - 11:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "E.K.Narayanan"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Complex Analysis",
+      "code": "MA 224",
+      "instructor": "E.K.Narayanan"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "9:00 - 10:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
         }
       }
     ]

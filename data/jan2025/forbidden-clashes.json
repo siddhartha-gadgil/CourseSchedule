@@ -406,5 +406,29 @@
       "code": "MA 216",
       "instructor": "Vineeth Chintala/ Apoorva Khare"
     }
+  },
+  {
+    "first": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "E.K.Narayanan"
+    },
+    "second": {
+      "name": "Lie Groups and Lie Algebras",
+      "code": "MA 305",
+      "instructor": "Muna Naik"
+    }
+  },
+  {
+    "first": {
+      "name": "Lie Groups and Lie Algebras",
+      "code": "MA 305",
+      "instructor": "Muna Naik"
+    },
+    "second": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "E.K.Narayanan"
+    }
   }
 ]

@@ -407,6 +407,1260 @@
         "code": "MA 216",
         "instructor": "Vineeth Chintala/ Apoorva Khare"
       }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Biltu Dan/ Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Biltu Dan/ Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Ergodic Theory",
+        "code": "MA 346",
+        "instructor": "Abhishek Khetan"
+      }
+    },
+    {
+      "first": {
+        "name": "Ergodic Theory",
+        "code": "MA 346",
+        "instructor": "Abhishek Khetan"
+      },
+      "second": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      },
+      "second": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      },
+      "second": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Biltu Dan/ Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Biltu Dan/ Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Ergodic Theory",
+        "code": "MA 346",
+        "instructor": "Abhishek Khetan"
+      }
+    },
+    {
+      "first": {
+        "name": "Ergodic Theory",
+        "code": "MA 346",
+        "instructor": "Abhishek Khetan"
+      },
+      "second": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      },
+      "second": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      },
+      "second": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Complex Analysis",
+        "code": "MA 224",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      },
+      "second": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Abstract Harmonic Analysis",
+        "code": "MA 372",
+        "instructor": "E.K.Narayanan"
+      },
+      "second": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Biltu Dan/ Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Probability and Stochastic Processes",
+        "code": "MA 368",
+        "instructor": "Biltu Dan/ Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Ergodic Theory",
+        "code": "MA 346",
+        "instructor": "Abhishek Khetan"
+      }
+    },
+    {
+      "first": {
+        "name": "Ergodic Theory",
+        "code": "MA 346",
+        "instructor": "Abhishek Khetan"
+      },
+      "second": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      },
+      "second": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Sanchayan Sen"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Statistical Learning<br/> with Applications",
+        "code": "MA 267",
+        "instructor": "Siva Athreya"
+      },
+      "second": {
+        "name": "Topics in Gaussian Processes",
+        "code": "MA 365",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "Soumya Das"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Number Theory",
+        "code": "MA 218",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      },
+      "second": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      }
+    },
+    {
+      "first": {
+        "name": "Proofs and Programs",
+        "code": "MA 208",
+        "instructor": "Siddhartha Gadgil"
+      },
+      "second": {
+        "name": "Introduction to Graph Theory",
+        "code": "MA 216",
+        "instructor": "Vineeth Chintala/ Apoorva Khare"
+      }
     }
   ],
   [
