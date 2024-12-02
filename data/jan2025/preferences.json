@@ -646,6 +646,36 @@
   },
   {
     "course": {
+      "name": "Class Field Theory",
+      "code": "MA 356",
+      "instructor": "Mahesh Kakde"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "8:30 - 10:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Number Theory",
       "code": "MA 218",
       "instructor": "Radhika Ganapathy"
