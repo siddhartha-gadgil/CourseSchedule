@@ -128,7 +128,7 @@ case class Scheduler(prefs: Set[Preference],
               sch.core1TuTh < 3 &&
               sch.core1TuThUG < 3 &&
               sch.core2TuTh < 3 &&
-              sch.maxGroup < 5 &&
+              sch.maxGroup < 6 &&
               !sch.clashes.exists({ case (c1, c2) => avoidFull(c1, c2) }))
           }
           .getOrElse(getAll(worst, numWorst, ys))
