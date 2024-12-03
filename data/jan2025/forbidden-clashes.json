@@ -430,5 +430,53 @@
       "code": "MA 326",
       "instructor": "E.K.Narayanan"
     }
+  },
+  {
+    "first": {
+      "name": "Homogeneous Dynamics",
+      "code": "MA 346a",
+      "instructor": "Debanjan Nandy"
+    },
+    "second": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Measure & Integration",
+      "code": "MA 222",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Homogeneous Dynamics",
+      "code": "MA 346a",
+      "instructor": "Debanjan Nandy"
+    }
+  },
+  {
+    "first": {
+      "name": "Homogeneous Dynamics",
+      "code": "MA 346a",
+      "instructor": "Debanjan Nandy"
+    },
+    "second": {
+      "name": "Ergodic Theory",
+      "code": "MA 346",
+      "instructor": "Abhishek Khetan"
+    }
+  },
+  {
+    "first": {
+      "name": "Ergodic Theory",
+      "code": "MA 346",
+      "instructor": "Abhishek Khetan"
+    },
+    "second": {
+      "name": "Homogeneous Dynamics",
+      "code": "MA 346a",
+      "instructor": "Debanjan Nandy"
+    }
   }
 ]
