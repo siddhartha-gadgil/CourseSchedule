@@ -72,4 +72,5 @@ object CourseData{
 
   lazy val electivesForForm: String = (electives).map{(c: Course) => s"${c.code} ${c.name} (${c.instructor})"}.mkString("\n","\n", "\n")
 
+  lazy val coursesForForm: String = (courses).map{(c: Course) => s"${c.code} ${c.name} (${c.instructor})"}.mkString("\n","\n", "\n")
 }
