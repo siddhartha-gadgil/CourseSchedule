@@ -70,7 +70,7 @@ object server extends ScalaModule{
 }
 
 object client extends ScalaJSModule {
-  def scalaVersion = "2.13.8"
+  def scalaVersion = "2.13.16"
   def scalaJSVersion = "1.16.0"
 
   def platformSegment = "js"
