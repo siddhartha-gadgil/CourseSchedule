@@ -300,7 +300,7 @@ object Home {
       s"""
         |<h1 class="text-center"> Course Timing Preferences </h1>
         |<p> Please note that those teaching <em>core courses</em> need to give
-        | at least two choices ranked 2 or above on MWF. Those teaching electives need to give at least
+        | at least two choices ranked 2 or above on MWF. In the case of UG 3rd year courses, these should also not clash with Wednesday 11:00 - 1:00. Those teaching electives need to give at least
         | one choice ranked 3 or above on MWF.
         |     <div id="message"></div>
         |      <div id="chooser"></div>

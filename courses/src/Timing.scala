@@ -65,4 +65,9 @@ object Timing{
     TuTh("3:30 - 5: 00"),
   )
 
+  val humanities: Vector[Timing] = Vector(
+    MWF("11:00 - 12:00"),
+    MWF("12:00 - 1:00"),
+  )
+
 }

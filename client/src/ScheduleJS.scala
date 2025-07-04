@@ -16,6 +16,7 @@ import scalatags.JsDom
 import scala.collection.immutable
 import scala.collection.mutable.{Set => mSet}
 import scala.util.{Failure, Success}
+import courses.Timing.humanities
 
 @JSExportTopLevel("ChooserJS")
 object ChooserJS {
@@ -45,7 +46,17 @@ object ChooserJS {
       core2 <- coursesCore2Opt
     } yield ((core1 ++ coreUG ++ coreIntPhD ++ core2).contains(course))
 
+  def isCoreThirdOpt: Option[Boolean] = 
+    for {
+      course <- courseOpt
+      core1 <- coursesCore1Opt
+      coreUG <- coursesCoreUGOpt
+    } yield ((core1 ++ coreUG).contains(course))
+
+
   def isCore: Boolean = isCoreOpt.getOrElse(throw new Exception("Courses not loaded"))
+
+  def isCoreThird: Boolean = isCoreThirdOpt.getOrElse(throw new Exception("Courses not loaded"))
 
   val forbiddenClashes: mSet[(Course, Course)] = mSet()
 
@@ -132,7 +143,7 @@ object ChooserJS {
     dom.window.alert(
       if (courseOpt.isEmpty) "Please choose course"
       else
-        "Please give at least three choices; and enough choices on MWF and TuTh"
+        "Please give at least three choices; and enough choices on MWF (for UG 3rd year excluding clashes with Wed 11:00-1:00)."
     )
 
   def forbidInput(c1: Course): JsDom.TypedTag[Div] = {
@@ -249,6 +260,8 @@ object ChooserJS {
 
   def mwfRank2 = timings.count { case (i, t) => i <= 2 && t.isMWF } > 1
 
+  def thirdYearRank2 = timings.count { case (i, t) => i <= 2 && t.isMWF && !humanities.contains(t) } > 1
+
   def tuThRank2 = timings.count { case (i, t) => i <= 2 && t.isTuTh } > 1
 
   def enoughChoices: Boolean = {
@@ -258,7 +271,8 @@ object ChooserJS {
       }
       .reduce(_ && _) &&
     timings.exists { case (n, t) => n <= 3 && t.days == "Mon, Wed, Fri" } &&
-    (!isCore || mwfRank2)
+    (!isCore || mwfRank2) &&
+    (!isCoreThird || thirdYearRank2) 
   }
 
   def chosenList: Div = {
@@ -292,7 +306,7 @@ object ChooserJS {
         {if (enoughChoices)
           "Please check selected course below before submitting. More choices are always welcome!"
         else
-          "Please give at least three choices; and enough choices on MWF and TuTh."}
+          "Please give at least three choices; and enough choices on MWF (for UG 3rd year excluding clashes with Wed 11:00-1:00)."}
         else "Please choose course"
       ),
       h3(`class` := "text-center")(strong("Course")),
