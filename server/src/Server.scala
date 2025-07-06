@@ -287,6 +287,7 @@ object Home {
         <li>All are in the <em>new</em> standard slots: one hour lectures beginning on the hour on MWF or 90 minute ones on Tue-Thu.</li>
         <li>At least one preference with rank at most 3 should be for 3 (hour long) lectures (on MWF, starting on the hour).</li>
         <li>If you are teaching a core course you must give at least two preferences ranked 1 or 2 that are on MWF. </li>
+        <li>For UG 3rd year courses, these MWF preferences should not clash with Wednesday 11:00 - 1:00.</li>
       </ol>
       <p>I realize that most of us prefer two 90 minute lectures, but this has to be balanced with trying to minimize
       schedule clashes of courses students would like to take concurrently (and instances of  colleagues being
