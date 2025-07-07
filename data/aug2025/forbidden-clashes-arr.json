@@ -23,6 +23,130 @@
         "code": "MA 219",
         "instructor": "Apoorva Khare"
       }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth K. Iyer"
+      },
+      "second": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth K. Iyer"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
     }
   ],
   [
