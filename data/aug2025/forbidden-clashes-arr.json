@@ -1,0 +1,158 @@
+[
+  [
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    }
+  ]
+]
