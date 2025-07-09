@@ -118,5 +118,53 @@
       "code": "MA 333",
       "instructor": "Ved Datar"
     }
+  },
+  {
+    "first": {
+      "name": "Schubert Calculus",
+      "code": "MA 3xx",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Shaunak Deo"
+    }
+  },
+  {
+    "first": {
+      "name": "Linear Algebra",
+      "code": "MA 219",
+      "instructor": "Apoorva Khare"
+    },
+    "second": {
+      "name": "Schubert Calculus",
+      "code": "MA 3xx",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Schubert Calculus",
+      "code": "MA 3xx",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Linear Algebra",
+      "code": "MA 219",
+      "instructor": "Apoorva Khare"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Schubert Calculus",
+      "code": "MA 3xx",
+      "instructor": "Arvind Ayyer"
+    }
   }
 ]
