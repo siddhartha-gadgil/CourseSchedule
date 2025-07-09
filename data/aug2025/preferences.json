@@ -170,6 +170,43 @@
   },
   {
     "course": {
+      "name": "Lie Algebras and their Representations",
+      "code": "MA 315",
+      "instructor": "R. Venkatesh / Shushma Rani"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "2:00 - 3:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 4,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Commutative Algebra",
       "code": "MA 312",
       "instructor": "Bharathwaj Palvannan"
@@ -187,6 +224,36 @@
         "timing": {
           "days": "Tue, Thu",
           "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
         }
       },
       {
@@ -254,6 +321,36 @@
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "3:00 - 4:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Partial Differential Equations",
+      "code": "MA 242",
+      "instructor": "Arka Mallick"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "10:00 - 11:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "10:00 - 11:30"
         }
       }
     ]

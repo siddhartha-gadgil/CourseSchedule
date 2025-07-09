@@ -70,5 +70,53 @@
       "code": "MA 361",
       "instructor": "Srikanth K. Iyer"
     }
+  },
+  {
+    "first": {
+      "name": "Lie Algebras and their Representations",
+      "code": "MA 315",
+      "instructor": "R. Venkatesh / Shushma Rani"
+    },
+    "second": {
+      "name": "Schubert Calculus",
+      "code": "MA 3xx",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Schubert Calculus",
+      "code": "MA 3xx",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Lie Algebras and their Representations",
+      "code": "MA 315",
+      "instructor": "R. Venkatesh / Shushma Rani"
+    }
+  },
+  {
+    "first": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    },
+    "second": {
+      "name": "Introduction to Algebraic Topology",
+      "code": "MA 232",
+      "instructor": "Harish Seshadri"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Algebraic Topology",
+      "code": "MA 232",
+      "instructor": "Harish Seshadri"
+    },
+    "second": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    }
   }
 ]
