@@ -166,5 +166,29 @@
       "code": "MA 3xx",
       "instructor": "Arvind Ayyer"
     }
+  },
+  {
+    "first": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Radhika Ganapathy"
+    },
+    "second": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Bharathwaj Palvannan"
+    }
+  },
+  {
+    "first": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Bharathwaj Palvannan"
+    },
+    "second": {
+      "name": "Algebraic Number Theory",
+      "code": "MA 313",
+      "instructor": "Radhika Ganapathy"
+    }
   }
 ]

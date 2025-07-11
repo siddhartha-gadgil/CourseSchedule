@@ -167,6 +167,200 @@
         "code": "MA 3xx",
         "instructor": "Arvind Ayyer"
       }
+    },
+    {
+      "first": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Bharathwaj Palvannan"
+      }
+    },
+    {
+      "first": {
+        "name": "Commutative Algebra",
+        "code": "MA 312",
+        "instructor": "Bharathwaj Palvannan"
+      },
+      "second": {
+        "name": "Algebraic Number Theory",
+        "code": "MA 313",
+        "instructor": "Radhika Ganapathy"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Matrix Analysis and Positivity",
+        "code": "MA 341",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Geometric Analysis",
+        "code": "MA 339",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth K. Iyer"
+      },
+      "second": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Manjunath Krishnapur"
+      }
+    },
+    {
+      "first": {
+        "name": "Probability Models",
+        "code": "MA 261",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Probability Theory",
+        "code": "MA 361",
+        "instructor": "Srikanth K. Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "R. Venkatesh / Shushma Rani"
+      },
+      "second": {
+        "name": "Schubert Calculus",
+        "code": "MA 3xx",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Schubert Calculus",
+        "code": "MA 3xx",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Lie Algebras and their Representations",
+        "code": "MA 315",
+        "instructor": "R. Venkatesh / Shushma Rani"
+      }
+    },
+    {
+      "first": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      },
+      "second": {
+        "name": "Introduction to Algebraic Topology",
+        "code": "MA 232",
+        "instructor": "Harish Seshadri"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Algebraic Topology",
+        "code": "MA 232",
+        "instructor": "Harish Seshadri"
+      },
+      "second": {
+        "name": "Riemannian Geometry",
+        "code": "MA 333",
+        "instructor": "Ved Datar"
+      }
+    },
+    {
+      "first": {
+        "name": "Schubert Calculus",
+        "code": "MA 3xx",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      }
+    },
+    {
+      "first": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      },
+      "second": {
+        "name": "Schubert Calculus",
+        "code": "MA 3xx",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Schubert Calculus",
+        "code": "MA 3xx",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Linear Algebra",
+        "code": "MA 219",
+        "instructor": "Apoorva Khare"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra I",
+        "code": "MA 212",
+        "instructor": "Shaunak Deo"
+      },
+      "second": {
+        "name": "Schubert Calculus",
+        "code": "MA 3xx",
+        "instructor": "Arvind Ayyer"
+      }
     }
   ],
   [
