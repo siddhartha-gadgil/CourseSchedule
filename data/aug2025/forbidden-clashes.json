@@ -190,5 +190,149 @@
       "code": "MA 313",
       "instructor": "Radhika Ganapathy"
     }
+  },
+  {
+    "first": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    },
+    "second": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Riemannian Geometry",
+      "code": "MA 333",
+      "instructor": "Ved Datar"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Introduction to Algebraic Topology",
+      "code": "MA 232",
+      "instructor": "Harish Seshadri"
+    }
+  },
+  {
+    "first": {
+      "name": "Geometric Analysis",
+      "code": "MA 339",
+      "instructor": "Vamsi Pritham Pingali"
+    },
+    "second": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    },
+    "second": {
+      "name": "Geometric Analysis",
+      "code": "MA 339",
+      "instructor": "Vamsi Pritham Pingali"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Algebraic Topology",
+      "code": "MA 232",
+      "instructor": "Harish Seshadri"
+    },
+    "second": {
+      "name": "Introduction to Complex Dynamics",
+      "code": "MA 380",
+      "instructor": "Gautam Bharali"
+    }
+  },
+  {
+    "first": {
+      "name": "Multivariable Calculus",
+      "code": "MA 200",
+      "instructor": "E. K. Narayanan"
+    },
+    "second": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Shaunak Deo"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Bharathwaj Palvannan"
+    }
+  },
+  {
+    "first": {
+      "name": "Commutative Algebra",
+      "code": "MA 312",
+      "instructor": "Bharathwaj Palvannan"
+    },
+    "second": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Shaunak Deo"
+    }
+  },
+  {
+    "first": {
+      "name": "Algebra I",
+      "code": "MA 212",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Multivariable Calculus",
+      "code": "MA 200",
+      "instructor": "E. K. Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Topology",
+      "code": "MA 231",
+      "instructor": "Siddhartha Gadgil"
+    },
+    "second": {
+      "name": "Probability Models",
+      "code": "MA 261",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Probability Models",
+      "code": "MA 261",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Topology",
+      "code": "MA 231",
+      "instructor": "Siddhartha Gadgil"
+    }
   }
 ]
