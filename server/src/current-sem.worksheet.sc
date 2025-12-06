@@ -36,7 +36,8 @@ chosen.sorted.groupMap(_._2)(_._1)
 os.write.over(SavedData.dat / "schedule.tsv", chosen.tsv)
 chosen.core1TuTh
 CourseData.core1
-chosen.sch.filter{case (c, t) => CourseData.core1.contains(c) && t.isTuTh}
+chosen.sch.filter{case (c, t) => (CourseData.core1 ++ CourseData.coreUG).contains(c) && t.isTuTh}
 chosen.sch.filter{case (c, t) => CourseData.core2.contains(c) && t.isTuTh}
+chosen.sch.filter{case (c, t) => (CourseData.core1 ++ CourseData.coreIntPhD).contains(c) && t.isTuTh}
 BestChoice.sch.worst
 BestChoice.sch.numWorst

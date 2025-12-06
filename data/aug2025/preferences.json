@@ -1,6 +1,22 @@
 [
   {
     "course": {
+      "name": "Applied Data Science and Artificial Intelligence",
+      "code": "UMC 301",
+      "instructor": "Deepak Subramani"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing":  {
+          "days": "Tue, Thu",
+          "times": "11:30 - 1:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Linear Algebra",
       "code": "MA 219",
       "instructor": "Apoorva Khare"
