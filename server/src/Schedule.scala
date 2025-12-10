@@ -127,7 +127,7 @@ case class Scheduler(prefs: Set[Preference],
               } yield sch. + (x, timing)
 
             (top union inner).filter(sch =>
-              !sch.core1HumUG &&
+              // !sch.core1HumUG &&
               sch.core1TuTh < 3 &&
               sch.core1TuThUG < 3 &&
               sch.core2TuTh < 3 &&
