@@ -143,7 +143,7 @@ object ChooserJS {
     dom.window.alert(
       if (courseOpt.isEmpty) "Please choose course"
       else
-        "Please give at least three choices; and enough choices on MWF (for UG 3rd year excluding clashes with Wed 11:00-1:00)."
+        "Please give at least three choices; and enough choices on MWF."
     )
 
   def forbidInput(c1: Course): JsDom.TypedTag[Div] = {
@@ -271,8 +271,7 @@ object ChooserJS {
       }
       .reduce(_ && _) &&
     timings.exists { case (n, t) => n <= 3 && t.days == "Mon, Wed, Fri" } &&
-    (!isCore || mwfRank2) &&
-    (!isCoreThird || thirdYearRank2) 
+    (!isCore || mwfRank2) 
   }
 
   def chosenList: Div = {
@@ -306,7 +305,7 @@ object ChooserJS {
         {if (enoughChoices)
           "Please check selected course below before submitting. More choices are always welcome!"
         else
-          "Please give at least three choices; and enough choices on MWF (for UG 3rd year excluding clashes with Wed 11:00-1:00)."}
+          "Please give at least three choices; and enough choices on MWF."}
         else "Please choose course"
       ),
       h3(`class` := "text-center")(strong("Course")),
