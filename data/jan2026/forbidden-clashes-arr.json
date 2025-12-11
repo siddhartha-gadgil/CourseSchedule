@@ -745,6 +745,392 @@
         "code": "MA 362",
         "instructor": "Manjunath Krishnapur"
       }
+    },
+    {
+      "first": {
+        "name": "Techniques in discrete probability",
+        "code": "MA 394",
+        "instructor": "Riddhipratim Basu"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Arvind Ayyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Processes",
+        "code": "MA 262",
+        "instructor": "Arvind Ayyer"
+      },
+      "second": {
+        "name": "Techniques in discrete probability",
+        "code": "MA 394",
+        "instructor": "Riddhipratim Basu"
+      }
+    }
+  ],
+  [
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "R. Venkatesh"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "R. Venkatesh"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Tilings",
+        "code": "MA 237",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Regularity in the Calculus of Variations",
+        "code": "MA 374A",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Topics in Measure Theory",
+        "code": "MA 222A",
+        "instructor": "Arka Mallick"
+      }
+    },
+    {
+      "first": {
+        "name": "Regularity in the Calculus of Variations",
+        "code": "MA 374A",
+        "instructor": "Swarnendu Sil"
+      },
+      "second": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "A. K. Nandakumaran"
+      }
+    },
+    {
+      "first": {
+        "name": "Analysis III",
+        "code": "MA 321",
+        "instructor": "A. K. Nandakumaran"
+      },
+      "second": {
+        "name": "Regularity in the Calculus of Variations",
+        "code": "MA 374A",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Topics in Measure Theory",
+        "code": "MA 222A",
+        "instructor": "Arka Mallick"
+      },
+      "second": {
+        "name": "Regularity in the Calculus of Variations",
+        "code": "MA 374A",
+        "instructor": "Swarnendu Sil"
+      }
+    },
+    {
+      "first": {
+        "name": "Linear Algebraic Groups",
+        "code": "MA 379",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "R. Venkatesh"
+      },
+      "second": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "R. Venkatesh"
+      },
+      "second": {
+        "name": "Linear Algebraic Groups",
+        "code": "MA 379",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "R. Venkatesh"
+      },
+      "second": {
+        "name": "Linear Algebraic Groups",
+        "code": "MA 379",
+        "instructor": "Radhika Ganapathy"
+      }
+    },
+    {
+      "first": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "R. Venkatesh"
+      },
+      "second": {
+        "name": "Lie Groups and Lie Algebras",
+        "code": "MA 305",
+        "instructor": "Muna Naik"
+      }
+    },
+    {
+      "first": {
+        "name": "Linear Algebraic Groups",
+        "code": "MA 379",
+        "instructor": "Radhika Ganapathy"
+      },
+      "second": {
+        "name": "Representation Theory of Finite Groups",
+        "code": "MA 220",
+        "instructor": "R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "R. Venkatesh"
+      }
+    },
+    {
+      "first": {
+        "name": "Algebra II",
+        "code": "MA 213",
+        "instructor": "R. Venkatesh"
+      },
+      "second": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Subhojoy Gupta"
+      }
+    },
+    {
+      "first": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Kalachand Shuin / E. K. Narayanan"
+      }
+    },
+    {
+      "first": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Vamsi Pritham Pingali"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Harish Seshadri"
+      }
+    },
+    {
+      "first": {
+        "name": "Fourier Analysis",
+        "code": "MA 326",
+        "instructor": "Kalachand Shuin / E. K. Narayanan"
+      },
+      "second": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Differentiable Manifolds",
+        "code": "MA 235",
+        "instructor": "Subhojoy Gupta"
+      },
+      "second": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Harish Seshadri"
+      },
+      "second": {
+        "name": "Ordinary Differential Equations",
+        "code": "MA 241",
+        "instructor": "Vamsi Pritham Pingali"
+      }
+    },
+    {
+      "first": {
+        "name": "Stochastic Processes",
+        "code": "MA 362",
+        "instructor": "Manjunath Krishnapur"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Finance",
+        "code": "MA 366A",
+        "instructor": "Srikanth K. Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Finance",
+        "code": "MA 366A",
+        "instructor": "Srikanth K. Iyer"
+      },
+      "second": {
+        "name": "Techniques in discrete probability",
+        "code": "MA 394",
+        "instructor": "Riddhipratim Basu"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Finance",
+        "code": "MA 366A",
+        "instructor": "Srikanth K. Iyer"
+      },
+      "second": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Harish Seshadri"
+      }
+    },
+    {
+      "first": {
+        "name": "Measure & Integration",
+        "code": "MA 222",
+        "instructor": "Harish Seshadri"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Finance",
+        "code": "MA 366A",
+        "instructor": "Srikanth K. Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Techniques in discrete probability",
+        "code": "MA 394",
+        "instructor": "Riddhipratim Basu"
+      },
+      "second": {
+        "name": "Introduction to Stochastic Finance",
+        "code": "MA 366A",
+        "instructor": "Srikanth K. Iyer"
+      }
+    },
+    {
+      "first": {
+        "name": "Introduction to Stochastic Finance",
+        "code": "MA 366A",
+        "instructor": "Srikanth K. Iyer"
+      },
+      "second": {
+        "name": "Stochastic Processes",
+        "code": "MA 362",
+        "instructor": "Manjunath Krishnapur"
+      }
     }
   ],
   [
