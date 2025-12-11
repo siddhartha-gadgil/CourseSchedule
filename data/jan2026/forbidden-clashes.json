@@ -358,5 +358,29 @@
       "code": "MA 362",
       "instructor": "Manjunath Krishnapur"
     }
+  },
+  {
+    "first": {
+      "name": "Techniques in discrete probability",
+      "code": "MA 394",
+      "instructor": "Riddhipratim Basu"
+    },
+    "second": {
+      "name": "Introduction to Stochastic Processes",
+      "code": "MA 262",
+      "instructor": "Arvind Ayyer"
+    }
+  },
+  {
+    "first": {
+      "name": "Introduction to Stochastic Processes",
+      "code": "MA 262",
+      "instructor": "Arvind Ayyer"
+    },
+    "second": {
+      "name": "Techniques in discrete probability",
+      "code": "MA 394",
+      "instructor": "Riddhipratim Basu"
+    }
   }
 ]
