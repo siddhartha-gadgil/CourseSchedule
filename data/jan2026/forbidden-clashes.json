@@ -382,5 +382,29 @@
       "code": "MA 394",
       "instructor": "Riddhipratim Basu"
     }
+  },
+  {
+    "first": {
+      "name": "Techniques in discrete probability",
+      "code": "MA 394",
+      "instructor": "Riddhipratim Basu"
+    },
+    "second": {
+      "name": "Stochastic Processes",
+      "code": "MA 362",
+      "instructor": "Manjunath Krishnapur"
+    }
+  },
+  {
+    "first": {
+      "name": "Stochastic Processes",
+      "code": "MA 362",
+      "instructor": "Manjunath Krishnapur"
+    },
+    "second": {
+      "name": "Techniques in discrete probability",
+      "code": "MA 394",
+      "instructor": "Riddhipratim Basu"
+    }
   }
 ]
