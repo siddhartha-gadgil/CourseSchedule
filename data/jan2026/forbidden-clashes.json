@@ -406,5 +406,101 @@
       "code": "MA 394",
       "instructor": "Riddhipratim Basu"
     }
+  },
+  {
+    "first": {
+      "name": "Advanced Functional Analysis",
+      "code": "MA 340",
+      "instructor": "E. K. Narayanan"
+    },
+    "second": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "Kalachand Shuin / E. K. Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Advanced Functional Analysis",
+      "code": "MA 340",
+      "instructor": "E. K. Narayanan"
+    },
+    "second": {
+      "name": "Lie Groups and Lie Algebras",
+      "code": "MA 305",
+      "instructor": "Muna Naik"
+    }
+  },
+  {
+    "first": {
+      "name": "Lie Groups and Lie Algebras",
+      "code": "MA 305",
+      "instructor": "Muna Naik"
+    },
+    "second": {
+      "name": "Advanced Functional Analysis",
+      "code": "MA 340",
+      "instructor": "E. K. Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Analysis III",
+      "code": "MA 321",
+      "instructor": "A. K. Nandakumaran"
+    },
+    "second": {
+      "name": "Advanced Functional Analysis",
+      "code": "MA 340",
+      "instructor": "E. K. Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Fourier Analysis",
+      "code": "MA 326",
+      "instructor": "Kalachand Shuin / E. K. Narayanan"
+    },
+    "second": {
+      "name": "Advanced Functional Analysis",
+      "code": "MA 340",
+      "instructor": "E. K. Narayanan"
+    }
+  },
+  {
+    "first": {
+      "name": "Advanced Functional Analysis",
+      "code": "MA 340",
+      "instructor": "E. K. Narayanan"
+    },
+    "second": {
+      "name": "Analysis III",
+      "code": "MA 321",
+      "instructor": "A. K. Nandakumaran"
+    }
+  },
+  {
+    "first": {
+      "name": "Analysis III",
+      "code": "MA 321",
+      "instructor": "A. K. Nandakumaran"
+    },
+    "second": {
+      "name": "Topics in Measure Theory",
+      "code": "MA 222A",
+      "instructor": "Arka Mallick"
+    }
+  },
+  {
+    "first": {
+      "name": "Topics in Measure Theory",
+      "code": "MA 222A",
+      "instructor": "Arka Mallick"
+    },
+    "second": {
+      "name": "Analysis III",
+      "code": "MA 321",
+      "instructor": "A. K. Nandakumaran"
+    }
   }
 ]
