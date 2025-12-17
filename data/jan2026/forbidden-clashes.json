@@ -502,5 +502,29 @@
       "code": "MA 321",
       "instructor": "A. K. Nandakumaran"
     }
+  },
+  {
+    "first": {
+      "name": "Introduction to Tilings",
+      "code": "MA 237",
+      "instructor": "Subhojoy Gupta"
+    },
+    "second": {
+      "name": "Number Theory",
+      "code": "MA 218",
+      "instructor": "Shaunak Deo"
+    }
+  },
+  {
+    "first": {
+      "name": "Number Theory",
+      "code": "MA 218",
+      "instructor": "Shaunak Deo"
+    },
+    "second": {
+      "name": "Introduction to Tilings",
+      "code": "MA 237",
+      "instructor": "Subhojoy Gupta"
+    }
   }
 ]

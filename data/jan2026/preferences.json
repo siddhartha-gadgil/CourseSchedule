@@ -429,6 +429,43 @@
   },
   {
     "course": {
+      "name": "Introduction to Tilings",
+      "code": "MA 237",
+      "instructor": "Subhojoy Gupta"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "3:00 - 4:00"
+        }
+      },
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "11:00 - 12:00"
+        }
+      },
+      {
+        "choice": 2,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "12:00 - 1:00"
+        }
+      },
+      {
+        "choice": 3,
+        "timing": {
+          "days": "Tue, Thu",
+          "times": "3:30 - 5: 00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
       "name": "Number Theory",
       "code": "MA 218",
       "instructor": "Shaunak Deo"
