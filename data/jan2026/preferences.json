@@ -354,28 +354,28 @@
     },
     "timings": [
       {
-        "choice": 1,
+        "choice": 3,
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "2:00 - 3:00"
         }
       },
       {
-        "choice": 2,
+        "choice": 4,
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "10:00 - 11:00"
         }
       },
       {
-        "choice": 3,
+        "choice": 1,
         "timing": {
           "days": "Tue, Thu",
           "times": "3:30 - 5: 00"
         }
       },
       {
-        "choice": 4,
+        "choice": 2,
         "timing": {
           "days": "Tue, Thu",
           "times": "10:00 - 11:30"
@@ -386,6 +386,22 @@
         "timing": {
           "days": "Mon, Wed, Fri",
           "times": "3:00 - 4:00"
+        }
+      }
+    ]
+  },
+  {
+    "course": {
+      "name": "Techniques in discrete probability",
+      "code": "MA 394",
+      "instructor": "Riddhipratim Basu"
+    },
+    "timings": [
+      {
+        "choice": 1,
+        "timing": {
+          "days": "Mon, Wed, Fri",
+          "times": "2:00 - 3:00"
         }
       }
     ]
